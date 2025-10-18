@@ -1,0 +1,601 @@
+trial_id,title,status,phase,start_date,url
+ct_452e324589,Clinical trial for graphene membranes,Completed,Preclinical,2021-08-29,https://clinical.example/e8000e4e6aa9
+ct_75a88d5d8c,Clinical trial for single-cell multiomics,Completed,Phase 3,2024-05-31,https://clinical.example/622b2da15d0a
+ct_e152998655,Clinical trial for solid-state cooling,Completed,Phase 3,2016-06-27,https://clinical.example/9d2e9b56590e
+ct_a056a258f5,Clinical trial for AI-driven medicinal chemistry,Recruiting,Phase 3,2019-08-02,https://clinical.example/daa54d980fe0
+ct_fdc2697e49,Clinical trial for lab-on-a-chip,"Active, not recruiting",Phase 3,2022-09-01,https://clinical.example/dead35e289c4
+ct_98465abceb,Clinical trial for ultrafast Li-ion charging,Terminated,Preclinical,2022-04-13,https://clinical.example/4037c0d577b3
+ct_bf107e78d9,Clinical trial for nanopore sequencing,"Active, not recruiting",Preclinical,2019-12-12,https://clinical.example/bfaea8ed5ca3
+ct_0b7ab220d7,Clinical trial for biosensors,Recruiting,Phase 3,2016-02-26,https://clinical.example/2347adc3f685
+ct_f7755015f4,Clinical trial for nanopore sequencing,Terminated,Phase 3,2020-08-19,https://clinical.example/79caa1f192c4
+ct_52cb75a930,Clinical trial for bioreactor control,"Active, not recruiting",Preclinical,2018-12-20,https://clinical.example/cd4e2450d075
+ct_789ce9a5c3,Clinical trial for nanopore sequencing,Completed,Phase 1,2022-05-09,https://clinical.example/ab50a0b1584d
+ct_c40b353c52,Clinical trial for nanopore sequencing,Recruiting,Phase 1,2016-04-25,https://clinical.example/b39cdae29f88
+ct_e56bc95442,Clinical trial for photovoltaic perovskites,"Active, not recruiting",Phase 3,2017-02-23,https://clinical.example/d13c86a7aaaf
+ct_52dc662943,Clinical trial for diagnostic imaging,"Active, not recruiting",Phase 3,2024-05-22,https://clinical.example/a8b5cac8aefa
+ct_c0209f5c68,Clinical trial for photovoltaic perovskites,"Active, not recruiting",Phase 3,2021-12-28,https://clinical.example/16bd35a11b74
+ct_f53e4ca03e,Clinical trial for diagnostic imaging,Recruiting,Preclinical,2022-02-28,https://clinical.example/9c2c96ea894e
+ct_d9633d02ae,Clinical trial for bioprinting,Recruiting,Phase 3,2024-06-06,https://clinical.example/eeaac35a641d
+ct_0a74474e91,Clinical trial for gene editing (CRISPR),Terminated,Phase 3,2024-12-08,https://clinical.example/a81362fbfc34
+ct_479ffe5381,Clinical trial for battery chemistry,Recruiting,Phase 3,2018-11-09,https://clinical.example/c6e776d5b6d1
+ct_485f96894e,Clinical trial for nanopore sequencing,Terminated,Preclinical,2018-10-23,https://clinical.example/cd53cd3fbc77
+ct_22f37dab84,Clinical trial for biosensors,"Active, not recruiting",Phase 3,2020-03-26,https://clinical.example/73a652fa8fa0
+ct_bfaaf5ab41,Clinical trial for wearable health sensors,Recruiting,Preclinical,2024-05-04,https://clinical.example/83a2d65b9fc8
+ct_c17a25612b,Clinical trial for photovoltaic perovskites,"Active, not recruiting",Phase 2,2016-08-24,https://clinical.example/f4990260b631
+ct_2be82b3dcf,Clinical trial for solid-state cooling,"Active, not recruiting",Phase 3,2017-06-27,https://clinical.example/4a2f1842752f
+ct_bd33c08d05,Clinical trial for protein engineering,Terminated,Phase 2,2018-04-09,https://clinical.example/5525729a27ba
+ct_3a817d04e4,Clinical trial for protein engineering,Terminated,Preclinical,2024-02-01,https://clinical.example/1644a89072a3
+ct_969ce79e01,Clinical trial for bioprinting,"Active, not recruiting",Phase 3,2021-12-16,https://clinical.example/4379bce4833b
+ct_3e14cbf768,Clinical trial for photovoltaic perovskites,Terminated,Phase 2,2018-04-12,https://clinical.example/47161393e86e
+ct_f77eda5485,Clinical trial for lab-on-a-chip,"Active, not recruiting",Phase 2,2017-02-08,https://clinical.example/2b05158e0f87
+ct_2b40daca1b,Clinical trial for gene editing (CRISPR),Terminated,Preclinical,2020-02-08,https://clinical.example/c353f25471ea
+ct_9bb686f0fb,Clinical trial for photovoltaic perovskites,Completed,Preclinical,2019-10-05,https://clinical.example/523c4a68dad9
+ct_664994f8d8,Clinical trial for wearable health sensors,Recruiting,Phase 1,2023-06-18,https://clinical.example/5925d100a238
+ct_b5ca1c76dc,Clinical trial for battery chemistry,Completed,Phase 1,2016-04-02,https://clinical.example/4c06fc60cd04
+ct_a0657d5dbe,Clinical trial for diagnostic imaging,Terminated,Phase 1,2019-09-22,https://clinical.example/d99382e16412
+ct_d2b977de2a,Clinical trial for wearable health sensors,Terminated,Phase 1,2023-05-05,https://clinical.example/35ddd2f21721
+ct_e14d1b6d5a,Clinical trial for battery chemistry,Terminated,Phase 1,2019-05-22,https://clinical.example/841eefe088ab
+ct_f3475c869c,Clinical trial for wearable health sensors,"Active, not recruiting",Phase 3,2016-02-19,https://clinical.example/c73cd8c3bfa7
+ct_4d148a6910,Clinical trial for bioprinting,"Active, not recruiting",Phase 3,2020-07-05,https://clinical.example/1ab25baac49e
+ct_fd59d933ac,Clinical trial for wearable health sensors,Terminated,Phase 1,2023-11-16,https://clinical.example/40f5ffec0637
+ct_9443751864,Clinical trial for gene editing (CRISPR),Terminated,Phase 1,2019-03-12,https://clinical.example/190f7190e798
+ct_81edaa0852,Clinical trial for bioreactor control,Terminated,Phase 3,2017-08-29,https://clinical.example/ee821d301266
+ct_095493a3b9,Clinical trial for lab-on-a-chip,Completed,Phase 2,2022-09-14,https://clinical.example/6261724a2d4a
+ct_355d491114,Clinical trial for biosensors,"Active, not recruiting",Phase 1,2017-10-19,https://clinical.example/616299da222c
+ct_4bcbe63195,Clinical trial for microfluidics,Completed,Preclinical,2017-01-16,https://clinical.example/c42af35afbf0
+ct_65a7eb4c78,Clinical trial for ultrafast Li-ion charging,"Active, not recruiting",Phase 3,2016-01-01,https://clinical.example/3df7e76f0cd8
+ct_feaef7c07f,Clinical trial for photovoltaic perovskites,"Active, not recruiting",Phase 3,2019-08-11,https://clinical.example/59c94968afe2
+ct_81fc721f26,Clinical trial for single-cell multiomics,Recruiting,Preclinical,2019-09-18,https://clinical.example/45f951d9d485
+ct_a177a874fe,Clinical trial for wearable health sensors,"Active, not recruiting",Preclinical,2021-08-30,https://clinical.example/849e2c18dfcc
+ct_f534982cf4,Clinical trial for wearable health sensors,Recruiting,Phase 2,2021-08-20,https://clinical.example/d6601b52cccc
+ct_7f55abbe2b,Clinical trial for wearable health sensors,Terminated,Phase 3,2018-08-01,https://clinical.example/9bfa69808e1e
+ct_dfd8bac0a9,Clinical trial for mRNA therapeutics,Completed,Phase 3,2021-05-30,https://clinical.example/c974466acaa9
+ct_a3137fa7ba,Clinical trial for AI-driven medicinal chemistry,Completed,Phase 3,2017-01-15,https://clinical.example/1f03dff51535
+ct_45960a4fae,Clinical trial for wearable health sensors,"Active, not recruiting",Phase 2,2020-01-25,https://clinical.example/ce81a5a1c3bd
+ct_147477f630,Clinical trial for gene editing (CRISPR),Terminated,Preclinical,2018-04-25,https://clinical.example/8a16c3c7b6c0
+ct_cbba5075b6,Clinical trial for single-cell multiomics,Terminated,Phase 2,2017-04-08,https://clinical.example/dc190f0f9731
+ct_31fc8d700a,Clinical trial for photovoltaic perovskites,Terminated,Phase 3,2021-01-09,https://clinical.example/9b3c05d1adcc
+ct_ae183fbc57,Clinical trial for protein engineering,"Active, not recruiting",Phase 3,2019-02-03,https://clinical.example/341c3a061e9c
+ct_44eb20de5f,Clinical trial for bioprinting,"Active, not recruiting",Phase 3,2023-05-23,https://clinical.example/396b2d9f88b1
+ct_0bb7e00d00,Clinical trial for graphene membranes,"Active, not recruiting",Phase 1,2024-09-28,https://clinical.example/5fdc87b5ab86
+ct_b2d1f3b06b,Clinical trial for robotic prosthetics,"Active, not recruiting",Phase 2,2020-07-29,https://clinical.example/108681dd47fc
+ct_e07e9f8867,Clinical trial for AI-driven medicinal chemistry,Completed,Phase 3,2023-10-15,https://clinical.example/beeca49c6321
+ct_476718f685,Clinical trial for CAR-T manufacturing,Terminated,Phase 1,2018-02-08,https://clinical.example/9dce34059d5a
+ct_96fb206e11,Clinical trial for solid-state cooling,Completed,Phase 2,2019-09-15,https://clinical.example/277caf5b8a42
+ct_ac6c53d62a,Clinical trial for protein engineering,Terminated,Preclinical,2024-10-01,https://clinical.example/ec781829eb7b
+ct_87720093f4,Clinical trial for photovoltaic perovskites,"Active, not recruiting",Phase 3,2021-08-13,https://clinical.example/4a22e0b1cac9
+ct_45e762c6a7,Clinical trial for robotic prosthetics,"Active, not recruiting",Phase 1,2020-08-11,https://clinical.example/d170bb92e356
+ct_c25ceb1f15,Clinical trial for single-cell multiomics,Terminated,Phase 1,2023-01-11,https://clinical.example/39c0c4f0af90
+ct_95dc6f2d64,Clinical trial for microfluidics,"Active, not recruiting",Phase 1,2021-01-20,https://clinical.example/2f12dbc7a915
+ct_842d400df0,Clinical trial for lab-on-a-chip,Completed,Phase 3,2016-08-21,https://clinical.example/4ee4beb63906
+ct_57e49a4dee,Clinical trial for bioreactor control,Terminated,Phase 1,2019-10-23,https://clinical.example/3c3658970d14
+ct_60ccd6d353,Clinical trial for diagnostic imaging,Completed,Phase 3,2020-11-08,https://clinical.example/2b7df76b7168
+ct_d463e6066b,Clinical trial for photovoltaic perovskites,"Active, not recruiting",Phase 2,2018-07-14,https://clinical.example/fc6ec472abca
+ct_025430fcfc,Clinical trial for gene editing (CRISPR),Recruiting,Phase 2,2018-05-29,https://clinical.example/ed7cee5a182b
+ct_8abd961748,Clinical trial for diagnostic imaging,"Active, not recruiting",Phase 2,2016-08-08,https://clinical.example/74a967aab771
+ct_96c5344082,Clinical trial for diagnostic imaging,"Active, not recruiting",Phase 3,2016-03-23,https://clinical.example/e5590c819201
+ct_cbf8c5d0a6,Clinical trial for AI-driven medicinal chemistry,Recruiting,Phase 3,2024-12-15,https://clinical.example/a3672790aaec
+ct_44ba48a47b,Clinical trial for battery chemistry,Terminated,Phase 1,2016-01-05,https://clinical.example/43cdfe768ccd
+ct_5f25d360dd,Clinical trial for lab-on-a-chip,Completed,Phase 3,2020-03-11,https://clinical.example/af3f95d90124
+ct_c09e57efe0,Clinical trial for single-cell multiomics,Terminated,Preclinical,2020-12-09,https://clinical.example/a08e254e9965
+ct_6e62d5325a,Clinical trial for microfluidics,Recruiting,Phase 2,2017-03-30,https://clinical.example/ac0d78a9969c
+ct_2900be1982,Clinical trial for bioprinting,Terminated,Phase 1,2016-02-27,https://clinical.example/0432008093a5
+ct_eb737459f8,Clinical trial for microfluidics,Completed,Phase 3,2023-04-22,https://clinical.example/ee3dd634a27e
+ct_cbf9fb52b0,Clinical trial for AI-driven medicinal chemistry,Recruiting,Phase 3,2016-04-22,https://clinical.example/c2a0cd1cfede
+ct_b62d87347e,Clinical trial for mRNA therapeutics,"Active, not recruiting",Phase 1,2019-02-12,https://clinical.example/9566909682aa
+ct_ae65058063,Clinical trial for battery chemistry,Terminated,Preclinical,2022-02-04,https://clinical.example/f7b8b42d8c96
+ct_654975f01b,Clinical trial for nanopore sequencing,Recruiting,Phase 2,2017-08-02,https://clinical.example/f8852f50e742
+ct_eae7759934,Clinical trial for graphene membranes,Completed,Preclinical,2022-04-10,https://clinical.example/302878988654
+ct_5d7ff3faf0,Clinical trial for microfluidics,"Active, not recruiting",Phase 3,2024-06-11,https://clinical.example/43a541552bc5
+ct_ccff59b1ce,Clinical trial for battery chemistry,Completed,Phase 3,2021-03-16,https://clinical.example/a243d7059109
+ct_acc13ae67c,Clinical trial for solid-state cooling,Terminated,Phase 2,2020-10-27,https://clinical.example/016706d70708
+ct_fbbe70e7bd,Clinical trial for ultrafast Li-ion charging,Terminated,Phase 3,2017-09-25,https://clinical.example/48a1c984b8f4
+ct_bb1f0ae461,Clinical trial for ultrafast Li-ion charging,"Active, not recruiting",Phase 1,2017-08-22,https://clinical.example/907e394915b2
+ct_4584fde0b2,Clinical trial for gene editing (CRISPR),"Active, not recruiting",Phase 2,2022-03-10,https://clinical.example/999634a684be
+ct_48414fc396,Clinical trial for CAR-T manufacturing,Terminated,Phase 2,2022-10-23,https://clinical.example/6533ea70b7f0
+ct_17265282fc,Clinical trial for ultrafast Li-ion charging,Terminated,Phase 1,2021-06-26,https://clinical.example/d74a664ab307
+ct_4b83ebb84c,Clinical trial for microfluidics,Recruiting,Phase 2,2016-10-07,https://clinical.example/2526a6bce9ed
+ct_1154e91fc0,Clinical trial for battery chemistry,Completed,Phase 1,2021-10-25,https://clinical.example/b122e7bc5348
+ct_6b74ba3e21,Clinical trial for mRNA therapeutics,Recruiting,Phase 2,2016-08-12,https://clinical.example/f6409d626114
+ct_e4a2b2d1f5,Clinical trial for solid-state cooling,Terminated,Preclinical,2024-02-03,https://clinical.example/66709d4395cb
+ct_20e64b54b1,Clinical trial for photovoltaic perovskites,Completed,Phase 1,2021-02-25,https://clinical.example/c8e2140afea7
+ct_c9019e6830,Clinical trial for battery chemistry,Terminated,Phase 2,2019-03-03,https://clinical.example/52ad8c21845e
+ct_15fded150b,Clinical trial for wearable health sensors,"Active, not recruiting",Phase 3,2022-02-03,https://clinical.example/42dc421ca730
+ct_3647652cd5,Clinical trial for single-cell multiomics,Completed,Preclinical,2022-05-30,https://clinical.example/9ecb994b8e2c
+ct_5fe407eb3f,Clinical trial for diagnostic imaging,"Active, not recruiting",Preclinical,2024-04-11,https://clinical.example/cc884cc6e0e0
+ct_ac97a8a556,Clinical trial for bioprinting,Completed,Preclinical,2020-07-09,https://clinical.example/fa588dc26642
+ct_b14ad68f60,Clinical trial for diagnostic imaging,Recruiting,Preclinical,2024-01-10,https://clinical.example/5c3f670ff3b6
+ct_d132ba1205,Clinical trial for ultrafast Li-ion charging,Terminated,Phase 2,2020-11-27,https://clinical.example/ef7b1f0f7184
+ct_16dbab67cb,Clinical trial for single-cell multiomics,Recruiting,Phase 3,2016-06-12,https://clinical.example/22d322fa8ea6
+ct_3293cf6bf8,Clinical trial for diagnostic imaging,Terminated,Phase 2,2023-01-05,https://clinical.example/1bf88bdca01c
+ct_be73cc18fc,Clinical trial for graphene membranes,Completed,Phase 2,2019-11-05,https://clinical.example/1db8ef112ca9
+ct_75db10a9c5,Clinical trial for protein engineering,Completed,Phase 1,2017-01-02,https://clinical.example/647e078322b1
+ct_ac6d65ee52,Clinical trial for protein engineering,Recruiting,Preclinical,2021-05-01,https://clinical.example/7ac7e6c11cfd
+ct_b17b02df40,Clinical trial for biosensors,Recruiting,Phase 2,2024-03-27,https://clinical.example/509a61bc410e
+ct_b113d17813,Clinical trial for bioprinting,"Active, not recruiting",Preclinical,2016-09-07,https://clinical.example/5ce15fc71a59
+ct_9bc3ab1d95,Clinical trial for battery chemistry,Recruiting,Phase 2,2016-06-13,https://clinical.example/342823f77a56
+ct_e75b241bc3,Clinical trial for battery chemistry,"Active, not recruiting",Phase 3,2021-01-17,https://clinical.example/dee340ad16db
+ct_b39c298266,Clinical trial for bioprinting,Terminated,Preclinical,2022-12-07,https://clinical.example/096bb37b508c
+ct_8387589f03,Clinical trial for mRNA therapeutics,Recruiting,Phase 1,2022-05-14,https://clinical.example/bc1724cad69f
+ct_a024cfd237,Clinical trial for gene editing (CRISPR),Recruiting,Phase 1,2018-11-04,https://clinical.example/7a8b78b3a6c8
+ct_3bc16b0078,Clinical trial for gene editing (CRISPR),Recruiting,Phase 3,2024-12-28,https://clinical.example/758ced3b1ada
+ct_8e979f3512,Clinical trial for gene editing (CRISPR),Completed,Preclinical,2020-03-26,https://clinical.example/f4d794ad43b2
+ct_a1083565db,Clinical trial for bioreactor control,Completed,Phase 3,2023-04-17,https://clinical.example/1f5eda424b6f
+ct_8bc2274e28,Clinical trial for microfluidics,Recruiting,Phase 1,2016-12-03,https://clinical.example/2c7cf750ad10
+ct_8a2ad4c5bf,Clinical trial for single-cell multiomics,Completed,Preclinical,2021-01-22,https://clinical.example/b4c31e800707
+ct_0ccee437bc,Clinical trial for robotic prosthetics,"Active, not recruiting",Phase 2,2018-12-12,https://clinical.example/2f7d88750733
+ct_0386a11280,Clinical trial for wearable health sensors,Recruiting,Phase 2,2018-06-26,https://clinical.example/02bc1465b85d
+ct_fc4894e192,Clinical trial for protein engineering,Terminated,Phase 1,2020-06-03,https://clinical.example/8e9ccbf79ae2
+ct_f0bf699bdc,Clinical trial for AI-driven medicinal chemistry,Recruiting,Preclinical,2018-01-21,https://clinical.example/b93bb462d7c3
+ct_bbef8f691b,Clinical trial for bioreactor control,Terminated,Preclinical,2017-07-14,https://clinical.example/ef9f22f1b8ac
+ct_a1b06ea578,Clinical trial for nanopore sequencing,Recruiting,Phase 2,2019-12-01,https://clinical.example/f6178c9d6586
+ct_6635353b39,Clinical trial for bioprinting,Terminated,Phase 2,2020-04-23,https://clinical.example/c8d31468de29
+ct_9a66bf5ec0,Clinical trial for wearable health sensors,"Active, not recruiting",Phase 2,2019-01-02,https://clinical.example/7d16a39722cd
+ct_2d2f218361,Clinical trial for diagnostic imaging,Terminated,Phase 2,2017-04-25,https://clinical.example/a30a8511b8f6
+ct_f2a3c4faca,Clinical trial for nanopore sequencing,Recruiting,Phase 1,2023-07-15,https://clinical.example/a4fb066fb0c5
+ct_a0a0d97042,Clinical trial for ultrafast Li-ion charging,Recruiting,Preclinical,2024-03-21,https://clinical.example/88e61c8efd29
+ct_5b1a413760,Clinical trial for robotic prosthetics,Completed,Phase 2,2018-05-20,https://clinical.example/d7385d56d20a
+ct_271d62d8a3,Clinical trial for protein engineering,Terminated,Preclinical,2018-12-01,https://clinical.example/15001038476f
+ct_8c863d6bda,Clinical trial for battery chemistry,Terminated,Phase 3,2021-09-30,https://clinical.example/64f60cf35624
+ct_0e701e671e,Clinical trial for mRNA therapeutics,Recruiting,Phase 1,2021-07-24,https://clinical.example/9cff8a29533e
+ct_e6f9174320,Clinical trial for photovoltaic perovskites,Completed,Phase 1,2019-09-15,https://clinical.example/55209e66d7ad
+ct_ab7c8d3e8a,Clinical trial for wearable health sensors,Terminated,Phase 1,2022-06-07,https://clinical.example/bfa87032090a
+ct_2accd3912e,Clinical trial for battery chemistry,"Active, not recruiting",Phase 1,2024-07-31,https://clinical.example/bed5c247ad25
+ct_bf951439ab,Clinical trial for robotic prosthetics,Completed,Preclinical,2021-06-10,https://clinical.example/ae154e496664
+ct_40f969535d,Clinical trial for wearable health sensors,Completed,Preclinical,2017-01-07,https://clinical.example/685eef0cfee8
+ct_33d7b6a263,Clinical trial for photovoltaic perovskites,"Active, not recruiting",Phase 2,2019-07-27,https://clinical.example/79698dda9dc0
+ct_0ee01f7a49,Clinical trial for CAR-T manufacturing,"Active, not recruiting",Phase 3,2021-04-20,https://clinical.example/0c27c08b07cc
+ct_afce50d3a3,Clinical trial for ultrafast Li-ion charging,Recruiting,Phase 2,2016-12-25,https://clinical.example/5d9bcd770236
+ct_89cde2f106,Clinical trial for ultrafast Li-ion charging,Terminated,Preclinical,2016-05-06,https://clinical.example/528e9dcfc47e
+ct_4b2888fa90,Clinical trial for photovoltaic perovskites,Completed,Phase 2,2022-06-13,https://clinical.example/e373bdc1813d
+ct_1796d89454,Clinical trial for wearable health sensors,"Active, not recruiting",Phase 2,2016-11-06,https://clinical.example/8bd4676ead35
+ct_d6616ab173,Clinical trial for battery chemistry,"Active, not recruiting",Phase 3,2018-12-14,https://clinical.example/d5805a04fc3e
+ct_d432cfdb26,Clinical trial for gene editing (CRISPR),Completed,Phase 3,2024-08-05,https://clinical.example/5764e6ca2ec6
+ct_407e6195c5,Clinical trial for lab-on-a-chip,Completed,Phase 3,2017-11-23,https://clinical.example/0085b872f051
+ct_104350ccd1,Clinical trial for bioprinting,"Active, not recruiting",Preclinical,2020-11-26,https://clinical.example/4c9acf180711
+ct_61d7515050,Clinical trial for ultrafast Li-ion charging,Recruiting,Phase 3,2016-10-02,https://clinical.example/429e7d73b6f0
+ct_721ef39ad5,Clinical trial for nanopore sequencing,Terminated,Phase 1,2016-07-25,https://clinical.example/442a208474f9
+ct_97593b6f5b,Clinical trial for solid-state cooling,Recruiting,Preclinical,2018-04-25,https://clinical.example/91f9db971419
+ct_b055ea2080,Clinical trial for nanopore sequencing,Recruiting,Phase 3,2018-08-31,https://clinical.example/2136dc7c5f8b
+ct_4d5eb92259,Clinical trial for battery chemistry,"Active, not recruiting",Phase 3,2024-01-20,https://clinical.example/37384b53196d
+ct_4b0a817ac4,Clinical trial for graphene membranes,"Active, not recruiting",Preclinical,2018-08-14,https://clinical.example/bf9fef77f392
+ct_5d5aa8138a,Clinical trial for AI-driven medicinal chemistry,"Active, not recruiting",Preclinical,2021-03-04,https://clinical.example/f7a16e053fd7
+ct_1751b0fa71,Clinical trial for robotic prosthetics,Recruiting,Preclinical,2016-10-01,https://clinical.example/ef8790ed176a
+ct_f9863be12d,Clinical trial for AI-driven medicinal chemistry,Terminated,Phase 2,2023-05-10,https://clinical.example/009743292638
+ct_54e93c2767,Clinical trial for bioreactor control,Completed,Phase 3,2019-06-18,https://clinical.example/e9b61702b792
+ct_714d25d0a9,Clinical trial for nanopore sequencing,Terminated,Phase 2,2017-12-15,https://clinical.example/df7e5f15dc11
+ct_c157450dba,Clinical trial for CAR-T manufacturing,Recruiting,Preclinical,2016-03-25,https://clinical.example/3c3aef0a3a19
+ct_ff0d23f5b7,Clinical trial for diagnostic imaging,"Active, not recruiting",Phase 1,2020-02-03,https://clinical.example/4be277919e1a
+ct_267b24713b,Clinical trial for robotic prosthetics,Terminated,Phase 3,2022-11-04,https://clinical.example/f52384e1f9a0
+ct_23cc8e16ec,Clinical trial for wearable health sensors,Recruiting,Phase 2,2016-12-27,https://clinical.example/6e19a2805122
+ct_028af1481e,Clinical trial for lab-on-a-chip,Completed,Phase 3,2022-10-29,https://clinical.example/bb6288083dee
+ct_e466d495c0,Clinical trial for CAR-T manufacturing,"Active, not recruiting",Preclinical,2024-06-07,https://clinical.example/dfb3dab9077f
+ct_1a65a63045,Clinical trial for ultrafast Li-ion charging,"Active, not recruiting",Phase 2,2023-04-21,https://clinical.example/476ee6720f87
+ct_80f9ef780f,Clinical trial for photovoltaic perovskites,Recruiting,Phase 3,2022-01-11,https://clinical.example/957019920f54
+ct_ea4b1ff25a,Clinical trial for battery chemistry,"Active, not recruiting",Phase 3,2020-06-10,https://clinical.example/71a02befc4d0
+ct_7583ae53a4,Clinical trial for diagnostic imaging,Recruiting,Preclinical,2016-03-25,https://clinical.example/3bb0cb7f6ca6
+ct_b54b45f588,Clinical trial for CAR-T manufacturing,Terminated,Phase 3,2024-05-17,https://clinical.example/5767b72142c5
+ct_c0c150a4d1,Clinical trial for battery chemistry,"Active, not recruiting",Phase 1,2021-02-04,https://clinical.example/5973b8de5e47
+ct_e36359d4d9,Clinical trial for single-cell multiomics,"Active, not recruiting",Phase 3,2021-08-01,https://clinical.example/b7f75c3a8e0b
+ct_0da848b460,Clinical trial for AI-driven medicinal chemistry,Terminated,Phase 3,2017-05-08,https://clinical.example/54be31b6ed83
+ct_bca9b2e8a3,Clinical trial for CAR-T manufacturing,Completed,Phase 3,2017-02-23,https://clinical.example/6b740bf8bc2e
+ct_b530b37c10,Clinical trial for graphene membranes,Completed,Phase 3,2022-02-20,https://clinical.example/217950b96441
+ct_81a8edaa77,Clinical trial for microfluidics,Recruiting,Phase 3,2024-04-20,https://clinical.example/3ea2f9153341
+ct_6f22405bf7,Clinical trial for gene editing (CRISPR),Terminated,Phase 3,2020-06-02,https://clinical.example/7a2689450f1d
+ct_bd1a87b2ab,Clinical trial for protein engineering,Recruiting,Phase 2,2021-09-17,https://clinical.example/8321714cfb95
+ct_daba7807b5,Clinical trial for battery chemistry,Terminated,Phase 2,2020-08-01,https://clinical.example/0e4c9bda3c8e
+ct_ba0225dc09,Clinical trial for solid-state cooling,"Active, not recruiting",Phase 2,2017-07-01,https://clinical.example/d073cce05594
+ct_48bef859f8,Clinical trial for nanopore sequencing,Terminated,Preclinical,2020-12-23,https://clinical.example/1d38cea63dbd
+ct_49ce5c7e81,Clinical trial for photovoltaic perovskites,"Active, not recruiting",Preclinical,2024-09-28,https://clinical.example/87e364a60aa5
+ct_2e29d1f2ef,Clinical trial for gene editing (CRISPR),Completed,Phase 1,2018-12-21,https://clinical.example/ba87d856f245
+ct_099fe4096a,Clinical trial for solid-state cooling,"Active, not recruiting",Phase 2,2019-07-12,https://clinical.example/bd355fa67477
+ct_3c8c48b5f0,Clinical trial for photovoltaic perovskites,"Active, not recruiting",Phase 3,2023-10-27,https://clinical.example/b87f5701a592
+ct_8853c75e14,Clinical trial for robotic prosthetics,Recruiting,Preclinical,2020-02-12,https://clinical.example/e2aa2c3940c1
+ct_6fc9a4dbb4,Clinical trial for bioreactor control,"Active, not recruiting",Preclinical,2021-05-12,https://clinical.example/891eb53d95fc
+ct_0a73d4f1f7,Clinical trial for wearable health sensors,Completed,Phase 1,2019-04-16,https://clinical.example/8645e73d73f2
+ct_2d30f3ee4e,Clinical trial for AI-driven medicinal chemistry,"Active, not recruiting",Preclinical,2016-10-18,https://clinical.example/912d3176430e
+ct_a8ce1ab3f4,Clinical trial for diagnostic imaging,Recruiting,Preclinical,2019-10-09,https://clinical.example/9a3e6e3b6fdd
+ct_d71db83e0c,Clinical trial for wearable health sensors,Completed,Phase 1,2024-01-04,https://clinical.example/6dd8c4999350
+ct_cda99347c0,Clinical trial for diagnostic imaging,Recruiting,Preclinical,2020-11-28,https://clinical.example/7c3bcdb44a9f
+ct_6ef63a4a71,Clinical trial for AI-driven medicinal chemistry,Terminated,Phase 1,2024-03-10,https://clinical.example/cec5b5b96028
+ct_78f99b87de,Clinical trial for nanopore sequencing,Completed,Preclinical,2018-06-24,https://clinical.example/04c2fb755e5e
+ct_afb9b75abb,Clinical trial for graphene membranes,"Active, not recruiting",Phase 2,2020-10-31,https://clinical.example/2ca39e469dd9
+ct_bfef3659cd,Clinical trial for lab-on-a-chip,Terminated,Phase 2,2019-03-24,https://clinical.example/a3ec0125224c
+ct_0717e176d2,Clinical trial for ultrafast Li-ion charging,Completed,Phase 3,2016-05-24,https://clinical.example/58a2cf1cbeb7
+ct_7f2c2adf09,Clinical trial for solid-state cooling,Recruiting,Phase 3,2023-04-03,https://clinical.example/f0bedc9338ee
+ct_107885c295,Clinical trial for diagnostic imaging,Completed,Phase 2,2024-07-28,https://clinical.example/040a2fdd70d3
+ct_076ab47a5e,Clinical trial for single-cell multiomics,Terminated,Phase 1,2017-02-24,https://clinical.example/3ae09e954e0b
+ct_312edd81ca,Clinical trial for diagnostic imaging,Recruiting,Phase 2,2020-03-14,https://clinical.example/42577f3ca76a
+ct_ed5f47ff9b,Clinical trial for bioreactor control,Recruiting,Phase 1,2019-04-12,https://clinical.example/621180a7ab37
+ct_56cbff9841,Clinical trial for CAR-T manufacturing,Terminated,Phase 1,2019-08-15,https://clinical.example/78013c842163
+ct_ac0300168e,Clinical trial for CAR-T manufacturing,Completed,Preclinical,2024-04-24,https://clinical.example/a93d38d0d8f1
+ct_c9ee5cf0ee,Clinical trial for diagnostic imaging,"Active, not recruiting",Phase 2,2019-09-04,https://clinical.example/91891f224c74
+ct_bd00b3912a,Clinical trial for graphene membranes,Terminated,Preclinical,2017-08-21,https://clinical.example/004e7869b3e6
+ct_ce2d847dc2,Clinical trial for gene editing (CRISPR),Recruiting,Phase 2,2018-07-30,https://clinical.example/5d00154f8813
+ct_65d7182727,Clinical trial for microfluidics,"Active, not recruiting",Phase 3,2023-06-26,https://clinical.example/a3e0b6be243a
+ct_825b73fe61,Clinical trial for bioprinting,Recruiting,Phase 2,2018-02-05,https://clinical.example/3126edbb25e1
+ct_04c73d7d56,Clinical trial for graphene membranes,Recruiting,Phase 2,2019-03-21,https://clinical.example/c585fa9bfa7c
+ct_2732492ba0,Clinical trial for AI-driven medicinal chemistry,Recruiting,Preclinical,2024-01-30,https://clinical.example/6dced8077678
+ct_190dc4096e,Clinical trial for robotic prosthetics,Terminated,Phase 1,2019-11-21,https://clinical.example/02392030c106
+ct_cb54b7a1e6,Clinical trial for CAR-T manufacturing,"Active, not recruiting",Preclinical,2021-12-14,https://clinical.example/6efae8e9220d
+ct_3577f51f9d,Clinical trial for AI-driven medicinal chemistry,Terminated,Phase 1,2019-03-06,https://clinical.example/2992ad1d5c1c
+ct_40d1f4cce9,Clinical trial for ultrafast Li-ion charging,Recruiting,Phase 2,2020-10-14,https://clinical.example/bc13fc565cb4
+ct_08a73c46b9,Clinical trial for single-cell multiomics,Terminated,Preclinical,2017-12-16,https://clinical.example/8e4e57f71f0f
+ct_63587d5800,Clinical trial for wearable health sensors,"Active, not recruiting",Preclinical,2022-09-26,https://clinical.example/987d1b7e8752
+ct_a8169d20db,Clinical trial for biosensors,Terminated,Phase 3,2024-05-24,https://clinical.example/b0d657f8a286
+ct_496d087677,Clinical trial for solid-state cooling,Recruiting,Phase 1,2019-05-26,https://clinical.example/74160a5c4f2b
+ct_ba6034e561,Clinical trial for gene editing (CRISPR),Terminated,Phase 3,2016-07-26,https://clinical.example/115c31f53047
+ct_b81964873f,Clinical trial for wearable health sensors,Recruiting,Preclinical,2019-05-13,https://clinical.example/f8440706cbc1
+ct_6f9994abc0,Clinical trial for CAR-T manufacturing,Terminated,Preclinical,2022-06-11,https://clinical.example/98d9f2d52840
+ct_d80f32a4aa,Clinical trial for AI-driven medicinal chemistry,"Active, not recruiting",Phase 3,2020-05-17,https://clinical.example/58a99ca414a7
+ct_4a9e4c20ff,Clinical trial for ultrafast Li-ion charging,Completed,Phase 1,2024-12-20,https://clinical.example/ae8ac7e1d11c
+ct_a416e0f073,Clinical trial for robotic prosthetics,Terminated,Phase 1,2020-05-13,https://clinical.example/39837ba8cbca
+ct_caabcda0bf,Clinical trial for diagnostic imaging,"Active, not recruiting",Phase 1,2016-08-19,https://clinical.example/756ab398469d
+ct_43005902fb,Clinical trial for microfluidics,Terminated,Phase 2,2021-03-04,https://clinical.example/50225f91698c
+ct_1812c3bd0b,Clinical trial for protein engineering,Terminated,Preclinical,2020-01-11,https://clinical.example/a987c8f4d74f
+ct_c82c4abef7,Clinical trial for mRNA therapeutics,"Active, not recruiting",Phase 1,2022-01-07,https://clinical.example/fc0913a66626
+ct_6f97e0a808,Clinical trial for ultrafast Li-ion charging,Recruiting,Phase 3,2024-03-09,https://clinical.example/869e0a7360ee
+ct_f166cb0179,Clinical trial for lab-on-a-chip,Recruiting,Phase 2,2020-09-16,https://clinical.example/0a82941479b0
+ct_8c060fc96b,Clinical trial for biosensors,Terminated,Preclinical,2016-10-07,https://clinical.example/1f5457b84a73
+ct_bdeb9660d7,Clinical trial for lab-on-a-chip,Completed,Phase 1,2020-03-08,https://clinical.example/0fe7f9cf124d
+ct_8ba7b6ea1f,Clinical trial for solid-state cooling,Recruiting,Preclinical,2020-05-25,https://clinical.example/5ff9083b0c67
+ct_96ae026283,Clinical trial for bioreactor control,Completed,Phase 3,2018-01-06,https://clinical.example/b69c3227e638
+ct_2e780e00b5,Clinical trial for mRNA therapeutics,Completed,Phase 1,2023-08-03,https://clinical.example/be9d803d6013
+ct_46a40bd565,Clinical trial for robotic prosthetics,Completed,Preclinical,2022-09-11,https://clinical.example/ce8948d19663
+ct_4d24806a4b,Clinical trial for diagnostic imaging,"Active, not recruiting",Phase 2,2021-01-27,https://clinical.example/58eb041157e8
+ct_3130f96941,Clinical trial for robotic prosthetics,Terminated,Phase 3,2024-01-30,https://clinical.example/f89c5895cd80
+ct_e38505e7c3,Clinical trial for photovoltaic perovskites,"Active, not recruiting",Phase 2,2024-04-13,https://clinical.example/bcddd0b0f1f6
+ct_05d0bc8879,Clinical trial for CAR-T manufacturing,Completed,Phase 1,2019-09-09,https://clinical.example/419823ab7c46
+ct_3c81e05bb1,Clinical trial for microfluidics,"Active, not recruiting",Phase 2,2022-02-23,https://clinical.example/e9c8d66a1ce6
+ct_e8bbab19e9,Clinical trial for diagnostic imaging,"Active, not recruiting",Phase 1,2023-03-01,https://clinical.example/d814b16368a9
+ct_29d903c398,Clinical trial for ultrafast Li-ion charging,Recruiting,Phase 3,2021-02-02,https://clinical.example/23c098c9d98d
+ct_26cdef59f0,Clinical trial for gene editing (CRISPR),Completed,Phase 1,2024-07-24,https://clinical.example/c88bac51e516
+ct_860e140a3a,Clinical trial for graphene membranes,Recruiting,Phase 2,2021-04-29,https://clinical.example/74f59d9e5329
+ct_f0f13ce17b,Clinical trial for protein engineering,Terminated,Phase 1,2020-07-04,https://clinical.example/0343646d806e
+ct_3462510f28,Clinical trial for diagnostic imaging,Recruiting,Preclinical,2022-05-07,https://clinical.example/2424c00d43d9
+ct_333ff99486,Clinical trial for diagnostic imaging,"Active, not recruiting",Phase 3,2022-03-07,https://clinical.example/4ce2cd3bc592
+ct_3506b39105,Clinical trial for gene editing (CRISPR),Recruiting,Phase 1,2018-02-08,https://clinical.example/456429ab3a9c
+ct_d6c16841ba,Clinical trial for lab-on-a-chip,Recruiting,Phase 3,2022-09-10,https://clinical.example/7250daf62349
+ct_5d13760f08,Clinical trial for bioreactor control,Completed,Phase 3,2020-12-24,https://clinical.example/ea0a6e9d6b4d
+ct_d8a9e7a7b8,Clinical trial for lab-on-a-chip,Terminated,Phase 3,2023-09-07,https://clinical.example/9ce67e5d5d4c
+ct_0174c1760d,Clinical trial for protein engineering,Recruiting,Phase 2,2021-05-03,https://clinical.example/efd0979bc67d
+ct_0f6947ed40,Clinical trial for protein engineering,Recruiting,Phase 1,2016-11-27,https://clinical.example/ab5ce1c3e78f
+ct_646ce8887b,Clinical trial for mRNA therapeutics,Completed,Phase 2,2016-10-16,https://clinical.example/68258b9dd058
+ct_7716a5344e,Clinical trial for gene editing (CRISPR),Recruiting,Preclinical,2020-01-19,https://clinical.example/ccfcba7f4bd8
+ct_348f6243e1,Clinical trial for wearable health sensors,Completed,Preclinical,2020-08-25,https://clinical.example/eb13144422ab
+ct_23068570a6,Clinical trial for nanopore sequencing,"Active, not recruiting",Phase 2,2020-08-25,https://clinical.example/c9d4705a012c
+ct_79bd6ceffb,Clinical trial for robotic prosthetics,Completed,Phase 3,2021-01-23,https://clinical.example/e6224c3df12e
+ct_514b79aa3c,Clinical trial for biosensors,Recruiting,Phase 2,2018-02-24,https://clinical.example/a34f3cc46947
+ct_1fca3fd557,Clinical trial for bioprinting,Recruiting,Phase 2,2024-12-11,https://clinical.example/e810de495ba2
+ct_99db5835c5,Clinical trial for gene editing (CRISPR),Recruiting,Phase 3,2020-01-16,https://clinical.example/440c27191f21
+ct_0608f905f0,Clinical trial for ultrafast Li-ion charging,Terminated,Phase 3,2020-04-18,https://clinical.example/b8746b24ca50
+ct_ef9632e6f1,Clinical trial for biosensors,"Active, not recruiting",Preclinical,2020-08-22,https://clinical.example/249cd6d5d929
+ct_6cd7a1e642,Clinical trial for single-cell multiomics,Completed,Phase 1,2024-12-27,https://clinical.example/816fad14d9c2
+ct_3ad34aea25,Clinical trial for battery chemistry,Recruiting,Phase 1,2023-06-01,https://clinical.example/8556ac9b40dd
+ct_fbc8cc2981,Clinical trial for gene editing (CRISPR),Recruiting,Phase 1,2023-05-19,https://clinical.example/6df13e5c38b9
+ct_2ad3cd4bb0,Clinical trial for single-cell multiomics,"Active, not recruiting",Preclinical,2019-02-02,https://clinical.example/800406a9349c
+ct_665a1eb999,Clinical trial for single-cell multiomics,"Active, not recruiting",Preclinical,2021-03-21,https://clinical.example/797fa70dad04
+ct_fc73617d06,Clinical trial for AI-driven medicinal chemistry,Recruiting,Phase 1,2022-09-29,https://clinical.example/031350f0cb47
+ct_8e03230af5,Clinical trial for microfluidics,Recruiting,Phase 2,2018-06-21,https://clinical.example/323fa87379b1
+ct_b6aa482e1b,Clinical trial for AI-driven medicinal chemistry,Recruiting,Phase 1,2019-09-05,https://clinical.example/30d774bdff6e
+ct_a99b869ede,Clinical trial for nanopore sequencing,Terminated,Phase 1,2017-06-08,https://clinical.example/a560f06c4d39
+ct_91b47aaa58,Clinical trial for protein engineering,Completed,Phase 2,2022-05-17,https://clinical.example/180f79c5c3e9
+ct_5c5efea24c,Clinical trial for robotic prosthetics,Completed,Phase 1,2018-04-08,https://clinical.example/49bfbd67bfa7
+ct_bdda0a55c0,Clinical trial for graphene membranes,Recruiting,Preclinical,2023-11-13,https://clinical.example/dfe9a96645f2
+ct_80a3ccee13,Clinical trial for bioreactor control,Terminated,Phase 3,2020-01-09,https://clinical.example/ddb176fc021a
+ct_d3d41217f3,Clinical trial for nanopore sequencing,Completed,Phase 3,2018-07-02,https://clinical.example/48dfa4a23dec
+ct_09831d3f08,Clinical trial for biosensors,Terminated,Phase 1,2016-02-26,https://clinical.example/5e96727819fa
+ct_e2b6352fe1,Clinical trial for biosensors,"Active, not recruiting",Phase 1,2019-04-28,https://clinical.example/6398ed51f8a1
+ct_b77d1ed2d8,Clinical trial for diagnostic imaging,Terminated,Preclinical,2019-11-09,https://clinical.example/27ef17faf15f
+ct_c27e0fce3e,Clinical trial for AI-driven medicinal chemistry,"Active, not recruiting",Phase 2,2021-03-25,https://clinical.example/fb7b6658793c
+ct_d781b51b53,Clinical trial for biosensors,Recruiting,Phase 2,2024-10-16,https://clinical.example/2909cb66d40b
+ct_c14b0351a7,Clinical trial for nanopore sequencing,"Active, not recruiting",Phase 3,2018-11-18,https://clinical.example/f4b19e4a63f3
+ct_8e7343d9d8,Clinical trial for wearable health sensors,"Active, not recruiting",Preclinical,2020-05-30,https://clinical.example/dc913dbc4c67
+ct_53b1ed4ff0,Clinical trial for photovoltaic perovskites,Recruiting,Phase 3,2023-02-20,https://clinical.example/2d9194718422
+ct_2d36b6791a,Clinical trial for wearable health sensors,Completed,Phase 2,2020-12-30,https://clinical.example/8fb778fe9125
+ct_6d1d311a71,Clinical trial for diagnostic imaging,Terminated,Phase 2,2018-02-07,https://clinical.example/0f44f32af970
+ct_daea19df75,Clinical trial for mRNA therapeutics,Terminated,Phase 3,2016-05-27,https://clinical.example/f0a8c1ea2633
+ct_288edea00c,Clinical trial for bioreactor control,Completed,Phase 1,2020-01-09,https://clinical.example/8fd072aa26f4
+ct_23a5b92e79,Clinical trial for lab-on-a-chip,Completed,Phase 1,2023-04-09,https://clinical.example/69479169a3a5
+ct_df10db213c,Clinical trial for lab-on-a-chip,Completed,Preclinical,2016-12-04,https://clinical.example/cd28ca8ace0d
+ct_f2d0a7fb29,Clinical trial for nanopore sequencing,"Active, not recruiting",Phase 3,2021-04-09,https://clinical.example/e5f0a1e68ebb
+ct_5e9285135d,Clinical trial for graphene membranes,Completed,Phase 2,2020-06-06,https://clinical.example/edf3827a995c
+ct_e0ae76a8d3,Clinical trial for photovoltaic perovskites,Recruiting,Phase 3,2022-08-02,https://clinical.example/e138c308470e
+ct_7c164bf5ed,Clinical trial for ultrafast Li-ion charging,Completed,Preclinical,2016-09-02,https://clinical.example/c81b8e410a4b
+ct_6b6a422ca3,Clinical trial for lab-on-a-chip,"Active, not recruiting",Phase 3,2020-09-17,https://clinical.example/f26089462754
+ct_526745ed26,Clinical trial for protein engineering,Recruiting,Phase 2,2020-03-11,https://clinical.example/6cd3941b4ae3
+ct_7d4408122e,Clinical trial for lab-on-a-chip,Terminated,Phase 1,2018-12-01,https://clinical.example/446cae4b99ce
+ct_19ecfe72d5,Clinical trial for protein engineering,Completed,Phase 1,2022-02-16,https://clinical.example/de1abb371fd2
+ct_a58a983fc2,Clinical trial for solid-state cooling,Recruiting,Preclinical,2023-04-13,https://clinical.example/e53ee022e142
+ct_2a8f16a284,Clinical trial for bioreactor control,"Active, not recruiting",Preclinical,2017-10-20,https://clinical.example/0ba7be617cc6
+ct_b6b3f071de,Clinical trial for protein engineering,"Active, not recruiting",Preclinical,2019-07-06,https://clinical.example/0eae3ca170d3
+ct_8aa16865e0,Clinical trial for photovoltaic perovskites,Terminated,Preclinical,2021-03-09,https://clinical.example/fde4781f81a2
+ct_911817654b,Clinical trial for ultrafast Li-ion charging,Terminated,Phase 2,2024-08-28,https://clinical.example/8994ca149ac3
+ct_60c8bb8119,Clinical trial for biosensors,Terminated,Preclinical,2022-09-25,https://clinical.example/4e6779f358f7
+ct_7d0048c6a7,Clinical trial for wearable health sensors,"Active, not recruiting",Phase 2,2023-04-27,https://clinical.example/c0641be54a13
+ct_deac620fc4,Clinical trial for graphene membranes,Terminated,Phase 3,2018-12-23,https://clinical.example/74cd08f2bb93
+ct_d1c6fce337,Clinical trial for gene editing (CRISPR),"Active, not recruiting",Phase 1,2024-03-20,https://clinical.example/5d927d0f291a
+ct_3f548acf75,Clinical trial for wearable health sensors,"Active, not recruiting",Phase 3,2017-06-11,https://clinical.example/61fa5e1f9d87
+ct_90049f35c4,Clinical trial for protein engineering,Terminated,Preclinical,2024-05-14,https://clinical.example/6c4f99aa0d18
+ct_477d7c28fe,Clinical trial for CAR-T manufacturing,Terminated,Phase 2,2020-03-28,https://clinical.example/afe458abec2e
+ct_208a258543,Clinical trial for solid-state cooling,Completed,Phase 2,2018-09-14,https://clinical.example/bdac2bc55580
+ct_4752ec307e,Clinical trial for AI-driven medicinal chemistry,Recruiting,Phase 1,2024-10-25,https://clinical.example/fb0e5cab45b5
+ct_e4e8ae3172,Clinical trial for bioreactor control,Completed,Preclinical,2021-03-04,https://clinical.example/2897e54f42bc
+ct_66f25c50fc,Clinical trial for nanopore sequencing,"Active, not recruiting",Phase 2,2021-02-20,https://clinical.example/96e83737da57
+ct_a6837a15c9,Clinical trial for bioprinting,Completed,Phase 1,2017-03-17,https://clinical.example/c4edab095dce
+ct_463317d59f,Clinical trial for gene editing (CRISPR),Terminated,Phase 1,2019-02-05,https://clinical.example/512d25432085
+ct_0cb5c7266b,Clinical trial for robotic prosthetics,"Active, not recruiting",Preclinical,2020-10-17,https://clinical.example/cf1cefc08b33
+ct_bbc5efa460,Clinical trial for CAR-T manufacturing,Recruiting,Phase 3,2017-01-30,https://clinical.example/8a1131dc8a68
+ct_ce777e2144,Clinical trial for graphene membranes,Completed,Phase 3,2021-09-16,https://clinical.example/2e5f1bc46a51
+ct_29427da2dc,Clinical trial for solid-state cooling,Recruiting,Preclinical,2017-04-18,https://clinical.example/25990ff901a4
+ct_aa49b49e53,Clinical trial for bioreactor control,Terminated,Phase 2,2021-01-14,https://clinical.example/54f32d40f066
+ct_485c83e936,Clinical trial for gene editing (CRISPR),Recruiting,Preclinical,2022-10-28,https://clinical.example/7ea22d2adcc2
+ct_50811196b6,Clinical trial for gene editing (CRISPR),"Active, not recruiting",Phase 2,2024-09-07,https://clinical.example/46975b68850f
+ct_9e0f13aa19,Clinical trial for wearable health sensors,Terminated,Phase 2,2016-03-24,https://clinical.example/218a53f77184
+ct_4e70780bf4,Clinical trial for CAR-T manufacturing,"Active, not recruiting",Phase 3,2018-11-15,https://clinical.example/269a4340438e
+ct_23fb2c267f,Clinical trial for AI-driven medicinal chemistry,Terminated,Preclinical,2019-05-23,https://clinical.example/b2a2a685aa39
+ct_135ac13bb3,Clinical trial for biosensors,Completed,Phase 2,2024-12-12,https://clinical.example/117d409a7eb8
+ct_6b0e5a6de0,Clinical trial for AI-driven medicinal chemistry,Terminated,Phase 3,2024-06-30,https://clinical.example/82bf18b8ab61
+ct_fa81654ee2,Clinical trial for microfluidics,Recruiting,Preclinical,2017-09-18,https://clinical.example/6011d5079ba3
+ct_317fb28d41,Clinical trial for lab-on-a-chip,Completed,Preclinical,2018-08-21,https://clinical.example/c5c16721da1a
+ct_46d42f1baf,Clinical trial for ultrafast Li-ion charging,Terminated,Phase 3,2019-10-15,https://clinical.example/9afda0f1eadf
+ct_e27dc4f8e4,Clinical trial for mRNA therapeutics,"Active, not recruiting",Phase 1,2016-04-07,https://clinical.example/717d10ec0f37
+ct_deea20a468,Clinical trial for robotic prosthetics,Completed,Phase 3,2019-01-01,https://clinical.example/2e365774bf4c
+ct_81a65aca1c,Clinical trial for AI-driven medicinal chemistry,Recruiting,Phase 3,2024-11-29,https://clinical.example/331536c67d9b
+ct_199d530396,Clinical trial for bioreactor control,"Active, not recruiting",Phase 1,2016-03-31,https://clinical.example/5fd1834f29c4
+ct_ac860b9fcb,Clinical trial for CAR-T manufacturing,Terminated,Phase 2,2020-03-19,https://clinical.example/e59fb8313b18
+ct_b5e03c3bcd,Clinical trial for biosensors,Completed,Phase 1,2016-04-12,https://clinical.example/f635647aa72f
+ct_12adf9881f,Clinical trial for single-cell multiomics,Completed,Preclinical,2016-05-04,https://clinical.example/e0b1892b63d1
+ct_8d8e86ef59,Clinical trial for nanopore sequencing,Recruiting,Phase 2,2019-09-12,https://clinical.example/5bef442c262d
+ct_ba9fb4155c,Clinical trial for bioreactor control,"Active, not recruiting",Phase 3,2024-06-30,https://clinical.example/ca81b1447fd8
+ct_e8e87accb1,Clinical trial for microfluidics,Completed,Preclinical,2022-07-30,https://clinical.example/c8b0a15bf60f
+ct_3f5e6192d3,Clinical trial for nanopore sequencing,Recruiting,Phase 2,2022-08-05,https://clinical.example/6ba5c2dc8cdd
+ct_9f515bd9bc,Clinical trial for battery chemistry,Terminated,Phase 2,2024-08-21,https://clinical.example/78e754356994
+ct_acbb18e647,Clinical trial for bioprinting,Terminated,Phase 1,2024-01-02,https://clinical.example/70db2e3c3bd5
+ct_b4e6bfa0da,Clinical trial for single-cell multiomics,Completed,Phase 1,2023-09-10,https://clinical.example/2e777954819c
+ct_9c4a9ccc9a,Clinical trial for solid-state cooling,Terminated,Phase 3,2017-11-09,https://clinical.example/00c8994a2d57
+ct_4e6bbafefb,Clinical trial for bioprinting,Completed,Preclinical,2022-03-15,https://clinical.example/3d0a96304545
+ct_9626022d9e,Clinical trial for wearable health sensors,Recruiting,Phase 3,2023-01-12,https://clinical.example/46e1c8e914e1
+ct_ec07d2fd9d,Clinical trial for microfluidics,"Active, not recruiting",Phase 2,2021-06-28,https://clinical.example/bda884837e9a
+ct_71c82e6819,Clinical trial for wearable health sensors,Recruiting,Phase 2,2017-02-24,https://clinical.example/6d4e578a91a9
+ct_769f5f129e,Clinical trial for battery chemistry,Terminated,Phase 3,2023-06-28,https://clinical.example/7b87a747c98f
+ct_570537ef88,Clinical trial for solid-state cooling,Recruiting,Phase 2,2018-07-19,https://clinical.example/9c039de07827
+ct_95964c6c57,Clinical trial for bioprinting,Completed,Phase 3,2022-04-15,https://clinical.example/3fd45eb06e02
+ct_99c89db80b,Clinical trial for AI-driven medicinal chemistry,Completed,Phase 3,2023-04-20,https://clinical.example/7e38ed11f3e1
+ct_eca5a380da,Clinical trial for protein engineering,"Active, not recruiting",Preclinical,2022-12-17,https://clinical.example/1b98beb6ff1e
+ct_0fcf2779c9,Clinical trial for biosensors,Recruiting,Phase 2,2017-09-05,https://clinical.example/7c259c33474c
+ct_17216f5b7d,Clinical trial for lab-on-a-chip,Recruiting,Preclinical,2018-03-16,https://clinical.example/fece270c3fa5
+ct_7e5501a74f,Clinical trial for photovoltaic perovskites,Completed,Phase 1,2023-04-06,https://clinical.example/a632dda63122
+ct_eefdf49df1,Clinical trial for bioprinting,Terminated,Phase 3,2017-10-12,https://clinical.example/25ee0bc1e380
+ct_934df79a3e,Clinical trial for photovoltaic perovskites,"Active, not recruiting",Phase 3,2022-03-29,https://clinical.example/b2e9867d572c
+ct_e1e1e5728e,Clinical trial for battery chemistry,"Active, not recruiting",Phase 3,2020-05-23,https://clinical.example/120a4a4f4e03
+ct_95a55f2159,Clinical trial for solid-state cooling,"Active, not recruiting",Phase 3,2023-04-06,https://clinical.example/a2810a76f8a5
+ct_c045390193,Clinical trial for gene editing (CRISPR),Terminated,Phase 3,2023-08-12,https://clinical.example/3afcb265438e
+ct_6b2a30d36f,Clinical trial for gene editing (CRISPR),Completed,Phase 3,2024-03-24,https://clinical.example/34684cf19274
+ct_ce738f9cf5,Clinical trial for bioprinting,Recruiting,Phase 2,2021-10-23,https://clinical.example/c6f717fcb83c
+ct_e70af88f31,Clinical trial for AI-driven medicinal chemistry,Terminated,Phase 1,2017-11-21,https://clinical.example/276014aa9c2f
+ct_2746e58b63,Clinical trial for microfluidics,"Active, not recruiting",Preclinical,2019-12-13,https://clinical.example/a6c7f7301c31
+ct_7b2f294b55,Clinical trial for single-cell multiomics,Completed,Preclinical,2017-08-11,https://clinical.example/14a2dc0a4931
+ct_fad334c663,Clinical trial for gene editing (CRISPR),Terminated,Phase 1,2024-06-26,https://clinical.example/12afc7442c37
+ct_2d9b8fc6e6,Clinical trial for biosensors,Completed,Phase 2,2023-05-21,https://clinical.example/999179cf0199
+ct_6cd134b872,Clinical trial for biosensors,Completed,Preclinical,2017-04-11,https://clinical.example/e46760699681
+ct_db796ea5d4,Clinical trial for protein engineering,Terminated,Phase 1,2020-04-21,https://clinical.example/7ceceb199ea5
+ct_3c27c74419,Clinical trial for gene editing (CRISPR),Recruiting,Phase 2,2020-11-05,https://clinical.example/d242bb0083f8
+ct_11ca25c5f7,Clinical trial for microfluidics,Terminated,Phase 2,2022-08-01,https://clinical.example/ac8db67f8137
+ct_66f3508d32,Clinical trial for diagnostic imaging,Terminated,Phase 2,2020-11-10,https://clinical.example/abe5bec0e486
+ct_6c556d145f,Clinical trial for lab-on-a-chip,Terminated,Phase 2,2016-09-09,https://clinical.example/1393dee713d6
+ct_0221c243e1,Clinical trial for wearable health sensors,"Active, not recruiting",Phase 3,2023-10-19,https://clinical.example/3ca75c6cd6fd
+ct_2cf55b2b02,Clinical trial for CAR-T manufacturing,Completed,Phase 1,2019-01-07,https://clinical.example/66baa4c5c32e
+ct_ff824d6fa8,Clinical trial for lab-on-a-chip,Completed,Phase 3,2021-05-08,https://clinical.example/0dbcce52f7f7
+ct_3282b57093,Clinical trial for bioprinting,Terminated,Phase 2,2023-07-13,https://clinical.example/21ccad9be7be
+ct_b06a8c09df,Clinical trial for robotic prosthetics,Recruiting,Phase 3,2019-11-18,https://clinical.example/d9e9c612a3cb
+ct_f2b37d6cf0,Clinical trial for CAR-T manufacturing,Completed,Preclinical,2024-01-12,https://clinical.example/53a3e4e6497c
+ct_03a73507f4,Clinical trial for bioreactor control,Terminated,Phase 2,2023-12-10,https://clinical.example/c17c64a842ab
+ct_c02c884a33,Clinical trial for AI-driven medicinal chemistry,Recruiting,Phase 2,2019-11-26,https://clinical.example/787cfc4ec134
+ct_7050c4151a,Clinical trial for protein engineering,Terminated,Preclinical,2023-06-25,https://clinical.example/dda71f148eb3
+ct_ed894900be,Clinical trial for wearable health sensors,Terminated,Preclinical,2018-01-06,https://clinical.example/1a243d0ec0a7
+ct_d5522b7b5d,Clinical trial for solid-state cooling,Recruiting,Phase 1,2016-06-24,https://clinical.example/360dcc3b8a04
+ct_ef820cf323,Clinical trial for nanopore sequencing,Recruiting,Preclinical,2024-07-28,https://clinical.example/d39578b57311
+ct_153dba25b0,Clinical trial for microfluidics,Recruiting,Phase 1,2020-11-12,https://clinical.example/2b2cae3c2a27
+ct_2a37bb2d96,Clinical trial for microfluidics,Terminated,Phase 3,2016-09-26,https://clinical.example/51375a3c3243
+ct_137e2c9056,Clinical trial for bioprinting,Terminated,Phase 3,2017-10-06,https://clinical.example/24c479f20c9e
+ct_f8ace9a7b1,Clinical trial for bioprinting,Terminated,Phase 1,2017-09-17,https://clinical.example/ae1ab1248d23
+ct_3ab1ae4792,Clinical trial for nanopore sequencing,"Active, not recruiting",Phase 2,2019-12-02,https://clinical.example/d581527bdf2c
+ct_5434bcadaa,Clinical trial for single-cell multiomics,Completed,Phase 1,2019-10-13,https://clinical.example/2b361dcfcd29
+ct_5a34c5973d,Clinical trial for bioreactor control,Terminated,Preclinical,2017-05-04,https://clinical.example/0470f6f83715
+ct_237441dab9,Clinical trial for photovoltaic perovskites,Completed,Preclinical,2022-05-09,https://clinical.example/5ff0c1fe63b9
+ct_5e2bf30b59,Clinical trial for photovoltaic perovskites,Completed,Phase 1,2021-07-24,https://clinical.example/bc82f8b73588
+ct_d8de2ec9b5,Clinical trial for diagnostic imaging,Completed,Phase 3,2022-02-25,https://clinical.example/2d9469114ad4
+ct_6ce9d5030c,Clinical trial for lab-on-a-chip,Terminated,Phase 3,2022-01-30,https://clinical.example/9e885e1d5c49
+ct_ca78217683,Clinical trial for diagnostic imaging,"Active, not recruiting",Preclinical,2016-11-12,https://clinical.example/4b376db9f5c6
+ct_e578944ca2,Clinical trial for robotic prosthetics,Recruiting,Preclinical,2019-09-30,https://clinical.example/1c6f32ef4bde
+ct_6c9f5ea709,Clinical trial for nanopore sequencing,Recruiting,Phase 1,2018-03-27,https://clinical.example/752841bc7c7a
+ct_0fa1cb80ee,Clinical trial for solid-state cooling,"Active, not recruiting",Phase 3,2020-08-22,https://clinical.example/335daceaf1ca
+ct_0889ef5920,Clinical trial for CAR-T manufacturing,Recruiting,Phase 3,2016-07-25,https://clinical.example/95904b0c169f
+ct_ee1dd0cf6c,Clinical trial for gene editing (CRISPR),"Active, not recruiting",Preclinical,2019-07-24,https://clinical.example/ecc9b0fe84f0
+ct_fc29c1d621,Clinical trial for microfluidics,Completed,Phase 2,2016-03-03,https://clinical.example/61168d25b41a
+ct_b00afb440f,Clinical trial for diagnostic imaging,Recruiting,Phase 1,2021-10-20,https://clinical.example/930a8c618e2f
+ct_990d5a7e3c,Clinical trial for lab-on-a-chip,Completed,Phase 2,2018-05-03,https://clinical.example/672409fb2dfe
+ct_e623cc981c,Clinical trial for graphene membranes,Completed,Phase 1,2023-10-14,https://clinical.example/fbfea845c019
+ct_3677337e73,Clinical trial for graphene membranes,Completed,Phase 3,2022-05-25,https://clinical.example/c751bc5c9827
+ct_450fbda13e,Clinical trial for bioreactor control,Recruiting,Preclinical,2020-09-25,https://clinical.example/1cd20e66b172
+ct_6b1e2dce46,Clinical trial for graphene membranes,Terminated,Phase 3,2021-11-22,https://clinical.example/d0940ca238b0
+ct_8104d170f9,Clinical trial for nanopore sequencing,Recruiting,Phase 1,2024-07-28,https://clinical.example/a38f44890b33
+ct_148408547d,Clinical trial for graphene membranes,Recruiting,Phase 3,2020-09-17,https://clinical.example/7ab791915af5
+ct_285ec63560,Clinical trial for protein engineering,Recruiting,Preclinical,2019-10-03,https://clinical.example/bfcb495d7c45
+ct_83dac08d85,Clinical trial for microfluidics,Terminated,Phase 2,2021-02-18,https://clinical.example/de054ad05090
+ct_e17991d966,Clinical trial for single-cell multiomics,Terminated,Phase 2,2019-08-01,https://clinical.example/5ecd2459fd4d
+ct_46ee4a308b,Clinical trial for lab-on-a-chip,Terminated,Phase 1,2024-03-27,https://clinical.example/83ff3b9747a0
+ct_547d64b4bf,Clinical trial for ultrafast Li-ion charging,Completed,Phase 2,2021-04-12,https://clinical.example/cf85b47fb149
+ct_01988a9d0f,Clinical trial for mRNA therapeutics,Terminated,Phase 1,2020-05-16,https://clinical.example/4992984c43bf
+ct_77ff7aa632,Clinical trial for wearable health sensors,Terminated,Preclinical,2020-09-23,https://clinical.example/9f6c5c33fa05
+ct_522bed5525,Clinical trial for microfluidics,Terminated,Phase 1,2016-02-28,https://clinical.example/d4aa5185504b
+ct_910125c633,Clinical trial for lab-on-a-chip,Terminated,Preclinical,2023-04-12,https://clinical.example/a8a57191ad2b
+ct_dd98c3db93,Clinical trial for mRNA therapeutics,"Active, not recruiting",Preclinical,2024-02-05,https://clinical.example/14fb67d1992e
+ct_7d21d48b04,Clinical trial for photovoltaic perovskites,"Active, not recruiting",Phase 1,2024-02-09,https://clinical.example/56cb60a5c100
+ct_c76792747c,Clinical trial for ultrafast Li-ion charging,"Active, not recruiting",Phase 3,2022-07-16,https://clinical.example/aab7c5bc7d44
+ct_0ecd44e88f,Clinical trial for protein engineering,"Active, not recruiting",Preclinical,2024-05-12,https://clinical.example/70abe146a1b2
+ct_4336a3c682,Clinical trial for biosensors,Terminated,Preclinical,2016-01-09,https://clinical.example/72059499da6a
+ct_373dc4bd93,Clinical trial for lab-on-a-chip,"Active, not recruiting",Phase 1,2017-07-14,https://clinical.example/0b103d4a0f16
+ct_7f6e709c01,Clinical trial for bioreactor control,Recruiting,Phase 1,2021-08-04,https://clinical.example/fc217524e6c1
+ct_54567eb5dc,Clinical trial for microfluidics,Completed,Preclinical,2018-08-22,https://clinical.example/fc4e98ac4d8d
+ct_77f536cdad,Clinical trial for gene editing (CRISPR),Recruiting,Phase 1,2024-12-23,https://clinical.example/1b990d8debae
+ct_b7b4ab8501,Clinical trial for solid-state cooling,Completed,Phase 3,2016-07-18,https://clinical.example/d011cda2aeb0
+ct_e547d78839,Clinical trial for wearable health sensors,Recruiting,Preclinical,2024-02-27,https://clinical.example/e3f235c6ef2d
+ct_209055dd6e,Clinical trial for photovoltaic perovskites,Terminated,Phase 2,2016-07-06,https://clinical.example/7a5c654b3169
+ct_a0af50f51a,Clinical trial for photovoltaic perovskites,Completed,Phase 3,2023-03-12,https://clinical.example/3b7eab8aa2d2
+ct_4a2e43a3a8,Clinical trial for mRNA therapeutics,Completed,Preclinical,2023-03-26,https://clinical.example/7032674d6d1e
+ct_55c15e3718,Clinical trial for gene editing (CRISPR),Terminated,Phase 3,2021-10-21,https://clinical.example/f4ad71c30da8
+ct_e535b562a1,Clinical trial for bioprinting,Recruiting,Phase 1,2021-06-26,https://clinical.example/9c804ae16918
+ct_530d3b1bda,Clinical trial for CAR-T manufacturing,Terminated,Preclinical,2021-12-01,https://clinical.example/998d8c34d1c6
+ct_027ba6b6e3,Clinical trial for nanopore sequencing,Completed,Phase 2,2024-04-19,https://clinical.example/91a6d17daae9
+ct_f16c618e3e,Clinical trial for robotic prosthetics,Completed,Preclinical,2022-10-27,https://clinical.example/d762ebdf0070
+ct_eb0c1f2301,Clinical trial for graphene membranes,Recruiting,Phase 2,2016-03-23,https://clinical.example/67b219331606
+ct_c1d5678e25,Clinical trial for gene editing (CRISPR),Completed,Phase 2,2017-01-17,https://clinical.example/d14b6b90618b
+ct_6674e20620,Clinical trial for mRNA therapeutics,Completed,Phase 2,2024-04-26,https://clinical.example/4dac5869f3f1
+ct_0792252174,Clinical trial for robotic prosthetics,Completed,Preclinical,2024-11-02,https://clinical.example/0ebca20c0ad1
+ct_21b60ba4ac,Clinical trial for diagnostic imaging,Recruiting,Phase 2,2021-02-15,https://clinical.example/1b36c7665ed2
+ct_82682e0752,Clinical trial for ultrafast Li-ion charging,"Active, not recruiting",Phase 1,2020-05-04,https://clinical.example/dbbea649c9c0
+ct_911c15a587,Clinical trial for microfluidics,Recruiting,Phase 1,2018-05-14,https://clinical.example/342e7c8d0552
+ct_ca5804a92c,Clinical trial for diagnostic imaging,Terminated,Phase 3,2020-03-18,https://clinical.example/d97de282d429
+ct_75e75a3e8d,Clinical trial for battery chemistry,Terminated,Phase 2,2021-01-14,https://clinical.example/59231da9d9b5
+ct_37a8c13249,Clinical trial for biosensors,Terminated,Phase 2,2018-11-12,https://clinical.example/1cff04845b96
+ct_68399af2f7,Clinical trial for microfluidics,"Active, not recruiting",Phase 1,2019-09-19,https://clinical.example/3572bef3d471
+ct_6b79a0b603,Clinical trial for graphene membranes,"Active, not recruiting",Phase 3,2020-06-03,https://clinical.example/bcf858a0f9c2
+ct_3e78ff8618,Clinical trial for microfluidics,Recruiting,Phase 1,2024-02-18,https://clinical.example/2e055544ef9a
+ct_8035d6e030,Clinical trial for gene editing (CRISPR),Recruiting,Phase 2,2016-04-05,https://clinical.example/72019677e265
+ct_b522b5eac4,Clinical trial for robotic prosthetics,Recruiting,Preclinical,2019-11-10,https://clinical.example/72f6f4532cb2
+ct_6ee8da8fe9,Clinical trial for protein engineering,Terminated,Phase 3,2024-01-03,https://clinical.example/72d2e5a6de3e
+ct_c0f6735583,Clinical trial for CAR-T manufacturing,"Active, not recruiting",Phase 1,2017-12-23,https://clinical.example/2c96fd1b362e
+ct_3465905989,Clinical trial for bioprinting,Terminated,Phase 3,2022-11-10,https://clinical.example/aa5e53189cea
+ct_e023044f38,Clinical trial for AI-driven medicinal chemistry,Completed,Phase 2,2016-03-06,https://clinical.example/9c3c3d93cc01
+ct_a9133db30e,Clinical trial for microfluidics,Recruiting,Phase 1,2017-02-17,https://clinical.example/2c0d62aa21fc
+ct_b1ecf8c954,Clinical trial for nanopore sequencing,Completed,Preclinical,2016-09-27,https://clinical.example/46ca5833e967
+ct_75de8542e7,Clinical trial for solid-state cooling,Terminated,Phase 3,2017-09-27,https://clinical.example/ad2459460423
+ct_07e1b7356a,Clinical trial for battery chemistry,Completed,Preclinical,2022-09-11,https://clinical.example/e40a66d31b0f
+ct_f95e6dc0f3,Clinical trial for mRNA therapeutics,"Active, not recruiting",Phase 1,2020-04-27,https://clinical.example/e6b12aa6d2bb
+ct_3ab9b14c59,Clinical trial for AI-driven medicinal chemistry,"Active, not recruiting",Preclinical,2019-06-08,https://clinical.example/8587be8d12a6
+ct_ca614cce8e,Clinical trial for nanopore sequencing,Completed,Preclinical,2020-10-19,https://clinical.example/102ba175d6e3
+ct_3caf0b1423,Clinical trial for protein engineering,Terminated,Phase 1,2023-11-19,https://clinical.example/c0dbafb9417a
+ct_2f98ca8244,Clinical trial for protein engineering,"Active, not recruiting",Preclinical,2024-12-27,https://clinical.example/6a77da9cf730
+ct_27b09cc834,Clinical trial for photovoltaic perovskites,Recruiting,Preclinical,2024-12-19,https://clinical.example/42b3c3c5fe45
+ct_43fbef2c7f,Clinical trial for nanopore sequencing,Completed,Preclinical,2019-05-06,https://clinical.example/3427c4aec6e7
+ct_da119ad384,Clinical trial for ultrafast Li-ion charging,Completed,Phase 2,2020-08-29,https://clinical.example/4949738139da
+ct_3b7095f4b5,Clinical trial for bioprinting,Terminated,Phase 1,2018-04-14,https://clinical.example/a66efe5a2018
+ct_9ccb0a4754,Clinical trial for photovoltaic perovskites,Terminated,Preclinical,2018-02-10,https://clinical.example/6a1b450d0957
+ct_22f6f4d9f9,Clinical trial for ultrafast Li-ion charging,Terminated,Phase 1,2023-01-14,https://clinical.example/44dea3ec1283
+ct_1c797dbc55,Clinical trial for robotic prosthetics,"Active, not recruiting",Preclinical,2020-03-20,https://clinical.example/fec441e68edd
+ct_2987993a00,Clinical trial for robotic prosthetics,Completed,Phase 3,2020-08-10,https://clinical.example/7f5a53c24a65
+ct_4cad2423f9,Clinical trial for biosensors,Recruiting,Preclinical,2017-04-01,https://clinical.example/872eddacfa95
+ct_b2d082b79e,Clinical trial for graphene membranes,Recruiting,Phase 2,2017-06-13,https://clinical.example/df75fe4b3c08
+ct_85a9ad8af3,Clinical trial for photovoltaic perovskites,Terminated,Phase 1,2017-01-26,https://clinical.example/f407d44e07f5
+ct_da89dc1385,Clinical trial for ultrafast Li-ion charging,Terminated,Phase 2,2024-12-16,https://clinical.example/ffd1bf29f45b
+ct_b2f4065deb,Clinical trial for biosensors,Completed,Preclinical,2016-11-08,https://clinical.example/df5e4992eba2
+ct_784f786991,Clinical trial for battery chemistry,Completed,Phase 1,2018-08-23,https://clinical.example/465eb5bb6034
+ct_88123310c4,Clinical trial for wearable health sensors,Recruiting,Phase 3,2024-12-20,https://clinical.example/6f237fe440ca
+ct_7b9971612c,Clinical trial for graphene membranes,Recruiting,Preclinical,2019-06-14,https://clinical.example/a17c34fc231f
+ct_8171dc8540,Clinical trial for nanopore sequencing,Recruiting,Phase 3,2017-05-19,https://clinical.example/104f2897b0f4
+ct_c9fd13a337,Clinical trial for photovoltaic perovskites,Terminated,Phase 1,2022-08-14,https://clinical.example/1141467e7bf5
+ct_cb96aeff17,Clinical trial for CAR-T manufacturing,"Active, not recruiting",Phase 2,2021-05-31,https://clinical.example/d7631d588383
+ct_022e2cb662,Clinical trial for lab-on-a-chip,Completed,Phase 3,2024-03-05,https://clinical.example/2476eee802cb
+ct_f00b9ee46a,Clinical trial for CAR-T manufacturing,"Active, not recruiting",Phase 2,2022-04-15,https://clinical.example/e16e6e6bfd04
+ct_42b4573c37,Clinical trial for AI-driven medicinal chemistry,Completed,Phase 3,2016-10-19,https://clinical.example/f3a6ae5cc95b
+ct_6c02053e05,Clinical trial for photovoltaic perovskites,Completed,Phase 2,2017-10-17,https://clinical.example/4cdfb59972a8
+ct_827916269f,Clinical trial for microfluidics,"Active, not recruiting",Phase 2,2022-03-18,https://clinical.example/521f3ab1c5c3
+ct_bf38136c3d,Clinical trial for mRNA therapeutics,Terminated,Phase 2,2021-12-26,https://clinical.example/859b8c9ba76c
+ct_07bd4f7b5b,Clinical trial for lab-on-a-chip,"Active, not recruiting",Phase 3,2016-07-04,https://clinical.example/14ae6246f291
+ct_d269cf93ac,Clinical trial for diagnostic imaging,Terminated,Preclinical,2019-07-14,https://clinical.example/5f7048458f2b
+ct_ecfa8266d0,Clinical trial for microfluidics,Terminated,Phase 2,2019-07-07,https://clinical.example/98097f84cbf2
+ct_f683e7e9ed,Clinical trial for microfluidics,Completed,Phase 2,2020-01-03,https://clinical.example/eb058e7df551
+ct_b83f0c8071,Clinical trial for nanopore sequencing,Completed,Phase 2,2017-03-23,https://clinical.example/f0f70dda5cf8
+ct_b2a2e187f2,Clinical trial for bioprinting,Terminated,Phase 3,2024-03-27,https://clinical.example/b9da4ac780ff
+ct_0770451687,Clinical trial for CAR-T manufacturing,Completed,Phase 3,2019-05-30,https://clinical.example/728d99fd0af2
+ct_c78f495f80,Clinical trial for single-cell multiomics,Terminated,Preclinical,2021-02-06,https://clinical.example/d230adb2d771
+ct_6793b975fc,Clinical trial for microfluidics,Recruiting,Phase 1,2020-02-27,https://clinical.example/ffa75b92cc23
+ct_4474713078,Clinical trial for single-cell multiomics,Terminated,Phase 3,2022-08-03,https://clinical.example/f034ba1f5040
+ct_d368e729a0,Clinical trial for wearable health sensors,Completed,Preclinical,2020-11-03,https://clinical.example/e870f64479c5
+ct_2110882483,Clinical trial for wearable health sensors,Terminated,Phase 1,2016-10-23,https://clinical.example/964a207719ab
+ct_e7ae79f31a,Clinical trial for solid-state cooling,Recruiting,Preclinical,2016-06-10,https://clinical.example/8364418c46a4
+ct_2e7565745d,Clinical trial for AI-driven medicinal chemistry,"Active, not recruiting",Phase 1,2022-09-09,https://clinical.example/7a3cdcb26835
+ct_4cb32eed7f,Clinical trial for wearable health sensors,Recruiting,Preclinical,2018-05-28,https://clinical.example/9104d4db3234
+ct_f6a4ef6350,Clinical trial for nanopore sequencing,Completed,Preclinical,2022-02-23,https://clinical.example/84ac732ec542
+ct_5250d4f5ba,Clinical trial for battery chemistry,"Active, not recruiting",Phase 1,2022-05-05,https://clinical.example/b359281a49c9
+ct_1470482fab,Clinical trial for photovoltaic perovskites,Terminated,Phase 1,2023-12-03,https://clinical.example/60349232ac47
+ct_92bdad05b3,Clinical trial for AI-driven medicinal chemistry,Completed,Phase 2,2020-12-29,https://clinical.example/61bf0c4d46bc
+ct_e42208517e,Clinical trial for solid-state cooling,"Active, not recruiting",Phase 1,2023-01-06,https://clinical.example/fed74dd9a6a0
+ct_8bf2b7909f,Clinical trial for single-cell multiomics,Terminated,Phase 2,2022-08-29,https://clinical.example/a9ed75d865fc
+ct_b09e18e9c8,Clinical trial for ultrafast Li-ion charging,Completed,Preclinical,2020-04-13,https://clinical.example/c10117059d91
+ct_a6b4217194,Clinical trial for gene editing (CRISPR),"Active, not recruiting",Phase 2,2021-05-24,https://clinical.example/a67d005857ee
+ct_1920abf461,Clinical trial for bioreactor control,Terminated,Phase 1,2019-11-15,https://clinical.example/98777c4481ca
+ct_17501be818,Clinical trial for battery chemistry,Recruiting,Phase 2,2016-12-25,https://clinical.example/472ee619086d
+ct_a9dbb4982e,Clinical trial for protein engineering,Completed,Phase 1,2022-01-30,https://clinical.example/266bc64ff7f0
+ct_01e04c5cef,Clinical trial for microfluidics,Completed,Phase 2,2022-12-17,https://clinical.example/ee5e1d3144a1
+ct_7c05e2b03e,Clinical trial for biosensors,"Active, not recruiting",Phase 2,2022-03-08,https://clinical.example/0de1cff04b2e
+ct_e2d6c87145,Clinical trial for CAR-T manufacturing,Terminated,Phase 2,2023-02-03,https://clinical.example/9caae72a8e19
+ct_19e21d7f6d,Clinical trial for bioprinting,Recruiting,Phase 1,2021-06-30,https://clinical.example/f5f868e2e461
+ct_54ea536c30,Clinical trial for mRNA therapeutics,"Active, not recruiting",Phase 3,2024-04-21,https://clinical.example/c265a2aa771b
+ct_5f3c99a1fc,Clinical trial for single-cell multiomics,Recruiting,Phase 2,2017-06-13,https://clinical.example/93d1ec7377a9
+ct_440611cef6,Clinical trial for gene editing (CRISPR),Recruiting,Preclinical,2019-01-05,https://clinical.example/04442efccabd
+ct_dd0b7ab7bd,Clinical trial for graphene membranes,"Active, not recruiting",Phase 3,2022-04-01,https://clinical.example/cfdf581fe1f3
+ct_5b32b0a2d1,Clinical trial for photovoltaic perovskites,Recruiting,Preclinical,2022-01-20,https://clinical.example/7847a40a9e3e
+ct_25320c7933,Clinical trial for gene editing (CRISPR),Terminated,Phase 3,2024-08-03,https://clinical.example/68388437c81d
+ct_94eb624f37,Clinical trial for graphene membranes,"Active, not recruiting",Phase 3,2022-12-18,https://clinical.example/3dca92ad33ec
+ct_80b1c5aec6,Clinical trial for diagnostic imaging,Completed,Phase 2,2022-06-01,https://clinical.example/271707fdc113
+ct_808b706e71,Clinical trial for solid-state cooling,"Active, not recruiting",Phase 3,2021-04-29,https://clinical.example/13e7752bcb4a
+ct_460bf6d3d8,Clinical trial for protein engineering,"Active, not recruiting",Phase 3,2021-09-03,https://clinical.example/9f68d68f3920
+ct_5897a39c2b,Clinical trial for protein engineering,Terminated,Phase 3,2022-07-20,https://clinical.example/bb2256fdf93b
+ct_850aa5f75f,Clinical trial for CAR-T manufacturing,Completed,Preclinical,2017-06-04,https://clinical.example/1b25a2615272
+ct_45c0357668,Clinical trial for mRNA therapeutics,Terminated,Phase 1,2018-09-16,https://clinical.example/77ecfd72c9b1
+ct_d9b35682d0,Clinical trial for diagnostic imaging,Completed,Phase 3,2019-09-17,https://clinical.example/66395711d0ac
+ct_6f140ee7e3,Clinical trial for mRNA therapeutics,Recruiting,Preclinical,2023-09-06,https://clinical.example/4a948ccc0c63
+ct_26638d6d15,Clinical trial for photovoltaic perovskites,"Active, not recruiting",Phase 1,2024-10-02,https://clinical.example/1ddb7a24236c
+ct_85d80a7e3e,Clinical trial for protein engineering,Recruiting,Phase 2,2020-04-24,https://clinical.example/d8ba707fdea8
+ct_b5a837aba0,Clinical trial for photovoltaic perovskites,Completed,Phase 1,2016-06-28,https://clinical.example/cf0b0f740db2
+ct_f0a78d0cec,Clinical trial for AI-driven medicinal chemistry,Terminated,Phase 1,2016-03-20,https://clinical.example/b84c0acd39ad
+ct_3ad9078a63,Clinical trial for bioreactor control,Terminated,Phase 2,2020-07-26,https://clinical.example/bb8d4cca2a2a
+ct_dd74ab9c75,Clinical trial for diagnostic imaging,Completed,Preclinical,2020-02-02,https://clinical.example/734fa6f57ae9
+ct_57ddb0835e,Clinical trial for battery chemistry,Recruiting,Phase 3,2019-02-11,https://clinical.example/ca5344560bad
+ct_c94300a55c,Clinical trial for single-cell multiomics,Recruiting,Phase 1,2017-08-02,https://clinical.example/4815354df61d
+ct_fff8b1bf28,Clinical trial for bioprinting,Completed,Phase 2,2023-06-25,https://clinical.example/580d1e97adb5
+ct_cbbcb033f1,Clinical trial for mRNA therapeutics,Recruiting,Preclinical,2022-07-04,https://clinical.example/5bc652f3b473
+ct_da76d730d6,Clinical trial for photovoltaic perovskites,Terminated,Phase 3,2018-12-17,https://clinical.example/9789d3fec759
+ct_bb77bd7306,Clinical trial for photovoltaic perovskites,"Active, not recruiting",Preclinical,2022-09-20,https://clinical.example/e6844d1fef03
+ct_9ba3be3bb3,Clinical trial for AI-driven medicinal chemistry,"Active, not recruiting",Phase 2,2016-03-27,https://clinical.example/66011654fde6
+ct_603b2e6d8e,Clinical trial for single-cell multiomics,"Active, not recruiting",Phase 3,2022-11-20,https://clinical.example/3aa8b071d4a0
+ct_4d37aa4d15,Clinical trial for microfluidics,Recruiting,Phase 3,2021-01-17,https://clinical.example/b0554900ad4c
+ct_7c01740825,Clinical trial for protein engineering,Completed,Phase 3,2022-01-20,https://clinical.example/391b5027cb07
+ct_94028200eb,Clinical trial for photovoltaic perovskites,Completed,Phase 3,2016-04-25,https://clinical.example/b3896deb3b74
+ct_b9e14fd27c,Clinical trial for bioreactor control,Recruiting,Phase 1,2023-03-31,https://clinical.example/4e281565f45a
+ct_b6a949e56f,Clinical trial for wearable health sensors,Terminated,Phase 3,2018-10-10,https://clinical.example/f147abe06f08
+ct_c47e4fcc5a,Clinical trial for graphene membranes,"Active, not recruiting",Phase 1,2024-01-28,https://clinical.example/df077821e47a
+ct_97808b6a33,Clinical trial for lab-on-a-chip,Recruiting,Phase 1,2022-04-30,https://clinical.example/452b3f24a846
+ct_9cfe89f62d,Clinical trial for CAR-T manufacturing,Completed,Phase 1,2017-07-15,https://clinical.example/e9851d0827b5
+ct_e543532790,Clinical trial for battery chemistry,"Active, not recruiting",Phase 2,2018-07-06,https://clinical.example/e25487fee0ae
+ct_179779b035,Clinical trial for battery chemistry,Terminated,Phase 3,2022-03-24,https://clinical.example/d9c35525aa2d
+ct_1e5828c093,Clinical trial for nanopore sequencing,Terminated,Phase 3,2024-03-17,https://clinical.example/7b27eda21b24
+ct_cccea39310,Clinical trial for mRNA therapeutics,Recruiting,Phase 2,2022-04-20,https://clinical.example/d90296d4036d
+ct_5a60e05a43,Clinical trial for single-cell multiomics,Completed,Phase 2,2019-05-14,https://clinical.example/3b28e0c93bbf
+ct_fa20054f8c,Clinical trial for AI-driven medicinal chemistry,"Active, not recruiting",Phase 1,2024-08-20,https://clinical.example/f4e54ff376ac
+ct_f057c220ae,Clinical trial for mRNA therapeutics,Recruiting,Phase 3,2024-09-27,https://clinical.example/8fb95d8f15d5
+ct_dc4fd0ddc0,Clinical trial for single-cell multiomics,Recruiting,Phase 1,2021-12-22,https://clinical.example/9aaf77a14e9d
+ct_49bfb1ba75,Clinical trial for biosensors,Completed,Phase 1,2024-11-20,https://clinical.example/c49858ba9b3e
+ct_e1a41fc105,Clinical trial for biosensors,"Active, not recruiting",Phase 2,2020-04-06,https://clinical.example/ce2b9e34af4b
+ct_3678bb48b4,Clinical trial for gene editing (CRISPR),Recruiting,Phase 2,2016-01-25,https://clinical.example/ca39cd2baaf8
+ct_f0683df545,Clinical trial for biosensors,"Active, not recruiting",Phase 1,2020-10-04,https://clinical.example/81c57087ac87
+ct_cb902cba6d,Clinical trial for diagnostic imaging,Terminated,Phase 2,2020-02-12,https://clinical.example/fdf8d3755c80
+ct_eed5489a53,Clinical trial for graphene membranes,Recruiting,Preclinical,2021-02-03,https://clinical.example/1e24250c7579
+ct_b36d8c45f4,Clinical trial for nanopore sequencing,Recruiting,Phase 1,2019-03-22,https://clinical.example/1068479596c8
+ct_730c0c6e03,Clinical trial for AI-driven medicinal chemistry,Terminated,Phase 3,2018-07-14,https://clinical.example/1049bbc8c77b
+ct_31b8982160,Clinical trial for CAR-T manufacturing,Completed,Phase 3,2019-11-23,https://clinical.example/73658a7588ae
+ct_f558857af2,Clinical trial for photovoltaic perovskites,"Active, not recruiting",Phase 2,2024-07-04,https://clinical.example/05529554b1f4
+ct_aa9492bf89,Clinical trial for ultrafast Li-ion charging,Terminated,Preclinical,2022-03-21,https://clinical.example/f472bab62a46
+ct_bba1abb14f,Clinical trial for bioprinting,Recruiting,Phase 3,2020-03-29,https://clinical.example/23e31a7ff863
+ct_f2c4dda598,Clinical trial for biosensors,"Active, not recruiting",Preclinical,2020-05-04,https://clinical.example/3349340ae31f
+ct_835731d788,Clinical trial for battery chemistry,Terminated,Phase 2,2021-04-28,https://clinical.example/3334aa5ff4e9
+ct_3d0068af04,Clinical trial for photovoltaic perovskites,Terminated,Phase 2,2021-08-04,https://clinical.example/81c477992c38
+ct_6c59eb6345,Clinical trial for photovoltaic perovskites,Terminated,Phase 2,2017-01-03,https://clinical.example/9d60779e0aa0
+ct_39302c0ee7,Clinical trial for graphene membranes,"Active, not recruiting",Phase 2,2023-03-01,https://clinical.example/1ed5eb8ce958
+ct_6f938436ef,Clinical trial for mRNA therapeutics,Recruiting,Phase 3,2016-01-21,https://clinical.example/66458d1419b7
+ct_688568d2aa,Clinical trial for microfluidics,"Active, not recruiting",Phase 3,2020-07-25,https://clinical.example/9ccf54548220
+ct_b6117cf73f,Clinical trial for graphene membranes,Completed,Phase 1,2017-08-02,https://clinical.example/c554ab347dfe
+ct_0aaba40f08,Clinical trial for bioprinting,Completed,Phase 2,2016-06-17,https://clinical.example/f2a6897ad625

@@ -1,0 +1,401 @@
+license_id,technology_area,licensor,licensee,year,notes
+lic_8a09f30c26,biosensors,Univ. Tech Labs,AgriCorp,2021,terminated
+lic_96a5492650,biosensors,Univ. Tech Labs,NanoTech EU,2023,terminated
+lic_44de2c9e1d,bioprinting,GlobalChem,MedDevicesLtd,2017,successful
+lic_aade835d82,CAR-T manufacturing,Univ. Tech Labs,PharmaCo,2017,successful
+lic_1551ae197d,robotic prosthetics,OmicsCore SA,BatterySolutions,2017,milestone reached
+lic_5eef458cde,wearable health sensors,OmicsCore SA,MedDevicesLtd,2015,milestone reached
+lic_5055e906bc,gene editing (CRISPR),Univ. Tech Labs,BatterySolutions,2019,milestone reached
+lic_d1f863ee1c,diagnostic imaging,MedDevice Corp,BatterySolutions,2022,successful
+lic_ac701b82fa,bioreactor control,GlobalChem,NanoTech EU,2024,successful
+lic_77cb6bf24e,AI-driven medicinal chemistry,Univ. Tech Labs,AgriCorp,2018,successful
+lic_1d0630295c,protein engineering,MedDevice Corp,BatterySolutions,2021,milestone reached
+lic_cd67c25334,bioreactor control,Univ. Tech Labs,BatterySolutions,2016,successful
+lic_e1091ba90c,ultrafast Li-ion charging,Univ. Tech Labs,BioPlatform SA,2017,ongoing
+lic_4e730d3663,CAR-T manufacturing,Univ. Tech Labs,MedDevicesLtd,2023,successful
+lic_656da52a49,wearable health sensors,OmicsCore SA,MedDevicesLtd,2024,milestone reached
+lic_c3a2be4333,mRNA therapeutics,SpinOut Biotech,BioPlatform SA,2018,successful
+lic_170da24ef6,CAR-T manufacturing,Univ. Tech Labs,MedDevicesLtd,2022,milestone reached
+lic_97b2b887e6,bioreactor control,OmicsCore SA,MedDevicesLtd,2023,ongoing
+lic_dcc9fd1e9a,bioreactor control,OmicsCore SA,AgriCorp,2022,milestone reached
+lic_ef156088f7,biosensors,Univ. Tech Labs,MedDevicesLtd,2022,successful
+lic_6847ff1fa7,lab-on-a-chip,Univ. Tech Labs,MedDevicesLtd,2017,terminated
+lic_abb0ff5302,microfluidics,SpinOut Biotech,NanoTech EU,2023,ongoing
+lic_96135271a0,AI-driven medicinal chemistry,MedDevice Corp,PharmaCo,2017,terminated
+lic_c295744ebc,ultrafast Li-ion charging,MedDevice Corp,BioPlatform SA,2021,successful
+lic_010c7f8807,microfluidics,Univ. Tech Labs,PharmaCo,2017,terminated
+lic_12f3f8ab5f,solid-state cooling,Univ. Tech Labs,NanoTech EU,2020,milestone reached
+lic_4f601977c1,diagnostic imaging,GlobalChem,MedDevicesLtd,2021,ongoing
+lic_89b9c74804,bioprinting,MedDevice Corp,NanoTech EU,2015,ongoing
+lic_746c0b082c,ultrafast Li-ion charging,OmicsCore SA,MedDevicesLtd,2017,successful
+lic_cf089a728b,protein engineering,Univ. Tech Labs,BatterySolutions,2017,terminated
+lic_a2631fe8da,wearable health sensors,GlobalChem,BatterySolutions,2022,successful
+lic_8ea7879e6f,nanopore sequencing,GlobalChem,AgriCorp,2017,milestone reached
+lic_6cf4fd9694,graphene membranes,Univ. Tech Labs,BioPlatform SA,2016,terminated
+lic_bbd501c750,bioreactor control,Univ. Tech Labs,BatterySolutions,2017,successful
+lic_9ae3199960,AI-driven medicinal chemistry,SpinOut Biotech,NanoTech EU,2018,ongoing
+lic_9724b030bd,biosensors,Univ. Tech Labs,AgriCorp,2017,milestone reached
+lic_567c9fe822,mRNA therapeutics,SpinOut Biotech,BioPlatform SA,2018,successful
+lic_7b4359a8e2,robotic prosthetics,MedDevice Corp,NanoTech EU,2019,terminated
+lic_f2db099312,mRNA therapeutics,MedDevice Corp,BatterySolutions,2018,successful
+lic_aa339d71b5,single-cell multiomics,OmicsCore SA,BioPlatform SA,2024,milestone reached
+lic_da79fe5231,diagnostic imaging,Univ. Tech Labs,MedDevicesLtd,2024,successful
+lic_7093475ed1,wearable health sensors,GlobalChem,BatterySolutions,2017,successful
+lic_7c47b8b511,CAR-T manufacturing,MedDevice Corp,MedDevicesLtd,2015,milestone reached
+lic_428f009e32,AI-driven medicinal chemistry,GlobalChem,PharmaCo,2024,ongoing
+lic_409fb23eba,ultrafast Li-ion charging,MedDevice Corp,BatterySolutions,2018,ongoing
+lic_3a83bde196,gene editing (CRISPR),Univ. Tech Labs,AgriCorp,2024,successful
+lic_59a9ae2893,gene editing (CRISPR),GlobalChem,MedDevicesLtd,2015,ongoing
+lic_c5ea8de217,battery chemistry,OmicsCore SA,AgriCorp,2021,ongoing
+lic_812493fa8e,biosensors,GlobalChem,NanoTech EU,2016,terminated
+lic_3854c57326,ultrafast Li-ion charging,MedDevice Corp,NanoTech EU,2015,terminated
+lic_49b2205b3a,biosensors,MedDevice Corp,MedDevicesLtd,2015,successful
+lic_a4ba1d711b,protein engineering,Univ. Tech Labs,BatterySolutions,2019,milestone reached
+lic_a49d5ae269,ultrafast Li-ion charging,Univ. Tech Labs,NanoTech EU,2019,terminated
+lic_c37d818551,biosensors,SpinOut Biotech,PharmaCo,2021,terminated
+lic_1cc401dfe4,battery chemistry,GlobalChem,AgriCorp,2020,terminated
+lic_cd8c44cccd,AI-driven medicinal chemistry,GlobalChem,AgriCorp,2019,milestone reached
+lic_1bdb59bc11,diagnostic imaging,MedDevice Corp,PharmaCo,2016,terminated
+lic_5baf171b11,AI-driven medicinal chemistry,OmicsCore SA,MedDevicesLtd,2018,terminated
+lic_80443928b3,AI-driven medicinal chemistry,GlobalChem,MedDevicesLtd,2015,terminated
+lic_c411233be9,mRNA therapeutics,SpinOut Biotech,MedDevicesLtd,2016,successful
+lic_1ea19550e5,robotic prosthetics,OmicsCore SA,MedDevicesLtd,2018,successful
+lic_59ed20bca2,bioprinting,OmicsCore SA,AgriCorp,2024,milestone reached
+lic_3771be76dd,diagnostic imaging,OmicsCore SA,AgriCorp,2015,ongoing
+lic_539dbf1155,single-cell multiomics,Univ. Tech Labs,PharmaCo,2024,milestone reached
+lic_3a83d2bb2c,robotic prosthetics,OmicsCore SA,BioPlatform SA,2017,terminated
+lic_00568f9570,battery chemistry,Univ. Tech Labs,BatterySolutions,2021,ongoing
+lic_1fd603c359,wearable health sensors,SpinOut Biotech,MedDevicesLtd,2024,successful
+lic_5c37600883,gene editing (CRISPR),OmicsCore SA,AgriCorp,2020,terminated
+lic_5406a66fb6,biosensors,MedDevice Corp,PharmaCo,2023,ongoing
+lic_4c6cedb0ae,single-cell multiomics,Univ. Tech Labs,MedDevicesLtd,2020,successful
+lic_c4d0e3701f,battery chemistry,MedDevice Corp,AgriCorp,2023,ongoing
+lic_29005b8f08,graphene membranes,MedDevice Corp,AgriCorp,2016,milestone reached
+lic_8901869d56,diagnostic imaging,MedDevice Corp,NanoTech EU,2017,milestone reached
+lic_194615a844,protein engineering,MedDevice Corp,MedDevicesLtd,2020,successful
+lic_17c7868926,photovoltaic perovskites,MedDevice Corp,AgriCorp,2018,terminated
+lic_8321ecce70,ultrafast Li-ion charging,Univ. Tech Labs,AgriCorp,2021,successful
+lic_9fbc43fb0a,biosensors,SpinOut Biotech,NanoTech EU,2015,milestone reached
+lic_57752ff752,CAR-T manufacturing,Univ. Tech Labs,MedDevicesLtd,2018,terminated
+lic_fd7c962b5c,bioreactor control,MedDevice Corp,PharmaCo,2022,ongoing
+lic_05ed22adf7,diagnostic imaging,SpinOut Biotech,BioPlatform SA,2023,ongoing
+lic_599e4a77ef,robotic prosthetics,OmicsCore SA,NanoTech EU,2021,successful
+lic_e34280f48c,nanopore sequencing,OmicsCore SA,MedDevicesLtd,2022,ongoing
+lic_3523c27824,AI-driven medicinal chemistry,OmicsCore SA,BatterySolutions,2023,milestone reached
+lic_531e20bbed,protein engineering,OmicsCore SA,AgriCorp,2020,successful
+lic_b052476ce7,bioprinting,Univ. Tech Labs,NanoTech EU,2023,milestone reached
+lic_396a7952a3,battery chemistry,MedDevice Corp,AgriCorp,2019,milestone reached
+lic_1b267ab1ca,gene editing (CRISPR),OmicsCore SA,NanoTech EU,2024,ongoing
+lic_742308831e,mRNA therapeutics,Univ. Tech Labs,PharmaCo,2022,terminated
+lic_c8f9b47199,lab-on-a-chip,Univ. Tech Labs,MedDevicesLtd,2016,terminated
+lic_c69eaf2c75,mRNA therapeutics,SpinOut Biotech,AgriCorp,2015,milestone reached
+lic_e259c060ab,lab-on-a-chip,OmicsCore SA,AgriCorp,2020,ongoing
+lic_305002d0fa,bioreactor control,GlobalChem,AgriCorp,2022,milestone reached
+lic_492a22f1b2,AI-driven medicinal chemistry,OmicsCore SA,BioPlatform SA,2019,milestone reached
+lic_78fa1cffe0,lab-on-a-chip,MedDevice Corp,NanoTech EU,2015,successful
+lic_f579e23239,mRNA therapeutics,SpinOut Biotech,AgriCorp,2020,terminated
+lic_01f8d56635,AI-driven medicinal chemistry,Univ. Tech Labs,BatterySolutions,2019,ongoing
+lic_3e536ea9f2,AI-driven medicinal chemistry,SpinOut Biotech,BatterySolutions,2020,ongoing
+lic_8498fc750b,microfluidics,MedDevice Corp,BioPlatform SA,2019,milestone reached
+lic_8bb7c82f22,wearable health sensors,GlobalChem,NanoTech EU,2017,milestone reached
+lic_d4fe73adba,battery chemistry,SpinOut Biotech,PharmaCo,2016,successful
+lic_3ce241cd96,nanopore sequencing,Univ. Tech Labs,PharmaCo,2019,successful
+lic_19768a92ec,single-cell multiomics,Univ. Tech Labs,AgriCorp,2015,ongoing
+lic_cf9dbeb4c9,battery chemistry,SpinOut Biotech,AgriCorp,2022,ongoing
+lic_7261b0f8e2,microfluidics,Univ. Tech Labs,BioPlatform SA,2021,ongoing
+lic_42861ef1cf,AI-driven medicinal chemistry,SpinOut Biotech,BioPlatform SA,2016,successful
+lic_03014ff450,battery chemistry,MedDevice Corp,PharmaCo,2020,terminated
+lic_8cc3360fb6,mRNA therapeutics,SpinOut Biotech,PharmaCo,2022,ongoing
+lic_e3261b25a8,graphene membranes,Univ. Tech Labs,PharmaCo,2020,ongoing
+lic_cd3f18e3fc,protein engineering,OmicsCore SA,BioPlatform SA,2017,milestone reached
+lic_dc24fc6fe1,bioprinting,Univ. Tech Labs,BioPlatform SA,2021,ongoing
+lic_888896f942,lab-on-a-chip,GlobalChem,NanoTech EU,2019,terminated
+lic_fde9012fdc,lab-on-a-chip,MedDevice Corp,PharmaCo,2024,ongoing
+lic_a41f5302be,graphene membranes,MedDevice Corp,NanoTech EU,2019,ongoing
+lic_ed8f74b52c,bioreactor control,SpinOut Biotech,MedDevicesLtd,2024,ongoing
+lic_01f8e7cdeb,microfluidics,Univ. Tech Labs,BatterySolutions,2018,successful
+lic_d86afde039,AI-driven medicinal chemistry,MedDevice Corp,BioPlatform SA,2020,ongoing
+lic_3fc28db646,bioprinting,OmicsCore SA,BatterySolutions,2016,successful
+lic_9801b0cef3,biosensors,Univ. Tech Labs,BatterySolutions,2022,terminated
+lic_284fb45b1e,bioprinting,OmicsCore SA,BatterySolutions,2024,ongoing
+lic_addebce5e1,biosensors,SpinOut Biotech,BioPlatform SA,2019,milestone reached
+lic_945f602137,robotic prosthetics,GlobalChem,PharmaCo,2021,ongoing
+lic_3714ad1f92,protein engineering,GlobalChem,NanoTech EU,2015,successful
+lic_9eeec94e5d,AI-driven medicinal chemistry,OmicsCore SA,PharmaCo,2015,terminated
+lic_5e568bb4d3,biosensors,MedDevice Corp,NanoTech EU,2020,terminated
+lic_169c2c8207,gene editing (CRISPR),SpinOut Biotech,PharmaCo,2022,milestone reached
+lic_fb6959a607,biosensors,MedDevice Corp,NanoTech EU,2017,ongoing
+lic_5998c3b035,mRNA therapeutics,Univ. Tech Labs,AgriCorp,2020,terminated
+lic_876079d0ae,photovoltaic perovskites,GlobalChem,PharmaCo,2018,terminated
+lic_f465e7fd19,gene editing (CRISPR),SpinOut Biotech,AgriCorp,2016,ongoing
+lic_022a818d00,gene editing (CRISPR),MedDevice Corp,PharmaCo,2020,ongoing
+lic_7f586c713a,diagnostic imaging,MedDevice Corp,NanoTech EU,2023,milestone reached
+lic_da6b8e5e81,protein engineering,MedDevice Corp,AgriCorp,2018,milestone reached
+lic_d964d96a19,biosensors,OmicsCore SA,BioPlatform SA,2016,successful
+lic_431b1e5388,graphene membranes,OmicsCore SA,PharmaCo,2016,milestone reached
+lic_13f7cd35e1,graphene membranes,MedDevice Corp,NanoTech EU,2019,successful
+lic_ecc489016f,wearable health sensors,Univ. Tech Labs,MedDevicesLtd,2022,successful
+lic_d634208982,diagnostic imaging,MedDevice Corp,NanoTech EU,2015,milestone reached
+lic_0722bc463d,robotic prosthetics,OmicsCore SA,PharmaCo,2019,successful
+lic_8eaaa67202,ultrafast Li-ion charging,MedDevice Corp,PharmaCo,2022,milestone reached
+lic_cf4cb8181d,microfluidics,OmicsCore SA,AgriCorp,2021,terminated
+lic_90060d13a9,nanopore sequencing,SpinOut Biotech,PharmaCo,2018,terminated
+lic_0ceb6037e7,wearable health sensors,OmicsCore SA,AgriCorp,2024,ongoing
+lic_1d1271a057,battery chemistry,MedDevice Corp,AgriCorp,2017,successful
+lic_3bf7f00dbb,lab-on-a-chip,SpinOut Biotech,AgriCorp,2017,ongoing
+lic_308e2beab2,graphene membranes,Univ. Tech Labs,PharmaCo,2022,successful
+lic_158048f64f,ultrafast Li-ion charging,OmicsCore SA,BioPlatform SA,2019,ongoing
+lic_f441855cb4,battery chemistry,SpinOut Biotech,BioPlatform SA,2016,terminated
+lic_4bc1394acb,mRNA therapeutics,SpinOut Biotech,BioPlatform SA,2020,ongoing
+lic_52128c405b,solid-state cooling,OmicsCore SA,BioPlatform SA,2018,terminated
+lic_6192be4bd8,robotic prosthetics,MedDevice Corp,BioPlatform SA,2022,terminated
+lic_7c514ac26d,graphene membranes,Univ. Tech Labs,AgriCorp,2017,successful
+lic_cd1839298e,diagnostic imaging,OmicsCore SA,MedDevicesLtd,2023,terminated
+lic_2c36a0bdc6,protein engineering,OmicsCore SA,NanoTech EU,2022,ongoing
+lic_29c1e94728,bioreactor control,MedDevice Corp,NanoTech EU,2024,milestone reached
+lic_0cdce938bd,bioprinting,Univ. Tech Labs,MedDevicesLtd,2023,ongoing
+lic_fffff26437,ultrafast Li-ion charging,GlobalChem,MedDevicesLtd,2018,ongoing
+lic_760b156a6d,diagnostic imaging,OmicsCore SA,MedDevicesLtd,2020,milestone reached
+lic_254ff23e6d,AI-driven medicinal chemistry,SpinOut Biotech,BatterySolutions,2024,successful
+lic_e9ee8e12eb,photovoltaic perovskites,GlobalChem,PharmaCo,2021,successful
+lic_27ceb9e994,bioreactor control,MedDevice Corp,BioPlatform SA,2018,milestone reached
+lic_1bd0005fd6,protein engineering,Univ. Tech Labs,BatterySolutions,2015,terminated
+lic_8157b2a021,CAR-T manufacturing,GlobalChem,AgriCorp,2021,successful
+lic_7b0d34940c,CAR-T manufacturing,GlobalChem,BioPlatform SA,2019,successful
+lic_a0a2810e87,solid-state cooling,Univ. Tech Labs,PharmaCo,2021,terminated
+lic_ce53609d01,mRNA therapeutics,SpinOut Biotech,BatterySolutions,2021,successful
+lic_c83d0757e0,biosensors,GlobalChem,BioPlatform SA,2023,milestone reached
+lic_508ac081c4,lab-on-a-chip,Univ. Tech Labs,AgriCorp,2023,milestone reached
+lic_665b2568af,single-cell multiomics,OmicsCore SA,BatterySolutions,2021,milestone reached
+lic_b1465ef82b,bioprinting,SpinOut Biotech,MedDevicesLtd,2020,successful
+lic_96dc03d512,ultrafast Li-ion charging,GlobalChem,MedDevicesLtd,2022,ongoing
+lic_d7ad3921c7,wearable health sensors,OmicsCore SA,PharmaCo,2024,terminated
+lic_74d2b2f7dc,single-cell multiomics,Univ. Tech Labs,NanoTech EU,2019,terminated
+lic_3f3d15ab48,ultrafast Li-ion charging,Univ. Tech Labs,AgriCorp,2020,ongoing
+lic_4c1390e92a,protein engineering,Univ. Tech Labs,AgriCorp,2022,terminated
+lic_3e034aae85,diagnostic imaging,OmicsCore SA,BioPlatform SA,2015,successful
+lic_f570162fed,AI-driven medicinal chemistry,GlobalChem,BioPlatform SA,2024,ongoing
+lic_8c03af38dd,protein engineering,MedDevice Corp,NanoTech EU,2023,terminated
+lic_cadf56204a,lab-on-a-chip,GlobalChem,NanoTech EU,2020,successful
+lic_c4f030dfcc,solid-state cooling,SpinOut Biotech,AgriCorp,2021,milestone reached
+lic_04255f0f61,graphene membranes,MedDevice Corp,BioPlatform SA,2023,ongoing
+lic_a7aa03ea8d,nanopore sequencing,GlobalChem,MedDevicesLtd,2022,successful
+lic_3962b6849c,biosensors,OmicsCore SA,PharmaCo,2016,terminated
+lic_a8e3f1928d,mRNA therapeutics,MedDevice Corp,NanoTech EU,2015,terminated
+lic_5e05f2d694,battery chemistry,Univ. Tech Labs,BioPlatform SA,2024,milestone reached
+lic_e6052817ff,ultrafast Li-ion charging,MedDevice Corp,PharmaCo,2023,terminated
+lic_f39b8e5c26,AI-driven medicinal chemistry,Univ. Tech Labs,MedDevicesLtd,2017,successful
+lic_665cd43384,single-cell multiomics,OmicsCore SA,AgriCorp,2018,milestone reached
+lic_581ec2a596,single-cell multiomics,GlobalChem,BioPlatform SA,2017,milestone reached
+lic_f042438108,diagnostic imaging,GlobalChem,BatterySolutions,2020,successful
+lic_e699359f8e,solid-state cooling,GlobalChem,AgriCorp,2022,terminated
+lic_f774df6fac,nanopore sequencing,Univ. Tech Labs,MedDevicesLtd,2015,ongoing
+lic_e051409172,protein engineering,MedDevice Corp,NanoTech EU,2015,milestone reached
+lic_2747d45daf,nanopore sequencing,GlobalChem,BioPlatform SA,2023,milestone reached
+lic_c26761b0c3,lab-on-a-chip,OmicsCore SA,BioPlatform SA,2015,milestone reached
+lic_b13bbd617d,gene editing (CRISPR),SpinOut Biotech,PharmaCo,2016,ongoing
+lic_a5c587ab21,AI-driven medicinal chemistry,GlobalChem,PharmaCo,2023,ongoing
+lic_5a151a8eb3,protein engineering,SpinOut Biotech,AgriCorp,2017,ongoing
+lic_d440b8734c,ultrafast Li-ion charging,GlobalChem,BioPlatform SA,2021,terminated
+lic_fabb756133,ultrafast Li-ion charging,MedDevice Corp,MedDevicesLtd,2022,milestone reached
+lic_bfdd520894,robotic prosthetics,Univ. Tech Labs,BatterySolutions,2024,terminated
+lic_133e329f31,diagnostic imaging,GlobalChem,MedDevicesLtd,2022,successful
+lic_cf6386533e,AI-driven medicinal chemistry,GlobalChem,BatterySolutions,2021,terminated
+lic_fe71face3d,microfluidics,MedDevice Corp,BioPlatform SA,2015,milestone reached
+lic_d678e1f5d9,photovoltaic perovskites,MedDevice Corp,BatterySolutions,2017,milestone reached
+lic_dc603b73a1,solid-state cooling,SpinOut Biotech,NanoTech EU,2020,terminated
+lic_6750e72834,microfluidics,GlobalChem,PharmaCo,2017,successful
+lic_1156d52ef5,gene editing (CRISPR),OmicsCore SA,BatterySolutions,2022,milestone reached
+lic_3a28821402,wearable health sensors,MedDevice Corp,PharmaCo,2020,terminated
+lic_db0dd86d1e,diagnostic imaging,SpinOut Biotech,MedDevicesLtd,2024,successful
+lic_cb53d997da,bioprinting,MedDevice Corp,PharmaCo,2022,terminated
+lic_d906807509,CAR-T manufacturing,OmicsCore SA,NanoTech EU,2023,milestone reached
+lic_47da099a0d,gene editing (CRISPR),MedDevice Corp,MedDevicesLtd,2022,milestone reached
+lic_e259719fe1,bioreactor control,MedDevice Corp,BatterySolutions,2023,milestone reached
+lic_700377bd3b,graphene membranes,OmicsCore SA,BioPlatform SA,2016,milestone reached
+lic_ec2d6b1e94,ultrafast Li-ion charging,SpinOut Biotech,MedDevicesLtd,2015,ongoing
+lic_771d82503d,diagnostic imaging,SpinOut Biotech,PharmaCo,2024,terminated
+lic_7ff508820c,biosensors,SpinOut Biotech,AgriCorp,2019,terminated
+lic_cc5c710698,wearable health sensors,OmicsCore SA,MedDevicesLtd,2022,milestone reached
+lic_089595f317,protein engineering,Univ. Tech Labs,MedDevicesLtd,2015,successful
+lic_ef97e44108,diagnostic imaging,Univ. Tech Labs,PharmaCo,2015,terminated
+lic_7b45a174d4,solid-state cooling,MedDevice Corp,BatterySolutions,2019,terminated
+lic_573f84c525,microfluidics,SpinOut Biotech,BatterySolutions,2024,successful
+lic_3ef4ee4660,wearable health sensors,MedDevice Corp,MedDevicesLtd,2024,successful
+lic_7b3b5cfb19,graphene membranes,MedDevice Corp,BatterySolutions,2016,ongoing
+lic_40b9fed643,photovoltaic perovskites,MedDevice Corp,BatterySolutions,2024,terminated
+lic_4bb6f19376,protein engineering,SpinOut Biotech,AgriCorp,2022,terminated
+lic_a7d20a7b41,mRNA therapeutics,OmicsCore SA,NanoTech EU,2022,ongoing
+lic_c50f8907f0,gene editing (CRISPR),GlobalChem,NanoTech EU,2023,terminated
+lic_754ddc71ab,diagnostic imaging,GlobalChem,PharmaCo,2018,terminated
+lic_81c7ebede5,solid-state cooling,MedDevice Corp,BioPlatform SA,2022,successful
+lic_784a736db3,microfluidics,Univ. Tech Labs,BatterySolutions,2022,successful
+lic_c6ad736cb5,battery chemistry,SpinOut Biotech,AgriCorp,2015,successful
+lic_90e80f6ad4,microfluidics,SpinOut Biotech,BioPlatform SA,2024,terminated
+lic_cd45b8ad9a,protein engineering,Univ. Tech Labs,BioPlatform SA,2015,milestone reached
+lic_e86336d2f0,lab-on-a-chip,Univ. Tech Labs,PharmaCo,2015,successful
+lic_71c6fee211,bioprinting,GlobalChem,BatterySolutions,2024,terminated
+lic_2b7821d44f,robotic prosthetics,Univ. Tech Labs,MedDevicesLtd,2018,milestone reached
+lic_96387c7355,nanopore sequencing,GlobalChem,AgriCorp,2022,terminated
+lic_ae4484226b,diagnostic imaging,MedDevice Corp,BioPlatform SA,2019,successful
+lic_e0046fa1e3,microfluidics,MedDevice Corp,AgriCorp,2022,milestone reached
+lic_ca2b06baf0,single-cell multiomics,SpinOut Biotech,PharmaCo,2016,ongoing
+lic_4752280a8e,wearable health sensors,GlobalChem,PharmaCo,2023,milestone reached
+lic_8f0e7b46b6,solid-state cooling,MedDevice Corp,BioPlatform SA,2017,ongoing
+lic_a906a7d962,biosensors,GlobalChem,BioPlatform SA,2018,terminated
+lic_667630be5f,solid-state cooling,OmicsCore SA,NanoTech EU,2022,terminated
+lic_0b166f51b1,nanopore sequencing,MedDevice Corp,PharmaCo,2021,successful
+lic_192fae3914,lab-on-a-chip,OmicsCore SA,BioPlatform SA,2019,milestone reached
+lic_838cbc9e47,protein engineering,MedDevice Corp,BioPlatform SA,2024,milestone reached
+lic_ddf8679c83,solid-state cooling,MedDevice Corp,PharmaCo,2015,successful
+lic_74064ad566,protein engineering,OmicsCore SA,MedDevicesLtd,2017,ongoing
+lic_b014d01a92,battery chemistry,Univ. Tech Labs,MedDevicesLtd,2015,ongoing
+lic_e381d2f432,battery chemistry,GlobalChem,MedDevicesLtd,2020,successful
+lic_33a43cdaa6,mRNA therapeutics,SpinOut Biotech,BioPlatform SA,2018,ongoing
+lic_c1e7f53179,photovoltaic perovskites,Univ. Tech Labs,AgriCorp,2023,ongoing
+lic_6413931c5e,solid-state cooling,Univ. Tech Labs,NanoTech EU,2023,terminated
+lic_2c9d927cb2,lab-on-a-chip,SpinOut Biotech,BioPlatform SA,2015,ongoing
+lic_21346ea6b0,CAR-T manufacturing,OmicsCore SA,PharmaCo,2019,successful
+lic_e69b957d9c,bioprinting,MedDevice Corp,MedDevicesLtd,2015,milestone reached
+lic_a99c3ae09c,photovoltaic perovskites,OmicsCore SA,MedDevicesLtd,2021,successful
+lic_e2dcb0ecce,microfluidics,SpinOut Biotech,AgriCorp,2020,successful
+lic_faef2207b6,mRNA therapeutics,Univ. Tech Labs,BioPlatform SA,2016,ongoing
+lic_5f8469972d,single-cell multiomics,Univ. Tech Labs,AgriCorp,2024,milestone reached
+lic_75d6343079,wearable health sensors,GlobalChem,NanoTech EU,2024,ongoing
+lic_394ca7dc67,protein engineering,OmicsCore SA,NanoTech EU,2020,terminated
+lic_8a27ff1261,gene editing (CRISPR),Univ. Tech Labs,BatterySolutions,2018,successful
+lic_7a162135b7,AI-driven medicinal chemistry,SpinOut Biotech,BatterySolutions,2015,milestone reached
+lic_1c45c4ec70,mRNA therapeutics,GlobalChem,NanoTech EU,2015,ongoing
+lic_dfbe83f6b5,bioreactor control,OmicsCore SA,BatterySolutions,2024,successful
+lic_733481f666,bioreactor control,GlobalChem,BatterySolutions,2016,ongoing
+lic_a1ac896d89,diagnostic imaging,SpinOut Biotech,BioPlatform SA,2015,milestone reached
+lic_ddb8912b78,AI-driven medicinal chemistry,SpinOut Biotech,BatterySolutions,2020,ongoing
+lic_ff08de7f7f,ultrafast Li-ion charging,SpinOut Biotech,PharmaCo,2015,successful
+lic_9d3070448b,single-cell multiomics,OmicsCore SA,MedDevicesLtd,2020,terminated
+lic_377411b8f0,CAR-T manufacturing,OmicsCore SA,AgriCorp,2021,terminated
+lic_044366aedc,nanopore sequencing,MedDevice Corp,AgriCorp,2017,ongoing
+lic_83a8de0151,robotic prosthetics,Univ. Tech Labs,AgriCorp,2018,ongoing
+lic_05f5a9d708,AI-driven medicinal chemistry,Univ. Tech Labs,NanoTech EU,2018,ongoing
+lic_899a6c75ca,wearable health sensors,OmicsCore SA,BatterySolutions,2021,terminated
+lic_e986293dcc,mRNA therapeutics,MedDevice Corp,PharmaCo,2024,milestone reached
+lic_d2c806d67c,ultrafast Li-ion charging,MedDevice Corp,BatterySolutions,2017,milestone reached
+lic_e72c6837ec,wearable health sensors,OmicsCore SA,PharmaCo,2015,successful
+lic_dfae6bbfe5,robotic prosthetics,GlobalChem,MedDevicesLtd,2021,milestone reached
+lic_63e56110f4,lab-on-a-chip,SpinOut Biotech,NanoTech EU,2024,ongoing
+lic_57f919ba76,battery chemistry,Univ. Tech Labs,BioPlatform SA,2024,milestone reached
+lic_aa1e473b7b,wearable health sensors,SpinOut Biotech,PharmaCo,2021,terminated
+lic_09197b05a6,ultrafast Li-ion charging,MedDevice Corp,MedDevicesLtd,2024,milestone reached
+lic_7648b1ec7e,single-cell multiomics,Univ. Tech Labs,BatterySolutions,2020,ongoing
+lic_4f98e124fa,protein engineering,GlobalChem,BioPlatform SA,2023,milestone reached
+lic_756ed89b2c,battery chemistry,GlobalChem,AgriCorp,2022,terminated
+lic_15b3b6e74d,CAR-T manufacturing,SpinOut Biotech,MedDevicesLtd,2021,successful
+lic_9f2877ae8c,bioprinting,Univ. Tech Labs,NanoTech EU,2019,successful
+lic_91f72dadec,lab-on-a-chip,OmicsCore SA,BatterySolutions,2019,ongoing
+lic_5a7f8c5497,diagnostic imaging,GlobalChem,PharmaCo,2023,successful
+lic_3ac5f060ee,ultrafast Li-ion charging,GlobalChem,BioPlatform SA,2017,terminated
+lic_6f5fe6ac57,photovoltaic perovskites,GlobalChem,MedDevicesLtd,2020,successful
+lic_82c706cd41,ultrafast Li-ion charging,MedDevice Corp,PharmaCo,2022,ongoing
+lic_2ca12eadd3,solid-state cooling,Univ. Tech Labs,NanoTech EU,2015,milestone reached
+lic_425e64fd9d,single-cell multiomics,GlobalChem,MedDevicesLtd,2021,successful
+lic_0f71be0491,wearable health sensors,OmicsCore SA,BioPlatform SA,2023,milestone reached
+lic_87de09cd61,CAR-T manufacturing,Univ. Tech Labs,MedDevicesLtd,2020,milestone reached
+lic_f358054ffe,single-cell multiomics,GlobalChem,BioPlatform SA,2019,terminated
+lic_c59a17e03b,ultrafast Li-ion charging,OmicsCore SA,NanoTech EU,2020,milestone reached
+lic_25a32d7054,AI-driven medicinal chemistry,SpinOut Biotech,MedDevicesLtd,2015,ongoing
+lic_47dc74000d,CAR-T manufacturing,OmicsCore SA,AgriCorp,2017,milestone reached
+lic_7842d9b2d7,solid-state cooling,SpinOut Biotech,BioPlatform SA,2017,ongoing
+lic_4101727d82,AI-driven medicinal chemistry,OmicsCore SA,MedDevicesLtd,2015,ongoing
+lic_43b9e7acb6,ultrafast Li-ion charging,MedDevice Corp,NanoTech EU,2021,successful
+lic_18616e313e,single-cell multiomics,MedDevice Corp,PharmaCo,2023,successful
+lic_bb533e7bd3,battery chemistry,Univ. Tech Labs,AgriCorp,2021,ongoing
+lic_d1b9d8cc5f,solid-state cooling,SpinOut Biotech,MedDevicesLtd,2019,milestone reached
+lic_72663ac2ce,mRNA therapeutics,SpinOut Biotech,BioPlatform SA,2019,successful
+lic_ef2c740964,bioprinting,GlobalChem,AgriCorp,2022,milestone reached
+lic_d767381b34,photovoltaic perovskites,MedDevice Corp,PharmaCo,2018,ongoing
+lic_e2760d2ef3,bioreactor control,GlobalChem,AgriCorp,2015,terminated
+lic_565ee1f494,battery chemistry,Univ. Tech Labs,AgriCorp,2021,milestone reached
+lic_bc120ae900,photovoltaic perovskites,GlobalChem,PharmaCo,2024,successful
+lic_ccb18d1058,nanopore sequencing,OmicsCore SA,BioPlatform SA,2019,milestone reached
+lic_2ff24c948e,diagnostic imaging,MedDevice Corp,BatterySolutions,2023,terminated
+lic_be027da800,ultrafast Li-ion charging,MedDevice Corp,PharmaCo,2017,terminated
+lic_85311c0e44,biosensors,OmicsCore SA,MedDevicesLtd,2024,ongoing
+lic_6bebf5ee1f,bioreactor control,GlobalChem,BatterySolutions,2024,terminated
+lic_9a16dfe098,nanopore sequencing,SpinOut Biotech,PharmaCo,2019,milestone reached
+lic_80ea36c163,battery chemistry,OmicsCore SA,PharmaCo,2024,ongoing
+lic_5bb84992df,robotic prosthetics,SpinOut Biotech,NanoTech EU,2021,milestone reached
+lic_0eae7c13b0,CAR-T manufacturing,Univ. Tech Labs,BioPlatform SA,2016,terminated
+lic_a1d054dbd1,ultrafast Li-ion charging,SpinOut Biotech,PharmaCo,2016,milestone reached
+lic_8aa850b3d6,diagnostic imaging,SpinOut Biotech,MedDevicesLtd,2021,terminated
+lic_4800c5977b,robotic prosthetics,SpinOut Biotech,PharmaCo,2019,ongoing
+lic_499e19d863,mRNA therapeutics,OmicsCore SA,NanoTech EU,2017,ongoing
+lic_59324b918c,gene editing (CRISPR),MedDevice Corp,AgriCorp,2022,ongoing
+lic_862b2439bd,gene editing (CRISPR),MedDevice Corp,PharmaCo,2023,successful
+lic_cad4790713,gene editing (CRISPR),SpinOut Biotech,BioPlatform SA,2024,terminated
+lic_8ad058ac3f,battery chemistry,GlobalChem,BatterySolutions,2015,ongoing
+lic_1c632d4165,protein engineering,MedDevice Corp,PharmaCo,2019,ongoing
+lic_ca40180970,bioprinting,MedDevice Corp,NanoTech EU,2022,successful
+lic_e9c58f938d,bioreactor control,GlobalChem,PharmaCo,2020,ongoing
+lic_ef528c1c6a,protein engineering,OmicsCore SA,NanoTech EU,2022,successful
+lic_325cbdef7c,wearable health sensors,Univ. Tech Labs,MedDevicesLtd,2016,terminated
+lic_0b34c2da69,robotic prosthetics,GlobalChem,NanoTech EU,2018,successful
+lic_5a64b3d670,single-cell multiomics,MedDevice Corp,MedDevicesLtd,2017,ongoing
+lic_5433544ab9,gene editing (CRISPR),Univ. Tech Labs,BioPlatform SA,2018,ongoing
+lic_e067a21971,photovoltaic perovskites,OmicsCore SA,NanoTech EU,2020,ongoing
+lic_282584b0ee,wearable health sensors,OmicsCore SA,AgriCorp,2015,successful
+lic_1e3c74d9ba,protein engineering,OmicsCore SA,AgriCorp,2019,ongoing
+lic_8a8224d625,biosensors,GlobalChem,NanoTech EU,2021,terminated
+lic_6923fbff07,AI-driven medicinal chemistry,Univ. Tech Labs,BioPlatform SA,2024,terminated
+lic_c6772a20b5,robotic prosthetics,OmicsCore SA,PharmaCo,2023,milestone reached
+lic_c861d927e6,bioprinting,MedDevice Corp,AgriCorp,2016,ongoing
+lic_4713f2168d,microfluidics,OmicsCore SA,BatterySolutions,2016,milestone reached
+lic_8aed9459c5,lab-on-a-chip,MedDevice Corp,AgriCorp,2018,successful
+lic_ffc2f2afa6,photovoltaic perovskites,OmicsCore SA,AgriCorp,2021,milestone reached
+lic_61676052fd,ultrafast Li-ion charging,OmicsCore SA,AgriCorp,2022,successful
+lic_f109bef16a,biosensors,OmicsCore SA,AgriCorp,2023,ongoing
+lic_151b1aa6ca,graphene membranes,MedDevice Corp,AgriCorp,2015,successful
+lic_bc53ccf367,single-cell multiomics,SpinOut Biotech,BatterySolutions,2020,milestone reached
+lic_1136de8c70,lab-on-a-chip,OmicsCore SA,PharmaCo,2023,terminated
+lic_8b240f267d,photovoltaic perovskites,SpinOut Biotech,BatterySolutions,2016,successful
+lic_d0d005933d,AI-driven medicinal chemistry,OmicsCore SA,BatterySolutions,2022,successful
+lic_f76f4b9f4e,diagnostic imaging,GlobalChem,NanoTech EU,2021,milestone reached
+lic_85b083ae03,gene editing (CRISPR),GlobalChem,BioPlatform SA,2020,milestone reached
+lic_5a12f6cb01,microfluidics,Univ. Tech Labs,NanoTech EU,2017,milestone reached
+lic_d0ac3d0390,nanopore sequencing,MedDevice Corp,PharmaCo,2015,successful
+lic_faf3f69cff,nanopore sequencing,Univ. Tech Labs,NanoTech EU,2022,ongoing
+lic_5c43e6861b,graphene membranes,SpinOut Biotech,PharmaCo,2018,successful
+lic_f73b26bb9b,microfluidics,GlobalChem,PharmaCo,2017,milestone reached
+lic_0aaa15f2c0,protein engineering,Univ. Tech Labs,BatterySolutions,2024,successful
+lic_7433194fec,single-cell multiomics,MedDevice Corp,BatterySolutions,2020,successful
+lic_c7ae607389,lab-on-a-chip,MedDevice Corp,PharmaCo,2022,successful
+lic_7d611d39b2,protein engineering,Univ. Tech Labs,AgriCorp,2022,ongoing
+lic_8a94342019,bioprinting,MedDevice Corp,PharmaCo,2017,milestone reached
+lic_f1395f5d41,photovoltaic perovskites,OmicsCore SA,BioPlatform SA,2022,terminated
+lic_f0cd95b619,robotic prosthetics,Univ. Tech Labs,AgriCorp,2019,terminated
+lic_8446f3bca7,battery chemistry,SpinOut Biotech,NanoTech EU,2018,terminated
+lic_0a59fa8e87,single-cell multiomics,GlobalChem,AgriCorp,2015,terminated
+lic_f0e4c2d3a2,mRNA therapeutics,GlobalChem,PharmaCo,2017,successful
+lic_d33b1db99b,microfluidics,GlobalChem,AgriCorp,2017,ongoing
+lic_811dc340e7,single-cell multiomics,Univ. Tech Labs,NanoTech EU,2015,milestone reached
+lic_85d7fe4d5b,gene editing (CRISPR),GlobalChem,AgriCorp,2022,ongoing
+lic_7b070c57cc,single-cell multiomics,SpinOut Biotech,PharmaCo,2019,milestone reached
+lic_9e9ad87d18,battery chemistry,OmicsCore SA,BatterySolutions,2020,milestone reached
+lic_b9f9adb0f7,wearable health sensors,SpinOut Biotech,MedDevicesLtd,2024,ongoing
+lic_90861ae1c2,wearable health sensors,OmicsCore SA,BioPlatform SA,2016,ongoing
+lic_35423eb924,lab-on-a-chip,Univ. Tech Labs,BatterySolutions,2018,successful
+lic_554804f30f,CAR-T manufacturing,SpinOut Biotech,PharmaCo,2024,ongoing
+lic_d2ecb2df3c,bioprinting,Univ. Tech Labs,BatterySolutions,2024,milestone reached
+lic_7fe8c54225,microfluidics,GlobalChem,MedDevicesLtd,2018,successful
+lic_6df9642166,ultrafast Li-ion charging,SpinOut Biotech,NanoTech EU,2015,successful
+lic_0098adcc39,lab-on-a-chip,OmicsCore SA,MedDevicesLtd,2023,milestone reached
+lic_70c4293433,AI-driven medicinal chemistry,OmicsCore SA,BioPlatform SA,2024,milestone reached
+lic_884a1b2598,biosensors,GlobalChem,PharmaCo,2017,milestone reached
+lic_27d314a0d7,lab-on-a-chip,GlobalChem,BatterySolutions,2020,ongoing
+lic_e2ad3f99c3,single-cell multiomics,SpinOut Biotech,BatterySolutions,2022,milestone reached
+lic_e218ee386f,bioreactor control,GlobalChem,AgriCorp,2018,ongoing
+lic_c571a17f6e,solid-state cooling,MedDevice Corp,BatterySolutions,2021,milestone reached
+lic_cf0386f266,protein engineering,Univ. Tech Labs,AgriCorp,2015,terminated
+lic_c8cc651b89,microfluidics,MedDevice Corp,BioPlatform SA,2021,terminated
+lic_a8c3bfd299,lab-on-a-chip,GlobalChem,NanoTech EU,2021,ongoing
+lic_f3d429cfdb,lab-on-a-chip,SpinOut Biotech,NanoTech EU,2021,successful
+lic_35b5187816,CAR-T manufacturing,Univ. Tech Labs,NanoTech EU,2022,milestone reached
+lic_c1608b0304,single-cell multiomics,Univ. Tech Labs,BioPlatform SA,2022,terminated

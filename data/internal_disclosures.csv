@@ -1,0 +1,601 @@
+disclosure_id,title,summary,inventors,date
+disc_2629a7e0dc,Invention disclosure — protein engineering,Describes novel assay for diagnostics.,"[""Inventor 548"", ""Inventor 359""]",2025-07-12
+disc_bb443a779d,Invention disclosure — nanopore sequencing,Describes device prototype for manufacturing.,"[""Inventor 325""]",2020-01-07
+disc_e7fe34b11c,Invention disclosure — bioreactor control,Describes device prototype for diagnostics.,"[""Inventor 159""]",2020-03-30
+disc_6e1434a6b3,Invention disclosure — nanopore sequencing,Describes novel assay for diagnostics.,"[""Inventor 113"", ""Inventor 109"", ""Inventor 600""]",2025-07-11
+disc_61d6b78f4c,Invention disclosure — microfluidics,Describes software pipeline for biofabrication.,"[""Inventor 297"", ""Inventor 63"", ""Inventor 509""]",2023-10-31
+disc_7cf0507073,Invention disclosure — nanopore sequencing,Describes novel assay for drug discovery.,"[""Inventor 244"", ""Inventor 131""]",2024-06-03
+disc_c62522df7b,Invention disclosure — battery chemistry,Describes device prototype for drug discovery.,"[""Inventor 339"", ""Inventor 243"", ""Inventor 80""]",2023-04-15
+disc_382df99648,Invention disclosure — mRNA therapeutics,Describes novel assay for biofabrication.,"[""Inventor 206""]",2020-08-31
+disc_523ec30d66,Invention disclosure — bioreactor control,Describes device prototype for drug discovery.,"[""Inventor 104""]",2019-06-19
+disc_6594af0731,Invention disclosure — protein engineering,Describes software pipeline for diagnostics.,"[""Inventor 6"", ""Inventor 546"", ""Inventor 308""]",2023-09-29
+disc_fd793fec73,Invention disclosure — wearable health sensors,Describes software pipeline for manufacturing.,"[""Inventor 527"", ""Inventor 297""]",2022-07-27
+disc_2263d0bfdd,Invention disclosure — lab-on-a-chip,Describes novel assay for drug discovery.,"[""Inventor 99"", ""Inventor 188""]",2022-12-23
+disc_c1c44d3768,Invention disclosure — battery chemistry,Describes novel assay for drug discovery.,"[""Inventor 484"", ""Inventor 149"", ""Inventor 269""]",2024-12-12
+disc_a815dd4dd2,Invention disclosure — graphene membranes,Describes novel assay for drug discovery.,"[""Inventor 279"", ""Inventor 37""]",2021-02-14
+disc_66c77c3498,Invention disclosure — graphene membranes,Describes novel assay for manufacturing.,"[""Inventor 453"", ""Inventor 52""]",2021-06-07
+disc_7d123993c0,Invention disclosure — nanopore sequencing,Describes novel assay for drug discovery.,"[""Inventor 386""]",2019-03-16
+disc_f5081583a4,Invention disclosure — biosensors,Describes device prototype for manufacturing.,"[""Inventor 204"", ""Inventor 282"", ""Inventor 240""]",2020-05-18
+disc_963647f1df,Invention disclosure — lab-on-a-chip,Describes software pipeline for drug discovery.,"[""Inventor 349"", ""Inventor 126"", ""Inventor 175""]",2023-01-06
+disc_60563e6e50,Invention disclosure — photovoltaic perovskites,Describes novel assay for biofabrication.,"[""Inventor 395""]",2025-03-21
+disc_fa03c93695,Invention disclosure — protein engineering,Describes novel assay for biofabrication.,"[""Inventor 225"", ""Inventor 88"", ""Inventor 130""]",2019-03-24
+disc_25234443a8,Invention disclosure — CAR-T manufacturing,Describes software pipeline for biofabrication.,"[""Inventor 260"", ""Inventor 407"", ""Inventor 325""]",2023-01-01
+disc_4c53fed4ba,Invention disclosure — graphene membranes,Describes novel assay for biofabrication.,"[""Inventor 485"", ""Inventor 575""]",2025-01-05
+disc_03125db135,Invention disclosure — gene editing (CRISPR),Describes device prototype for manufacturing.,"[""Inventor 314""]",2024-04-29
+disc_fed03175d3,Invention disclosure — biosensors,Describes software pipeline for biofabrication.,"[""Inventor 564"", ""Inventor 313""]",2020-04-21
+disc_ae6f8c48ef,Invention disclosure — bioprinting,Describes software pipeline for manufacturing.,"[""Inventor 216"", ""Inventor 126"", ""Inventor 78""]",2025-11-09
+disc_5c4b6817f7,Invention disclosure — microfluidics,Describes software pipeline for manufacturing.,"[""Inventor 588"", ""Inventor 5""]",2025-06-12
+disc_804d00ecbb,Invention disclosure — single-cell multiomics,Describes software pipeline for biofabrication.,"[""Inventor 48"", ""Inventor 36""]",2025-01-05
+disc_695d2960c6,Invention disclosure — nanopore sequencing,Describes novel assay for diagnostics.,"[""Inventor 490""]",2024-08-31
+disc_cd764899d5,Invention disclosure — mRNA therapeutics,Describes software pipeline for drug discovery.,"[""Inventor 72""]",2020-11-23
+disc_7bf310d50c,Invention disclosure — bioreactor control,Describes device prototype for manufacturing.,"[""Inventor 494"", ""Inventor 513""]",2020-10-30
+disc_ca874f01ca,Invention disclosure — diagnostic imaging,Describes device prototype for manufacturing.,"[""Inventor 461"", ""Inventor 368""]",2020-09-05
+disc_e3038b23e8,Invention disclosure — bioreactor control,Describes software pipeline for biofabrication.,"[""Inventor 429""]",2022-07-05
+disc_77e13b57d3,Invention disclosure — solid-state cooling,Describes software pipeline for manufacturing.,"[""Inventor 502"", ""Inventor 519""]",2024-01-16
+disc_b211afd486,Invention disclosure — mRNA therapeutics,Describes software pipeline for drug discovery.,"[""Inventor 208""]",2025-10-29
+disc_8684bf693a,Invention disclosure — nanopore sequencing,Describes software pipeline for drug discovery.,"[""Inventor 408"", ""Inventor 286"", ""Inventor 128""]",2022-10-29
+disc_999c269251,Invention disclosure — gene editing (CRISPR),Describes device prototype for biofabrication.,"[""Inventor 185"", ""Inventor 258""]",2021-11-22
+disc_4453f7a6a0,Invention disclosure — ultrafast Li-ion charging,Describes device prototype for diagnostics.,"[""Inventor 172"", ""Inventor 330""]",2024-01-17
+disc_9acd8d448a,Invention disclosure — biosensors,Describes novel assay for biofabrication.,"[""Inventor 191""]",2021-09-20
+disc_c8d007de77,Invention disclosure — battery chemistry,Describes software pipeline for manufacturing.,"[""Inventor 154"", ""Inventor 171""]",2024-04-28
+disc_4d84af1d55,Invention disclosure — nanopore sequencing,Describes device prototype for biofabrication.,"[""Inventor 593"", ""Inventor 124""]",2024-12-20
+disc_9a8d56978c,Invention disclosure — bioreactor control,Describes device prototype for drug discovery.,"[""Inventor 139""]",2025-12-27
+disc_7cd4237344,Invention disclosure — wearable health sensors,Describes software pipeline for manufacturing.,"[""Inventor 450"", ""Inventor 23"", ""Inventor 457""]",2025-09-03
+disc_b8e20be656,Invention disclosure — bioprinting,Describes device prototype for drug discovery.,"[""Inventor 116"", ""Inventor 376""]",2023-02-03
+disc_4e5218d5e3,Invention disclosure — CAR-T manufacturing,Describes device prototype for biofabrication.,"[""Inventor 356"", ""Inventor 30""]",2025-05-10
+disc_92fdbbed3c,Invention disclosure — nanopore sequencing,Describes software pipeline for drug discovery.,"[""Inventor 95"", ""Inventor 291""]",2019-12-30
+disc_49fac9cbbf,Invention disclosure — wearable health sensors,Describes software pipeline for diagnostics.,"[""Inventor 290"", ""Inventor 523""]",2020-12-25
+disc_879ba14d56,Invention disclosure — photovoltaic perovskites,Describes novel assay for manufacturing.,"[""Inventor 146"", ""Inventor 534"", ""Inventor 70""]",2019-11-10
+disc_3912256cb7,Invention disclosure — graphene membranes,Describes software pipeline for drug discovery.,"[""Inventor 107"", ""Inventor 192"", ""Inventor 337""]",2023-11-29
+disc_9cd754513b,Invention disclosure — battery chemistry,Describes novel assay for manufacturing.,"[""Inventor 369"", ""Inventor 86"", ""Inventor 350""]",2024-11-29
+disc_a78f1e496b,Invention disclosure — solid-state cooling,Describes novel assay for manufacturing.,"[""Inventor 216"", ""Inventor 153""]",2019-03-10
+disc_345bb980ef,Invention disclosure — AI-driven medicinal chemistry,Describes novel assay for diagnostics.,"[""Inventor 172"", ""Inventor 515"", ""Inventor 373""]",2019-12-21
+disc_f55b710c48,Invention disclosure — gene editing (CRISPR),Describes software pipeline for drug discovery.,"[""Inventor 307"", ""Inventor 204""]",2021-12-31
+disc_50356d1fdb,Invention disclosure — CAR-T manufacturing,Describes novel assay for biofabrication.,"[""Inventor 534"", ""Inventor 162""]",2019-12-19
+disc_95819ba228,Invention disclosure — gene editing (CRISPR),Describes software pipeline for diagnostics.,"[""Inventor 252"", ""Inventor 153""]",2023-06-05
+disc_eabe0b14fd,Invention disclosure — bioreactor control,Describes software pipeline for drug discovery.,"[""Inventor 361"", ""Inventor 301"", ""Inventor 392""]",2024-10-28
+disc_e0e1d98679,Invention disclosure — AI-driven medicinal chemistry,Describes novel assay for manufacturing.,"[""Inventor 423""]",2019-03-24
+disc_9d4675d3b1,Invention disclosure — mRNA therapeutics,Describes novel assay for biofabrication.,"[""Inventor 447"", ""Inventor 157"", ""Inventor 162""]",2020-11-30
+disc_aabe58b9c8,Invention disclosure — single-cell multiomics,Describes novel assay for biofabrication.,"[""Inventor 140""]",2021-01-02
+disc_cb8892308a,Invention disclosure — bioprinting,Describes device prototype for diagnostics.,"[""Inventor 243"", ""Inventor 600"", ""Inventor 471""]",2020-08-02
+disc_b2725e574f,Invention disclosure — biosensors,Describes novel assay for biofabrication.,"[""Inventor 158"", ""Inventor 555""]",2021-04-12
+disc_16ac110289,Invention disclosure — mRNA therapeutics,Describes device prototype for drug discovery.,"[""Inventor 236""]",2020-11-22
+disc_e911ca93b2,Invention disclosure — gene editing (CRISPR),Describes software pipeline for biofabrication.,"[""Inventor 357""]",2024-03-15
+disc_8c1862f85f,Invention disclosure — microfluidics,Describes device prototype for manufacturing.,"[""Inventor 310""]",2025-03-23
+disc_1eaab1b68a,Invention disclosure — bioreactor control,Describes device prototype for manufacturing.,"[""Inventor 182"", ""Inventor 276"", ""Inventor 111""]",2022-12-13
+disc_9c8156152c,Invention disclosure — graphene membranes,Describes software pipeline for drug discovery.,"[""Inventor 203""]",2021-09-01
+disc_54d5d01c9b,Invention disclosure — photovoltaic perovskites,Describes novel assay for biofabrication.,"[""Inventor 376"", ""Inventor 403""]",2021-05-24
+disc_ea92b13d31,Invention disclosure — solid-state cooling,Describes novel assay for drug discovery.,"[""Inventor 555"", ""Inventor 54"", ""Inventor 313""]",2022-04-24
+disc_de674cfbdf,Invention disclosure — protein engineering,Describes software pipeline for diagnostics.,"[""Inventor 464"", ""Inventor 399"", ""Inventor 47""]",2024-02-07
+disc_c841d56ca2,Invention disclosure — AI-driven medicinal chemistry,Describes software pipeline for drug discovery.,"[""Inventor 541"", ""Inventor 48""]",2019-04-28
+disc_e111163bd7,Invention disclosure — protein engineering,Describes software pipeline for manufacturing.,"[""Inventor 13"", ""Inventor 165"", ""Inventor 596""]",2020-01-12
+disc_c6458603e6,Invention disclosure — wearable health sensors,Describes novel assay for diagnostics.,"[""Inventor 167"", ""Inventor 577"", ""Inventor 377""]",2022-03-20
+disc_6b950ad658,Invention disclosure — mRNA therapeutics,Describes novel assay for diagnostics.,"[""Inventor 520"", ""Inventor 198"", ""Inventor 89""]",2021-02-26
+disc_08bacb64ea,Invention disclosure — gene editing (CRISPR),Describes novel assay for diagnostics.,"[""Inventor 132"", ""Inventor 538"", ""Inventor 346""]",2021-08-06
+disc_94d5eb7675,Invention disclosure — microfluidics,Describes novel assay for drug discovery.,"[""Inventor 531""]",2023-02-14
+disc_661e7296c4,Invention disclosure — mRNA therapeutics,Describes software pipeline for drug discovery.,"[""Inventor 256""]",2021-04-18
+disc_028f559f33,Invention disclosure — mRNA therapeutics,Describes novel assay for biofabrication.,"[""Inventor 554""]",2023-06-01
+disc_2852bc8333,Invention disclosure — diagnostic imaging,Describes device prototype for diagnostics.,"[""Inventor 266"", ""Inventor 239""]",2023-09-06
+disc_3043303928,Invention disclosure — mRNA therapeutics,Describes novel assay for diagnostics.,"[""Inventor 472""]",2023-05-26
+disc_5df3207f4b,Invention disclosure — CAR-T manufacturing,Describes software pipeline for biofabrication.,"[""Inventor 402"", ""Inventor 257""]",2020-08-28
+disc_7f7beadf2a,Invention disclosure — ultrafast Li-ion charging,Describes software pipeline for drug discovery.,"[""Inventor 127""]",2019-01-01
+disc_abba8ffb86,Invention disclosure — protein engineering,Describes software pipeline for diagnostics.,"[""Inventor 98""]",2020-02-08
+disc_d439899f8a,Invention disclosure — robotic prosthetics,Describes software pipeline for drug discovery.,"[""Inventor 150""]",2019-05-08
+disc_bac8e88ba1,Invention disclosure — bioprinting,Describes software pipeline for manufacturing.,"[""Inventor 102""]",2025-09-05
+disc_8d4835b2ef,Invention disclosure — lab-on-a-chip,Describes device prototype for drug discovery.,"[""Inventor 512"", ""Inventor 195"", ""Inventor 179""]",2025-02-16
+disc_2d60142c56,Invention disclosure — microfluidics,Describes software pipeline for manufacturing.,"[""Inventor 593"", ""Inventor 101"", ""Inventor 540""]",2024-05-15
+disc_3910b29d7f,Invention disclosure — robotic prosthetics,Describes novel assay for manufacturing.,"[""Inventor 341"", ""Inventor 400"", ""Inventor 36""]",2023-03-10
+disc_f7258ed6cc,Invention disclosure — mRNA therapeutics,Describes novel assay for diagnostics.,"[""Inventor 85"", ""Inventor 490"", ""Inventor 220""]",2021-02-27
+disc_27240bc98f,Invention disclosure — ultrafast Li-ion charging,Describes software pipeline for diagnostics.,"[""Inventor 366""]",2024-07-14
+disc_468a7bd063,Invention disclosure — bioreactor control,Describes novel assay for manufacturing.,"[""Inventor 131"", ""Inventor 317"", ""Inventor 118""]",2020-03-23
+disc_5f520095b7,Invention disclosure — AI-driven medicinal chemistry,Describes software pipeline for drug discovery.,"[""Inventor 591"", ""Inventor 446""]",2023-09-14
+disc_703021e178,Invention disclosure — biosensors,Describes device prototype for diagnostics.,"[""Inventor 93"", ""Inventor 291""]",2025-02-25
+disc_c6ffe92f2c,Invention disclosure — solid-state cooling,Describes device prototype for biofabrication.,"[""Inventor 76"", ""Inventor 413"", ""Inventor 160""]",2022-09-29
+disc_cf4346a8e6,Invention disclosure — battery chemistry,Describes software pipeline for drug discovery.,"[""Inventor 520"", ""Inventor 273""]",2025-07-18
+disc_ee2f4d3953,Invention disclosure — biosensors,Describes novel assay for drug discovery.,"[""Inventor 18"", ""Inventor 158"", ""Inventor 542""]",2020-06-30
+disc_ca503605a1,Invention disclosure — wearable health sensors,Describes novel assay for diagnostics.,"[""Inventor 387""]",2023-02-13
+disc_af1c1e8ef2,Invention disclosure — protein engineering,Describes software pipeline for diagnostics.,"[""Inventor 154"", ""Inventor 511""]",2025-04-18
+disc_bf0c485bda,Invention disclosure — graphene membranes,Describes software pipeline for biofabrication.,"[""Inventor 340""]",2023-04-22
+disc_e2aab99b7e,Invention disclosure — wearable health sensors,Describes software pipeline for manufacturing.,"[""Inventor 71"", ""Inventor 278"", ""Inventor 462""]",2024-06-29
+disc_0a2b6bfc8a,Invention disclosure — graphene membranes,Describes device prototype for manufacturing.,"[""Inventor 193"", ""Inventor 474"", ""Inventor 17""]",2021-09-10
+disc_e105f76fe6,Invention disclosure — photovoltaic perovskites,Describes device prototype for biofabrication.,"[""Inventor 541""]",2021-09-13
+disc_57fa31bb92,Invention disclosure — ultrafast Li-ion charging,Describes novel assay for diagnostics.,"[""Inventor 268"", ""Inventor 383"", ""Inventor 474""]",2020-10-04
+disc_1694abf5b1,Invention disclosure — lab-on-a-chip,Describes novel assay for biofabrication.,"[""Inventor 34"", ""Inventor 315"", ""Inventor 375""]",2023-12-27
+disc_a90ce06928,Invention disclosure — graphene membranes,Describes software pipeline for biofabrication.,"[""Inventor 236"", ""Inventor 168""]",2023-01-28
+disc_bdd8a82c48,Invention disclosure — bioprinting,Describes device prototype for manufacturing.,"[""Inventor 535"", ""Inventor 411""]",2022-04-12
+disc_4b5743bbc6,Invention disclosure — mRNA therapeutics,Describes device prototype for manufacturing.,"[""Inventor 145"", ""Inventor 597"", ""Inventor 376""]",2024-10-03
+disc_f0339a1084,Invention disclosure — mRNA therapeutics,Describes novel assay for diagnostics.,"[""Inventor 581"", ""Inventor 245""]",2021-06-01
+disc_9247ebb764,Invention disclosure — robotic prosthetics,Describes software pipeline for manufacturing.,"[""Inventor 181"", ""Inventor 538""]",2019-02-06
+disc_a58bf9f800,Invention disclosure — CAR-T manufacturing,Describes software pipeline for biofabrication.,"[""Inventor 565"", ""Inventor 213"", ""Inventor 563""]",2021-03-08
+disc_c24e279993,Invention disclosure — battery chemistry,Describes novel assay for drug discovery.,"[""Inventor 121""]",2022-03-12
+disc_eed01fa9b7,Invention disclosure — nanopore sequencing,Describes software pipeline for drug discovery.,"[""Inventor 446"", ""Inventor 568""]",2022-06-16
+disc_1515056713,Invention disclosure — AI-driven medicinal chemistry,Describes device prototype for biofabrication.,"[""Inventor 515"", ""Inventor 589"", ""Inventor 335""]",2022-08-24
+disc_ec1ed1428f,Invention disclosure — CAR-T manufacturing,Describes device prototype for biofabrication.,"[""Inventor 36"", ""Inventor 49""]",2025-11-01
+disc_2b6a2546cd,Invention disclosure — single-cell multiomics,Describes software pipeline for biofabrication.,"[""Inventor 231""]",2021-01-12
+disc_dda74b843e,Invention disclosure — solid-state cooling,Describes software pipeline for biofabrication.,"[""Inventor 597""]",2025-07-26
+disc_f22508692e,Invention disclosure — wearable health sensors,Describes novel assay for manufacturing.,"[""Inventor 222""]",2022-03-04
+disc_a4413a06e6,Invention disclosure — AI-driven medicinal chemistry,Describes device prototype for biofabrication.,"[""Inventor 550""]",2019-07-10
+disc_a17c513f26,Invention disclosure — lab-on-a-chip,Describes software pipeline for diagnostics.,"[""Inventor 378"", ""Inventor 86"", ""Inventor 92""]",2019-09-30
+disc_fa1f4ebb4a,Invention disclosure — biosensors,Describes software pipeline for biofabrication.,"[""Inventor 7""]",2025-12-07
+disc_b9baa53950,Invention disclosure — gene editing (CRISPR),Describes software pipeline for manufacturing.,"[""Inventor 259"", ""Inventor 544""]",2024-04-04
+disc_b2f666f798,Invention disclosure — solid-state cooling,Describes software pipeline for manufacturing.,"[""Inventor 204"", ""Inventor 461"", ""Inventor 223""]",2020-07-15
+disc_01d5f9710a,Invention disclosure — nanopore sequencing,Describes novel assay for drug discovery.,"[""Inventor 164"", ""Inventor 117""]",2024-08-15
+disc_91c350615b,Invention disclosure — robotic prosthetics,Describes device prototype for drug discovery.,"[""Inventor 229""]",2025-06-05
+disc_197a3d9722,Invention disclosure — mRNA therapeutics,Describes software pipeline for drug discovery.,"[""Inventor 112"", ""Inventor 220"", ""Inventor 5""]",2025-07-16
+disc_077e8d5f06,Invention disclosure — single-cell multiomics,Describes software pipeline for biofabrication.,"[""Inventor 81"", ""Inventor 226"", ""Inventor 144""]",2022-08-08
+disc_6c7cfdba64,Invention disclosure — photovoltaic perovskites,Describes software pipeline for drug discovery.,"[""Inventor 69"", ""Inventor 369""]",2025-05-03
+disc_2998ff80cf,Invention disclosure — gene editing (CRISPR),Describes novel assay for diagnostics.,"[""Inventor 79"", ""Inventor 582""]",2020-11-17
+disc_e7255968bc,Invention disclosure — graphene membranes,Describes device prototype for manufacturing.,"[""Inventor 479"", ""Inventor 594"", ""Inventor 596""]",2022-07-16
+disc_11b32668b1,Invention disclosure — microfluidics,Describes software pipeline for manufacturing.,"[""Inventor 195"", ""Inventor 94"", ""Inventor 139""]",2021-06-10
+disc_cefd645c06,Invention disclosure — robotic prosthetics,Describes software pipeline for drug discovery.,"[""Inventor 323"", ""Inventor 474""]",2019-05-21
+disc_3193f74d25,Invention disclosure — microfluidics,Describes device prototype for manufacturing.,"[""Inventor 554"", ""Inventor 284"", ""Inventor 364""]",2021-01-22
+disc_c6289bdcda,Invention disclosure — bioreactor control,Describes software pipeline for manufacturing.,"[""Inventor 446"", ""Inventor 176"", ""Inventor 491""]",2022-04-10
+disc_5cfb10dcc2,Invention disclosure — bioprinting,Describes device prototype for biofabrication.,"[""Inventor 511"", ""Inventor 345""]",2019-02-15
+disc_2304670a46,Invention disclosure — microfluidics,Describes software pipeline for drug discovery.,"[""Inventor 583""]",2023-02-25
+disc_b850507623,Invention disclosure — graphene membranes,Describes novel assay for drug discovery.,"[""Inventor 155"", ""Inventor 384""]",2019-07-17
+disc_b49e84e5a8,Invention disclosure — robotic prosthetics,Describes novel assay for diagnostics.,"[""Inventor 379"", ""Inventor 7"", ""Inventor 2""]",2025-03-06
+disc_28a22ba5be,Invention disclosure — biosensors,Describes novel assay for diagnostics.,"[""Inventor 276""]",2020-02-26
+disc_8f67f2e62f,Invention disclosure — CAR-T manufacturing,Describes software pipeline for drug discovery.,"[""Inventor 35"", ""Inventor 404"", ""Inventor 340""]",2021-02-17
+disc_4800e5e334,Invention disclosure — single-cell multiomics,Describes software pipeline for drug discovery.,"[""Inventor 175"", ""Inventor 547"", ""Inventor 185""]",2025-12-22
+disc_9b485ef80a,Invention disclosure — wearable health sensors,Describes device prototype for drug discovery.,"[""Inventor 234""]",2025-05-26
+disc_a6be75bc55,Invention disclosure — single-cell multiomics,Describes novel assay for biofabrication.,"[""Inventor 54""]",2025-04-23
+disc_22ad4ee0bd,Invention disclosure — battery chemistry,Describes software pipeline for manufacturing.,"[""Inventor 522""]",2021-11-05
+disc_e2acf0277f,Invention disclosure — bioprinting,Describes device prototype for drug discovery.,"[""Inventor 5""]",2025-01-11
+disc_bca00bd954,Invention disclosure — microfluidics,Describes device prototype for diagnostics.,"[""Inventor 370"", ""Inventor 341""]",2021-05-13
+disc_be7d1ee944,Invention disclosure — CAR-T manufacturing,Describes novel assay for manufacturing.,"[""Inventor 45"", ""Inventor 399"", ""Inventor 532""]",2023-02-10
+disc_533b3be141,Invention disclosure — bioreactor control,Describes software pipeline for biofabrication.,"[""Inventor 552""]",2024-03-25
+disc_30e63e4902,Invention disclosure — nanopore sequencing,Describes device prototype for drug discovery.,"[""Inventor 403"", ""Inventor 19""]",2025-12-08
+disc_ba72a1a55a,Invention disclosure — graphene membranes,Describes novel assay for diagnostics.,"[""Inventor 2""]",2023-01-22
+disc_e3dd32d96d,Invention disclosure — wearable health sensors,Describes software pipeline for diagnostics.,"[""Inventor 117"", ""Inventor 243"", ""Inventor 113""]",2019-11-15
+disc_373ab8e23e,Invention disclosure — nanopore sequencing,Describes device prototype for manufacturing.,"[""Inventor 223"", ""Inventor 143""]",2025-01-01
+disc_ea02176948,Invention disclosure — photovoltaic perovskites,Describes novel assay for drug discovery.,"[""Inventor 346"", ""Inventor 537"", ""Inventor 26""]",2023-03-28
+disc_255b774596,Invention disclosure — battery chemistry,Describes device prototype for drug discovery.,"[""Inventor 175"", ""Inventor 441""]",2020-04-13
+disc_30b5a5693d,Invention disclosure — diagnostic imaging,Describes software pipeline for biofabrication.,"[""Inventor 367"", ""Inventor 495""]",2024-07-24
+disc_c04cb4dff5,Invention disclosure — ultrafast Li-ion charging,Describes device prototype for biofabrication.,"[""Inventor 550"", ""Inventor 544""]",2020-10-19
+disc_18a0bf010f,Invention disclosure — battery chemistry,Describes novel assay for diagnostics.,"[""Inventor 370"", ""Inventor 116""]",2023-05-10
+disc_18da0ca5e5,Invention disclosure — battery chemistry,Describes device prototype for drug discovery.,"[""Inventor 521"", ""Inventor 176"", ""Inventor 31""]",2023-04-20
+disc_9c468f4398,Invention disclosure — gene editing (CRISPR),Describes device prototype for drug discovery.,"[""Inventor 61""]",2019-09-07
+disc_bcc2010bfc,Invention disclosure — CAR-T manufacturing,Describes software pipeline for diagnostics.,"[""Inventor 348""]",2025-01-15
+disc_511825160d,Invention disclosure — bioreactor control,Describes novel assay for manufacturing.,"[""Inventor 503""]",2019-10-04
+disc_06021922c7,Invention disclosure — bioprinting,Describes software pipeline for diagnostics.,"[""Inventor 405""]",2024-03-16
+disc_b9471025b8,Invention disclosure — bioreactor control,Describes novel assay for diagnostics.,"[""Inventor 421"", ""Inventor 23""]",2023-09-17
+disc_6ba916d33b,Invention disclosure — single-cell multiomics,Describes software pipeline for diagnostics.,"[""Inventor 227"", ""Inventor 58""]",2024-11-28
+disc_1a597ed6e7,Invention disclosure — CAR-T manufacturing,Describes device prototype for diagnostics.,"[""Inventor 465"", ""Inventor 586""]",2024-03-13
+disc_9814e501c2,Invention disclosure — battery chemistry,Describes device prototype for biofabrication.,"[""Inventor 532"", ""Inventor 206""]",2020-06-20
+disc_934fca121f,Invention disclosure — bioreactor control,Describes novel assay for biofabrication.,"[""Inventor 65"", ""Inventor 572"", ""Inventor 355""]",2019-10-19
+disc_f75eece764,Invention disclosure — solid-state cooling,Describes software pipeline for manufacturing.,"[""Inventor 508""]",2020-05-30
+disc_3ba9e91eae,Invention disclosure — wearable health sensors,Describes software pipeline for biofabrication.,"[""Inventor 504"", ""Inventor 481""]",2021-10-07
+disc_3405bdc9df,Invention disclosure — graphene membranes,Describes device prototype for manufacturing.,"[""Inventor 181""]",2021-07-16
+disc_bdc8f0d899,Invention disclosure — bioprinting,Describes novel assay for manufacturing.,"[""Inventor 7"", ""Inventor 17"", ""Inventor 202""]",2019-01-16
+disc_6e79b9a2c5,Invention disclosure — diagnostic imaging,Describes novel assay for manufacturing.,"[""Inventor 508"", ""Inventor 23"", ""Inventor 435""]",2024-12-26
+disc_8059dde760,Invention disclosure — lab-on-a-chip,Describes device prototype for manufacturing.,"[""Inventor 503""]",2019-10-10
+disc_86ef349e45,Invention disclosure — diagnostic imaging,Describes software pipeline for biofabrication.,"[""Inventor 426"", ""Inventor 543""]",2021-03-14
+disc_972cedfac9,Invention disclosure — bioprinting,Describes device prototype for manufacturing.,"[""Inventor 114"", ""Inventor 20""]",2025-05-14
+disc_bd70bb27f3,Invention disclosure — single-cell multiomics,Describes novel assay for biofabrication.,"[""Inventor 588""]",2020-03-20
+disc_683feb2cc9,Invention disclosure — nanopore sequencing,Describes device prototype for diagnostics.,"[""Inventor 317"", ""Inventor 135""]",2023-03-15
+disc_d905e40a4f,Invention disclosure — mRNA therapeutics,Describes device prototype for biofabrication.,"[""Inventor 114""]",2020-10-29
+disc_84cd11eeb6,Invention disclosure — wearable health sensors,Describes novel assay for diagnostics.,"[""Inventor 486"", ""Inventor 474""]",2025-01-03
+disc_a8fa5fbe45,Invention disclosure — diagnostic imaging,Describes novel assay for manufacturing.,"[""Inventor 427"", ""Inventor 468"", ""Inventor 218""]",2023-06-18
+disc_f3a360e413,Invention disclosure — graphene membranes,Describes novel assay for manufacturing.,"[""Inventor 210""]",2020-12-01
+disc_d8086b1eb1,Invention disclosure — AI-driven medicinal chemistry,Describes device prototype for manufacturing.,"[""Inventor 31"", ""Inventor 594"", ""Inventor 320""]",2021-11-09
+disc_804f2b0ef9,Invention disclosure — lab-on-a-chip,Describes software pipeline for biofabrication.,"[""Inventor 393"", ""Inventor 56""]",2020-07-11
+disc_ffacb89357,Invention disclosure — robotic prosthetics,Describes novel assay for biofabrication.,"[""Inventor 53""]",2022-09-07
+disc_c01c7e6a73,Invention disclosure — microfluidics,Describes device prototype for diagnostics.,"[""Inventor 591"", ""Inventor 202""]",2021-07-13
+disc_89ccff82bd,Invention disclosure — biosensors,Describes device prototype for diagnostics.,"[""Inventor 299""]",2023-11-26
+disc_6e6929f89c,Invention disclosure — graphene membranes,Describes device prototype for diagnostics.,"[""Inventor 123"", ""Inventor 435"", ""Inventor 33""]",2023-08-04
+disc_8f3cf886f5,Invention disclosure — biosensors,Describes novel assay for biofabrication.,"[""Inventor 387"", ""Inventor 545"", ""Inventor 584""]",2022-03-05
+disc_6d381751dd,Invention disclosure — bioprinting,Describes device prototype for diagnostics.,"[""Inventor 465"", ""Inventor 346""]",2023-06-17
+disc_9c7378fb30,Invention disclosure — nanopore sequencing,Describes software pipeline for diagnostics.,"[""Inventor 443"", ""Inventor 149"", ""Inventor 3""]",2021-05-22
+disc_9490839f39,Invention disclosure — robotic prosthetics,Describes software pipeline for biofabrication.,"[""Inventor 23"", ""Inventor 105""]",2024-12-05
+disc_ca33cafa7a,Invention disclosure — biosensors,Describes software pipeline for biofabrication.,"[""Inventor 361""]",2022-03-08
+disc_bcad4acefd,Invention disclosure — lab-on-a-chip,Describes software pipeline for drug discovery.,"[""Inventor 183""]",2021-05-10
+disc_be587e56ec,Invention disclosure — nanopore sequencing,Describes software pipeline for drug discovery.,"[""Inventor 105""]",2023-05-18
+disc_ccf851e105,Invention disclosure — robotic prosthetics,Describes novel assay for biofabrication.,"[""Inventor 472"", ""Inventor 561""]",2021-05-17
+disc_94db2cf018,Invention disclosure — bioreactor control,Describes novel assay for diagnostics.,"[""Inventor 301"", ""Inventor 80""]",2022-07-23
+disc_81931a388b,Invention disclosure — bioprinting,Describes novel assay for drug discovery.,"[""Inventor 23"", ""Inventor 286"", ""Inventor 227""]",2024-11-21
+disc_a15c9ba391,Invention disclosure — wearable health sensors,Describes novel assay for drug discovery.,"[""Inventor 196"", ""Inventor 281""]",2021-10-12
+disc_dc72897c5f,Invention disclosure — single-cell multiomics,Describes device prototype for biofabrication.,"[""Inventor 230"", ""Inventor 166""]",2023-05-16
+disc_e16e6bccbf,Invention disclosure — ultrafast Li-ion charging,Describes device prototype for biofabrication.,"[""Inventor 360""]",2023-12-12
+disc_0cdd57a596,Invention disclosure — battery chemistry,Describes device prototype for diagnostics.,"[""Inventor 498""]",2024-05-03
+disc_6d50e306bc,Invention disclosure — biosensors,Describes novel assay for manufacturing.,"[""Inventor 186"", ""Inventor 29"", ""Inventor 381""]",2024-06-29
+disc_2845a3e1f0,Invention disclosure — mRNA therapeutics,Describes device prototype for manufacturing.,"[""Inventor 515"", ""Inventor 289"", ""Inventor 386""]",2019-11-05
+disc_03614e220a,Invention disclosure — mRNA therapeutics,Describes device prototype for diagnostics.,"[""Inventor 240"", ""Inventor 580"", ""Inventor 219""]",2020-02-12
+disc_afa442e91a,Invention disclosure — photovoltaic perovskites,Describes software pipeline for diagnostics.,"[""Inventor 1"", ""Inventor 72"", ""Inventor 129""]",2025-01-09
+disc_0f34838d1c,Invention disclosure — single-cell multiomics,Describes software pipeline for drug discovery.,"[""Inventor 370"", ""Inventor 368""]",2022-08-10
+disc_a41c7f90ce,Invention disclosure — bioreactor control,Describes software pipeline for diagnostics.,"[""Inventor 160"", ""Inventor 414""]",2019-07-20
+disc_58cb8ce91f,Invention disclosure — biosensors,Describes device prototype for biofabrication.,"[""Inventor 306"", ""Inventor 326"", ""Inventor 114""]",2021-12-04
+disc_0012de075b,Invention disclosure — mRNA therapeutics,Describes novel assay for biofabrication.,"[""Inventor 121"", ""Inventor 452""]",2021-09-20
+disc_650e587f47,Invention disclosure — bioreactor control,Describes novel assay for manufacturing.,"[""Inventor 407"", ""Inventor 179"", ""Inventor 465""]",2019-04-06
+disc_98e218a402,Invention disclosure — AI-driven medicinal chemistry,Describes software pipeline for diagnostics.,"[""Inventor 153"", ""Inventor 419"", ""Inventor 594""]",2022-06-15
+disc_be88a85135,Invention disclosure — bioreactor control,Describes software pipeline for manufacturing.,"[""Inventor 16""]",2025-06-26
+disc_1819d61994,Invention disclosure — diagnostic imaging,Describes novel assay for manufacturing.,"[""Inventor 53"", ""Inventor 73"", ""Inventor 295""]",2020-02-11
+disc_98f59cdd38,Invention disclosure — solid-state cooling,Describes software pipeline for drug discovery.,"[""Inventor 365""]",2019-05-03
+disc_9ce48bc1df,Invention disclosure — robotic prosthetics,Describes software pipeline for biofabrication.,"[""Inventor 68""]",2022-09-28
+disc_4d13798b35,Invention disclosure — biosensors,Describes novel assay for biofabrication.,"[""Inventor 304"", ""Inventor 52"", ""Inventor 348""]",2025-10-22
+disc_e2bcb2ad73,Invention disclosure — solid-state cooling,Describes device prototype for diagnostics.,"[""Inventor 395"", ""Inventor 371"", ""Inventor 335""]",2021-02-09
+disc_be61b2e507,Invention disclosure — AI-driven medicinal chemistry,Describes novel assay for drug discovery.,"[""Inventor 119""]",2025-02-22
+disc_6a50dc8480,Invention disclosure — CAR-T manufacturing,Describes device prototype for manufacturing.,"[""Inventor 565""]",2021-08-17
+disc_3050d8206d,Invention disclosure — solid-state cooling,Describes device prototype for drug discovery.,"[""Inventor 521"", ""Inventor 127"", ""Inventor 404""]",2022-08-02
+disc_c86e267ae7,Invention disclosure — biosensors,Describes novel assay for manufacturing.,"[""Inventor 479""]",2023-01-06
+disc_fd0ae01e1f,Invention disclosure — gene editing (CRISPR),Describes novel assay for drug discovery.,"[""Inventor 410"", ""Inventor 552""]",2025-07-15
+disc_b2db8372b2,Invention disclosure — microfluidics,Describes novel assay for drug discovery.,"[""Inventor 494"", ""Inventor 509"", ""Inventor 180""]",2025-11-27
+disc_a27f5dcbcb,Invention disclosure — solid-state cooling,Describes software pipeline for drug discovery.,"[""Inventor 303""]",2022-03-11
+disc_0c194c6b54,Invention disclosure — wearable health sensors,Describes software pipeline for drug discovery.,"[""Inventor 169"", ""Inventor 213"", ""Inventor 27""]",2020-11-16
+disc_889da729a8,Invention disclosure — battery chemistry,Describes software pipeline for biofabrication.,"[""Inventor 3"", ""Inventor 357""]",2023-08-06
+disc_4688884eba,Invention disclosure — nanopore sequencing,Describes software pipeline for manufacturing.,"[""Inventor 300""]",2024-02-03
+disc_8167d31030,Invention disclosure — protein engineering,Describes software pipeline for drug discovery.,"[""Inventor 120"", ""Inventor 506"", ""Inventor 385""]",2025-08-31
+disc_bf9a010e3b,Invention disclosure — single-cell multiomics,Describes device prototype for manufacturing.,"[""Inventor 423"", ""Inventor 550""]",2019-05-07
+disc_c8ec571159,Invention disclosure — wearable health sensors,Describes novel assay for manufacturing.,"[""Inventor 257"", ""Inventor 339"", ""Inventor 8""]",2019-08-17
+disc_7262f213f1,Invention disclosure — ultrafast Li-ion charging,Describes novel assay for biofabrication.,"[""Inventor 217"", ""Inventor 191"", ""Inventor 55""]",2025-02-21
+disc_116c8f34d6,Invention disclosure — lab-on-a-chip,Describes software pipeline for biofabrication.,"[""Inventor 431"", ""Inventor 247"", ""Inventor 424""]",2023-11-26
+disc_b965e9e714,Invention disclosure — CAR-T manufacturing,Describes novel assay for biofabrication.,"[""Inventor 64"", ""Inventor 120"", ""Inventor 43""]",2024-06-08
+disc_7980c60315,Invention disclosure — microfluidics,Describes novel assay for diagnostics.,"[""Inventor 197""]",2022-03-20
+disc_fc4fce3918,Invention disclosure — ultrafast Li-ion charging,Describes device prototype for diagnostics.,"[""Inventor 195"", ""Inventor 569""]",2021-04-12
+disc_16032ef946,Invention disclosure — bioprinting,Describes novel assay for diagnostics.,"[""Inventor 158"", ""Inventor 380"", ""Inventor 167""]",2021-10-03
+disc_6551ef5c77,Invention disclosure — microfluidics,Describes software pipeline for drug discovery.,"[""Inventor 438""]",2021-08-12
+disc_616bbf6aac,Invention disclosure — bioprinting,Describes device prototype for diagnostics.,"[""Inventor 422"", ""Inventor 86"", ""Inventor 491""]",2020-11-24
+disc_b3c4bb7608,Invention disclosure — ultrafast Li-ion charging,Describes device prototype for manufacturing.,"[""Inventor 24""]",2023-10-08
+disc_270626bdc7,Invention disclosure — nanopore sequencing,Describes device prototype for drug discovery.,"[""Inventor 445""]",2024-01-11
+disc_259a6a7faa,Invention disclosure — wearable health sensors,Describes device prototype for drug discovery.,"[""Inventor 197"", ""Inventor 261"", ""Inventor 64""]",2025-06-14
+disc_09345daff1,Invention disclosure — photovoltaic perovskites,Describes device prototype for manufacturing.,"[""Inventor 214"", ""Inventor 404"", ""Inventor 54""]",2019-08-03
+disc_17da8af863,Invention disclosure — bioreactor control,Describes novel assay for drug discovery.,"[""Inventor 557"", ""Inventor 334""]",2020-02-09
+disc_502efe7ccb,Invention disclosure — bioprinting,Describes novel assay for drug discovery.,"[""Inventor 530""]",2020-07-05
+disc_628b20cca4,Invention disclosure — battery chemistry,Describes novel assay for diagnostics.,"[""Inventor 399""]",2020-06-16
+disc_e439b7345a,Invention disclosure — graphene membranes,Describes device prototype for manufacturing.,"[""Inventor 265""]",2021-09-27
+disc_4fbe9ae490,Invention disclosure — bioprinting,Describes device prototype for drug discovery.,"[""Inventor 535"", ""Inventor 307"", ""Inventor 52""]",2021-05-25
+disc_cf1422f383,Invention disclosure — protein engineering,Describes device prototype for biofabrication.,"[""Inventor 319"", ""Inventor 14""]",2019-06-09
+disc_a58c4c9ce8,Invention disclosure — biosensors,Describes novel assay for drug discovery.,"[""Inventor 508"", ""Inventor 434""]",2020-12-14
+disc_0f57a3da18,Invention disclosure — biosensors,Describes novel assay for manufacturing.,"[""Inventor 94"", ""Inventor 47"", ""Inventor 139""]",2024-01-27
+disc_7fa8e5bb79,Invention disclosure — microfluidics,Describes software pipeline for biofabrication.,"[""Inventor 417""]",2024-09-22
+disc_e04142d2e8,Invention disclosure — protein engineering,Describes device prototype for biofabrication.,"[""Inventor 234"", ""Inventor 303"", ""Inventor 50""]",2024-04-05
+disc_5f9228a50f,Invention disclosure — bioreactor control,Describes software pipeline for biofabrication.,"[""Inventor 72""]",2023-07-14
+disc_eec826c377,Invention disclosure — battery chemistry,Describes software pipeline for diagnostics.,"[""Inventor 153"", ""Inventor 184""]",2025-02-24
+disc_5c122f3480,Invention disclosure — gene editing (CRISPR),Describes novel assay for manufacturing.,"[""Inventor 583""]",2023-02-11
+disc_06bb69170f,Invention disclosure — photovoltaic perovskites,Describes device prototype for drug discovery.,"[""Inventor 32"", ""Inventor 38""]",2024-01-31
+disc_d7098d32d6,Invention disclosure — battery chemistry,Describes software pipeline for diagnostics.,"[""Inventor 83"", ""Inventor 233"", ""Inventor 62""]",2023-07-30
+disc_e5ec4c3f68,Invention disclosure — photovoltaic perovskites,Describes device prototype for manufacturing.,"[""Inventor 597""]",2023-08-16
+disc_baada67b63,Invention disclosure — wearable health sensors,Describes device prototype for manufacturing.,"[""Inventor 181"", ""Inventor 537"", ""Inventor 107""]",2023-12-16
+disc_a7c9799c7c,Invention disclosure — gene editing (CRISPR),Describes software pipeline for diagnostics.,"[""Inventor 153"", ""Inventor 47""]",2025-08-18
+disc_326fcae200,Invention disclosure — bioreactor control,Describes device prototype for manufacturing.,"[""Inventor 481"", ""Inventor 166""]",2019-07-25
+disc_11569f95f2,Invention disclosure — bioreactor control,Describes device prototype for biofabrication.,"[""Inventor 244"", ""Inventor 530""]",2023-04-15
+disc_0fbeea65e9,Invention disclosure — nanopore sequencing,Describes software pipeline for biofabrication.,"[""Inventor 74"", ""Inventor 220"", ""Inventor 490""]",2024-03-10
+disc_b7a8aaa86c,Invention disclosure — AI-driven medicinal chemistry,Describes software pipeline for diagnostics.,"[""Inventor 372"", ""Inventor 435""]",2022-07-27
+disc_1bb95b2dd0,Invention disclosure — bioreactor control,Describes software pipeline for manufacturing.,"[""Inventor 37""]",2024-02-02
+disc_8039d00e0e,Invention disclosure — mRNA therapeutics,Describes software pipeline for diagnostics.,"[""Inventor 264"", ""Inventor 558"", ""Inventor 565""]",2020-06-15
+disc_c82d1a9019,Invention disclosure — lab-on-a-chip,Describes novel assay for manufacturing.,"[""Inventor 473"", ""Inventor 225""]",2022-10-16
+disc_0a55f7391d,Invention disclosure — gene editing (CRISPR),Describes device prototype for manufacturing.,"[""Inventor 390"", ""Inventor 373""]",2024-02-02
+disc_59e26a8a85,Invention disclosure — CAR-T manufacturing,Describes novel assay for diagnostics.,"[""Inventor 500"", ""Inventor 549"", ""Inventor 353""]",2022-11-20
+disc_83be20f578,Invention disclosure — gene editing (CRISPR),Describes device prototype for drug discovery.,"[""Inventor 549""]",2020-06-16
+disc_00088284d9,Invention disclosure — gene editing (CRISPR),Describes novel assay for diagnostics.,"[""Inventor 411"", ""Inventor 208""]",2023-08-30
+disc_8e4252a7b5,Invention disclosure — single-cell multiomics,Describes novel assay for biofabrication.,"[""Inventor 513""]",2019-01-19
+disc_117f9e6d19,Invention disclosure — photovoltaic perovskites,Describes device prototype for manufacturing.,"[""Inventor 300"", ""Inventor 105"", ""Inventor 116""]",2024-11-23
+disc_50a817b15d,Invention disclosure — microfluidics,Describes device prototype for biofabrication.,"[""Inventor 337"", ""Inventor 160""]",2019-01-11
+disc_21301d0d61,Invention disclosure — mRNA therapeutics,Describes novel assay for diagnostics.,"[""Inventor 310"", ""Inventor 271"", ""Inventor 14""]",2024-03-20
+disc_1c55482390,Invention disclosure — single-cell multiomics,Describes novel assay for biofabrication.,"[""Inventor 41"", ""Inventor 567""]",2021-06-28
+disc_b9081e1aa4,Invention disclosure — mRNA therapeutics,Describes device prototype for manufacturing.,"[""Inventor 500""]",2023-11-27
+disc_64a1eb855c,Invention disclosure — CAR-T manufacturing,Describes software pipeline for biofabrication.,"[""Inventor 36""]",2023-10-05
+disc_171f81e751,Invention disclosure — biosensors,Describes device prototype for biofabrication.,"[""Inventor 572"", ""Inventor 405""]",2022-05-08
+disc_90c888334a,Invention disclosure — CAR-T manufacturing,Describes device prototype for manufacturing.,"[""Inventor 299"", ""Inventor 130"", ""Inventor 54""]",2025-05-01
+disc_82c02fc181,Invention disclosure — protein engineering,Describes device prototype for diagnostics.,"[""Inventor 515"", ""Inventor 65"", ""Inventor 519""]",2021-05-25
+disc_328031eed2,Invention disclosure — bioprinting,Describes device prototype for biofabrication.,"[""Inventor 373"", ""Inventor 88""]",2022-06-20
+disc_afb866dacd,Invention disclosure — biosensors,Describes software pipeline for drug discovery.,"[""Inventor 518""]",2019-06-15
+disc_0902947299,Invention disclosure — photovoltaic perovskites,Describes device prototype for drug discovery.,"[""Inventor 445""]",2025-09-20
+disc_964b0d3655,Invention disclosure — single-cell multiomics,Describes device prototype for biofabrication.,"[""Inventor 497"", ""Inventor 176"", ""Inventor 534""]",2020-03-11
+disc_f05d52f9bc,Invention disclosure — single-cell multiomics,Describes device prototype for diagnostics.,"[""Inventor 218"", ""Inventor 477"", ""Inventor 83""]",2022-10-01
+disc_d01aa2c332,Invention disclosure — microfluidics,Describes device prototype for manufacturing.,"[""Inventor 566"", ""Inventor 123"", ""Inventor 546""]",2020-11-16
+disc_591b34ba14,Invention disclosure — photovoltaic perovskites,Describes novel assay for diagnostics.,"[""Inventor 193""]",2021-06-08
+disc_21b3aff975,Invention disclosure — gene editing (CRISPR),Describes novel assay for manufacturing.,"[""Inventor 219"", ""Inventor 557""]",2021-03-16
+disc_ea094a9fd7,Invention disclosure — ultrafast Li-ion charging,Describes novel assay for biofabrication.,"[""Inventor 267"", ""Inventor 88""]",2020-08-02
+disc_14a6c148e9,Invention disclosure — solid-state cooling,Describes novel assay for diagnostics.,"[""Inventor 219"", ""Inventor 518"", ""Inventor 125""]",2020-09-07
+disc_17e49cae0d,Invention disclosure — AI-driven medicinal chemistry,Describes software pipeline for diagnostics.,"[""Inventor 555""]",2020-05-31
+disc_5cb9f2896f,Invention disclosure — AI-driven medicinal chemistry,Describes novel assay for drug discovery.,"[""Inventor 553""]",2024-01-16
+disc_5c795f6cdd,Invention disclosure — gene editing (CRISPR),Describes device prototype for diagnostics.,"[""Inventor 231""]",2022-03-21
+disc_f5399cbe06,Invention disclosure — robotic prosthetics,Describes novel assay for biofabrication.,"[""Inventor 499"", ""Inventor 329""]",2019-12-12
+disc_3753f6ea72,Invention disclosure — biosensors,Describes device prototype for manufacturing.,"[""Inventor 416"", ""Inventor 86"", ""Inventor 271""]",2025-05-03
+disc_a697cdcfa1,Invention disclosure — battery chemistry,Describes software pipeline for drug discovery.,"[""Inventor 258"", ""Inventor 51""]",2020-01-16
+disc_0a0d3c4970,Invention disclosure — photovoltaic perovskites,Describes novel assay for manufacturing.,"[""Inventor 236"", ""Inventor 327"", ""Inventor 253""]",2022-03-10
+disc_ae2a031d61,Invention disclosure — lab-on-a-chip,Describes novel assay for biofabrication.,"[""Inventor 298"", ""Inventor 379""]",2021-05-17
+disc_62e4ab1495,Invention disclosure — bioreactor control,Describes device prototype for drug discovery.,"[""Inventor 332"", ""Inventor 430"", ""Inventor 261""]",2022-12-21
+disc_638fe679b9,Invention disclosure — AI-driven medicinal chemistry,Describes software pipeline for drug discovery.,"[""Inventor 328"", ""Inventor 399"", ""Inventor 383""]",2020-03-15
+disc_a593132b8a,Invention disclosure — ultrafast Li-ion charging,Describes novel assay for manufacturing.,"[""Inventor 339"", ""Inventor 19"", ""Inventor 113""]",2022-02-24
+disc_fe7ae7f658,Invention disclosure — mRNA therapeutics,Describes novel assay for manufacturing.,"[""Inventor 451"", ""Inventor 220""]",2019-03-21
+disc_664ac68a5f,Invention disclosure — microfluidics,Describes software pipeline for diagnostics.,"[""Inventor 135"", ""Inventor 298"", ""Inventor 128""]",2021-08-24
+disc_f25881c585,Invention disclosure — wearable health sensors,Describes device prototype for diagnostics.,"[""Inventor 375""]",2021-09-14
+disc_86d3a3fe0d,Invention disclosure — photovoltaic perovskites,Describes device prototype for manufacturing.,"[""Inventor 228"", ""Inventor 476""]",2020-10-05
+disc_469746082b,Invention disclosure — microfluidics,Describes novel assay for diagnostics.,"[""Inventor 214"", ""Inventor 356"", ""Inventor 389""]",2022-07-20
+disc_2be70253ef,Invention disclosure — nanopore sequencing,Describes novel assay for diagnostics.,"[""Inventor 144""]",2019-12-29
+disc_c95e31be36,Invention disclosure — photovoltaic perovskites,Describes device prototype for manufacturing.,"[""Inventor 53""]",2024-11-20
+disc_cacafd7802,Invention disclosure — protein engineering,Describes software pipeline for biofabrication.,"[""Inventor 339"", ""Inventor 587""]",2021-08-20
+disc_963b73c21b,Invention disclosure — diagnostic imaging,Describes software pipeline for drug discovery.,"[""Inventor 439"", ""Inventor 417"", ""Inventor 49""]",2022-05-23
+disc_52d69fb5b2,Invention disclosure — diagnostic imaging,Describes device prototype for manufacturing.,"[""Inventor 181""]",2020-08-18
+disc_882510af9b,Invention disclosure — AI-driven medicinal chemistry,Describes device prototype for manufacturing.,"[""Inventor 475"", ""Inventor 246""]",2025-04-10
+disc_84ed05f6aa,Invention disclosure — robotic prosthetics,Describes software pipeline for manufacturing.,"[""Inventor 286"", ""Inventor 502"", ""Inventor 463""]",2024-12-03
+disc_d0f5d01db8,Invention disclosure — ultrafast Li-ion charging,Describes software pipeline for diagnostics.,"[""Inventor 451"", ""Inventor 151""]",2022-12-05
+disc_3dcf26f05a,Invention disclosure — graphene membranes,Describes software pipeline for drug discovery.,"[""Inventor 417"", ""Inventor 524"", ""Inventor 443""]",2023-08-27
+disc_7aa3428125,Invention disclosure — microfluidics,Describes device prototype for diagnostics.,"[""Inventor 93""]",2022-06-19
+disc_4612a834a1,Invention disclosure — battery chemistry,Describes device prototype for diagnostics.,"[""Inventor 422""]",2023-05-22
+disc_33393c5893,Invention disclosure — bioprinting,Describes device prototype for manufacturing.,"[""Inventor 364""]",2021-02-15
+disc_b34111548d,Invention disclosure — bioreactor control,Describes novel assay for biofabrication.,"[""Inventor 366"", ""Inventor 312"", ""Inventor 87""]",2021-05-20
+disc_2ee92b043d,Invention disclosure — photovoltaic perovskites,Describes novel assay for diagnostics.,"[""Inventor 177""]",2025-06-18
+disc_cf23a1ccd1,Invention disclosure — solid-state cooling,Describes device prototype for biofabrication.,"[""Inventor 411"", ""Inventor 372"", ""Inventor 182""]",2019-01-12
+disc_ab7e17076f,Invention disclosure — wearable health sensors,Describes device prototype for diagnostics.,"[""Inventor 309"", ""Inventor 292"", ""Inventor 151""]",2021-07-13
+disc_229937c8be,Invention disclosure — lab-on-a-chip,Describes software pipeline for manufacturing.,"[""Inventor 508"", ""Inventor 133"", ""Inventor 585""]",2019-03-13
+disc_e4730fa8ab,Invention disclosure — bioreactor control,Describes software pipeline for manufacturing.,"[""Inventor 247"", ""Inventor 377"", ""Inventor 312""]",2020-09-19
+disc_8b3ac3eb37,Invention disclosure — robotic prosthetics,Describes software pipeline for manufacturing.,"[""Inventor 292"", ""Inventor 128""]",2020-09-23
+disc_e8a40f795e,Invention disclosure — mRNA therapeutics,Describes software pipeline for diagnostics.,"[""Inventor 260"", ""Inventor 499"", ""Inventor 100""]",2023-02-17
+disc_59d6261bde,Invention disclosure — diagnostic imaging,Describes software pipeline for biofabrication.,"[""Inventor 5"", ""Inventor 138""]",2020-11-28
+disc_26e8ce51c9,Invention disclosure — bioprinting,Describes device prototype for drug discovery.,"[""Inventor 107"", ""Inventor 109""]",2023-09-29
+disc_cb205ea836,Invention disclosure — gene editing (CRISPR),Describes novel assay for manufacturing.,"[""Inventor 503"", ""Inventor 101""]",2024-12-18
+disc_145fb3cfd0,Invention disclosure — CAR-T manufacturing,Describes device prototype for diagnostics.,"[""Inventor 79"", ""Inventor 54"", ""Inventor 24""]",2021-05-10
+disc_f232f87502,Invention disclosure — biosensors,Describes device prototype for manufacturing.,"[""Inventor 496"", ""Inventor 54"", ""Inventor 443""]",2022-09-15
+disc_584f98aa4b,Invention disclosure — mRNA therapeutics,Describes novel assay for manufacturing.,"[""Inventor 87""]",2022-09-29
+disc_d170a5aa63,Invention disclosure — CAR-T manufacturing,Describes novel assay for drug discovery.,"[""Inventor 407""]",2020-07-12
+disc_1cea270119,Invention disclosure — biosensors,Describes novel assay for biofabrication.,"[""Inventor 158""]",2024-05-20
+disc_1a72e105c7,Invention disclosure — biosensors,Describes software pipeline for drug discovery.,"[""Inventor 116""]",2021-07-31
+disc_694907f2a5,Invention disclosure — lab-on-a-chip,Describes software pipeline for biofabrication.,"[""Inventor 467""]",2021-05-03
+disc_6e4b5c3a16,Invention disclosure — AI-driven medicinal chemistry,Describes device prototype for biofabrication.,"[""Inventor 235"", ""Inventor 77"", ""Inventor 190""]",2019-01-06
+disc_9d5c829487,Invention disclosure — mRNA therapeutics,Describes software pipeline for biofabrication.,"[""Inventor 137"", ""Inventor 61""]",2021-04-15
+disc_9f0bff7e9e,Invention disclosure — graphene membranes,Describes novel assay for biofabrication.,"[""Inventor 533"", ""Inventor 452"", ""Inventor 10""]",2023-02-16
+disc_7e3d418912,Invention disclosure — microfluidics,Describes novel assay for diagnostics.,"[""Inventor 128""]",2023-05-12
+disc_6b00051fb4,Invention disclosure — ultrafast Li-ion charging,Describes device prototype for diagnostics.,"[""Inventor 428"", ""Inventor 331""]",2022-07-14
+disc_ce3c4a601e,Invention disclosure — biosensors,Describes software pipeline for drug discovery.,"[""Inventor 516"", ""Inventor 411""]",2019-03-17
+disc_31832853e6,Invention disclosure — diagnostic imaging,Describes device prototype for manufacturing.,"[""Inventor 325"", ""Inventor 355""]",2025-06-02
+disc_a46c55253f,Invention disclosure — nanopore sequencing,Describes device prototype for drug discovery.,"[""Inventor 528""]",2023-04-26
+disc_ac807818f4,Invention disclosure — robotic prosthetics,Describes device prototype for drug discovery.,"[""Inventor 160"", ""Inventor 313"", ""Inventor 314""]",2021-07-03
+disc_ce8abc2b2a,Invention disclosure — nanopore sequencing,Describes novel assay for manufacturing.,"[""Inventor 68"", ""Inventor 313""]",2019-06-24
+disc_57793d28ca,Invention disclosure — gene editing (CRISPR),Describes novel assay for manufacturing.,"[""Inventor 393"", ""Inventor 279""]",2019-03-09
+disc_28e074d21b,Invention disclosure — battery chemistry,Describes device prototype for manufacturing.,"[""Inventor 536""]",2024-05-09
+disc_4b506c4a8b,Invention disclosure — microfluidics,Describes software pipeline for biofabrication.,"[""Inventor 459"", ""Inventor 344"", ""Inventor 452""]",2023-07-16
+disc_d72266634b,Invention disclosure — gene editing (CRISPR),Describes device prototype for drug discovery.,"[""Inventor 581""]",2019-12-02
+disc_b8e04a584f,Invention disclosure — gene editing (CRISPR),Describes software pipeline for diagnostics.,"[""Inventor 246""]",2024-03-26
+disc_70a3ab3ea6,Invention disclosure — wearable health sensors,Describes software pipeline for diagnostics.,"[""Inventor 36"", ""Inventor 538"", ""Inventor 489""]",2022-05-15
+disc_5fd24677bf,Invention disclosure — wearable health sensors,Describes novel assay for drug discovery.,"[""Inventor 529"", ""Inventor 219"", ""Inventor 554""]",2021-01-13
+disc_a1ea14b193,Invention disclosure — bioprinting,Describes novel assay for diagnostics.,"[""Inventor 8"", ""Inventor 97"", ""Inventor 533""]",2020-11-15
+disc_04d8e94a42,Invention disclosure — protein engineering,Describes device prototype for biofabrication.,"[""Inventor 266""]",2024-01-09
+disc_04a4efd1fc,Invention disclosure — lab-on-a-chip,Describes device prototype for manufacturing.,"[""Inventor 580"", ""Inventor 6""]",2021-05-05
+disc_a020325092,Invention disclosure — ultrafast Li-ion charging,Describes novel assay for diagnostics.,"[""Inventor 122"", ""Inventor 382""]",2021-06-02
+disc_d1c2c4be0b,Invention disclosure — single-cell multiomics,Describes device prototype for diagnostics.,"[""Inventor 562""]",2021-03-27
+disc_3a93036db7,Invention disclosure — photovoltaic perovskites,Describes software pipeline for biofabrication.,"[""Inventor 207"", ""Inventor 325""]",2019-03-01
+disc_af019e9643,Invention disclosure — AI-driven medicinal chemistry,Describes novel assay for biofabrication.,"[""Inventor 43""]",2021-10-26
+disc_f1a6b8b118,Invention disclosure — gene editing (CRISPR),Describes novel assay for biofabrication.,"[""Inventor 188""]",2023-08-15
+disc_340233207a,Invention disclosure — single-cell multiomics,Describes novel assay for diagnostics.,"[""Inventor 164"", ""Inventor 189""]",2025-03-23
+disc_cd0a4bd171,Invention disclosure — gene editing (CRISPR),Describes device prototype for manufacturing.,"[""Inventor 457"", ""Inventor 217""]",2024-11-20
+disc_2aa92f595c,Invention disclosure — photovoltaic perovskites,Describes device prototype for diagnostics.,"[""Inventor 309""]",2021-12-22
+disc_b43dde7996,Invention disclosure — nanopore sequencing,Describes device prototype for diagnostics.,"[""Inventor 224""]",2024-07-27
+disc_bea5e202c4,Invention disclosure — graphene membranes,Describes novel assay for biofabrication.,"[""Inventor 397"", ""Inventor 271"", ""Inventor 507""]",2020-09-19
+disc_cbdcaec264,Invention disclosure — nanopore sequencing,Describes device prototype for biofabrication.,"[""Inventor 93"", ""Inventor 248"", ""Inventor 298""]",2021-08-06
+disc_bb830c7eb6,Invention disclosure — protein engineering,Describes novel assay for diagnostics.,"[""Inventor 431"", ""Inventor 223"", ""Inventor 469""]",2023-08-26
+disc_45b8b02370,Invention disclosure — solid-state cooling,Describes novel assay for diagnostics.,"[""Inventor 589"", ""Inventor 135"", ""Inventor 484""]",2019-12-07
+disc_5d6ec0343c,Invention disclosure — ultrafast Li-ion charging,Describes novel assay for drug discovery.,"[""Inventor 283""]",2020-10-20
+disc_3a102dcdb6,Invention disclosure — microfluidics,Describes device prototype for manufacturing.,"[""Inventor 281""]",2019-07-06
+disc_577b943deb,Invention disclosure — CAR-T manufacturing,Describes novel assay for manufacturing.,"[""Inventor 600"", ""Inventor 445"", ""Inventor 27""]",2020-07-10
+disc_5872d9f00c,Invention disclosure — lab-on-a-chip,Describes novel assay for drug discovery.,"[""Inventor 575"", ""Inventor 590"", ""Inventor 188""]",2022-03-04
+disc_dcf76694cf,Invention disclosure — AI-driven medicinal chemistry,Describes software pipeline for biofabrication.,"[""Inventor 591"", ""Inventor 65"", ""Inventor 492""]",2020-05-26
+disc_84ef68f0d3,Invention disclosure — nanopore sequencing,Describes device prototype for biofabrication.,"[""Inventor 139"", ""Inventor 300""]",2023-04-02
+disc_5dfba71155,Invention disclosure — wearable health sensors,Describes software pipeline for drug discovery.,"[""Inventor 251"", ""Inventor 437"", ""Inventor 462""]",2020-03-10
+disc_f18c7aa9b2,Invention disclosure — protein engineering,Describes device prototype for manufacturing.,"[""Inventor 198"", ""Inventor 98""]",2019-01-26
+disc_ac699663b5,Invention disclosure — nanopore sequencing,Describes software pipeline for diagnostics.,"[""Inventor 32"", ""Inventor 148"", ""Inventor 58""]",2024-02-10
+disc_352db246fa,Invention disclosure — nanopore sequencing,Describes novel assay for diagnostics.,"[""Inventor 333""]",2022-02-14
+disc_7d63b60cb5,Invention disclosure — protein engineering,Describes software pipeline for drug discovery.,"[""Inventor 408"", ""Inventor 447""]",2024-07-19
+disc_f5d6f7f4c0,Invention disclosure — bioprinting,Describes software pipeline for manufacturing.,"[""Inventor 589"", ""Inventor 544"", ""Inventor 574""]",2024-04-04
+disc_ac8eb44204,Invention disclosure — AI-driven medicinal chemistry,Describes device prototype for manufacturing.,"[""Inventor 330"", ""Inventor 26""]",2022-07-30
+disc_f5647a7ccd,Invention disclosure — AI-driven medicinal chemistry,Describes novel assay for manufacturing.,"[""Inventor 431""]",2020-05-21
+disc_c608539daf,Invention disclosure — battery chemistry,Describes novel assay for biofabrication.,"[""Inventor 532"", ""Inventor 83""]",2020-10-04
+disc_917b83a4fb,Invention disclosure — protein engineering,Describes software pipeline for biofabrication.,"[""Inventor 183"", ""Inventor 409""]",2021-06-03
+disc_b5023a9038,Invention disclosure — bioprinting,Describes device prototype for drug discovery.,"[""Inventor 172"", ""Inventor 555"", ""Inventor 83""]",2021-11-12
+disc_c3aaeb547f,Invention disclosure — photovoltaic perovskites,Describes software pipeline for diagnostics.,"[""Inventor 288"", ""Inventor 96""]",2019-04-29
+disc_5a7c6a6565,Invention disclosure — mRNA therapeutics,Describes device prototype for biofabrication.,"[""Inventor 186""]",2020-07-08
+disc_b126a516aa,Invention disclosure — bioreactor control,Describes novel assay for biofabrication.,"[""Inventor 166"", ""Inventor 9"", ""Inventor 224""]",2025-05-29
+disc_9cf780ccca,Invention disclosure — gene editing (CRISPR),Describes novel assay for manufacturing.,"[""Inventor 194"", ""Inventor 81"", ""Inventor 346""]",2025-10-19
+disc_4239551b30,Invention disclosure — wearable health sensors,Describes device prototype for biofabrication.,"[""Inventor 588"", ""Inventor 205"", ""Inventor 386""]",2021-04-23
+disc_2a89118b71,Invention disclosure — nanopore sequencing,Describes novel assay for biofabrication.,"[""Inventor 597""]",2022-01-03
+disc_00a9ae3be0,Invention disclosure — solid-state cooling,Describes device prototype for drug discovery.,"[""Inventor 368"", ""Inventor 383"", ""Inventor 549""]",2025-09-15
+disc_8f6ed5def0,Invention disclosure — ultrafast Li-ion charging,Describes device prototype for drug discovery.,"[""Inventor 149"", ""Inventor 277""]",2025-09-17
+disc_723d79b093,Invention disclosure — protein engineering,Describes device prototype for drug discovery.,"[""Inventor 13""]",2024-11-29
+disc_d6284a2fe8,Invention disclosure — bioreactor control,Describes novel assay for drug discovery.,"[""Inventor 184"", ""Inventor 549"", ""Inventor 13""]",2020-06-06
+disc_192c14374e,Invention disclosure — photovoltaic perovskites,Describes novel assay for diagnostics.,"[""Inventor 444""]",2020-10-22
+disc_f67585eab9,Invention disclosure — AI-driven medicinal chemistry,Describes software pipeline for biofabrication.,"[""Inventor 459"", ""Inventor 142"", ""Inventor 308""]",2022-11-29
+disc_6252e84057,Invention disclosure — single-cell multiomics,Describes software pipeline for diagnostics.,"[""Inventor 377"", ""Inventor 431"", ""Inventor 111""]",2021-01-25
+disc_e8d101436a,Invention disclosure — bioreactor control,Describes novel assay for drug discovery.,"[""Inventor 131""]",2020-04-17
+disc_d0254a3fcb,Invention disclosure — diagnostic imaging,Describes software pipeline for diagnostics.,"[""Inventor 164""]",2022-01-11
+disc_99e7fbd2b1,Invention disclosure — graphene membranes,Describes software pipeline for manufacturing.,"[""Inventor 351"", ""Inventor 49"", ""Inventor 40""]",2023-09-12
+disc_6daf7fe319,Invention disclosure — AI-driven medicinal chemistry,Describes software pipeline for biofabrication.,"[""Inventor 369"", ""Inventor 502"", ""Inventor 539""]",2019-01-24
+disc_a7a2b8955a,Invention disclosure — battery chemistry,Describes novel assay for diagnostics.,"[""Inventor 414""]",2021-11-09
+disc_5e86130c08,Invention disclosure — lab-on-a-chip,Describes novel assay for biofabrication.,"[""Inventor 203"", ""Inventor 389""]",2020-06-28
+disc_257b61881f,Invention disclosure — ultrafast Li-ion charging,Describes software pipeline for drug discovery.,"[""Inventor 497"", ""Inventor 553""]",2022-02-11
+disc_22caccfa25,Invention disclosure — bioreactor control,Describes novel assay for drug discovery.,"[""Inventor 131"", ""Inventor 303"", ""Inventor 363""]",2020-01-30
+disc_215aa4c664,Invention disclosure — CAR-T manufacturing,Describes novel assay for drug discovery.,"[""Inventor 564""]",2022-05-31
+disc_7347b2157d,Invention disclosure — diagnostic imaging,Describes novel assay for biofabrication.,"[""Inventor 272"", ""Inventor 328""]",2025-05-26
+disc_c29ee99a00,Invention disclosure — microfluidics,Describes device prototype for biofabrication.,"[""Inventor 575""]",2024-05-19
+disc_c3f4a48777,Invention disclosure — bioprinting,Describes device prototype for biofabrication.,"[""Inventor 17""]",2024-05-29
+disc_5e7a6bfa6b,Invention disclosure — bioprinting,Describes software pipeline for manufacturing.,"[""Inventor 591""]",2023-03-01
+disc_5accb729d1,Invention disclosure — microfluidics,Describes novel assay for diagnostics.,"[""Inventor 594"", ""Inventor 152""]",2022-02-26
+disc_7f2163b676,Invention disclosure — mRNA therapeutics,Describes device prototype for manufacturing.,"[""Inventor 545"", ""Inventor 130""]",2024-05-23
+disc_7237880ede,Invention disclosure — biosensors,Describes novel assay for drug discovery.,"[""Inventor 273"", ""Inventor 508""]",2021-09-04
+disc_6920ccb806,Invention disclosure — robotic prosthetics,Describes novel assay for manufacturing.,"[""Inventor 41"", ""Inventor 128""]",2019-07-27
+disc_5fc8c84242,Invention disclosure — lab-on-a-chip,Describes novel assay for manufacturing.,"[""Inventor 470""]",2023-03-03
+disc_4b712f953a,Invention disclosure — bioprinting,Describes device prototype for manufacturing.,"[""Inventor 194"", ""Inventor 210"", ""Inventor 577""]",2023-09-11
+disc_8ee5261d02,Invention disclosure — AI-driven medicinal chemistry,Describes device prototype for diagnostics.,"[""Inventor 179"", ""Inventor 547"", ""Inventor 543""]",2025-08-02
+disc_d74960b166,Invention disclosure — solid-state cooling,Describes software pipeline for biofabrication.,"[""Inventor 390""]",2021-11-08
+disc_7597fea9ef,Invention disclosure — robotic prosthetics,Describes novel assay for manufacturing.,"[""Inventor 256"", ""Inventor 585""]",2019-12-22
+disc_548340868b,Invention disclosure — robotic prosthetics,Describes novel assay for drug discovery.,"[""Inventor 594""]",2025-04-26
+disc_901da8ddd6,Invention disclosure — gene editing (CRISPR),Describes device prototype for manufacturing.,"[""Inventor 463"", ""Inventor 289"", ""Inventor 193""]",2022-02-25
+disc_3d20527351,Invention disclosure — mRNA therapeutics,Describes novel assay for biofabrication.,"[""Inventor 549"", ""Inventor 454"", ""Inventor 410""]",2022-04-17
+disc_a5193cc196,Invention disclosure — lab-on-a-chip,Describes novel assay for biofabrication.,"[""Inventor 459""]",2024-05-27
+disc_a8cad99523,Invention disclosure — bioreactor control,Describes novel assay for diagnostics.,"[""Inventor 9""]",2021-09-23
+disc_847e18fc94,Invention disclosure — ultrafast Li-ion charging,Describes novel assay for manufacturing.,"[""Inventor 564"", ""Inventor 593"", ""Inventor 427""]",2020-02-11
+disc_8b6226f746,Invention disclosure — nanopore sequencing,Describes software pipeline for drug discovery.,"[""Inventor 519""]",2019-10-28
+disc_95b65b3048,Invention disclosure — lab-on-a-chip,Describes device prototype for drug discovery.,"[""Inventor 370"", ""Inventor 143"", ""Inventor 585""]",2021-08-05
+disc_c99dce042b,Invention disclosure — gene editing (CRISPR),Describes software pipeline for manufacturing.,"[""Inventor 495""]",2024-10-23
+disc_1b9c5e6423,Invention disclosure — mRNA therapeutics,Describes software pipeline for biofabrication.,"[""Inventor 443""]",2024-04-01
+disc_efd0520e51,Invention disclosure — bioprinting,Describes device prototype for manufacturing.,"[""Inventor 344"", ""Inventor 376"", ""Inventor 392""]",2019-10-06
+disc_17e8ed0641,Invention disclosure — nanopore sequencing,Describes device prototype for diagnostics.,"[""Inventor 26""]",2022-08-26
+disc_4d79868ea1,Invention disclosure — microfluidics,Describes software pipeline for diagnostics.,"[""Inventor 13""]",2024-12-03
+disc_689b835468,Invention disclosure — graphene membranes,Describes software pipeline for diagnostics.,"[""Inventor 397"", ""Inventor 396""]",2025-03-01
+disc_b50467a232,Invention disclosure — photovoltaic perovskites,Describes novel assay for diagnostics.,"[""Inventor 456""]",2020-10-11
+disc_c3979ae957,Invention disclosure — mRNA therapeutics,Describes novel assay for manufacturing.,"[""Inventor 431"", ""Inventor 229"", ""Inventor 214""]",2019-03-06
+disc_dc851a7101,Invention disclosure — robotic prosthetics,Describes novel assay for biofabrication.,"[""Inventor 544"", ""Inventor 384"", ""Inventor 408""]",2022-09-05
+disc_7cedacb61f,Invention disclosure — ultrafast Li-ion charging,Describes novel assay for biofabrication.,"[""Inventor 435"", ""Inventor 442"", ""Inventor 327""]",2024-08-21
+disc_1496c8ead7,Invention disclosure — protein engineering,Describes device prototype for biofabrication.,"[""Inventor 191"", ""Inventor 251""]",2019-02-17
+disc_a50205cab6,Invention disclosure — photovoltaic perovskites,Describes device prototype for diagnostics.,"[""Inventor 271""]",2023-08-04
+disc_adf9304a7b,Invention disclosure — solid-state cooling,Describes novel assay for diagnostics.,"[""Inventor 246"", ""Inventor 509"", ""Inventor 91""]",2020-09-05
+disc_d35b47f94e,Invention disclosure — bioprinting,Describes novel assay for diagnostics.,"[""Inventor 516""]",2024-03-06
+disc_2644181198,Invention disclosure — robotic prosthetics,Describes device prototype for diagnostics.,"[""Inventor 407"", ""Inventor 440""]",2021-09-02
+disc_47591b534e,Invention disclosure — wearable health sensors,Describes novel assay for drug discovery.,"[""Inventor 51"", ""Inventor 260"", ""Inventor 450""]",2019-08-13
+disc_44582c0fe2,Invention disclosure — lab-on-a-chip,Describes novel assay for diagnostics.,"[""Inventor 482"", ""Inventor 518""]",2022-01-22
+disc_f755b680b4,Invention disclosure — CAR-T manufacturing,Describes novel assay for manufacturing.,"[""Inventor 222"", ""Inventor 216"", ""Inventor 172""]",2024-07-09
+disc_ad6b06e4fe,Invention disclosure — protein engineering,Describes software pipeline for drug discovery.,"[""Inventor 417""]",2022-01-19
+disc_009f440427,Invention disclosure — mRNA therapeutics,Describes novel assay for manufacturing.,"[""Inventor 429"", ""Inventor 53"", ""Inventor 546""]",2020-07-13
+disc_15b835db15,Invention disclosure — nanopore sequencing,Describes software pipeline for diagnostics.,"[""Inventor 519"", ""Inventor 542""]",2019-03-22
+disc_9e1ce7e407,Invention disclosure — biosensors,Describes novel assay for drug discovery.,"[""Inventor 566"", ""Inventor 333""]",2022-05-19
+disc_296b54e2c2,Invention disclosure — gene editing (CRISPR),Describes novel assay for manufacturing.,"[""Inventor 288"", ""Inventor 305""]",2020-06-01
+disc_6c5e8e92f7,Invention disclosure — bioreactor control,Describes software pipeline for drug discovery.,"[""Inventor 110"", ""Inventor 475""]",2024-03-01
+disc_a1b0555720,Invention disclosure — ultrafast Li-ion charging,Describes novel assay for manufacturing.,"[""Inventor 530"", ""Inventor 11""]",2025-06-12
+disc_f70e2edb0d,Invention disclosure — graphene membranes,Describes software pipeline for biofabrication.,"[""Inventor 181""]",2025-11-16
+disc_909192d629,Invention disclosure — robotic prosthetics,Describes software pipeline for biofabrication.,"[""Inventor 568""]",2024-07-04
+disc_6fa07ca121,Invention disclosure — nanopore sequencing,Describes novel assay for diagnostics.,"[""Inventor 242"", ""Inventor 359"", ""Inventor 219""]",2024-05-13
+disc_a7410d74a1,Invention disclosure — solid-state cooling,Describes software pipeline for manufacturing.,"[""Inventor 260"", ""Inventor 202""]",2019-05-13
+disc_0fbbe66a15,Invention disclosure — bioreactor control,Describes software pipeline for biofabrication.,"[""Inventor 266"", ""Inventor 564"", ""Inventor 33""]",2023-01-08
+disc_c9dd23c2ec,Invention disclosure — bioprinting,Describes software pipeline for biofabrication.,"[""Inventor 271"", ""Inventor 406""]",2020-10-23
+disc_d0d10c0eaf,Invention disclosure — CAR-T manufacturing,Describes device prototype for drug discovery.,"[""Inventor 148""]",2021-09-05
+disc_e654c50e07,Invention disclosure — protein engineering,Describes software pipeline for diagnostics.,"[""Inventor 247"", ""Inventor 52""]",2020-02-01
+disc_c193049abe,Invention disclosure — ultrafast Li-ion charging,Describes novel assay for diagnostics.,"[""Inventor 66""]",2020-11-12
+disc_f31c0b1c45,Invention disclosure — battery chemistry,Describes device prototype for drug discovery.,"[""Inventor 583""]",2025-06-04
+disc_f40d357d2d,Invention disclosure — mRNA therapeutics,Describes software pipeline for diagnostics.,"[""Inventor 154""]",2019-03-28
+disc_c13229e2df,Invention disclosure — graphene membranes,Describes novel assay for drug discovery.,"[""Inventor 155"", ""Inventor 427"", ""Inventor 393""]",2023-07-31
+disc_46a61adfde,Invention disclosure — bioprinting,Describes device prototype for diagnostics.,"[""Inventor 333"", ""Inventor 481"", ""Inventor 249""]",2024-07-11
+disc_43c61b2177,Invention disclosure — bioreactor control,Describes software pipeline for drug discovery.,"[""Inventor 577"", ""Inventor 51"", ""Inventor 480""]",2019-03-31
+disc_177a297a82,Invention disclosure — solid-state cooling,Describes novel assay for diagnostics.,"[""Inventor 535""]",2022-07-16
+disc_b765020f4d,Invention disclosure — biosensors,Describes novel assay for diagnostics.,"[""Inventor 177""]",2025-12-15
+disc_618fbc5770,Invention disclosure — biosensors,Describes software pipeline for biofabrication.,"[""Inventor 535"", ""Inventor 513"", ""Inventor 237""]",2020-04-05
+disc_e234377747,Invention disclosure — solid-state cooling,Describes software pipeline for drug discovery.,"[""Inventor 266""]",2019-12-09
+disc_2693b85ca3,Invention disclosure — diagnostic imaging,Describes novel assay for manufacturing.,"[""Inventor 153"", ""Inventor 152""]",2023-10-31
+disc_1f644ef5b2,Invention disclosure — gene editing (CRISPR),Describes novel assay for biofabrication.,"[""Inventor 393"", ""Inventor 28"", ""Inventor 490""]",2024-03-25
+disc_3b15e3b495,Invention disclosure — nanopore sequencing,Describes software pipeline for drug discovery.,"[""Inventor 217""]",2022-04-23
+disc_405ff6e092,Invention disclosure — CAR-T manufacturing,Describes novel assay for diagnostics.,"[""Inventor 364"", ""Inventor 595"", ""Inventor 531""]",2023-02-28
+disc_5e4338c307,Invention disclosure — protein engineering,Describes software pipeline for manufacturing.,"[""Inventor 136""]",2019-05-05
+disc_636112295e,Invention disclosure — CAR-T manufacturing,Describes software pipeline for drug discovery.,"[""Inventor 210"", ""Inventor 234""]",2025-11-19
+disc_116904476b,Invention disclosure — solid-state cooling,Describes novel assay for biofabrication.,"[""Inventor 446"", ""Inventor 579""]",2021-07-28
+disc_1583424a23,Invention disclosure — mRNA therapeutics,Describes software pipeline for biofabrication.,"[""Inventor 544"", ""Inventor 136""]",2024-02-07
+disc_d6fffe642e,Invention disclosure — protein engineering,Describes software pipeline for manufacturing.,"[""Inventor 81"", ""Inventor 267"", ""Inventor 389""]",2020-02-15
+disc_05d7f2f675,Invention disclosure — protein engineering,Describes device prototype for diagnostics.,"[""Inventor 329"", ""Inventor 106"", ""Inventor 353""]",2024-08-08
+disc_c9c554729c,Invention disclosure — nanopore sequencing,Describes software pipeline for manufacturing.,"[""Inventor 553""]",2022-01-17
+disc_54728b11ca,Invention disclosure — robotic prosthetics,Describes device prototype for biofabrication.,"[""Inventor 29"", ""Inventor 227"", ""Inventor 133""]",2024-05-26
+disc_885ca4dbf7,Invention disclosure — bioreactor control,Describes software pipeline for manufacturing.,"[""Inventor 400"", ""Inventor 59"", ""Inventor 47""]",2020-05-15
+disc_9e2bdd405d,Invention disclosure — wearable health sensors,Describes software pipeline for biofabrication.,"[""Inventor 182"", ""Inventor 289""]",2023-09-26
+disc_74dab392e9,Invention disclosure — bioreactor control,Describes novel assay for biofabrication.,"[""Inventor 411""]",2019-09-02
+disc_2fff5e5bf4,Invention disclosure — gene editing (CRISPR),Describes device prototype for drug discovery.,"[""Inventor 48"", ""Inventor 216""]",2020-03-04
+disc_77516b62e9,Invention disclosure — bioprinting,Describes software pipeline for drug discovery.,"[""Inventor 19""]",2024-10-28
+disc_d2fe435ec4,Invention disclosure — AI-driven medicinal chemistry,Describes device prototype for drug discovery.,"[""Inventor 458""]",2020-04-29
+disc_37c54e6cdc,Invention disclosure — single-cell multiomics,Describes device prototype for diagnostics.,"[""Inventor 94"", ""Inventor 45"", ""Inventor 203""]",2021-12-28
+disc_7b01df4b42,Invention disclosure — battery chemistry,Describes software pipeline for manufacturing.,"[""Inventor 56"", ""Inventor 177""]",2021-08-14
+disc_5db22e3689,Invention disclosure — photovoltaic perovskites,Describes device prototype for biofabrication.,"[""Inventor 520"", ""Inventor 577"", ""Inventor 3""]",2022-04-25
+disc_fd7e8a6f6d,Invention disclosure — ultrafast Li-ion charging,Describes software pipeline for manufacturing.,"[""Inventor 107"", ""Inventor 155""]",2019-06-06
+disc_aaee534686,Invention disclosure — lab-on-a-chip,Describes device prototype for drug discovery.,"[""Inventor 354"", ""Inventor 306""]",2025-05-14
+disc_92e8145482,Invention disclosure — wearable health sensors,Describes novel assay for drug discovery.,"[""Inventor 260""]",2021-06-05
+disc_a6971cf76c,Invention disclosure — wearable health sensors,Describes device prototype for diagnostics.,"[""Inventor 358""]",2024-09-10
+disc_e5cf030af8,Invention disclosure — CAR-T manufacturing,Describes device prototype for diagnostics.,"[""Inventor 201"", ""Inventor 410"", ""Inventor 520""]",2023-06-24
+disc_a9b8795f3c,Invention disclosure — wearable health sensors,Describes novel assay for diagnostics.,"[""Inventor 471"", ""Inventor 478"", ""Inventor 68""]",2022-12-28
+disc_4fba0353aa,Invention disclosure — robotic prosthetics,Describes device prototype for biofabrication.,"[""Inventor 482"", ""Inventor 503""]",2024-01-18
+disc_f28d3f836b,Invention disclosure — solid-state cooling,Describes device prototype for manufacturing.,"[""Inventor 275""]",2022-05-17
+disc_360425ba71,Invention disclosure — ultrafast Li-ion charging,Describes device prototype for diagnostics.,"[""Inventor 119"", ""Inventor 96"", ""Inventor 374""]",2021-09-18
+disc_290f44e808,Invention disclosure — nanopore sequencing,Describes software pipeline for diagnostics.,"[""Inventor 319"", ""Inventor 214"", ""Inventor 296""]",2021-10-18
+disc_abb8eaf57c,Invention disclosure — gene editing (CRISPR),Describes device prototype for manufacturing.,"[""Inventor 202"", ""Inventor 28"", ""Inventor 291""]",2021-07-25
+disc_4c1dac900e,Invention disclosure — gene editing (CRISPR),Describes device prototype for manufacturing.,"[""Inventor 296"", ""Inventor 262""]",2019-01-05
+disc_b8223f07c3,Invention disclosure — lab-on-a-chip,Describes device prototype for biofabrication.,"[""Inventor 407"", ""Inventor 387""]",2019-09-18
+disc_cb66d55bb8,Invention disclosure — robotic prosthetics,Describes novel assay for biofabrication.,"[""Inventor 289""]",2024-09-13
+disc_76dcc0bf97,Invention disclosure — photovoltaic perovskites,Describes software pipeline for diagnostics.,"[""Inventor 273"", ""Inventor 571"", ""Inventor 195""]",2022-10-04
+disc_17e2fbd2b5,Invention disclosure — AI-driven medicinal chemistry,Describes software pipeline for biofabrication.,"[""Inventor 21"", ""Inventor 51""]",2020-06-01
+disc_a1b1cb930e,Invention disclosure — ultrafast Li-ion charging,Describes novel assay for drug discovery.,"[""Inventor 568"", ""Inventor 410"", ""Inventor 400""]",2023-08-26
+disc_f20855179a,Invention disclosure — mRNA therapeutics,Describes software pipeline for drug discovery.,"[""Inventor 260"", ""Inventor 343"", ""Inventor 323""]",2022-01-25
+disc_46bba92886,Invention disclosure — diagnostic imaging,Describes novel assay for manufacturing.,"[""Inventor 439"", ""Inventor 597"", ""Inventor 508""]",2022-06-17
+disc_02779d77d4,Invention disclosure — graphene membranes,Describes novel assay for biofabrication.,"[""Inventor 47""]",2019-09-20
+disc_9ebbb4af39,Invention disclosure — nanopore sequencing,Describes device prototype for manufacturing.,"[""Inventor 156"", ""Inventor 518"", ""Inventor 222""]",2024-05-22
+disc_0bd3a54cdd,Invention disclosure — graphene membranes,Describes software pipeline for biofabrication.,"[""Inventor 336""]",2021-01-28
+disc_c7cdb9a6e7,Invention disclosure — ultrafast Li-ion charging,Describes device prototype for manufacturing.,"[""Inventor 496"", ""Inventor 114""]",2025-01-14
+disc_ccfdd3d7ea,Invention disclosure — photovoltaic perovskites,Describes software pipeline for manufacturing.,"[""Inventor 122""]",2020-01-05
+disc_2ffbc9bcc8,Invention disclosure — AI-driven medicinal chemistry,Describes device prototype for manufacturing.,"[""Inventor 201"", ""Inventor 298"", ""Inventor 146""]",2019-10-25
+disc_b831f70cca,Invention disclosure — single-cell multiomics,Describes device prototype for drug discovery.,"[""Inventor 134""]",2025-08-21
+disc_fc60d9924e,Invention disclosure — single-cell multiomics,Describes software pipeline for drug discovery.,"[""Inventor 467""]",2024-01-18
+disc_eb1dfea02b,Invention disclosure — single-cell multiomics,Describes device prototype for drug discovery.,"[""Inventor 314"", ""Inventor 572"", ""Inventor 576""]",2021-06-29
+disc_5ccf1907f7,Invention disclosure — microfluidics,Describes device prototype for manufacturing.,"[""Inventor 510""]",2022-03-28
+disc_8b589ad54e,Invention disclosure — robotic prosthetics,Describes novel assay for biofabrication.,"[""Inventor 287""]",2022-08-13
+disc_fa00c0f9b1,Invention disclosure — photovoltaic perovskites,Describes novel assay for drug discovery.,"[""Inventor 38"", ""Inventor 459""]",2022-10-26
+disc_5048f214da,Invention disclosure — graphene membranes,Describes software pipeline for drug discovery.,"[""Inventor 482""]",2023-03-30
+disc_3d383e85aa,Invention disclosure — mRNA therapeutics,Describes software pipeline for drug discovery.,"[""Inventor 413"", ""Inventor 430"", ""Inventor 33""]",2019-11-22
+disc_c3a3feb9a6,Invention disclosure — CAR-T manufacturing,Describes software pipeline for drug discovery.,"[""Inventor 170""]",2019-10-30
+disc_7fae19a513,Invention disclosure — photovoltaic perovskites,Describes software pipeline for biofabrication.,"[""Inventor 230"", ""Inventor 532"", ""Inventor 498""]",2024-02-17
+disc_d4fb906487,Invention disclosure — battery chemistry,Describes device prototype for biofabrication.,"[""Inventor 440"", ""Inventor 499"", ""Inventor 327""]",2020-11-14
+disc_b375431489,Invention disclosure — AI-driven medicinal chemistry,Describes device prototype for biofabrication.,"[""Inventor 174"", ""Inventor 278""]",2021-08-20
+disc_bb05af42f2,Invention disclosure — single-cell multiomics,Describes device prototype for manufacturing.,"[""Inventor 370"", ""Inventor 268""]",2024-09-29
+disc_d2931a8e3c,Invention disclosure — nanopore sequencing,Describes software pipeline for biofabrication.,"[""Inventor 563"", ""Inventor 367""]",2019-06-29
+disc_f583eb5f62,Invention disclosure — robotic prosthetics,Describes novel assay for manufacturing.,"[""Inventor 570""]",2021-09-08
+disc_481389c207,Invention disclosure — single-cell multiomics,Describes software pipeline for drug discovery.,"[""Inventor 550"", ""Inventor 292"", ""Inventor 309""]",2021-09-12
+disc_0a105aaf9d,Invention disclosure — photovoltaic perovskites,Describes novel assay for drug discovery.,"[""Inventor 447"", ""Inventor 425""]",2022-12-13
+disc_ca193b0360,Invention disclosure — solid-state cooling,Describes software pipeline for drug discovery.,"[""Inventor 15"", ""Inventor 437""]",2024-06-24
+disc_df5a757572,Invention disclosure — lab-on-a-chip,Describes software pipeline for diagnostics.,"[""Inventor 450""]",2023-05-21
+disc_a6920a9f54,Invention disclosure — AI-driven medicinal chemistry,Describes software pipeline for drug discovery.,"[""Inventor 5""]",2024-06-14
+disc_fa569cca4b,Invention disclosure — lab-on-a-chip,Describes device prototype for diagnostics.,"[""Inventor 39""]",2023-05-09
+disc_b94692b6a8,Invention disclosure — protein engineering,Describes novel assay for drug discovery.,"[""Inventor 171""]",2021-12-21
+disc_7bf0cf8663,Invention disclosure — single-cell multiomics,Describes software pipeline for manufacturing.,"[""Inventor 413"", ""Inventor 314""]",2020-05-29
+disc_741a8441cf,Invention disclosure — lab-on-a-chip,Describes software pipeline for biofabrication.,"[""Inventor 230"", ""Inventor 464"", ""Inventor 94""]",2023-05-27
+disc_29552339b4,Invention disclosure — robotic prosthetics,Describes software pipeline for diagnostics.,"[""Inventor 564""]",2024-06-11
+disc_2cf73867c9,Invention disclosure — gene editing (CRISPR),Describes software pipeline for diagnostics.,"[""Inventor 506"", ""Inventor 41""]",2019-01-17
+disc_bb284bffad,Invention disclosure — wearable health sensors,Describes novel assay for biofabrication.,"[""Inventor 566""]",2019-10-27
+disc_f8bd7c340f,Invention disclosure — gene editing (CRISPR),Describes software pipeline for manufacturing.,"[""Inventor 556"", ""Inventor 352""]",2019-09-08
+disc_22260f7d4d,Invention disclosure — CAR-T manufacturing,Describes device prototype for diagnostics.,"[""Inventor 119"", ""Inventor 265""]",2021-01-17
+disc_96b62984b3,Invention disclosure — CAR-T manufacturing,Describes software pipeline for diagnostics.,"[""Inventor 186""]",2021-05-10
+disc_57cc36a286,Invention disclosure — mRNA therapeutics,Describes device prototype for diagnostics.,"[""Inventor 448"", ""Inventor 79"", ""Inventor 179""]",2022-06-20
+disc_2cd4a2dde2,Invention disclosure — biosensors,Describes novel assay for biofabrication.,"[""Inventor 234""]",2022-03-31
+disc_0de285cf8a,Invention disclosure — lab-on-a-chip,Describes device prototype for manufacturing.,"[""Inventor 21""]",2019-03-26
+disc_369eaacf33,Invention disclosure — wearable health sensors,Describes software pipeline for diagnostics.,"[""Inventor 306"", ""Inventor 598"", ""Inventor 384""]",2023-11-19
+disc_e93f43045d,Invention disclosure — robotic prosthetics,Describes software pipeline for diagnostics.,"[""Inventor 117"", ""Inventor 420"", ""Inventor 55""]",2021-01-23
+disc_8c42d17bb7,Invention disclosure — battery chemistry,Describes software pipeline for manufacturing.,"[""Inventor 347"", ""Inventor 203""]",2021-12-03
+disc_51d9f6e4b6,Invention disclosure — wearable health sensors,Describes software pipeline for manufacturing.,"[""Inventor 5""]",2020-12-21
+disc_9b7df7f101,Invention disclosure — ultrafast Li-ion charging,Describes novel assay for drug discovery.,"[""Inventor 349""]",2019-04-02
+disc_80e77b6baf,Invention disclosure — wearable health sensors,Describes novel assay for drug discovery.,"[""Inventor 161""]",2023-08-12
+disc_4a2f9332f5,Invention disclosure — wearable health sensors,Describes device prototype for biofabrication.,"[""Inventor 404"", ""Inventor 427"", ""Inventor 361""]",2021-10-31
+disc_edfd658722,Invention disclosure — CAR-T manufacturing,Describes software pipeline for diagnostics.,"[""Inventor 343"", ""Inventor 436""]",2024-07-19
+disc_2e321e1f08,Invention disclosure — biosensors,Describes novel assay for diagnostics.,"[""Inventor 560""]",2020-01-25
+disc_77c918df96,Invention disclosure — bioprinting,Describes software pipeline for biofabrication.,"[""Inventor 75""]",2022-02-05
+disc_bd9c9de0fb,Invention disclosure — ultrafast Li-ion charging,Describes novel assay for diagnostics.,"[""Inventor 507"", ""Inventor 79"", ""Inventor 480""]",2020-02-10
+disc_e158d48774,Invention disclosure — CAR-T manufacturing,Describes novel assay for biofabrication.,"[""Inventor 412""]",2021-02-17
+disc_0db7a8bb61,Invention disclosure — bioreactor control,Describes novel assay for manufacturing.,"[""Inventor 401"", ""Inventor 333""]",2025-06-25
+disc_9f61027da0,Invention disclosure — microfluidics,Describes device prototype for biofabrication.,"[""Inventor 518""]",2020-12-28
+disc_72cc48b493,Invention disclosure — photovoltaic perovskites,Describes software pipeline for diagnostics.,"[""Inventor 33""]",2024-11-19
+disc_4e4163363f,Invention disclosure — solid-state cooling,Describes device prototype for biofabrication.,"[""Inventor 381"", ""Inventor 29"", ""Inventor 64""]",2022-07-15
+disc_f6b8b90792,Invention disclosure — protein engineering,Describes software pipeline for diagnostics.,"[""Inventor 229"", ""Inventor 90"", ""Inventor 462""]",2022-06-04
+disc_ddde0d3bdc,Invention disclosure — diagnostic imaging,Describes device prototype for manufacturing.,"[""Inventor 352"", ""Inventor 484""]",2020-03-15
+disc_f10cda547f,Invention disclosure — lab-on-a-chip,Describes device prototype for diagnostics.,"[""Inventor 96"", ""Inventor 133"", ""Inventor 466""]",2020-06-16
+disc_1e35f71680,Invention disclosure — microfluidics,Describes software pipeline for diagnostics.,"[""Inventor 571"", ""Inventor 491"", ""Inventor 79""]",2019-01-18
+disc_e77a313d9f,Invention disclosure — AI-driven medicinal chemistry,Describes device prototype for biofabrication.,"[""Inventor 591"", ""Inventor 110""]",2019-03-16
+disc_7ee39fb28c,Invention disclosure — lab-on-a-chip,Describes software pipeline for drug discovery.,"[""Inventor 197"", ""Inventor 120""]",2023-08-05
+disc_663d9c951f,Invention disclosure — biosensors,Describes device prototype for biofabrication.,"[""Inventor 182"", ""Inventor 533""]",2022-05-20
+disc_3ebeb5c928,Invention disclosure — CAR-T manufacturing,Describes software pipeline for manufacturing.,"[""Inventor 432""]",2024-05-27
+disc_bd458fb9e0,Invention disclosure — protein engineering,Describes software pipeline for diagnostics.,"[""Inventor 183""]",2022-08-07
+disc_a77ae7b1a6,Invention disclosure — CAR-T manufacturing,Describes novel assay for diagnostics.,"[""Inventor 511"", ""Inventor 206"", ""Inventor 381""]",2020-02-21
+disc_8ecbb54a2d,Invention disclosure — photovoltaic perovskites,Describes novel assay for diagnostics.,"[""Inventor 73"", ""Inventor 379"", ""Inventor 301""]",2021-11-21
+disc_2f632aa779,Invention disclosure — graphene membranes,Describes software pipeline for manufacturing.,"[""Inventor 252"", ""Inventor 343""]",2021-08-08
+disc_3360b9363d,Invention disclosure — protein engineering,Describes novel assay for drug discovery.,"[""Inventor 7""]",2020-02-20
+disc_5885b9f3d3,Invention disclosure — mRNA therapeutics,Describes software pipeline for manufacturing.,"[""Inventor 267"", ""Inventor 442""]",2023-08-16
+disc_edeaf2b4fa,Invention disclosure — biosensors,Describes software pipeline for diagnostics.,"[""Inventor 25""]",2022-07-29
+disc_628323b3e6,Invention disclosure — lab-on-a-chip,Describes device prototype for drug discovery.,"[""Inventor 288"", ""Inventor 119"", ""Inventor 354""]",2025-12-06
+disc_1ccd58131c,Invention disclosure — biosensors,Describes novel assay for diagnostics.,"[""Inventor 431"", ""Inventor 333"", ""Inventor 208""]",2024-09-23
+disc_5777abdc65,Invention disclosure — wearable health sensors,Describes software pipeline for manufacturing.,"[""Inventor 105"", ""Inventor 31""]",2019-01-14
+disc_ed9dbe2ca5,Invention disclosure — graphene membranes,Describes device prototype for drug discovery.,"[""Inventor 257""]",2019-06-30
+disc_8aedb9a6b0,Invention disclosure — lab-on-a-chip,Describes software pipeline for diagnostics.,"[""Inventor 351""]",2024-10-02
+disc_2a7cb5635a,Invention disclosure — mRNA therapeutics,Describes software pipeline for manufacturing.,"[""Inventor 322""]",2019-05-18
+disc_ce326f5184,Invention disclosure — graphene membranes,Describes device prototype for drug discovery.,"[""Inventor 266"", ""Inventor 379"", ""Inventor 489""]",2020-03-08
+disc_0917c620d7,Invention disclosure — photovoltaic perovskites,Describes software pipeline for manufacturing.,"[""Inventor 232""]",2023-06-24
+disc_a0e166eb57,Invention disclosure — nanopore sequencing,Describes software pipeline for biofabrication.,"[""Inventor 484""]",2021-09-25
+disc_f08b112119,Invention disclosure — nanopore sequencing,Describes software pipeline for manufacturing.,"[""Inventor 66""]",2022-10-24
+disc_d87214042d,Invention disclosure — gene editing (CRISPR),Describes device prototype for biofabrication.,"[""Inventor 285"", ""Inventor 66""]",2023-01-06
+disc_83790432e3,Invention disclosure — lab-on-a-chip,Describes device prototype for diagnostics.,"[""Inventor 31""]",2019-11-21
+disc_c4aab5015f,Invention disclosure — solid-state cooling,Describes device prototype for diagnostics.,"[""Inventor 486"", ""Inventor 445""]",2025-11-08
+disc_d7415b34ff,Invention disclosure — mRNA therapeutics,Describes novel assay for biofabrication.,"[""Inventor 45"", ""Inventor 565"", ""Inventor 60""]",2023-03-18
+disc_6d9033307f,Invention disclosure — microfluidics,Describes software pipeline for drug discovery.,"[""Inventor 19"", ""Inventor 148""]",2020-09-11
+disc_e1ef06f1e1,Invention disclosure — protein engineering,Describes novel assay for manufacturing.,"[""Inventor 512""]",2021-12-31
+disc_3dd0729e81,Invention disclosure — biosensors,Describes device prototype for drug discovery.,"[""Inventor 431"", ""Inventor 295""]",2024-06-15
+disc_5ac56d18be,Invention disclosure — single-cell multiomics,Describes software pipeline for manufacturing.,"[""Inventor 331""]",2025-10-23
+disc_8c276a34e0,Invention disclosure — CAR-T manufacturing,Describes device prototype for drug discovery.,"[""Inventor 93""]",2022-05-01
+disc_c6f9ff2b79,Invention disclosure — solid-state cooling,Describes software pipeline for drug discovery.,"[""Inventor 511""]",2021-10-31

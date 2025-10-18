@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Evaluator API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        textarea, input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        textarea {
+            height: 120px;
+            resize: vertical;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #007bff;
+            background-color: #f8f9fa;
+        }
+        .prediction {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .commercial { color: #28a745; }
+        .platform { color: #007bff; }
+        .free { color: #17a2b8; }
+        .none { color: #dc3545; }
+        .confidence {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .recommendations {
+            margin-top: 15px;
+        }
+        .recommendation {
+            background: white;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 3px;
+            border-left: 3px solid #007bff;
+        }
+        .loading {
+            display: none;
+            text-align: center;
+            color: #666;
+        }
+        .error {
+            color: #dc3545;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .examples {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+        }
+        .example {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 3px;
+            cursor: pointer;
+            border: 1px solid #ddd;
+        }
+        .example:hover {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Technology Evaluator API</h1>
+        
+        <form id="evaluateForm">
+            <div class="form-group">
+                <label for="ideaText">Описание технологической идеи:</label>
+                <textarea id="ideaText" placeholder="Введите описание вашей технологической идеи..."></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="evidenceText">Доказательства (JSON, опционально):</label>
+                <textarea id="evidenceText" placeholder='[{"type": "market", "meta": {"type": "Product launch", "importance_score": 3.5}}]'></textarea>
+            </div>
+            
+            <button type="submit">Оценить идею</button>
+            <button type="button" onclick="clearForm()">Очистить</button>
+        </form>
+        
+        <div class="loading" id="loading">
+            🔄 Анализируем идею...
+        </div>
+        
+        <div id="result" class="result" style="display: none;">
+            <div class="prediction" id="prediction"></div>
+            <div class="confidence" id="confidence"></div>
+            <div class="recommendations" id="recommendations"></div>
+        </div>
+        
+        <div class="examples">
+            <h3>Примеры для тестирования:</h3>
+            <div class="example" onclick="loadExample('commercial')">
+                <strong>Коммерческая идея:</strong> A novel machine learning algorithm for drug discovery that can be licensed to pharmaceutical companies
+            </div>
+            <div class="example" onclick="loadExample('platform')">
+                <strong>Платформенная идея:</strong> A modular platform architecture with scalable cartridges for data processing
+            </div>
+            <div class="example" onclick="loadExample('free')">
+                <strong>Свободная идея:</strong> An open source framework for free to operate data analysis tools
+            </div>
+            <div class="example" onclick="loadExample('none')">
+                <strong>Неопределенная идея:</strong> Some random text that doesn't make sense
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE_URL = 'http://localhost:5001';
+        
+        document.getElementById('evaluateForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const ideaText = document.getElementById('ideaText').value.trim();
+            if (!ideaText) {
+                alert('Пожалуйста, введите описание идеи');
+                return;
+            }
+            
+            const evidenceText = document.getElementById('evidenceText').value.trim();
+            let evidence = [];
+            
+            if (evidenceText) {
+                try {
+                    evidence = JSON.parse(evidenceText);
+                } catch (error) {
+                    alert('Ошибка в JSON формате доказательств: ' + error.message);
+                    return;
+                }
+            }
+            
+            showLoading(true);
+            hideResult();
+            
+            try {
+                const response = await fetch(`${API_BASE_URL}/evaluate`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        idea_text: ideaText,
+                        evidence: evidence
+                    })
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const result = await response.json();
+                displayResult(result);
+                
+            } catch (error) {
+                showError('Ошибка при обращении к API: ' + error.message);
+            } finally {
+                showLoading(false);
+            }
+        });
+        
+        function displayResult(result) {
+            const prediction = result.predictions.hybrid.prediction;
+            const confidence = result.predictions.ml_model.confidence;
+            const method = result.predictions.hybrid.method;
+            
+            document.getElementById('prediction').textContent = `Предсказание: ${prediction}`;
+            document.getElementById('prediction').className = `prediction ${prediction}`;
+            
+            document.getElementById('confidence').textContent = 
+                `Уверенность: ${(confidence * 100).toFixed(1)}% | Метод: ${method}`;
+            
+            const recommendationsDiv = document.getElementById('recommendations');
+            recommendationsDiv.innerHTML = '<h4>Рекомендации:</h4>';
+            
+            result.recommendations.forEach(rec => {
+                const recDiv = document.createElement('div');
+                recDiv.className = 'recommendation';
+                recDiv.innerHTML = `
+                    <strong>${rec.message}</strong>
+                    <ul>
+                        ${rec.actions.map(action => `<li>${action}</li>`).join('')}
+                    </ul>
+                `;
+                recommendationsDiv.appendChild(recDiv);
+            });
+            
+            showResult();
+        }
+        
+        function showLoading(show) {
+            document.getElementById('loading').style.display = show ? 'block' : 'none';
+        }
+        
+        function showResult() {
+            document.getElementById('result').style.display = 'block';
+        }
+        
+        function hideResult() {
+            document.getElementById('result').style.display = 'none';
+        }
+        
+        function showError(message) {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = `<div class="error">${message}</div>`;
+            resultDiv.style.display = 'block';
+        }
+        
+        function clearForm() {
+            document.getElementById('ideaText').value = '';
+            document.getElementById('evidenceText').value = '';
+            hideResult();
+        }
+        
+        function loadExample(type) {
+            const examples = {
+                commercial: {
+                    text: 'A novel machine learning algorithm for drug discovery that can be licensed to pharmaceutical companies',
+                    evidence: '[{"type": "market", "meta": {"type": "Product launch", "importance_score": 3.5}}]'
+                },
+                platform: {
+                    text: 'A modular platform architecture with scalable cartridges for data processing',
+                    evidence: '[]'
+                },
+                free: {
+                    text: 'An open source framework for free to operate data analysis tools',
+                    evidence: '[]'
+                },
+                none: {
+                    text: 'Some random text that doesn\'t make sense',
+                    evidence: '[]'
+                }
+            };
+            
+            const example = examples[type];
+            document.getElementById('ideaText').value = example.text;
+            document.getElementById('evidenceText').value = example.evidence;
+        }
+    </script>
+</body>
+</html>

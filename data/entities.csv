@@ -1,0 +1,1501 @@
+entity_id,name,type,country
+ent_2cc5e659ce,BioPlatform SA 466,university,FR
+ent_565b73a65e,OmicsCore 793,startup,ES
+ent_7477645b23,BioPlatform SA 638,company,UK
+ent_9841caf72d,NanoTech EU 84,company,ES
+ent_e6272447e7,GeneWorks 987,university,SE
+ent_6bc3271342,MedDevicesLtd 6,lab,US
+ent_1df80803dd,AgriCorp 95,consortium,UK
+ent_2f17699f79,BioPlatform SA 286,university,IT
+ent_0b485b6d85,MicroFab Labs 865,university,DE
+ent_bd7d2c894d,MedDevicesLtd 672,lab,PT
+ent_71556763ad,PharmaCo 184,university,US
+ent_7b776e43b1,BioPlatform SA 547,lab,PT
+ent_b971a29e64,BatterySolutions 410,startup,UK
+ent_0beab56ada,MedDevicesLtd 907,lab,SE
+ent_58af04e4bf,OmicsCore 286,startup,DE
+ent_5b33670c53,BatterySolutions 226,company,NL
+ent_8bc21087dc,GeneWorks 933,company,PT
+ent_9f1d2f2093,BioPlatform SA 709,lab,NL
+ent_8034f0ebdb,MedDevicesLtd 622,startup,PT
+ent_128cef5425,PharmaCo 300,lab,PT
+ent_24fd44b451,TheraWorks 307,consortium,FR
+ent_2eef9afa7e,OmicsCore 956,company,NL
+ent_e8a0070ec3,TheraWorks 743,startup,ES
+ent_efc568c09c,BioPlatform SA 711,university,IT
+ent_a8b3fed399,BioPlatform SA 339,startup,FI
+ent_5ee467f673,OmicsCore 612,consortium,FI
+ent_2e71de73dd,NanoTech EU 975,university,DE
+ent_f1a1016799,MedDevicesLtd 670,lab,US
+ent_579bdcd44b,AgriCorp 577,company,FI
+ent_879fac4357,NanoTech EU 285,lab,FI
+ent_9071c74b15,BioPlatform SA 908,startup,PT
+ent_1504237cf9,PharmaCo 997,company,SE
+ent_2e22e15ef3,GeneWorks 754,consortium,NL
+ent_650b15fdbf,OmicsCore 349,university,PT
+ent_80119a8491,NanoTech EU 11,startup,SE
+ent_db730ecece,MicroFab Labs 588,company,FI
+ent_95bda6a167,TheraWorks 299,university,SE
+ent_bd68ca3e43,OmicsCore 402,lab,DE
+ent_2065ad3197,AgriCorp 286,startup,IT
+ent_9f9336d032,PharmaCo 775,university,ES
+ent_f57a048923,NanoTech EU 115,company,UK
+ent_832029a187,AgriCorp 25,startup,ES
+ent_48d4460baf,MicroFab Labs 601,company,FR
+ent_ca71114209,NanoTech EU 163,university,NL
+ent_22ef992a24,AgriCorp 782,lab,US
+ent_1bf2ea7c6c,BioPlatform SA 429,lab,UK
+ent_a26f72b96b,MedDevicesLtd 875,company,PT
+ent_764d807758,GeneWorks 49,consortium,US
+ent_fac2096cbf,BatterySolutions 245,company,FI
+ent_60518bd017,GeneWorks 883,startup,FR
+ent_f12c7441bf,MedDevicesLtd 821,consortium,PT
+ent_91e868020d,BioPlatform SA 248,consortium,UK
+ent_de558afc03,AgriCorp 494,startup,FI
+ent_387266307f,NanoTech EU 470,university,DE
+ent_3d3a2ec8ec,OmicsCore 135,startup,DE
+ent_066aaae66a,BatterySolutions 958,company,FR
+ent_9848f09437,MicroFab Labs 258,university,US
+ent_1ea443551d,OmicsCore 250,startup,US
+ent_0a269c87d5,NanoTech EU 72,company,IT
+ent_3c4f855849,BioPlatform SA 843,university,UK
+ent_e77aec4469,OmicsCore 661,lab,FI
+ent_fa2a12cc7b,PharmaCo 779,consortium,DE
+ent_c197ab9209,MedDevicesLtd 505,consortium,US
+ent_b9699c53ac,BatterySolutions 445,startup,NL
+ent_62c81e6b16,OmicsCore 190,startup,SE
+ent_a921cb8879,BioPlatform SA 107,lab,UK
+ent_e8c784940e,PharmaCo 165,company,FR
+ent_fc8b96aa6c,BioPlatform SA 969,university,FI
+ent_d62fc1d685,AgriCorp 310,consortium,FR
+ent_6484bad3e5,BatterySolutions 797,university,FR
+ent_5c238a0296,PharmaCo 895,university,PT
+ent_01d43f2bc9,BatterySolutions 916,lab,PT
+ent_907f08bc9f,PharmaCo 402,university,US
+ent_228fa4e3b9,BioPlatform SA 871,consortium,IT
+ent_2116bcd7a4,TheraWorks 389,lab,PT
+ent_8a2ee1f97f,GeneWorks 607,company,US
+ent_094e90a93f,MicroFab Labs 288,startup,SE
+ent_927a628da7,OmicsCore 364,startup,IT
+ent_d1c2a1bb80,PharmaCo 797,startup,PT
+ent_01b6bda31f,BioPlatform SA 25,university,US
+ent_9c4ea0b0b7,MedDevicesLtd 486,university,DE
+ent_b6b774a4e8,AgriCorp 497,startup,PT
+ent_31b127af4b,NanoTech EU 616,lab,SE
+ent_81f557763d,TheraWorks 148,university,US
+ent_ba7fe1d284,MedDevicesLtd 832,company,FI
+ent_4858b1d5a9,GeneWorks 367,lab,ES
+ent_c6f431a50c,AgriCorp 161,company,IT
+ent_d85d8893ce,PharmaCo 842,company,PT
+ent_e213886cc5,NanoTech EU 646,consortium,NL
+ent_032d59839a,NanoTech EU 826,lab,FI
+ent_67989ffa6c,OmicsCore 793,consortium,FI
+ent_052d63b664,AgriCorp 35,university,US
+ent_c4f2da6226,BatterySolutions 369,university,FI
+ent_c666d7dcd5,OmicsCore 655,startup,US
+ent_376a220826,TheraWorks 757,startup,US
+ent_fd10d185ca,TheraWorks 425,company,PT
+ent_0dbf833f58,GeneWorks 943,startup,ES
+ent_4eaa6d410b,OmicsCore 618,lab,FI
+ent_320efd84ec,PharmaCo 105,company,SE
+ent_71d39fa124,PharmaCo 210,consortium,IT
+ent_517aa9f4eb,NanoTech EU 199,startup,PT
+ent_9a194eacbd,OmicsCore 988,consortium,IT
+ent_856896ecae,BatterySolutions 686,startup,PT
+ent_7db457146c,BatterySolutions 204,consortium,ES
+ent_8ec6d12fb9,MicroFab Labs 432,lab,DE
+ent_58895333b0,PharmaCo 941,company,UK
+ent_42568a692c,MedDevicesLtd 451,consortium,PT
+ent_22a1c50189,NanoTech EU 251,consortium,FI
+ent_4e8b785737,MedDevicesLtd 832,company,SE
+ent_40504812d6,TheraWorks 850,startup,US
+ent_973bdad3fd,TheraWorks 214,consortium,PT
+ent_8f625afb37,BatterySolutions 365,university,SE
+ent_12e7caaeef,TheraWorks 880,consortium,PT
+ent_3890964587,MicroFab Labs 19,startup,FI
+ent_f9bcae5ecb,TheraWorks 145,consortium,UK
+ent_81b4b3a361,BatterySolutions 440,university,US
+ent_fb945e80d7,BatterySolutions 112,lab,FI
+ent_eaff911603,TheraWorks 449,startup,DE
+ent_57571eb7d4,BatterySolutions 888,university,DE
+ent_03c3a30aa1,GeneWorks 547,company,SE
+ent_c2f0469b6c,TheraWorks 780,lab,UK
+ent_27a33bc19c,GeneWorks 167,consortium,SE
+ent_913ab9c0e2,PharmaCo 480,consortium,ES
+ent_d63eb0d51c,PharmaCo 291,startup,NL
+ent_0a1b2891df,BatterySolutions 749,startup,SE
+ent_c615cb8ff6,BioPlatform SA 972,lab,FR
+ent_9323163bac,GeneWorks 303,university,IT
+ent_932323700b,BioPlatform SA 389,lab,NL
+ent_2fa2328a4e,MicroFab Labs 854,company,ES
+ent_2d5b5e2be6,GeneWorks 978,consortium,FR
+ent_4a9c563b68,OmicsCore 771,company,SE
+ent_5786d4eedc,PharmaCo 986,company,UK
+ent_41f2edcfc2,PharmaCo 625,consortium,UK
+ent_b1fb9c8d7d,BioPlatform SA 32,startup,PT
+ent_fecd27a9c9,BioPlatform SA 211,university,FR
+ent_6209e152b1,BatterySolutions 514,lab,US
+ent_2937dac505,NanoTech EU 742,company,US
+ent_5b28aadf63,BatterySolutions 652,lab,NL
+ent_6094a2d775,NanoTech EU 346,university,FI
+ent_419437bcb5,AgriCorp 235,consortium,FR
+ent_115afd37d1,AgriCorp 683,startup,FR
+ent_5120fb0557,NanoTech EU 664,company,PT
+ent_ff5ec9f4f4,MedDevicesLtd 103,startup,IT
+ent_41ea733a2c,MedDevicesLtd 801,university,FR
+ent_437d99fadc,NanoTech EU 863,company,IT
+ent_50879df156,BioPlatform SA 362,company,SE
+ent_f703a20ca3,OmicsCore 654,startup,FR
+ent_40e67460a9,BioPlatform SA 762,university,FR
+ent_9bfa634951,AgriCorp 724,consortium,UK
+ent_caec8c7451,MedDevicesLtd 153,university,IT
+ent_240a5c973c,BatterySolutions 196,consortium,US
+ent_c4ef72ef84,GeneWorks 505,consortium,DE
+ent_d41563956b,BioPlatform SA 611,company,DE
+ent_863842c884,MicroFab Labs 949,lab,ES
+ent_8acddf521c,OmicsCore 166,company,US
+ent_6a280591ab,BioPlatform SA 729,startup,FI
+ent_b98912f5da,MedDevicesLtd 940,company,NL
+ent_e36ed2b748,BioPlatform SA 246,lab,SE
+ent_02855e3f02,TheraWorks 228,company,US
+ent_b4c8a84e56,NanoTech EU 946,startup,US
+ent_a29776ae99,OmicsCore 78,university,NL
+ent_6c8c84d88b,PharmaCo 762,university,FI
+ent_fb7cc4f0dc,BatterySolutions 981,university,US
+ent_a211996e2f,GeneWorks 588,lab,NL
+ent_6c1b6e2a53,MedDevicesLtd 452,startup,UK
+ent_c2686710b6,TheraWorks 293,lab,SE
+ent_6fe6ecd93d,GeneWorks 831,company,ES
+ent_ba29968bcc,BatterySolutions 983,lab,US
+ent_bfc11cd356,BioPlatform SA 219,startup,FR
+ent_4c83476b48,PharmaCo 260,company,ES
+ent_fc1bcb4138,AgriCorp 788,startup,SE
+ent_2cbb661fe1,BioPlatform SA 347,consortium,ES
+ent_fd7c493ffa,GeneWorks 640,startup,ES
+ent_7fc810c77b,GeneWorks 473,university,IT
+ent_5fe4e2b9f8,PharmaCo 725,company,FR
+ent_9f55e249f0,BioPlatform SA 674,lab,IT
+ent_1a46a378f0,BioPlatform SA 782,startup,FR
+ent_b536a8f37c,PharmaCo 451,consortium,PT
+ent_3258fb3b37,GeneWorks 592,company,FI
+ent_0d7bf2076b,NanoTech EU 581,company,UK
+ent_3d678d575e,BioPlatform SA 915,university,UK
+ent_3aa48bdef8,TheraWorks 100,startup,NL
+ent_9e997a9d42,NanoTech EU 940,university,US
+ent_6e4074fcd3,NanoTech EU 417,company,NL
+ent_299dc50c47,PharmaCo 468,startup,DE
+ent_ed9323f6f6,TheraWorks 462,company,NL
+ent_f58e20151a,MicroFab Labs 821,lab,IT
+ent_b2690d0852,NanoTech EU 713,university,DE
+ent_e388dec014,BatterySolutions 221,lab,NL
+ent_62644b944d,BatterySolutions 342,university,ES
+ent_d8c3de328e,BioPlatform SA 18,lab,PT
+ent_912c4d6918,NanoTech EU 712,company,PT
+ent_3f3d817115,NanoTech EU 315,consortium,IT
+ent_16c8cbfa8b,MicroFab Labs 636,consortium,DE
+ent_3c79ad2dce,AgriCorp 153,lab,PT
+ent_3d3b328b12,MicroFab Labs 924,university,FR
+ent_c75a966b0a,BatterySolutions 811,company,FR
+ent_0f42980d01,NanoTech EU 117,startup,FI
+ent_76836b3799,MicroFab Labs 803,lab,FI
+ent_c5cbb18278,PharmaCo 944,consortium,FR
+ent_3b8cad98fc,AgriCorp 329,startup,UK
+ent_69eaa33e93,MicroFab Labs 262,lab,US
+ent_f5ee5bc38e,OmicsCore 516,university,PT
+ent_e9181d3391,MicroFab Labs 381,university,IT
+ent_2a4f1b3cbc,GeneWorks 212,consortium,NL
+ent_fd48159099,TheraWorks 857,startup,FI
+ent_349708904c,MedDevicesLtd 75,university,NL
+ent_895ab3282b,PharmaCo 808,consortium,SE
+ent_a9691856cb,AgriCorp 157,lab,SE
+ent_2c440ba355,OmicsCore 2,company,PT
+ent_fcef1f5070,MedDevicesLtd 917,university,FI
+ent_dcccade6dc,GeneWorks 541,company,NL
+ent_83f843d983,MedDevicesLtd 613,lab,US
+ent_8e266d9549,MicroFab Labs 933,lab,DE
+ent_2cc5ab4094,NanoTech EU 89,university,PT
+ent_c6a44f7046,BioPlatform SA 810,company,SE
+ent_4943e2103f,PharmaCo 750,startup,SE
+ent_e0a061c1da,GeneWorks 509,lab,DE
+ent_c81dc99b62,MedDevicesLtd 653,startup,SE
+ent_edbcf2f674,AgriCorp 232,university,FR
+ent_d80f391936,GeneWorks 420,company,PT
+ent_681294f93e,PharmaCo 407,university,NL
+ent_35e99b0eac,OmicsCore 988,startup,UK
+ent_9e0f880067,BatterySolutions 539,company,NL
+ent_041fa3f41a,MicroFab Labs 233,lab,FI
+ent_aea34b7886,AgriCorp 709,consortium,IT
+ent_968f8ab4ee,OmicsCore 843,lab,SE
+ent_ee756c0d8a,BatterySolutions 826,startup,SE
+ent_e242ef9d47,GeneWorks 580,university,US
+ent_33f02304ca,PharmaCo 320,consortium,UK
+ent_980eaef611,AgriCorp 708,university,FR
+ent_42b9012360,MicroFab Labs 125,university,UK
+ent_6b78e55f4d,NanoTech EU 713,lab,SE
+ent_83b54d668b,GeneWorks 19,company,IT
+ent_e15d7e9b23,PharmaCo 227,startup,PT
+ent_136920866c,AgriCorp 913,consortium,SE
+ent_fd1f3b7dac,TheraWorks 8,startup,SE
+ent_f8b2e5d106,MicroFab Labs 711,university,NL
+ent_8d91166448,MicroFab Labs 113,consortium,UK
+ent_953f6cf7ca,TheraWorks 795,consortium,SE
+ent_3b9c7beaa1,BioPlatform SA 521,company,UK
+ent_9c06baeeb1,BioPlatform SA 80,university,UK
+ent_ed81906c87,OmicsCore 372,company,FR
+ent_7deb12d99a,BioPlatform SA 342,company,IT
+ent_bd95db9ff1,MedDevicesLtd 866,lab,IT
+ent_2f1538a628,NanoTech EU 965,consortium,PT
+ent_88ea2d2f76,BioPlatform SA 864,consortium,FI
+ent_254c61751a,NanoTech EU 21,consortium,SE
+ent_3fbd4e169c,GeneWorks 531,startup,DE
+ent_f11c7e32b8,MicroFab Labs 16,university,NL
+ent_256368e3c1,MicroFab Labs 9,consortium,FI
+ent_39a44226d6,MicroFab Labs 633,company,DE
+ent_cb11d417c7,OmicsCore 337,company,UK
+ent_2ce3ed3df1,GeneWorks 43,startup,NL
+ent_a101382c65,BatterySolutions 145,consortium,IT
+ent_3a2c4384c9,NanoTech EU 473,university,SE
+ent_b34cded68a,AgriCorp 127,lab,DE
+ent_acce0ffd2e,PharmaCo 734,university,SE
+ent_a5a993b300,BioPlatform SA 201,lab,US
+ent_52a27e2a2c,TheraWorks 458,startup,FI
+ent_cbb7c2c054,NanoTech EU 798,university,FR
+ent_39a15fc4fb,BatterySolutions 850,consortium,UK
+ent_0d67f3f8ac,GeneWorks 281,lab,FR
+ent_9227a2ed44,MedDevicesLtd 728,consortium,ES
+ent_0c882af594,MicroFab Labs 945,consortium,ES
+ent_2474ff9a00,MedDevicesLtd 627,lab,ES
+ent_4b1b8b27c9,BioPlatform SA 877,university,US
+ent_46a8d6bb49,MicroFab Labs 853,company,FR
+ent_784945645d,TheraWorks 762,startup,FR
+ent_b3acfc66c3,OmicsCore 838,lab,ES
+ent_84f2769fe0,NanoTech EU 630,startup,DE
+ent_05e9d7984f,PharmaCo 18,startup,PT
+ent_b0db0a58cb,GeneWorks 129,company,NL
+ent_f8ede8da28,AgriCorp 711,university,ES
+ent_a57c8f9cf9,TheraWorks 708,company,PT
+ent_4c36762c9f,OmicsCore 966,university,NL
+ent_a4b8cdd7a5,GeneWorks 894,startup,UK
+ent_8e31067e17,MedDevicesLtd 707,consortium,US
+ent_675411cea1,MicroFab Labs 195,lab,FR
+ent_2b785416fe,PharmaCo 391,university,FR
+ent_1b0797060e,PharmaCo 922,startup,UK
+ent_eb9aa53ef6,AgriCorp 790,university,UK
+ent_467a70aaf9,GeneWorks 606,lab,FR
+ent_142da98790,AgriCorp 996,lab,IT
+ent_6a0ecd166b,GeneWorks 297,university,US
+ent_06c7b243f6,TheraWorks 200,company,PT
+ent_5cd71f12b2,AgriCorp 644,lab,DE
+ent_f89db481f7,BioPlatform SA 129,company,FI
+ent_b13b608279,GeneWorks 895,startup,FR
+ent_0b35657fc3,TheraWorks 849,company,FI
+ent_e8412b1938,NanoTech EU 576,lab,NL
+ent_245d346be0,BioPlatform SA 962,startup,US
+ent_e3a35a7ff4,MedDevicesLtd 155,company,ES
+ent_e0c908b17b,BatterySolutions 863,university,ES
+ent_da0150f00d,NanoTech EU 3,lab,UK
+ent_f19755bd15,BioPlatform SA 325,startup,PT
+ent_27fe91de54,PharmaCo 356,university,FI
+ent_e400809afe,GeneWorks 945,company,FI
+ent_b9e6a52290,MicroFab Labs 311,startup,US
+ent_7cbfbd3d92,AgriCorp 133,university,SE
+ent_7b6089363f,BioPlatform SA 320,consortium,IT
+ent_01ac8d975d,AgriCorp 482,lab,DE
+ent_c0d2cfa0a2,PharmaCo 452,company,US
+ent_8501dd737c,BatterySolutions 858,consortium,DE
+ent_7dafa3ab97,GeneWorks 200,startup,ES
+ent_347f1306c3,TheraWorks 48,company,FI
+ent_891139c4f5,TheraWorks 46,lab,NL
+ent_ac31a721b7,MicroFab Labs 541,company,FI
+ent_0c38486a16,BioPlatform SA 47,consortium,FR
+ent_8ca62554d6,NanoTech EU 951,startup,US
+ent_74b17374cb,PharmaCo 630,lab,SE
+ent_53207a654b,AgriCorp 203,company,SE
+ent_f21070eb01,AgriCorp 291,lab,ES
+ent_4b5eed0962,NanoTech EU 668,company,SE
+ent_02a9a4d56c,MedDevicesLtd 995,startup,SE
+ent_f3379a04d7,MicroFab Labs 440,university,FI
+ent_62c9d44b32,MedDevicesLtd 562,university,NL
+ent_947f560831,PharmaCo 267,startup,UK
+ent_f8ed2033f1,PharmaCo 801,company,UK
+ent_3afd1083fb,PharmaCo 996,company,PT
+ent_242413b59f,MicroFab Labs 210,consortium,FR
+ent_58e6e298b2,NanoTech EU 304,university,PT
+ent_66c60916f2,BioPlatform SA 797,startup,FR
+ent_a264c807f7,PharmaCo 245,consortium,IT
+ent_46fcc6bbf3,GeneWorks 702,lab,UK
+ent_88335c4f12,NanoTech EU 733,consortium,DE
+ent_cc9e446ab4,MicroFab Labs 440,startup,IT
+ent_1e91655df2,BioPlatform SA 923,company,UK
+ent_1d71e9dd48,TheraWorks 897,consortium,FI
+ent_fe9b8bcb3f,NanoTech EU 583,university,IT
+ent_43cee3f2e5,AgriCorp 778,lab,IT
+ent_5fbad50638,GeneWorks 432,lab,IT
+ent_79fedfb92c,AgriCorp 105,company,IT
+ent_3cae3ddf10,TheraWorks 734,consortium,FR
+ent_33547dbe3e,GeneWorks 286,company,US
+ent_057301c384,OmicsCore 944,company,FR
+ent_e464d611a5,MedDevicesLtd 814,lab,ES
+ent_fcc0d83774,NanoTech EU 487,consortium,SE
+ent_c80d5388b6,MedDevicesLtd 83,company,DE
+ent_af94337dea,BioPlatform SA 877,consortium,UK
+ent_39b18491f9,MicroFab Labs 377,consortium,IT
+ent_212ecd5836,BioPlatform SA 169,consortium,DE
+ent_57c171e183,BatterySolutions 671,lab,FI
+ent_168e93f202,TheraWorks 867,consortium,NL
+ent_8dbae184c5,BioPlatform SA 952,university,IT
+ent_cddc1d8da6,MedDevicesLtd 86,lab,PT
+ent_937d1cd9b8,MicroFab Labs 51,university,UK
+ent_9e35a6b24f,BatterySolutions 240,consortium,FI
+ent_eac05514d6,AgriCorp 816,startup,SE
+ent_03d0f79227,BatterySolutions 388,company,UK
+ent_053de09cee,MedDevicesLtd 139,consortium,UK
+ent_24663691fb,MedDevicesLtd 881,startup,SE
+ent_d671a7adfc,TheraWorks 425,startup,NL
+ent_e6c3ce8e81,PharmaCo 759,startup,US
+ent_35cb373249,OmicsCore 157,consortium,IT
+ent_cf9902e050,BatterySolutions 6,lab,IT
+ent_b7d4bc8299,BioPlatform SA 530,university,DE
+ent_53d165c6a9,MicroFab Labs 266,startup,IT
+ent_499ca608bf,BatterySolutions 549,lab,US
+ent_493a800754,MicroFab Labs 994,consortium,UK
+ent_fe0f2899ab,TheraWorks 375,university,SE
+ent_fc2252273a,NanoTech EU 964,consortium,FR
+ent_0ca43f1736,OmicsCore 42,university,IT
+ent_124a3a130e,PharmaCo 299,company,DE
+ent_6fdc98f5f5,PharmaCo 657,consortium,NL
+ent_14f0a41d58,AgriCorp 278,lab,IT
+ent_f0d8b7ef4b,GeneWorks 391,lab,PT
+ent_dbbbd6c54b,PharmaCo 523,consortium,FR
+ent_92e0f8c368,AgriCorp 583,lab,ES
+ent_87368c0625,TheraWorks 318,university,FI
+ent_ffb4dd6495,PharmaCo 293,lab,ES
+ent_2aeb47aa33,PharmaCo 874,lab,ES
+ent_543556010c,OmicsCore 330,startup,UK
+ent_d389fc670d,BioPlatform SA 933,startup,FR
+ent_c4377248e6,BatterySolutions 543,lab,NL
+ent_280a3c0054,PharmaCo 146,consortium,UK
+ent_03faa028c4,TheraWorks 467,lab,NL
+ent_2cd092c392,NanoTech EU 785,consortium,US
+ent_5f992ef65d,MicroFab Labs 601,startup,FI
+ent_89c9d1d9b6,PharmaCo 199,university,SE
+ent_78092d08e1,TheraWorks 402,lab,PT
+ent_5715c7ed8f,GeneWorks 818,company,DE
+ent_a9685cae8b,TheraWorks 375,university,ES
+ent_47b7b11b0f,TheraWorks 170,university,SE
+ent_8621dfe6c2,AgriCorp 654,company,DE
+ent_def1db757f,MedDevicesLtd 369,startup,FR
+ent_df44d376ba,OmicsCore 541,university,PT
+ent_8da2893f22,BatterySolutions 954,university,US
+ent_17a0c10ab0,OmicsCore 570,lab,FR
+ent_75eac3562d,NanoTech EU 24,lab,ES
+ent_f64efb93c9,GeneWorks 29,consortium,FI
+ent_73a83afb00,NanoTech EU 459,university,DE
+ent_71105e36cd,OmicsCore 822,university,FR
+ent_c260d1619d,BioPlatform SA 744,lab,NL
+ent_c0282a1310,BatterySolutions 493,consortium,SE
+ent_b0e980c2b2,BatterySolutions 175,university,DE
+ent_b2c94255a7,MicroFab Labs 907,lab,UK
+ent_fd95bacdc6,BioPlatform SA 120,company,NL
+ent_20d09f67e6,AgriCorp 995,university,ES
+ent_7a2b5c5460,PharmaCo 999,startup,DE
+ent_b2c0d12be6,BatterySolutions 546,company,SE
+ent_1b7b05399b,BioPlatform SA 108,startup,ES
+ent_253e65557e,MicroFab Labs 542,consortium,UK
+ent_0d2ba1bafb,TheraWorks 697,startup,US
+ent_74a53e86eb,OmicsCore 337,university,SE
+ent_8bad810f64,TheraWorks 120,lab,DE
+ent_6ce01f773c,MedDevicesLtd 699,university,US
+ent_e87ee49d6e,MedDevicesLtd 49,consortium,ES
+ent_7ff34a1996,NanoTech EU 822,startup,US
+ent_d55d96fd76,BatterySolutions 842,startup,US
+ent_21c399a167,AgriCorp 18,startup,DE
+ent_92919315eb,AgriCorp 587,company,FI
+ent_dd9492e10f,PharmaCo 584,company,DE
+ent_84390e8614,MicroFab Labs 602,lab,DE
+ent_1e7274e15d,MicroFab Labs 747,lab,NL
+ent_6f9aa052a2,MicroFab Labs 232,lab,FI
+ent_39ef9c46b3,MicroFab Labs 956,university,PT
+ent_40dee3393a,BioPlatform SA 590,startup,UK
+ent_a0463f6ea6,MicroFab Labs 684,lab,UK
+ent_08a0d490d9,BatterySolutions 75,startup,IT
+ent_5c36f43dcc,AgriCorp 995,university,DE
+ent_4bea690298,TheraWorks 245,company,FR
+ent_7843c1fc8d,GeneWorks 525,company,US
+ent_8d0fcbc747,PharmaCo 207,startup,IT
+ent_7bae81c99c,PharmaCo 361,consortium,FI
+ent_54640e8436,GeneWorks 496,startup,FR
+ent_bb2a95bda8,OmicsCore 131,lab,US
+ent_bb4b689422,NanoTech EU 674,startup,DE
+ent_a9f4865905,MedDevicesLtd 618,company,FR
+ent_6db5f0dae6,OmicsCore 842,startup,US
+ent_03773485f7,NanoTech EU 180,lab,ES
+ent_4510d38ea6,AgriCorp 583,lab,FR
+ent_d494249713,TheraWorks 679,university,ES
+ent_d17422237c,MicroFab Labs 818,consortium,FR
+ent_423d0cfa32,OmicsCore 271,startup,IT
+ent_d933cf08ce,BioPlatform SA 938,startup,NL
+ent_5d220d2515,OmicsCore 807,startup,UK
+ent_eec8e0abe4,NanoTech EU 357,consortium,FI
+ent_b7a15ccf15,BioPlatform SA 383,startup,PT
+ent_c357da44f5,TheraWorks 57,consortium,FI
+ent_c116b43964,NanoTech EU 695,university,DE
+ent_8cecd05ea1,AgriCorp 27,startup,NL
+ent_7400d73b08,PharmaCo 198,university,NL
+ent_8b1d627b05,BioPlatform SA 729,startup,DE
+ent_6ca5093909,GeneWorks 309,startup,UK
+ent_81f4d4c328,BatterySolutions 655,university,SE
+ent_2a82b4ecc0,MicroFab Labs 478,lab,PT
+ent_1937f9e6b6,AgriCorp 855,consortium,PT
+ent_6e5f1adb17,BioPlatform SA 813,consortium,FI
+ent_78471801c5,NanoTech EU 285,company,DE
+ent_415fa58a22,MedDevicesLtd 577,consortium,ES
+ent_eaf0965eb6,AgriCorp 49,lab,IT
+ent_7209e807f3,AgriCorp 890,startup,IT
+ent_f29f742e58,BatterySolutions 430,consortium,PT
+ent_d1c3b86cbb,PharmaCo 911,consortium,DE
+ent_4e3de94a85,OmicsCore 623,university,UK
+ent_20d037941b,NanoTech EU 214,company,US
+ent_2908414142,BatterySolutions 766,company,UK
+ent_1f526a69e4,OmicsCore 386,company,ES
+ent_5b574340fd,BioPlatform SA 35,startup,SE
+ent_4f638fb026,OmicsCore 29,consortium,IT
+ent_a9d7c382c8,MedDevicesLtd 358,lab,SE
+ent_cb782406f5,NanoTech EU 432,company,ES
+ent_51d7b92ed5,PharmaCo 622,lab,FR
+ent_0bbef60cf2,OmicsCore 662,consortium,NL
+ent_a9183d7ebc,BioPlatform SA 96,university,FR
+ent_a9c5e34263,TheraWorks 287,university,US
+ent_74f9687c10,MicroFab Labs 999,lab,ES
+ent_cdf0ca8d9d,BioPlatform SA 475,university,UK
+ent_25d070e756,MedDevicesLtd 559,lab,UK
+ent_130568d80c,GeneWorks 346,lab,FR
+ent_98b1743115,AgriCorp 264,startup,SE
+ent_a50b3cba31,MedDevicesLtd 229,consortium,NL
+ent_db9482d083,NanoTech EU 417,startup,FR
+ent_fc9b2333da,BioPlatform SA 875,lab,PT
+ent_5bbfdfb50f,AgriCorp 24,startup,ES
+ent_4c7f88a1cc,MedDevicesLtd 255,startup,FR
+ent_fd827ab264,MicroFab Labs 760,lab,IT
+ent_58a1869391,PharmaCo 835,lab,FR
+ent_5c1d94a642,BioPlatform SA 948,company,ES
+ent_f271817ea4,MedDevicesLtd 357,consortium,IT
+ent_999cf00004,BioPlatform SA 304,company,SE
+ent_3cf5d07cd3,MedDevicesLtd 871,university,ES
+ent_351d923251,MedDevicesLtd 552,university,IT
+ent_d90aff0537,TheraWorks 16,lab,NL
+ent_a83c430866,BatterySolutions 477,consortium,US
+ent_13caff20f8,BatterySolutions 256,university,FR
+ent_690612885f,MicroFab Labs 406,startup,UK
+ent_e7b5655818,TheraWorks 78,company,NL
+ent_0faf183a80,OmicsCore 853,consortium,PT
+ent_998b47224f,BioPlatform SA 561,startup,DE
+ent_91d7d62eca,AgriCorp 775,consortium,IT
+ent_d0f37c9d5f,AgriCorp 574,consortium,FI
+ent_6e7f181b65,OmicsCore 222,company,SE
+ent_11e5fdee56,AgriCorp 395,consortium,PT
+ent_690af4c0e4,TheraWorks 302,company,PT
+ent_abd4b3aaa8,TheraWorks 117,company,IT
+ent_08571f27eb,AgriCorp 311,university,NL
+ent_24c2f17191,TheraWorks 130,university,FR
+ent_ddd2bfbee6,MicroFab Labs 133,university,DE
+ent_cf435d1ea8,PharmaCo 84,lab,DE
+ent_ffec2a5115,BioPlatform SA 364,lab,US
+ent_2602814c2f,BatterySolutions 681,startup,SE
+ent_62a617a48a,MedDevicesLtd 179,lab,IT
+ent_286cd662f3,BatterySolutions 908,company,IT
+ent_1661ed43ef,BatterySolutions 909,consortium,ES
+ent_3e19033bfe,NanoTech EU 516,company,PT
+ent_232184fff3,TheraWorks 704,company,IT
+ent_0eee41bf7f,TheraWorks 230,university,DE
+ent_1645689da4,TheraWorks 470,startup,FR
+ent_8f185301b7,NanoTech EU 426,company,IT
+ent_f5e0b82704,AgriCorp 284,consortium,FI
+ent_bb2a2039d6,AgriCorp 384,lab,SE
+ent_719f678201,GeneWorks 277,startup,NL
+ent_91bc183cd8,BatterySolutions 975,startup,PT
+ent_30587f9d16,MicroFab Labs 133,consortium,DE
+ent_64b99e4706,AgriCorp 922,consortium,SE
+ent_759918f9f0,PharmaCo 173,consortium,IT
+ent_681e1db06e,BioPlatform SA 295,university,NL
+ent_148e57d28b,TheraWorks 428,startup,SE
+ent_932ddf5322,BatterySolutions 511,university,UK
+ent_c13d444354,PharmaCo 166,company,DE
+ent_9eaeefee3d,TheraWorks 698,consortium,FR
+ent_c8fb90afca,BioPlatform SA 445,startup,NL
+ent_414d425b81,GeneWorks 433,consortium,ES
+ent_0b5ab0ec0c,MedDevicesLtd 802,company,ES
+ent_93e4f299d2,GeneWorks 553,startup,DE
+ent_37565cfebf,TheraWorks 556,startup,US
+ent_21f995ac23,BioPlatform SA 394,lab,ES
+ent_2f744715ce,MicroFab Labs 288,startup,US
+ent_1bb47bf6ed,AgriCorp 368,consortium,FI
+ent_0622bea67b,BioPlatform SA 821,startup,SE
+ent_6007c66bc5,MicroFab Labs 356,consortium,PT
+ent_c7e9ded28e,GeneWorks 2,startup,FR
+ent_aa61b78be3,BatterySolutions 590,company,NL
+ent_7d97e332e9,BatterySolutions 554,lab,ES
+ent_389135c48d,BioPlatform SA 941,consortium,ES
+ent_5d67033f87,AgriCorp 942,startup,DE
+ent_e3aef2e2e7,TheraWorks 199,lab,NL
+ent_56b70721e2,OmicsCore 253,consortium,US
+ent_dcb39332fd,AgriCorp 954,company,PT
+ent_362c10b30a,MicroFab Labs 963,company,IT
+ent_c0ddd055c7,OmicsCore 842,startup,FI
+ent_83fb81650e,MedDevicesLtd 551,startup,DE
+ent_d228cfedf9,OmicsCore 341,company,NL
+ent_028966ce60,MedDevicesLtd 93,lab,PT
+ent_ebed470463,GeneWorks 749,lab,PT
+ent_afae4e008e,GeneWorks 335,company,PT
+ent_ac2803c241,TheraWorks 284,lab,SE
+ent_d081a69338,MicroFab Labs 2,consortium,SE
+ent_ac8bcb4fee,BioPlatform SA 365,consortium,US
+ent_4de313d38e,TheraWorks 646,consortium,FR
+ent_c181bcf2dd,NanoTech EU 794,startup,FI
+ent_ca0bc0c819,BioPlatform SA 721,lab,IT
+ent_ad21e866a7,BatterySolutions 578,lab,DE
+ent_86b6266e24,MicroFab Labs 167,startup,PT
+ent_79cf21cc84,BioPlatform SA 228,company,US
+ent_a2353f0a40,MedDevicesLtd 197,lab,ES
+ent_3fd3dd5425,OmicsCore 164,consortium,IT
+ent_d5f036254c,GeneWorks 395,company,DE
+ent_4f5d8a99e3,GeneWorks 569,consortium,UK
+ent_fb4e984be5,MicroFab Labs 176,university,SE
+ent_0151ec2154,OmicsCore 656,startup,DE
+ent_eb4fda7d7d,TheraWorks 152,lab,UK
+ent_4255f69e4e,MedDevicesLtd 354,consortium,NL
+ent_8bb1af21a8,AgriCorp 216,consortium,FR
+ent_1d55a00b98,BatterySolutions 795,university,FI
+ent_2798adb89b,BioPlatform SA 576,startup,NL
+ent_520655c432,MicroFab Labs 256,university,FI
+ent_ce83ca1a21,NanoTech EU 656,lab,SE
+ent_d6be159ccd,BioPlatform SA 915,startup,SE
+ent_ed7a012c1f,NanoTech EU 623,university,FI
+ent_9b6a463256,MedDevicesLtd 252,company,FR
+ent_62effb39b1,MedDevicesLtd 198,consortium,NL
+ent_554699f8ba,BioPlatform SA 366,university,ES
+ent_fa5464d2db,MedDevicesLtd 838,university,FI
+ent_ee0e304679,PharmaCo 383,company,SE
+ent_79b3dbe4f8,TheraWorks 273,consortium,FI
+ent_9141782efe,PharmaCo 116,lab,PT
+ent_0e89e532de,NanoTech EU 538,consortium,DE
+ent_c5165bb218,BioPlatform SA 577,university,FI
+ent_0647a53b6f,TheraWorks 13,lab,SE
+ent_b4480f5253,BioPlatform SA 789,university,PT
+ent_55c59bb8bd,PharmaCo 424,startup,SE
+ent_b125c01bcc,GeneWorks 592,company,FI
+ent_b471719cb3,OmicsCore 739,lab,SE
+ent_52137f31c7,GeneWorks 19,consortium,NL
+ent_65bade8153,GeneWorks 956,consortium,US
+ent_b8d8d1133e,MedDevicesLtd 905,startup,NL
+ent_f3ce0e4152,BatterySolutions 794,startup,DE
+ent_7a0c4a6cd1,GeneWorks 110,consortium,ES
+ent_20cc959bae,BatterySolutions 230,startup,NL
+ent_ff42554cf3,BatterySolutions 827,university,FR
+ent_adf14196cb,GeneWorks 234,company,SE
+ent_d5c3a67b3b,PharmaCo 611,lab,SE
+ent_2d67460cb7,OmicsCore 38,startup,SE
+ent_ed631dbf5d,PharmaCo 102,lab,NL
+ent_58e5f11831,OmicsCore 741,company,US
+ent_178a3bd8d5,GeneWorks 307,company,US
+ent_78ab6b7efc,PharmaCo 673,consortium,UK
+ent_2f828ef768,OmicsCore 16,company,UK
+ent_e41cf39686,NanoTech EU 761,lab,DE
+ent_b9e2b1ce53,AgriCorp 222,university,FI
+ent_668c3a047d,OmicsCore 413,company,FI
+ent_9c2b8f8684,TheraWorks 317,consortium,UK
+ent_5d61453284,TheraWorks 643,startup,ES
+ent_9528d9a54b,TheraWorks 929,company,NL
+ent_f7ee247a17,NanoTech EU 75,lab,NL
+ent_749bd8fd0b,AgriCorp 943,startup,FI
+ent_8ec078b285,MicroFab Labs 151,company,FI
+ent_ccb9a3808c,BatterySolutions 977,university,FI
+ent_f1a27d2b6c,PharmaCo 966,consortium,PT
+ent_8547e6f8f3,PharmaCo 640,startup,DE
+ent_4fbd8deb5d,OmicsCore 660,startup,ES
+ent_a6ec2a6efb,BioPlatform SA 310,lab,ES
+ent_e4da705ce4,PharmaCo 300,university,SE
+ent_05e7ea618e,BatterySolutions 571,consortium,NL
+ent_e1e53377f5,BioPlatform SA 482,lab,ES
+ent_bbad3cc20c,TheraWorks 585,university,ES
+ent_829eef25f3,AgriCorp 765,consortium,NL
+ent_6b3d980472,BioPlatform SA 51,consortium,DE
+ent_ebfb245f38,PharmaCo 591,company,SE
+ent_6c1236ef66,MedDevicesLtd 985,university,FR
+ent_08e2fc1056,BioPlatform SA 714,university,US
+ent_636b136ff7,MicroFab Labs 875,startup,FR
+ent_abd9956b02,TheraWorks 284,university,ES
+ent_c1b433de69,NanoTech EU 407,lab,IT
+ent_5466f1f81f,MicroFab Labs 691,startup,PT
+ent_212a50a19a,NanoTech EU 483,consortium,SE
+ent_e44dba705a,OmicsCore 3,company,IT
+ent_6eb03afb4f,OmicsCore 252,startup,DE
+ent_82cfe70595,PharmaCo 104,consortium,IT
+ent_04181c54ca,NanoTech EU 807,university,ES
+ent_c425b999bd,BioPlatform SA 710,consortium,FI
+ent_57245cae4d,GeneWorks 966,university,FI
+ent_248d56b2a0,MicroFab Labs 400,company,ES
+ent_7e96193a61,OmicsCore 177,university,PT
+ent_9519669bca,BioPlatform SA 829,company,PT
+ent_00f0303af9,PharmaCo 680,startup,PT
+ent_207ed6c0a3,BioPlatform SA 662,university,SE
+ent_5615f5d575,PharmaCo 344,startup,UK
+ent_3689d20c78,NanoTech EU 35,consortium,SE
+ent_c4ebac8a76,NanoTech EU 327,startup,IT
+ent_9803fc2339,AgriCorp 350,university,ES
+ent_9d6d20b788,OmicsCore 671,startup,US
+ent_7af8b4d66c,OmicsCore 687,university,US
+ent_945ef6e780,BioPlatform SA 282,company,NL
+ent_7ed6946844,GeneWorks 44,consortium,PT
+ent_c02062cf1c,MicroFab Labs 253,consortium,IT
+ent_c84bfca93c,MedDevicesLtd 246,university,FI
+ent_558a96cd70,BioPlatform SA 527,consortium,US
+ent_2d25c82301,MedDevicesLtd 860,startup,DE
+ent_8e795b78d7,BatterySolutions 155,university,FR
+ent_e59d172f11,MicroFab Labs 220,startup,UK
+ent_ad1aca0289,AgriCorp 856,university,UK
+ent_e2098ec822,MicroFab Labs 105,company,FI
+ent_df97e4deea,BioPlatform SA 114,company,IT
+ent_02e592595b,PharmaCo 166,university,NL
+ent_88cca4b850,BatterySolutions 753,startup,SE
+ent_0effe92f38,MicroFab Labs 956,consortium,ES
+ent_edc1305d23,BatterySolutions 290,startup,DE
+ent_56c4c642b8,GeneWorks 747,consortium,IT
+ent_62dee5471a,BioPlatform SA 959,lab,FI
+ent_4eedf0019e,BatterySolutions 853,company,US
+ent_a7f803338c,BioPlatform SA 877,lab,DE
+ent_1beaa5c740,GeneWorks 409,consortium,IT
+ent_5411a55565,AgriCorp 126,consortium,IT
+ent_fdd90a096b,BioPlatform SA 185,startup,IT
+ent_f4b1c8a49b,BatterySolutions 898,company,IT
+ent_ee0150c92f,AgriCorp 747,company,NL
+ent_5f0390a35a,PharmaCo 384,consortium,NL
+ent_07c6e53b14,BioPlatform SA 387,university,ES
+ent_9946248291,GeneWorks 316,startup,US
+ent_7c02fc5923,BioPlatform SA 335,lab,PT
+ent_e4ad5c3bb3,MicroFab Labs 685,university,PT
+ent_00f1ab898d,OmicsCore 647,company,FR
+ent_f4609013d8,MedDevicesLtd 444,university,NL
+ent_99c8ea23f5,PharmaCo 390,company,SE
+ent_b5b05c6ee9,AgriCorp 118,company,FI
+ent_a3c612e293,BioPlatform SA 243,lab,US
+ent_7815af0b97,TheraWorks 174,lab,NL
+ent_ba0b2671b5,GeneWorks 869,company,IT
+ent_5cabd20c0f,GeneWorks 823,company,ES
+ent_e4c8f804a6,MicroFab Labs 40,startup,DE
+ent_f382981665,BatterySolutions 110,startup,US
+ent_caa06a9040,NanoTech EU 305,university,US
+ent_cbee42a59e,AgriCorp 353,startup,SE
+ent_abda121d75,PharmaCo 607,consortium,IT
+ent_66e26b19e5,TheraWorks 16,company,FI
+ent_5452915827,MicroFab Labs 871,company,ES
+ent_7f7cf66e89,NanoTech EU 316,startup,NL
+ent_2e34c3cc06,OmicsCore 539,university,SE
+ent_ec071ae0ab,NanoTech EU 99,startup,PT
+ent_c7d5fa7786,GeneWorks 386,startup,DE
+ent_32097924e5,MicroFab Labs 875,university,DE
+ent_1efbb85564,AgriCorp 738,company,FI
+ent_3ff9a0021a,MicroFab Labs 980,company,FR
+ent_db34d768e8,BioPlatform SA 645,lab,SE
+ent_3bbbdba198,TheraWorks 396,consortium,UK
+ent_51226ac487,NanoTech EU 157,company,DE
+ent_ca65020207,MicroFab Labs 196,university,FI
+ent_dee75fea41,MedDevicesLtd 127,company,NL
+ent_7621d970ca,NanoTech EU 87,university,FR
+ent_d0aed5ebde,OmicsCore 288,startup,US
+ent_5e72ef973d,MicroFab Labs 173,consortium,FI
+ent_4d5d200831,MicroFab Labs 690,company,US
+ent_db3216e368,BioPlatform SA 732,lab,FI
+ent_8becc3179b,PharmaCo 832,company,ES
+ent_7a4de66ccd,GeneWorks 534,university,ES
+ent_f387568532,NanoTech EU 790,consortium,ES
+ent_94d8356039,MedDevicesLtd 349,startup,UK
+ent_dbae2b64c5,TheraWorks 384,lab,UK
+ent_108f36b8e7,NanoTech EU 983,consortium,PT
+ent_87071b7ee6,MedDevicesLtd 492,lab,DE
+ent_f9cf6aacbf,PharmaCo 426,lab,IT
+ent_8a71ebc720,BatterySolutions 868,lab,US
+ent_7ac1564b68,MedDevicesLtd 266,startup,NL
+ent_68e7d7d091,PharmaCo 482,university,PT
+ent_42267901a3,TheraWorks 299,company,FI
+ent_b98aed286c,PharmaCo 699,startup,US
+ent_fbf5000f46,OmicsCore 559,startup,IT
+ent_98ac519189,MedDevicesLtd 413,startup,SE
+ent_60b3b49d0a,BatterySolutions 996,university,US
+ent_93b127d325,MicroFab Labs 56,company,US
+ent_b2774e2809,TheraWorks 231,university,ES
+ent_59bf3feb6e,OmicsCore 826,startup,DE
+ent_cda2592fa8,MedDevicesLtd 133,lab,US
+ent_a5b61df297,BatterySolutions 277,university,FR
+ent_ce57c5ec5d,BioPlatform SA 821,company,FR
+ent_fd970b318d,MicroFab Labs 644,university,DE
+ent_e02e69a205,BioPlatform SA 952,lab,UK
+ent_2b15469357,NanoTech EU 100,university,FR
+ent_58206c493d,NanoTech EU 923,startup,ES
+ent_2ca310713e,NanoTech EU 970,company,ES
+ent_a9ae7e5cf4,OmicsCore 897,lab,NL
+ent_26a29f2599,AgriCorp 587,consortium,US
+ent_4cce9abd62,AgriCorp 78,company,DE
+ent_92e4143135,MedDevicesLtd 656,startup,SE
+ent_3c3ec2abbe,MedDevicesLtd 440,lab,SE
+ent_8d97f39885,BatterySolutions 781,startup,US
+ent_09487b686c,MicroFab Labs 183,company,DE
+ent_48ac27cbb0,MicroFab Labs 12,lab,PT
+ent_6dc1c72c8d,TheraWorks 79,startup,IT
+ent_29082c061e,TheraWorks 379,startup,DE
+ent_08615cebec,BioPlatform SA 677,university,PT
+ent_3c71abe838,MicroFab Labs 173,lab,NL
+ent_7555bbb3d7,BioPlatform SA 198,startup,US
+ent_eb1442a0d0,TheraWorks 976,university,ES
+ent_1bc1924d60,MedDevicesLtd 81,consortium,ES
+ent_f1cc6d0fa7,GeneWorks 83,university,IT
+ent_ce3ed83f95,GeneWorks 351,company,FI
+ent_d45bf6358c,TheraWorks 568,company,DE
+ent_92562c822f,TheraWorks 734,lab,SE
+ent_7f02cb22f5,MedDevicesLtd 705,consortium,NL
+ent_de487bdfd3,OmicsCore 588,company,US
+ent_31d039e726,OmicsCore 363,startup,US
+ent_ebf87abc1d,AgriCorp 403,lab,FI
+ent_26172a07c5,BatterySolutions 991,company,FR
+ent_745694cce5,OmicsCore 230,lab,FR
+ent_9f5ca811e7,TheraWorks 488,startup,NL
+ent_4460eae1a8,BatterySolutions 277,startup,DE
+ent_5d41f6d4a0,PharmaCo 16,startup,FI
+ent_6d1d0e7856,TheraWorks 949,startup,NL
+ent_1c9cee3b23,GeneWorks 97,university,IT
+ent_9fd94579f6,NanoTech EU 500,company,FI
+ent_ebfbaf4610,TheraWorks 320,company,SE
+ent_f7597c6564,GeneWorks 109,lab,US
+ent_8727eb47be,PharmaCo 716,university,FI
+ent_c9e14f20fd,NanoTech EU 229,startup,ES
+ent_f59a710134,BatterySolutions 516,startup,FI
+ent_f7e6eebdf8,AgriCorp 664,company,PT
+ent_e84317c31a,AgriCorp 857,lab,ES
+ent_ad4aa6c301,BioPlatform SA 72,university,IT
+ent_55216824f7,MedDevicesLtd 469,lab,FR
+ent_4bbc59f5c6,MedDevicesLtd 836,startup,NL
+ent_80de7ea117,NanoTech EU 879,university,NL
+ent_5c8627da8c,TheraWorks 710,company,FR
+ent_012e567d59,OmicsCore 230,university,US
+ent_ee210867a1,PharmaCo 171,lab,IT
+ent_980e819b1b,PharmaCo 677,university,FR
+ent_8095b360ad,BatterySolutions 383,startup,NL
+ent_5c177f67b0,PharmaCo 13,consortium,SE
+ent_5fd0061f4d,OmicsCore 595,company,IT
+ent_ee84c94072,BatterySolutions 351,lab,DE
+ent_713a2dadbd,TheraWorks 198,startup,IT
+ent_bf80073629,AgriCorp 382,university,FI
+ent_b8878968bd,OmicsCore 330,startup,UK
+ent_452ede4e88,MedDevicesLtd 637,lab,FI
+ent_d5b7777dba,MicroFab Labs 138,consortium,SE
+ent_476e789442,MedDevicesLtd 477,startup,DE
+ent_8d2604fb84,OmicsCore 948,lab,ES
+ent_f6792f4d16,GeneWorks 195,consortium,DE
+ent_1b3868c3ef,TheraWorks 315,consortium,IT
+ent_ff1a0e35ba,NanoTech EU 255,company,UK
+ent_676b5676f6,OmicsCore 359,consortium,UK
+ent_c98df1712e,MicroFab Labs 86,consortium,SE
+ent_b773d6481c,GeneWorks 391,startup,DE
+ent_58b1228e0c,BatterySolutions 407,company,FR
+ent_d0c4bbbfd0,TheraWorks 780,company,SE
+ent_e8989f83d4,BatterySolutions 834,university,SE
+ent_8cdf99d7b5,BioPlatform SA 609,company,IT
+ent_5751097d68,BatterySolutions 108,startup,IT
+ent_d873ecd4ba,AgriCorp 102,consortium,UK
+ent_574fe5b90a,GeneWorks 505,lab,US
+ent_389ac5a9ea,GeneWorks 704,lab,UK
+ent_691b9bcbcd,MicroFab Labs 365,consortium,PT
+ent_d425168918,PharmaCo 759,lab,IT
+ent_6001e1e577,GeneWorks 524,lab,FI
+ent_78a3545b1c,OmicsCore 243,startup,IT
+ent_90b489a302,AgriCorp 356,lab,FR
+ent_5a98f6f709,OmicsCore 172,university,FR
+ent_ae100b989c,GeneWorks 394,university,UK
+ent_8e27f2822a,OmicsCore 507,company,FI
+ent_0590592aad,MedDevicesLtd 665,university,UK
+ent_d77c20c009,BatterySolutions 434,consortium,FR
+ent_ea6705f5ae,GeneWorks 380,lab,FI
+ent_c556701707,BatterySolutions 667,startup,FI
+ent_7fc9351085,MicroFab Labs 56,company,PT
+ent_50ac34b348,MicroFab Labs 26,consortium,PT
+ent_a3cf9a3fd3,BatterySolutions 568,lab,DE
+ent_9bddf61949,TheraWorks 627,lab,PT
+ent_6f1e2c827e,OmicsCore 626,consortium,DE
+ent_55cdb6329d,GeneWorks 493,startup,ES
+ent_fb1ec79297,PharmaCo 294,university,PT
+ent_7398ec79cf,BatterySolutions 296,consortium,FI
+ent_97a9b4b2e0,BatterySolutions 45,startup,US
+ent_3c1051e86f,BioPlatform SA 854,lab,DE
+ent_8abdf9cd0a,GeneWorks 764,consortium,IT
+ent_407419477f,TheraWorks 159,company,SE
+ent_a893a9b9c0,PharmaCo 647,company,FR
+ent_f98baea2d1,BatterySolutions 513,university,DE
+ent_3f9a898961,GeneWorks 737,lab,UK
+ent_3c00b29b56,BatterySolutions 629,consortium,IT
+ent_12d742e1cd,MicroFab Labs 934,consortium,SE
+ent_c64b9f7e23,PharmaCo 145,consortium,FR
+ent_daf943bb2a,BioPlatform SA 979,startup,ES
+ent_89a6e9ec0f,OmicsCore 367,consortium,FR
+ent_cace693d82,OmicsCore 299,consortium,PT
+ent_c2a4d14994,AgriCorp 424,lab,FI
+ent_dbe5c40d08,MicroFab Labs 805,consortium,SE
+ent_47f55b04f2,BioPlatform SA 709,startup,IT
+ent_9b59a98ce3,GeneWorks 419,consortium,DE
+ent_ea983ff730,PharmaCo 297,company,SE
+ent_fd26c6a25a,NanoTech EU 993,consortium,UK
+ent_b67c6a541e,OmicsCore 721,company,DE
+ent_84f4d3adba,BatterySolutions 187,startup,NL
+ent_71fc9f8999,GeneWorks 992,startup,FR
+ent_08997230c1,TheraWorks 629,consortium,PT
+ent_608a5d1328,AgriCorp 992,company,DE
+ent_c7c9b738ff,BioPlatform SA 180,startup,IT
+ent_6aa18957aa,PharmaCo 921,consortium,US
+ent_f396ce5375,NanoTech EU 775,lab,FI
+ent_8fa5a83a40,BatterySolutions 27,consortium,FI
+ent_7a94eea156,MedDevicesLtd 272,consortium,FI
+ent_27bf437805,MedDevicesLtd 303,university,UK
+ent_946a09ff3f,BatterySolutions 493,lab,ES
+ent_b06b344832,AgriCorp 375,consortium,NL
+ent_539a455159,OmicsCore 803,lab,PT
+ent_0d6a0e88c9,MedDevicesLtd 453,university,US
+ent_5e36794d1b,PharmaCo 932,university,NL
+ent_8e65cfd226,AgriCorp 282,lab,SE
+ent_da9ce65da3,PharmaCo 82,startup,FR
+ent_5f46aa4f36,BioPlatform SA 786,company,PT
+ent_82025493ee,PharmaCo 491,company,SE
+ent_dfe27d2c65,TheraWorks 795,lab,UK
+ent_0ef977fee2,AgriCorp 153,company,IT
+ent_952bdfb560,AgriCorp 879,lab,UK
+ent_ec6fa6074d,OmicsCore 793,company,DE
+ent_275376980b,PharmaCo 872,lab,ES
+ent_521c4058fd,BatterySolutions 328,consortium,NL
+ent_7897601cd1,MedDevicesLtd 800,startup,NL
+ent_dce26ced73,PharmaCo 607,consortium,FR
+ent_0edb3c3ee9,TheraWorks 951,consortium,UK
+ent_d40acba68a,MedDevicesLtd 46,startup,US
+ent_0806423e0b,TheraWorks 917,lab,FI
+ent_8281e100e8,MedDevicesLtd 614,lab,IT
+ent_638f30d2be,MedDevicesLtd 275,company,FI
+ent_0942087592,AgriCorp 549,startup,FR
+ent_a6f3b2e2db,NanoTech EU 364,lab,DE
+ent_1a8619b675,BatterySolutions 426,company,UK
+ent_0b6921be22,OmicsCore 374,startup,NL
+ent_345e3f3206,BatterySolutions 45,university,FR
+ent_18a3404b14,OmicsCore 43,lab,ES
+ent_82121f5c83,AgriCorp 499,company,DE
+ent_6a6a925bed,BatterySolutions 902,university,FI
+ent_3120000bfa,BioPlatform SA 185,company,NL
+ent_fab53f29f5,MedDevicesLtd 835,consortium,FI
+ent_4e875fada4,BatterySolutions 36,startup,ES
+ent_c6ca8a38be,MedDevicesLtd 350,startup,IT
+ent_7aa7acd878,TheraWorks 666,consortium,US
+ent_a2a7d8ded5,TheraWorks 878,startup,NL
+ent_df8ed3bfe8,GeneWorks 309,consortium,ES
+ent_0dd6bfe782,BatterySolutions 55,lab,PT
+ent_24c44a814f,MicroFab Labs 413,lab,FR
+ent_e3d33a9c9e,MedDevicesLtd 736,consortium,ES
+ent_2a410b31b1,AgriCorp 904,lab,PT
+ent_15fc12ea65,BatterySolutions 340,startup,FI
+ent_101bcf1e44,MicroFab Labs 197,lab,UK
+ent_f1ac70f0fc,MicroFab Labs 532,company,DE
+ent_3375058db4,AgriCorp 149,company,NL
+ent_ad5d0e3fa6,AgriCorp 178,lab,ES
+ent_b094f47415,MicroFab Labs 290,lab,PT
+ent_82476ececc,MicroFab Labs 691,university,UK
+ent_d86b422a0c,MedDevicesLtd 222,startup,FR
+ent_990e68f838,MicroFab Labs 351,consortium,SE
+ent_c4ca533f14,MedDevicesLtd 626,company,IT
+ent_54e9557d20,AgriCorp 248,consortium,IT
+ent_25c5cb7adb,OmicsCore 666,lab,UK
+ent_f98149e4ee,TheraWorks 627,consortium,IT
+ent_465435b7cc,AgriCorp 32,lab,FI
+ent_226f8dde6b,NanoTech EU 834,lab,DE
+ent_4afef43819,AgriCorp 237,lab,PT
+ent_46a03acdc5,MedDevicesLtd 285,consortium,ES
+ent_9e31671615,AgriCorp 647,company,FI
+ent_84744daf9e,PharmaCo 561,consortium,SE
+ent_b5f9010b45,PharmaCo 26,lab,ES
+ent_14b0c1ec38,BioPlatform SA 89,university,IT
+ent_7df3e532c4,TheraWorks 41,lab,FI
+ent_2c71fb35de,BatterySolutions 739,startup,US
+ent_d7de10bc90,GeneWorks 358,company,FR
+ent_c694dbb7f7,GeneWorks 136,startup,FI
+ent_d4fe73bba2,MicroFab Labs 800,university,NL
+ent_9a2f85e53c,BatterySolutions 343,company,IT
+ent_b67a7fbd3f,BioPlatform SA 961,lab,UK
+ent_d8b06c56ed,TheraWorks 30,consortium,SE
+ent_079b530cb9,BioPlatform SA 316,startup,DE
+ent_8cab6df7fb,MicroFab Labs 476,consortium,IT
+ent_53471cfa1a,BatterySolutions 495,consortium,ES
+ent_9abce1c5bc,PharmaCo 248,lab,US
+ent_45426a5246,PharmaCo 134,lab,IT
+ent_e8f03a0900,GeneWorks 613,startup,IT
+ent_00168bed71,BatterySolutions 637,university,UK
+ent_d04efcbb07,AgriCorp 608,consortium,SE
+ent_5547142ad2,GeneWorks 757,startup,FR
+ent_ded2c2b153,AgriCorp 906,company,US
+ent_b8682439ea,GeneWorks 319,consortium,PT
+ent_d1aa13d72c,PharmaCo 309,company,DE
+ent_902de42c61,TheraWorks 918,consortium,DE
+ent_5c14c9a64a,NanoTech EU 969,company,US
+ent_2308615831,GeneWorks 234,lab,DE
+ent_784be9cb2a,MedDevicesLtd 549,startup,SE
+ent_875dfa4446,BatterySolutions 933,consortium,SE
+ent_3959f658eb,AgriCorp 162,company,NL
+ent_61d094b9b8,TheraWorks 89,university,NL
+ent_9002461af1,OmicsCore 983,lab,PT
+ent_db6ea71972,AgriCorp 591,consortium,SE
+ent_118b26c07a,NanoTech EU 228,university,UK
+ent_7e8b4b771e,GeneWorks 956,university,SE
+ent_835db851cd,GeneWorks 454,consortium,FR
+ent_5eeab5158b,PharmaCo 77,consortium,DE
+ent_180b3f6442,NanoTech EU 845,startup,SE
+ent_270af6fbf2,TheraWorks 589,consortium,PT
+ent_6dddc6b331,BatterySolutions 7,university,UK
+ent_528b2329b8,MicroFab Labs 55,university,US
+ent_2a290182c4,BioPlatform SA 3,company,DE
+ent_e5fea256d2,AgriCorp 186,consortium,US
+ent_8c13e80856,BioPlatform SA 824,startup,FI
+ent_eb8c2a6bc1,AgriCorp 286,company,UK
+ent_583542cfae,PharmaCo 154,university,US
+ent_d02164eddf,BatterySolutions 432,university,NL
+ent_7b2faeefc9,GeneWorks 268,university,FR
+ent_2d07849f44,BatterySolutions 396,university,IT
+ent_101acf9efe,NanoTech EU 21,startup,UK
+ent_e8361dfee8,BatterySolutions 580,consortium,FR
+ent_81a8d40c29,TheraWorks 43,consortium,NL
+ent_892f35ae8d,TheraWorks 536,lab,US
+ent_3527d8021b,NanoTech EU 218,company,DE
+ent_0c8eacab45,OmicsCore 575,lab,DE
+ent_d6adfa3291,BioPlatform SA 589,consortium,PT
+ent_5b681db143,MicroFab Labs 294,startup,UK
+ent_fc5a8f052c,BatterySolutions 941,startup,DE
+ent_cc69e91c3a,MicroFab Labs 958,startup,ES
+ent_0e618cecd6,MicroFab Labs 478,company,SE
+ent_8e92bfa432,PharmaCo 783,consortium,DE
+ent_949f982b92,NanoTech EU 578,consortium,NL
+ent_e7eaa1d227,BatterySolutions 785,consortium,FI
+ent_498d98f21b,GeneWorks 840,company,FR
+ent_4dea573048,GeneWorks 566,lab,UK
+ent_416105bd50,MicroFab Labs 71,startup,PT
+ent_38c7ff30df,BatterySolutions 887,startup,FI
+ent_4b3dda647a,PharmaCo 948,consortium,FI
+ent_03833c9660,OmicsCore 584,university,DE
+ent_ae2fb9ece6,PharmaCo 483,company,US
+ent_f28c368a5e,PharmaCo 943,university,UK
+ent_de420b246f,MedDevicesLtd 943,company,SE
+ent_fc81785642,PharmaCo 707,consortium,SE
+ent_d8530cbb2a,MicroFab Labs 985,company,UK
+ent_d6b1a09e0b,BatterySolutions 240,university,DE
+ent_60b3e47f65,GeneWorks 160,lab,DE
+ent_edccbf5a25,BioPlatform SA 204,lab,DE
+ent_a4c0f358da,MedDevicesLtd 416,university,IT
+ent_2b19d03579,NanoTech EU 756,lab,DE
+ent_df6cbebb94,BatterySolutions 451,university,ES
+ent_43bb23cafe,MicroFab Labs 222,startup,FI
+ent_3faf51e2c6,BioPlatform SA 10,consortium,FI
+ent_0efcdc1fce,BioPlatform SA 361,startup,DE
+ent_ff3a1cb81b,BatterySolutions 709,consortium,SE
+ent_88a6696884,TheraWorks 195,consortium,NL
+ent_d8d9506302,MedDevicesLtd 662,consortium,FI
+ent_2ec62d0d08,AgriCorp 210,startup,FR
+ent_994c7b9435,PharmaCo 875,university,NL
+ent_0a958f9fa6,OmicsCore 351,consortium,SE
+ent_5a39ab85ae,NanoTech EU 381,company,PT
+ent_776989ee4d,GeneWorks 645,lab,DE
+ent_f54c26daca,TheraWorks 128,consortium,SE
+ent_f1c38d300b,BioPlatform SA 345,consortium,UK
+ent_1411b22978,AgriCorp 23,consortium,IT
+ent_f28cedd457,TheraWorks 425,company,US
+ent_e091be6148,MedDevicesLtd 331,company,US
+ent_b875142864,BioPlatform SA 958,startup,UK
+ent_423f6a470b,GeneWorks 948,lab,PT
+ent_9c81d6452c,TheraWorks 316,company,DE
+ent_0bc1e7afea,MicroFab Labs 821,university,SE
+ent_46506a1af5,MicroFab Labs 980,startup,NL
+ent_6b3b07cdf7,BioPlatform SA 629,lab,IT
+ent_7659b7eef4,BatterySolutions 701,consortium,PT
+ent_e4ca62381a,AgriCorp 427,company,NL
+ent_f60e0d5f9b,GeneWorks 500,consortium,ES
+ent_34d68401cb,PharmaCo 491,startup,DE
+ent_938f1265d6,AgriCorp 341,company,NL
+ent_52825ac06b,OmicsCore 712,lab,PT
+ent_53497e319d,PharmaCo 278,consortium,US
+ent_90a94f490f,BioPlatform SA 900,company,PT
+ent_3ede4de537,BatterySolutions 340,startup,SE
+ent_2124b3a4cc,BioPlatform SA 968,company,UK
+ent_901acd93e8,MicroFab Labs 192,consortium,PT
+ent_6a2086b8d5,MedDevicesLtd 619,company,FI
+ent_053888084e,PharmaCo 988,consortium,NL
+ent_9b99f6a66e,NanoTech EU 112,lab,UK
+ent_8ecb0ff86b,PharmaCo 841,company,DE
+ent_156c631df3,AgriCorp 163,consortium,NL
+ent_b22b2ae640,GeneWorks 184,lab,FI
+ent_80b1ba3c5d,GeneWorks 932,lab,PT
+ent_5c6917dda8,NanoTech EU 998,lab,DE
+ent_ca60f79dd7,TheraWorks 700,lab,DE
+ent_e760b869a8,AgriCorp 150,university,FI
+ent_66b619e493,OmicsCore 824,startup,NL
+ent_097775f80d,GeneWorks 738,company,SE
+ent_1dbfbc7aff,MicroFab Labs 428,consortium,UK
+ent_f33063c581,MicroFab Labs 227,lab,UK
+ent_313a55396d,BioPlatform SA 2,startup,NL
+ent_9ee34b8bdd,MicroFab Labs 310,lab,UK
+ent_080d6a23b5,AgriCorp 350,lab,PT
+ent_1d07e88644,PharmaCo 977,university,PT
+ent_4fd6af4de3,MedDevicesLtd 47,startup,FR
+ent_491934e184,AgriCorp 641,company,ES
+ent_2e13f1ecca,NanoTech EU 770,startup,PT
+ent_7ca8a7443a,BioPlatform SA 238,consortium,UK
+ent_3c03581e69,OmicsCore 647,company,IT
+ent_a80e0aabe4,BioPlatform SA 911,consortium,US
+ent_c5b60d2806,TheraWorks 46,university,SE
+ent_825b6c442c,GeneWorks 689,company,NL
+ent_41dcb9cf08,AgriCorp 949,consortium,FI
+ent_11b0cb782e,GeneWorks 510,company,DE
+ent_60af89fb29,BatterySolutions 527,consortium,SE
+ent_83bec6897e,MedDevicesLtd 50,consortium,FI
+ent_ded239043f,NanoTech EU 624,startup,FR
+ent_95d152ae7f,AgriCorp 661,startup,ES
+ent_916f45e072,MedDevicesLtd 952,lab,FI
+ent_2c74753b94,TheraWorks 134,lab,PT
+ent_3faf79a04d,MicroFab Labs 128,consortium,ES
+ent_19c356ff04,MicroFab Labs 936,company,DE
+ent_60cfb28475,MicroFab Labs 441,consortium,ES
+ent_5c326f2ac2,TheraWorks 898,company,US
+ent_1642a8d8e6,BatterySolutions 283,lab,US
+ent_8857e23932,BatterySolutions 51,lab,FR
+ent_56de8e070a,AgriCorp 846,lab,ES
+ent_98613ce924,PharmaCo 932,consortium,DE
+ent_9ec37ea24a,NanoTech EU 670,company,DE
+ent_58e0b555b0,BatterySolutions 955,consortium,US
+ent_20b6735b74,OmicsCore 266,lab,FR
+ent_1db3f7d055,BatterySolutions 581,startup,US
+ent_76fa8797e8,GeneWorks 538,lab,DE
+ent_045d8874ac,MicroFab Labs 171,company,ES
+ent_4d05ed796e,BioPlatform SA 701,lab,FI
+ent_8756a53954,GeneWorks 368,company,SE
+ent_01820a506a,NanoTech EU 112,startup,US
+ent_5bbe538a72,MicroFab Labs 209,university,NL
+ent_522cdb60b7,TheraWorks 657,lab,IT
+ent_5e70b9227c,TheraWorks 332,consortium,SE
+ent_a0b35755d6,MicroFab Labs 686,company,ES
+ent_e081d6e24f,OmicsCore 972,startup,UK
+ent_474dd6c31c,TheraWorks 806,lab,DE
+ent_1ed4d43b71,MedDevicesLtd 122,company,ES
+ent_830c7a60c9,TheraWorks 971,company,ES
+ent_b23c998eb5,TheraWorks 803,lab,ES
+ent_0202eeb9a9,BatterySolutions 709,company,ES
+ent_c1e1683c69,OmicsCore 340,startup,US
+ent_53c3088aae,TheraWorks 127,company,PT
+ent_fd47108579,MicroFab Labs 377,university,FR
+ent_74eba51777,TheraWorks 444,startup,US
+ent_532ad9113e,GeneWorks 914,lab,FI
+ent_a4ae5efe7c,TheraWorks 511,consortium,DE
+ent_e76648af5d,PharmaCo 179,startup,DE
+ent_19c678e4e1,BatterySolutions 989,company,NL
+ent_27456ec97b,MicroFab Labs 784,university,PT
+ent_11531e1ae8,MedDevicesLtd 579,consortium,ES
+ent_aba28fbd2f,GeneWorks 620,lab,FR
+ent_64b96c9781,AgriCorp 914,consortium,DE
+ent_b99ebfd50d,AgriCorp 489,company,SE
+ent_6430f2ec73,MedDevicesLtd 606,company,FR
+ent_f054f034f1,AgriCorp 461,startup,SE
+ent_5b76d43b37,MedDevicesLtd 283,startup,PT
+ent_cde601fbb9,OmicsCore 601,consortium,FI
+ent_17cf752b0e,OmicsCore 216,company,FI
+ent_4a018069dd,BatterySolutions 981,company,US
+ent_2f22423c81,BatterySolutions 76,university,ES
+ent_da9fde2706,MicroFab Labs 936,startup,ES
+ent_de041295ec,BatterySolutions 396,startup,FI
+ent_f6741adfa1,BatterySolutions 398,university,US
+ent_dda6aceea1,PharmaCo 584,company,DE
+ent_6129fe911d,TheraWorks 572,consortium,ES
+ent_97a1a70835,AgriCorp 18,university,NL
+ent_0a48f7d435,AgriCorp 336,consortium,DE
+ent_a91658bc57,MicroFab Labs 125,company,SE
+ent_8822193fb6,TheraWorks 246,startup,SE
+ent_150d8bb073,NanoTech EU 994,consortium,US
+ent_b8f79dfbfd,OmicsCore 950,startup,UK
+ent_bf92771c12,OmicsCore 681,startup,US
+ent_fb77ecc890,TheraWorks 558,lab,PT
+ent_97c632ef2b,BioPlatform SA 943,company,DE
+ent_98adb9cd40,MedDevicesLtd 904,startup,US
+ent_62aa9c985e,BioPlatform SA 266,lab,IT
+ent_719e38b77f,MedDevicesLtd 521,startup,NL
+ent_d8de3e2ee3,GeneWorks 573,lab,IT
+ent_6c1872e3fd,TheraWorks 905,university,NL
+ent_9ca90ba2ba,MicroFab Labs 268,university,FI
+ent_1e9e9180ba,PharmaCo 822,startup,DE
+ent_f148546897,MicroFab Labs 105,consortium,SE
+ent_cdec42d927,GeneWorks 591,company,ES
+ent_63222ce31c,OmicsCore 983,university,FR
+ent_ddc41db162,GeneWorks 899,lab,DE
+ent_13015b7489,BatterySolutions 850,consortium,DE
+ent_89669110ef,BatterySolutions 155,lab,NL
+ent_1efeebb625,OmicsCore 674,consortium,SE
+ent_c71dd5ceb2,BioPlatform SA 430,startup,PT
+ent_27ed46abc4,TheraWorks 218,university,UK
+ent_a7d30246b4,BatterySolutions 686,startup,SE
+ent_62c4258abb,PharmaCo 519,consortium,US
+ent_cace4c90e6,NanoTech EU 842,university,UK
+ent_4cf00252e9,BatterySolutions 910,company,ES
+ent_0ec447b82b,GeneWorks 278,company,IT
+ent_9c17ca8bae,OmicsCore 288,company,PT
+ent_f95e475e23,OmicsCore 848,university,SE
+ent_9474bc8562,NanoTech EU 901,lab,IT
+ent_9290b6f331,MedDevicesLtd 683,company,ES
+ent_a041b5220c,TheraWorks 921,university,SE
+ent_ec1f6c3b0e,TheraWorks 951,startup,SE
+ent_0f9506576e,MicroFab Labs 601,consortium,NL
+ent_021a58901a,TheraWorks 371,consortium,DE
+ent_437f514002,MedDevicesLtd 32,company,ES
+ent_f9fd9b2b78,PharmaCo 140,consortium,DE
+ent_3e4adb1f37,PharmaCo 974,startup,NL
+ent_71775081f4,PharmaCo 757,consortium,ES
+ent_95d9f07cf6,GeneWorks 941,lab,NL
+ent_3df2f03ce4,TheraWorks 569,lab,FR
+ent_2f5e0af35d,MedDevicesLtd 68,consortium,PT
+ent_f2dc897dee,TheraWorks 341,startup,UK
+ent_31f344db47,AgriCorp 532,startup,DE
+ent_66558198c7,TheraWorks 336,consortium,FI
+ent_ac7ca9a504,OmicsCore 343,startup,US
+ent_ac271c4311,GeneWorks 324,lab,US
+ent_0d9cdfca68,PharmaCo 349,university,FI
+ent_1de49a3bb0,OmicsCore 960,university,UK
+ent_2ea3204030,OmicsCore 586,lab,ES
+ent_f56ee31778,MicroFab Labs 82,lab,PT
+ent_8fbe9c96c8,MicroFab Labs 203,company,SE
+ent_30504d8685,GeneWorks 371,university,DE
+ent_b9ee355a4b,GeneWorks 299,startup,NL
+ent_12a30a6253,BioPlatform SA 937,startup,US
+ent_c09d15210c,MedDevicesLtd 186,startup,SE
+ent_b538757c75,BioPlatform SA 826,lab,IT
+ent_6651cea5b6,NanoTech EU 626,university,DE
+ent_90ef280c55,PharmaCo 317,startup,FR
+ent_1636ab7896,MedDevicesLtd 789,company,NL
+ent_ecacdf1208,PharmaCo 397,startup,FI
+ent_93b2317f77,NanoTech EU 365,lab,ES
+ent_a41af0fc97,OmicsCore 857,university,ES
+ent_037029e5ab,PharmaCo 572,consortium,SE
+ent_677b355b83,NanoTech EU 655,company,NL
+ent_e0ef682daf,BioPlatform SA 795,startup,UK
+ent_15ebf256e2,OmicsCore 751,university,FR
+ent_607427a2c5,NanoTech EU 749,company,NL
+ent_4aa582d752,MedDevicesLtd 585,university,SE
+ent_22321d203b,GeneWorks 972,lab,FI
+ent_42bb2ce2c9,NanoTech EU 464,university,DE
+ent_5b2477ffd7,PharmaCo 517,lab,ES
+ent_d3c452d510,NanoTech EU 753,consortium,ES
+ent_55f5e7fb86,OmicsCore 438,company,DE
+ent_9d4df5e348,MicroFab Labs 389,consortium,NL
+ent_ac16d1f9f8,GeneWorks 670,lab,FR
+ent_56fe7dd199,MedDevicesLtd 383,consortium,IT
+ent_b47126b550,NanoTech EU 261,consortium,US
+ent_4a2a2f1664,GeneWorks 817,university,PT
+ent_c19d44570b,OmicsCore 509,startup,ES
+ent_2f87277bbc,MicroFab Labs 163,lab,UK
+ent_e518644e2a,BatterySolutions 527,lab,US
+ent_cb4bed7c6c,PharmaCo 353,lab,NL
+ent_62070ecd97,BatterySolutions 207,lab,DE
+ent_4f6d93ca05,PharmaCo 420,company,FI
+ent_080d10d0ff,BatterySolutions 261,university,ES
+ent_234ddf37f9,BioPlatform SA 658,university,DE
+ent_03f92a3824,OmicsCore 703,lab,IT
+ent_6712e509fa,TheraWorks 126,consortium,SE
+ent_dc14b15761,PharmaCo 807,company,IT
+ent_33613b19df,PharmaCo 816,startup,DE
+ent_e460817aac,AgriCorp 138,lab,FI
+ent_2238a21389,GeneWorks 602,consortium,UK
+ent_df4bcaa577,OmicsCore 692,university,FR
+ent_a6d1987708,MedDevicesLtd 440,startup,NL
+ent_6a1a1e109a,PharmaCo 828,company,US
+ent_38285644f1,PharmaCo 407,company,PT
+ent_2799f07391,PharmaCo 239,lab,US
+ent_7654369538,NanoTech EU 390,company,UK
+ent_856be609ad,TheraWorks 626,lab,SE
+ent_1e93521abf,PharmaCo 28,university,FR
+ent_ff1a3bf018,NanoTech EU 669,consortium,PT
+ent_17a259a8f9,AgriCorp 476,company,SE
+ent_fd433f964e,AgriCorp 222,company,SE
+ent_c1cb1c1b91,TheraWorks 998,consortium,US
+ent_13ab48233d,OmicsCore 112,lab,PT
+ent_0f8559fbdb,TheraWorks 482,lab,UK
+ent_9169056ced,GeneWorks 104,lab,SE
+ent_cb0aea1e1d,PharmaCo 278,consortium,US
+ent_7a34c9241a,OmicsCore 323,university,FI
+ent_84cab402ac,OmicsCore 285,startup,PT
+ent_4bb1197768,PharmaCo 209,startup,FR
+ent_62a73809e4,OmicsCore 391,startup,NL
+ent_71b2e4ec24,MedDevicesLtd 752,company,FI
+ent_ec1e0f1eb9,PharmaCo 699,university,ES
+ent_6df205dd7e,MedDevicesLtd 960,startup,IT
+ent_d06b4fe506,MicroFab Labs 900,startup,NL
+ent_e9f460f443,GeneWorks 817,company,PT
+ent_4dec9f2675,AgriCorp 542,lab,US
+ent_8f456605ac,NanoTech EU 757,startup,DE
+ent_fe49cd04a1,MedDevicesLtd 30,startup,US
+ent_26b311efce,AgriCorp 116,university,NL
+ent_45fb43a783,MicroFab Labs 778,startup,DE
+ent_a23c347333,BatterySolutions 762,consortium,NL
+ent_ad549a4c09,AgriCorp 625,university,NL
+ent_3aad31d7ba,OmicsCore 881,startup,NL
+ent_d71a137d8f,OmicsCore 761,consortium,FI
+ent_3b027082ee,AgriCorp 210,company,ES
+ent_bdb49a9f64,OmicsCore 988,university,FI
+ent_259a75efa8,PharmaCo 904,consortium,SE
+ent_1e9f719583,MedDevicesLtd 944,consortium,FI
+ent_f4126a1a85,BatterySolutions 796,lab,PT
+ent_c6a38890b6,BatterySolutions 549,consortium,PT
+ent_b28e13d10a,NanoTech EU 415,startup,IT
+ent_076a647102,PharmaCo 956,university,US
+ent_e643518505,MedDevicesLtd 392,lab,SE
+ent_906f845172,MicroFab Labs 213,startup,IT
+ent_5fad99dab4,MicroFab Labs 119,startup,SE
+ent_f006bce95f,OmicsCore 400,consortium,IT
+ent_f099f29bf1,PharmaCo 192,consortium,IT
+ent_5fbe91ccb5,GeneWorks 268,startup,ES
+ent_39bfec5318,MedDevicesLtd 442,consortium,IT
+ent_290b1f5587,PharmaCo 736,lab,UK
+ent_2fa61afffa,BioPlatform SA 804,lab,UK
+ent_aaec68ed74,BioPlatform SA 457,startup,NL
+ent_d50a0984dd,TheraWorks 324,consortium,US
+ent_64cb4ccc8f,MicroFab Labs 103,lab,SE
+ent_5a0df1fcc0,NanoTech EU 639,company,FI
+ent_0f84ab0085,MicroFab Labs 585,university,SE
+ent_25281499b3,BatterySolutions 21,consortium,DE
+ent_77d9fdf345,TheraWorks 876,company,UK
+ent_749cf10c3c,OmicsCore 22,company,PT
+ent_629ed1f6d0,BioPlatform SA 938,university,FR
+ent_93533a32b7,TheraWorks 47,startup,PT
+ent_5669a042b4,BioPlatform SA 752,company,FI
+ent_f27b8e6914,PharmaCo 45,company,IT
+ent_cf91bcbc7f,PharmaCo 604,startup,ES
+ent_8ec1591c0b,AgriCorp 2,university,PT
+ent_ec72d773e8,MedDevicesLtd 926,company,ES
+ent_274c0ab93d,NanoTech EU 567,consortium,IT
+ent_d1cf0662eb,BatterySolutions 112,university,DE
+ent_fad34c039e,AgriCorp 253,consortium,PT
+ent_a32faddd43,MedDevicesLtd 339,lab,ES
+ent_4a2365df12,NanoTech EU 899,university,PT
+ent_fb9e048b55,MicroFab Labs 810,university,UK
+ent_6e99035603,BioPlatform SA 189,lab,SE
+ent_41ccdeb7a9,NanoTech EU 972,consortium,UK
+ent_0761e364e0,BioPlatform SA 861,consortium,ES
+ent_1468b3bea6,OmicsCore 499,university,IT
+ent_0a3cfabcc7,MedDevicesLtd 678,lab,IT
+ent_a0167e9381,BatterySolutions 381,company,UK
+ent_7f90be27d5,AgriCorp 411,university,PT
+ent_5052d3b70a,BatterySolutions 335,company,SE
+ent_824c724769,MedDevicesLtd 223,lab,NL
+ent_c6bfdf2098,BatterySolutions 162,consortium,ES
+ent_465e53d592,GeneWorks 687,startup,DE
+ent_4271557505,GeneWorks 264,startup,PT
+ent_ff7d948a59,OmicsCore 877,company,PT
+ent_23d00a2947,OmicsCore 57,startup,ES
+ent_a7d9c0680b,NanoTech EU 84,company,IT
+ent_421a9423b3,MicroFab Labs 655,company,IT
+ent_bfe8ca8273,PharmaCo 262,consortium,US
+ent_1492eda56b,NanoTech EU 617,university,US
+ent_891c063ca2,TheraWorks 529,lab,PT
+ent_3a9fb70288,TheraWorks 830,university,PT
+ent_784b35472d,BioPlatform SA 775,startup,PT
+ent_7511c412c0,NanoTech EU 163,consortium,UK
+ent_8ec0250497,GeneWorks 821,lab,IT
+ent_30dbac0e2d,PharmaCo 902,company,NL
+ent_f4c562157e,BioPlatform SA 440,consortium,US
+ent_a87d437c33,MicroFab Labs 353,startup,FI
+ent_65f79c2116,OmicsCore 219,startup,FR
+ent_bb23622a0d,GeneWorks 918,consortium,ES
+ent_d39a29f456,PharmaCo 642,university,FI
+ent_0ed175679b,PharmaCo 342,consortium,NL
+ent_037b0462b8,MicroFab Labs 885,company,ES
+ent_83a65dd4e7,BatterySolutions 15,consortium,FI
+ent_c0ef950572,BatterySolutions 295,university,IT
+ent_a247c87401,MedDevicesLtd 565,startup,NL
+ent_86bd564d70,OmicsCore 270,university,DE
+ent_4453e66f57,BioPlatform SA 576,consortium,IT
+ent_8d56059d47,BatterySolutions 604,startup,DE
+ent_669f972f2d,NanoTech EU 992,company,SE
+ent_8c4eb0cb24,PharmaCo 65,university,DE
+ent_3343311e42,AgriCorp 13,lab,FI
+ent_503b471bcd,BatterySolutions 690,company,SE
+ent_242b65ceec,MicroFab Labs 160,startup,IT
+ent_560bf9cb12,MicroFab Labs 614,startup,IT
+ent_5ffe9771d4,MedDevicesLtd 349,lab,FR
+ent_8a4b91295d,MicroFab Labs 823,startup,DE
+ent_3088bd88cf,BatterySolutions 577,university,NL
+ent_34b8f555c7,AgriCorp 113,university,DE
+ent_4df3a0b568,AgriCorp 12,company,FR
+ent_20a08806c7,BatterySolutions 324,consortium,PT
+ent_0aafc1d8d7,BatterySolutions 231,university,FI
+ent_ee0806a24c,PharmaCo 13,university,FI
+ent_91f1a329ad,MedDevicesLtd 211,consortium,US
+ent_3be0164414,TheraWorks 24,university,DE
+ent_8bcef9c94c,BatterySolutions 654,consortium,FR
+ent_1d0eeb8f84,BioPlatform SA 587,consortium,IT
+ent_947a3b507a,GeneWorks 962,university,ES
+ent_81f8a62e73,BatterySolutions 82,lab,FI
+ent_91826d2801,AgriCorp 465,lab,ES
+ent_4da8d801fe,PharmaCo 627,company,FR
+ent_eb393088d1,MicroFab Labs 444,university,ES
+ent_c6f85f940e,OmicsCore 798,lab,UK
+ent_5015c5ddeb,MedDevicesLtd 126,consortium,ES
+ent_cca29d2022,BioPlatform SA 234,consortium,NL
+ent_8d2957fe2c,BatterySolutions 916,startup,US
+ent_6cec2c87f8,MedDevicesLtd 11,lab,NL
+ent_e96b59f11f,BatterySolutions 420,company,FR
+ent_ad5db352d5,TheraWorks 297,university,NL
+ent_97c1f2e0b2,MicroFab Labs 675,university,FI
+ent_fc9cdf0720,NanoTech EU 866,consortium,DE
+ent_634872aa53,AgriCorp 888,startup,NL
+ent_49dc37f990,BioPlatform SA 452,consortium,FI
+ent_fc9db3a000,AgriCorp 684,university,NL
+ent_425d00b538,NanoTech EU 474,lab,FR
+ent_7c9252fe18,BioPlatform SA 730,consortium,SE
+ent_2eea736cb0,GeneWorks 174,startup,FI
+ent_1ba01ba231,NanoTech EU 932,university,US
+ent_3b686dae69,PharmaCo 474,university,FR
+ent_e507cc0dbf,OmicsCore 979,university,SE
+ent_8cef7bafcd,MicroFab Labs 492,startup,IT
+ent_501ffcc83e,AgriCorp 106,consortium,ES
+ent_bc419994d7,NanoTech EU 512,university,SE
+ent_02063e9af8,GeneWorks 418,startup,IT
+ent_4a886c587a,NanoTech EU 686,company,FI
+ent_5aa8a7aab7,TheraWorks 415,consortium,US
+ent_5f4e177e7e,MedDevicesLtd 349,startup,US
+ent_59f7117f68,PharmaCo 208,lab,FI
+ent_25a8823f4a,GeneWorks 820,company,FI
+ent_a5e870d0ad,PharmaCo 604,company,PT
+ent_b14a8732e7,PharmaCo 835,lab,UK
+ent_8d0e941bee,PharmaCo 461,startup,IT
+ent_132669fe0d,PharmaCo 591,consortium,SE
+ent_cf98d031e1,AgriCorp 716,lab,US
+ent_a80d075885,AgriCorp 161,lab,IT
+ent_e5757550a0,BatterySolutions 107,company,IT
+ent_52c2ca30a4,GeneWorks 411,lab,DE
+ent_20428a0f17,MicroFab Labs 758,university,UK
+ent_9f166f7e64,PharmaCo 767,university,US
+ent_619c65c990,PharmaCo 502,lab,FR
+ent_937650b697,TheraWorks 523,startup,FR
+ent_b34b4a2f0a,TheraWorks 189,consortium,NL
+ent_8db77ba44e,AgriCorp 81,consortium,SE
+ent_7788c306b4,PharmaCo 67,university,UK
+ent_798a6d96d9,MicroFab Labs 486,startup,ES
+ent_a9d6699602,NanoTech EU 780,university,PT
+ent_530bf32f86,MedDevicesLtd 944,startup,SE
+ent_7c8c5c005d,PharmaCo 197,university,ES
+ent_7a34415822,NanoTech EU 860,consortium,UK
+ent_c57b573981,MedDevicesLtd 332,university,US
+ent_518ebf1ed5,MedDevicesLtd 185,university,FI
+ent_fc89efbef9,NanoTech EU 205,company,FR
+ent_82e2e41caa,OmicsCore 415,company,NL
+ent_efcfbb80b8,BioPlatform SA 513,consortium,PT
+ent_58f38658ed,MicroFab Labs 691,startup,NL
+ent_0f455f7b6a,PharmaCo 966,company,UK
+ent_7a7e1c35e2,BatterySolutions 524,startup,UK
+ent_abd6b9bce3,BioPlatform SA 599,lab,PT
+ent_dbbd047e82,GeneWorks 690,company,US
+ent_444396d1a4,BatterySolutions 123,lab,UK
+ent_399ba8ef62,NanoTech EU 89,consortium,US
+ent_be56085158,NanoTech EU 26,lab,PT
+ent_3fd2d0d21e,TheraWorks 71,lab,SE
+ent_3d829dfede,TheraWorks 709,university,FI
+ent_b29b84509c,TheraWorks 753,consortium,FI
+ent_c8ecacb793,TheraWorks 923,consortium,FR
+ent_0a61552c01,MicroFab Labs 505,consortium,ES
+ent_f0b36dd0bf,GeneWorks 475,lab,IT
+ent_cdd9ca8df6,NanoTech EU 323,consortium,SE
+ent_2573a0595e,NanoTech EU 107,company,FI
+ent_87232c17be,OmicsCore 613,lab,ES
+ent_d502465223,MicroFab Labs 731,consortium,FR
+ent_8196a92fe2,PharmaCo 40,consortium,DE
+ent_ac700e2abe,PharmaCo 231,lab,ES
+ent_44cf54d694,GeneWorks 949,company,PT
+ent_8aebce3627,TheraWorks 321,university,SE
+ent_6bfbd3b9dd,BatterySolutions 830,consortium,SE
+ent_629cecb0ed,TheraWorks 953,university,DE
+ent_8d3cc96151,GeneWorks 172,consortium,IT
+ent_7a1af4cbd8,PharmaCo 886,startup,IT
+ent_b058fc163b,TheraWorks 871,startup,NL
+ent_189a24e518,MedDevicesLtd 460,company,FI
+ent_5b5fdac225,TheraWorks 208,company,DE
+ent_3f3dfdc829,MicroFab Labs 624,lab,UK
+ent_b3e83a0180,PharmaCo 587,startup,US
+ent_b1dace2a2f,OmicsCore 348,university,FR
+ent_0cbd7f84f4,BioPlatform SA 856,company,SE
+ent_a7cf10ae0b,OmicsCore 129,company,US
+ent_7eae9a9178,AgriCorp 942,startup,SE
+ent_51020933f0,BioPlatform SA 999,startup,NL
+ent_4033fdeb71,GeneWorks 91,company,IT
+ent_73e0acefa4,TheraWorks 776,consortium,DE
+ent_c7a66ccf41,TheraWorks 761,lab,ES
+ent_426a599998,PharmaCo 931,university,UK
+ent_46ef41ce82,BatterySolutions 36,startup,NL
+ent_8a2e2abc49,NanoTech EU 457,startup,NL
+ent_4033db5588,AgriCorp 413,lab,FR
+ent_e8ab6bee83,MedDevicesLtd 266,consortium,UK
+ent_f92bd7b5b9,AgriCorp 120,startup,IT
+ent_d632f90c5d,OmicsCore 62,university,FI
+ent_fa7e0452fa,MedDevicesLtd 113,consortium,IT
+ent_a4032992e7,MicroFab Labs 129,lab,US
+ent_a3acff6a2c,NanoTech EU 671,lab,PT
+ent_157ffd5439,TheraWorks 952,lab,DE
+ent_e48733ccb3,NanoTech EU 558,consortium,FI
+ent_1ac1bdd122,NanoTech EU 897,consortium,NL
+ent_e73d253f25,MedDevicesLtd 228,lab,US
+ent_ef80d857ce,PharmaCo 788,consortium,SE
+ent_387edcd66e,BatterySolutions 859,lab,NL
+ent_b46131bc39,NanoTech EU 971,startup,IT
+ent_0e12da6784,TheraWorks 448,consortium,DE
+ent_644a95d854,GeneWorks 35,university,ES
+ent_e7bcb4cb39,PharmaCo 410,startup,SE
+ent_0128837e7d,GeneWorks 914,company,FR
+ent_cabd240f1e,GeneWorks 512,consortium,FI
+ent_64bfa3a5cf,TheraWorks 541,company,ES
+ent_bcfdc1cec9,NanoTech EU 92,university,PT
+ent_835b569930,PharmaCo 599,lab,UK
+ent_94ee44eabe,BioPlatform SA 841,company,UK
+ent_73b4159518,TheraWorks 411,consortium,UK
+ent_de7b42fac2,BatterySolutions 77,company,SE
+ent_fa7737f1d2,NanoTech EU 13,lab,SE
+ent_0e78a0c649,PharmaCo 143,university,SE
+ent_9f548def40,NanoTech EU 756,lab,FI
+ent_ab1aab78a5,MedDevicesLtd 858,consortium,IT
+ent_1809ac0030,OmicsCore 365,lab,SE
+ent_7632ad754a,BioPlatform SA 757,university,ES
+ent_c778d00aaa,BatterySolutions 884,startup,US
+ent_43516f5a47,AgriCorp 309,lab,IT
+ent_38e5075536,MicroFab Labs 180,company,ES
+ent_b9a9da350d,BioPlatform SA 601,consortium,US
+ent_d6242b5e6c,TheraWorks 29,consortium,FR
+ent_c75d270025,TheraWorks 192,company,FR
+ent_b80a4cbae7,NanoTech EU 233,university,UK
+ent_958dd54a57,NanoTech EU 162,startup,FI
+ent_8c2566aa41,MedDevicesLtd 33,company,SE
+ent_ea882587ed,MicroFab Labs 652,startup,UK
+ent_55feecc0de,PharmaCo 612,startup,PT
+ent_45e3e8ebaf,BatterySolutions 230,consortium,UK
+ent_40f8c36569,AgriCorp 246,startup,FR
+ent_51fa90102d,BatterySolutions 561,startup,PT
+ent_6ff614f461,AgriCorp 503,company,DE
+ent_71031dbb81,NanoTech EU 232,university,IT
+ent_3148681530,PharmaCo 824,startup,IT
+ent_a8a3ead338,GeneWorks 43,consortium,FI
+ent_22b16910c5,BioPlatform SA 452,startup,PT
+ent_6ca42534cc,GeneWorks 217,consortium,PT
+ent_8a456a3df3,MicroFab Labs 938,startup,ES
+ent_92eff6b757,NanoTech EU 371,consortium,NL
+ent_c6d9332d4c,BatterySolutions 901,consortium,DE
+ent_3dcfd15407,OmicsCore 918,company,PT
+ent_3fcf9fac13,MedDevicesLtd 441,university,PT
+ent_62311919ba,MedDevicesLtd 769,university,US
+ent_ca9dea46f9,MicroFab Labs 646,company,PT
+ent_54d1a93a67,NanoTech EU 228,lab,UK
+ent_3b749a726f,BatterySolutions 396,consortium,US
+ent_bc01efd993,OmicsCore 521,lab,FR
+ent_2fed8046da,MicroFab Labs 390,university,DE
+ent_c2812c77cc,TheraWorks 555,consortium,UK
+ent_9e3086a900,PharmaCo 966,consortium,DE
+ent_b62240ca46,BioPlatform SA 673,consortium,SE
+ent_7a2a9d1234,PharmaCo 838,company,NL
