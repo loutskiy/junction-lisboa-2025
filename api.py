@@ -513,32 +513,32 @@ def generate_recommendations(prediction, features, evidence_data):
     evidence_analysis = analyze_evidence(evidence_data)
     
     if prediction == 'commercial':
-        # Основная рекомендация
+        # Main recommendation
         recommendations.append({
             'type': 'commercial_opportunity',
             'priority': 'high',
-            'title': 'Коммерческий потенциал',
-            'message': 'Эта идея имеет высокий коммерческий потенциал для лицензирования и монетизации',
+            'title': 'Commercial Potential',
+            'message': 'This idea has high commercial potential for licensing and monetization',
             'confidence': get_confidence_level(features),
             'actions': [
-                'Проведите патентный поиск и анализ свободы действий (FTO)',
-                'Оцените рыночный размер и конкурентную среду',
-                'Разработайте стратегию лицензирования',
-                'Рассмотрите партнерство с крупными компаниями',
-                'Подготовьте бизнес-план коммерциализации'
+                'Conduct patent search and Freedom to Operate (FTO) analysis',
+                'Assess market size and competitive landscape',
+                'Develop licensing strategy',
+                'Consider partnerships with major companies',
+                'Prepare commercialization business plan'
             ],
-            'timeline': '3-6 месяцев',
-            'investment': 'Средний-высокий',
-            'roi_potential': 'Высокий'
+            'timeline': '3-6 months',
+            'investment': 'Medium-High',
+            'roi_potential': 'High'
         })
         
-        # Рыночные возможности
+        # Market opportunities
         if features['market_evidence_count'] > 0:
             recommendations.append({
                 'type': 'market_analysis',
                 'priority': 'high',
-                'title': 'Рыночные возможности',
-                'message': f'Обнаружено {features["market_evidence_count"]} рыночных сигналов',
+                'title': 'Market Opportunities',
+                'message': f'Found {features["market_evidence_count"]} market signals',
                 'details': {
                     'product_launches': features['has_product_launch'],
                     'mergers_acquisitions': features['has_ma'],
@@ -547,20 +547,20 @@ def generate_recommendations(prediction, features, evidence_data):
                     'market_importance_score': features['max_importance_score']
                 },
                 'actions': [
-                    'Изучите успешные кейсы запуска продуктов',
-                    'Проанализируйте стратегии M&A в отрасли',
-                    'Оцените возможности партнерства',
-                    'Исследуйте источники финансирования'
+                    'Study successful product launch cases',
+                    'Analyze M&A strategies in the industry',
+                    'Evaluate partnership opportunities',
+                    'Research funding sources'
                 ]
             })
         
-        # Клинические испытания
+        # Clinical trials
         if features['trial_evidence_count'] > 0:
             recommendations.append({
                 'type': 'clinical_development',
                 'priority': 'medium',
-                'title': 'Клиническое развитие',
-                'message': f'Найдено {features["trial_evidence_count"]} связанных клинических испытаний',
+                'title': 'Clinical Development',
+                'message': f'Found {features["trial_evidence_count"]} related clinical trials',
                 'details': {
                     'maturity_score': features['max_maturity_score'],
                     'completed_trials': features['has_completed_trial'],
@@ -568,25 +568,25 @@ def generate_recommendations(prediction, features, evidence_data):
                     'terminated_trials': features['has_terminated_trial']
                 },
                 'actions': [
-                    'Изучите результаты завершенных испытаний',
-                    'Оцените регуляторные требования',
-                    'Планируйте собственные клинические исследования',
-                    'Рассмотрите сотрудничество с медицинскими центрами'
+                    'Study results of completed trials',
+                    'Assess regulatory requirements',
+                    'Plan your own clinical studies',
+                    'Consider collaboration with medical centers'
                 ]
             })
         
-        # Патентная стратегия
+        # Patent strategy
         if features['patent_count'] > 0:
             recommendations.append({
                 'type': 'patent_strategy',
                 'priority': 'high',
-                'title': 'Патентная стратегия',
-                'message': f'Обнаружено {features["patent_count"]} связанных патентов',
+                'title': 'Patent Strategy',
+                'message': f'Found {features["patent_count"]} related patents',
                 'actions': [
-                    'Проведите патентный ландшафт-анализ',
-                    'Оцените свободу действий (Freedom to Operate)',
-                    'Разработайте стратегию патентования',
-                    'Рассмотрите лицензирование существующих патентов'
+                    'Conduct patent landscape analysis',
+                    'Assess Freedom to Operate (FTO)',
+                    'Develop patenting strategy',
+                    'Consider licensing existing patents'
                 ]
             })
     
@@ -594,33 +594,33 @@ def generate_recommendations(prediction, features, evidence_data):
         recommendations.append({
             'type': 'platform_development',
             'priority': 'medium',
-            'title': 'Платформенная разработка',
-            'message': 'Эта идея идеально подходит для создания модульной платформы',
+            'title': 'Platform Development',
+            'message': 'This idea is perfect for creating a modular platform',
             'confidence': get_confidence_level(features),
             'actions': [
-                'Спроектируйте модульную архитектуру с четкими интерфейсами',
-                'Разработайте API и SDK для разработчиков',
-                'Создайте экосистему плагинов и расширений',
-                'Планируйте горизонтальное масштабирование',
-                'Обеспечьте обратную совместимость версий'
+                'Design modular architecture with clear interfaces',
+                'Develop API and SDK for developers',
+                'Create ecosystem of plugins and extensions',
+                'Plan horizontal scaling',
+                'Ensure backward compatibility of versions'
             ],
-            'timeline': '6-12 месяцев',
-            'investment': 'Средний',
-            'roi_potential': 'Средний-высокий'
+            'timeline': '6-12 months',
+            'investment': 'Medium',
+            'roi_potential': 'Medium-High'
         })
         
-        # Техническая архитектура
+        # Technical architecture
         recommendations.append({
             'type': 'technical_architecture',
             'priority': 'high',
-            'title': 'Техническая архитектура',
-            'message': 'Рекомендации по техническому дизайну платформы',
+            'title': 'Technical Architecture',
+            'message': 'Recommendations for platform technical design',
             'actions': [
-                'Используйте микросервисную архитектуру',
-                'Реализуйте API-first подход',
-                'Обеспечьте безопасность и аутентификацию',
-                'Добавьте мониторинг и аналитику',
-                'Создайте документацию для разработчиков'
+                'Use microservices architecture',
+                'Implement API-first approach',
+                'Ensure security and authentication',
+                'Add monitoring and analytics',
+                'Create documentation for developers'
             ]
         })
     
@@ -628,33 +628,33 @@ def generate_recommendations(prediction, features, evidence_data):
         recommendations.append({
             'type': 'open_source',
             'priority': 'low',
-            'title': 'Открытое развитие',
-            'message': 'Эта идея лучше всего подходит для открытого развития и публичного доступа',
+            'title': 'Open Development',
+            'message': 'This idea is best suited for open development and public access',
             'confidence': get_confidence_level(features),
             'actions': [
-                'Выберите подходящую open source лицензию (MIT, Apache 2.0, GPL)',
-                'Создайте активное сообщество разработчиков',
-                'Обеспечьте качественную документацию и примеры',
-                'Настройте CI/CD для автоматического тестирования',
-                'Планируйте регулярные релизы и обратную связь'
+                'Choose appropriate open source license (MIT, Apache 2.0, GPL)',
+                'Create active developer community',
+                'Provide quality documentation and examples',
+                'Set up CI/CD for automated testing',
+                'Plan regular releases and feedback'
             ],
-            'timeline': '1-3 месяца',
-            'investment': 'Низкий',
-            'roi_potential': 'Низкий-средний'
+            'timeline': '1-3 months',
+            'investment': 'Low',
+            'roi_potential': 'Low-Medium'
         })
         
-        # Сообщество и экосистема
+        # Community and ecosystem
         recommendations.append({
             'type': 'community_building',
             'priority': 'medium',
-            'title': 'Построение сообщества',
-            'message': 'Стратегия создания активного сообщества пользователей',
+            'title': 'Community Building',
+            'message': 'Strategy for creating an active user community',
             'actions': [
-                'Создайте GitHub репозиторий с четким README',
-                'Настройте issue tracker и pull request процесс',
-                'Организуйте регулярные митапы и конференции',
-                'Создайте форум или Discord сервер',
-                'Привлекайте контрибьюторов через hackathons'
+                'Create GitHub repository with clear README',
+                'Set up issue tracker and pull request process',
+                'Organize regular meetups and conferences',
+                'Create forum or Discord server',
+                'Attract contributors through hackathons'
             ]
         })
     
@@ -662,34 +662,34 @@ def generate_recommendations(prediction, features, evidence_data):
         recommendations.append({
             'type': 'not_recommended',
             'priority': 'low',
-            'title': 'Не рекомендуется',
-            'message': 'Эта идея не рекомендуется для развития в текущем виде',
+            'title': 'Not Recommended',
+            'message': 'This idea is not recommended for development in its current form',
             'confidence': get_confidence_level(features),
             'reasons': get_rejection_reasons(features),
             'actions': [
-                'Пересмотрите основную концепцию и ценностное предложение',
-                'Изучите альтернативные технологические подходы',
-                'Проведите дополнительное исследование рынка',
-                'Рассмотрите пивот в другую область применения',
-                'Получите экспертную оценку от отраслевых специалистов'
+                'Review core concept and value proposition',
+                'Study alternative technological approaches',
+                'Conduct additional market research',
+                'Consider pivoting to another application area',
+                'Get expert evaluation from industry specialists'
             ],
-            'timeline': '1-3 месяца',
-            'investment': 'Низкий',
-            'roi_potential': 'Низкий'
+            'timeline': '1-3 months',
+            'investment': 'Low',
+            'roi_potential': 'Low'
         })
     
-    # Общие рекомендации
+    # General recommendations
     recommendations.append({
         'type': 'general_advice',
         'priority': 'medium',
-        'title': 'Общие рекомендации',
-        'message': 'Дополнительные советы для успешной реализации',
+        'title': 'General Recommendations',
+        'message': 'Additional advice for successful implementation',
         'actions': [
-            'Проведите детальный анализ конкурентов',
-            'Изучите регуляторные требования в вашей юрисдикции',
-            'Оцените необходимые ресурсы и команду',
-            'Разработайте план защиты интеллектуальной собственности',
-            'Создайте MVP для валидации концепции'
+            'Conduct detailed competitor analysis',
+            'Study regulatory requirements in your jurisdiction',
+            'Assess required resources and team',
+            'Develop intellectual property protection plan',
+            'Create MVP for concept validation'
         ]
     })
     
@@ -713,23 +713,23 @@ def analyze_evidence(evidence_data):
         
         if evidence_type == 'market':
             if meta.get('type') == 'Product launch':
-                insights.append('Обнаружен запуск продукта в связанной области')
+                insights.append('Product launch detected in related area')
             elif meta.get('type') == 'M&A':
-                insights.append('Активность слияний и поглощений в отрасли')
+                insights.append('Merger and acquisition activity in the industry')
             elif meta.get('type') == 'Funding':
-                insights.append('Инвестиционная активность в секторе')
+                insights.append('Investment activity in the sector')
         
         elif evidence_type == 'trial':
             if meta.get('status') == 'Completed':
-                insights.append('Завершенные клинические испытания')
+                insights.append('Completed clinical trials')
             elif meta.get('phase') == 'Phase 3':
-                insights.append('Клинические испытания фазы 3')
+                insights.append('Phase 3 clinical trials')
         
         elif evidence_type == 'patent':
-            insights.append('Существующие патенты в области')
+            insights.append('Existing patents in the field')
         
         elif evidence_type == 'paper':
-            insights.append('Научные публикации по теме')
+            insights.append('Scientific publications on the topic')
     
     return {
         'count': len(evidence_data),
@@ -781,19 +781,19 @@ def get_rejection_reasons(features):
     reasons = []
     
     if features['commercial_score'] < 2 and features['platform_score'] < 2 and features['free_score'] < 2:
-        reasons.append('Недостаточно ключевых слов для классификации')
+        reasons.append('Insufficient keywords for classification')
     
     if features['technical_terms'] < 2:
-        reasons.append('Низкая техническая сложность')
+        reasons.append('Low technical complexity')
     
     if features['evidence_count'] == 0:
-        reasons.append('Отсутствие подтверждающих доказательств')
+        reasons.append('Lack of supporting evidence')
     
     if features['text_length'] < 50:
-        reasons.append('Недостаточно детальное описание')
+        reasons.append('Insufficient detailed description')
     
     if features['word_count'] < 10:
-        reasons.append('Слишком краткое описание')
+        reasons.append('Too brief description')
     
     return reasons
 
