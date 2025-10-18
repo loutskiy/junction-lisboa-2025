@@ -338,6 +338,11 @@
                 displayAIAnalysis(result.ai_analysis);
             }
             
+            // Display Patent Analysis if available
+            if (result.patent_analysis) {
+                displayPatentAnalysis(result.patent_analysis);
+            }
+            
             const recommendationsDiv = document.getElementById('recommendations');
             if (recommendationsDiv && result.recommendations) {
                 recommendationsDiv.innerHTML = '<h4>Recommendations:</h4>';
@@ -437,6 +442,104 @@
                     </ul>
                 `;
                 aiSection.appendChild(aiRecDiv);
+            }
+        }
+        
+        function displayPatentAnalysis(patentAnalysis) {
+            // Create Patent Analysis section if it doesn't exist
+            let patentSection = document.getElementById('patent-analysis');
+            if (!patentSection) {
+                patentSection = document.createElement('div');
+                patentSection.id = 'patent-analysis';
+                patentSection.className = 'ai-analysis';
+                patentSection.innerHTML = '<h4>📋 Patent Analysis</h4>';
+                
+                // Insert after AI analysis section
+                const aiSection = document.getElementById('ai-analysis');
+                if (aiSection) {
+                    aiSection.parentNode.insertBefore(patentSection, aiSection.nextSibling);
+                } else {
+                    const confidence = document.getElementById('confidence');
+                    confidence.parentNode.insertBefore(patentSection, confidence.nextSibling);
+                }
+            }
+            
+            // Clear previous content
+            patentSection.innerHTML = '<h4>📋 Patent Analysis</h4>';
+            
+            // Add patent metrics
+            const metricsDiv = document.createElement('div');
+            metricsDiv.className = 'ai-metrics';
+            
+            const mlRec = patentAnalysis.ml_model;
+            const aiRec = patentAnalysis.ai_analysis;
+            const combinedRec = patentAnalysis.combined;
+            
+            metricsDiv.innerHTML = `
+                <div class="ai-metric">
+                    <span class="label">ML Recommendation:</span>
+                    <span class="value ${mlRec.recommendation.toLowerCase().replace(' ', '-')}">${mlRec.recommendation}</span>
+                </div>
+                <div class="ai-metric">
+                    <span class="label">AI Recommendation:</span>
+                    <span class="value ${aiRec.recommendation.toLowerCase().replace(' ', '-')}">${aiRec.recommendation}</span>
+                </div>
+                <div class="ai-metric patent-recommendation">
+                    <span class="label">Combined Decision:</span>
+                    <span class="value ${combinedRec.recommendation.toLowerCase().replace(' ', '-')}">${combinedRec.recommendation}</span>
+                </div>
+                <div class="ai-metric">
+                    <span class="label">Confidence:</span>
+                    <span class="value">${(combinedRec.confidence * 100).toFixed(1)}%</span>
+                </div>
+            `;
+            patentSection.appendChild(metricsDiv);
+            
+            // Add patent score details
+            const scoreDiv = document.createElement('div');
+            scoreDiv.className = 'ai-recommendations';
+            scoreDiv.innerHTML = `
+                <h5>📊 Patent Score Details:</h5>
+                <ul>
+                    <li>ML Patent Score: ${mlRec.patent_score.toFixed(1)}/10</li>
+                    <li>ML Confidence: ${(mlRec.confidence * 100).toFixed(1)}%</li>
+                    <li>Combined Score: ${combinedRec.combined_score.toFixed(1)}</li>
+                    <li>ML Weight: ${(combinedRec.decision_factors.ml_weight * 100).toFixed(0)}%</li>
+                    <li>AI Weight: ${(combinedRec.decision_factors.ai_weight * 100).toFixed(0)}%</li>
+                    <li>Agreement: ${combinedRec.decision_factors.agreement ? 'Yes' : 'No'}</li>
+                </ul>
+            `;
+            patentSection.appendChild(scoreDiv);
+            
+            // Add all reasons
+            if (combinedRec.all_reasons && combinedRec.all_reasons.length > 0) {
+                const reasonsDiv = document.createElement('div');
+                reasonsDiv.className = 'ai-recommendations';
+                reasonsDiv.innerHTML = `
+                    <h5>💡 Patent Analysis Reasons:</h5>
+                    <ul>
+                        ${combinedRec.all_reasons.map(reason => `<li>${reason}</li>`).join('')}
+                    </ul>
+                `;
+                patentSection.appendChild(reasonsDiv);
+            }
+            
+            // Add ML features if available
+            if (mlRec.features) {
+                const featuresDiv = document.createElement('div');
+                featuresDiv.className = 'ai-recommendations';
+                featuresDiv.innerHTML = `
+                    <h5>🔍 ML Feature Analysis:</h5>
+                    <ul>
+                        <li>Patent Keyword Score: ${mlRec.features.patent_keyword_score}</li>
+                        <li>Technical Innovation Score: ${mlRec.features.technical_innovation_score}</li>
+                        <li>Complexity Score: ${mlRec.features.complexity_score}</li>
+                        <li>Patent Evidence Count: ${mlRec.features.patent_evidence_count}</li>
+                        <li>Research Evidence Count: ${mlRec.features.research_evidence_count}</li>
+                        <li>Market Evidence Count: ${mlRec.features.market_evidence_count}</li>
+                    </ul>
+                `;
+                patentSection.appendChild(featuresDiv);
             }
         }
         

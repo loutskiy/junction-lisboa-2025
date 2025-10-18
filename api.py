@@ -359,7 +359,103 @@ def readiness_check():
     return jsonify({
         'status': 'ready',
         'message': 'API is ready to process requests'
-    }), 200
+    })
+
+@app.route('/patent_recommendation', methods=['POST'])
+def patent_recommendation():
+    """ML-модель для рекомендаций по патентам"""
+    try:
+        data = request.get_json()
+        
+        if not data or 'idea_text' not in data:
+            return jsonify({
+                'error': 'Missing required field: idea_text'
+            }), 400
+        
+        idea_text = data['idea_text']
+        evidence_data = data.get('evidence', [])
+        
+        # Получаем ML рекомендацию
+        ml_recommendation = patent_decision_ml(idea_text, evidence_data)
+        
+        # Получаем AI рекомендацию (если доступна)
+        ai_analysis = ai_analyze_idea(idea_text, evidence_data)
+        
+        # Комбинируем рекомендации
+        combined_recommendation = combine_patent_recommendations(ml_recommendation, ai_analysis)
+        
+        response = {
+            'idea_text': idea_text,
+            'patent_recommendation': {
+                'ml_model': ml_recommendation,
+                'ai_analysis': {
+                    'recommendation': ai_analysis.get('patent_recommendation', 'Unknown'),
+                    'confidence': ai_analysis.get('patent_confidence', 'Unknown'),
+                    'reasons': ai_analysis.get('patent_reasons', [])
+                },
+                'combined': combined_recommendation
+            },
+            'metadata': {
+                'timestamp': pd.Timestamp.now().isoformat(),
+                'api_version': '1.0.0',
+                'ai_enabled': AI_AVAILABLE
+            }
+        }
+        
+        return jsonify(response)
+        
+    except Exception as e:
+        return jsonify({
+            'error': f'Internal server error: {str(e)}'
+        }), 500
+
+def combine_patent_recommendations(ml_rec, ai_analysis):
+    """Комбинирование ML и AI рекомендаций"""
+    
+    # Веса для разных источников
+    ml_weight = 0.7
+    ai_weight = 0.3
+    
+    # Преобразуем рекомендации в числовые значения
+    recommendation_scores = {
+        'Strong': 4,
+        'Moderate': 3,
+        'Weak': 2,
+        'Not Recommended': 1
+    }
+    
+    ml_score = recommendation_scores.get(ml_rec['recommendation'], 2)
+    ai_score = recommendation_scores.get(ai_analysis.get('patent_recommendation', 'Weak'), 2)
+    
+    # Взвешенное среднее
+    combined_score = (ml_score * ml_weight + ai_score * ai_weight)
+    
+    # Определяем финальную рекомендацию
+    if combined_score >= 3.5:
+        final_rec = 'Strong'
+    elif combined_score >= 2.5:
+        final_rec = 'Moderate'
+    elif combined_score >= 1.5:
+        final_rec = 'Weak'
+    else:
+        final_rec = 'Not Recommended'
+    
+    # Объединяем причины
+    all_reasons = ml_rec['reasons'] + ai_analysis.get('patent_reasons', [])
+    
+    return {
+        'recommendation': final_rec,
+        'confidence': (ml_rec['confidence'] + 0.5) / 2,  # Нормализуем AI confidence
+        'combined_score': combined_score,
+        'ml_score': ml_score,
+        'ai_score': ai_score,
+        'all_reasons': list(set(all_reasons)),  # Убираем дубликаты
+        'decision_factors': {
+            'ml_weight': ml_weight,
+            'ai_weight': ai_weight,
+            'agreement': ml_score == ai_score
+        }
+    }
 
 @app.route('/evaluate', methods=['POST'])
 def evaluate_idea():
@@ -425,6 +521,10 @@ def evaluate_idea():
         print(f"🔍 About to call AI analysis...")
         ai_analysis = ai_analyze_idea(idea_text, evidence_data)
         print(f"🔍 AI analysis result: {ai_analysis}")
+        
+        # ML-рекомендации по патентам
+        ml_patent_rec = patent_decision_ml(idea_text, evidence_data)
+        combined_patent_rec = combine_patent_recommendations(ml_patent_rec, ai_analysis)
         
         # Формируем подробный ответ
         response = {
@@ -511,10 +611,22 @@ def evaluate_idea():
                 'technical_complexity': ai_analysis['technical_complexity'],
                 'market_potential': ai_analysis['market_potential'],
                 'innovation_level': ai_analysis['innovation_level'],
+                'patent_recommendation': ai_analysis.get('patent_recommendation', 'Unknown'),
+                'patent_confidence': ai_analysis.get('patent_confidence', 'Unknown'),
+                'patent_reasons': ai_analysis.get('patent_reasons', []),
                 'technical_challenges': ai_analysis['technical_challenges'],
                 'market_opportunities': ai_analysis['market_opportunities'],
                 'ai_recommendations': ai_analysis['ai_recommendations'],
                 'ai_insights': ai_analysis['ai_insights']
+            },
+            'patent_analysis': {
+                'ml_model': ml_patent_rec,
+                'ai_analysis': {
+                    'recommendation': ai_analysis.get('patent_recommendation', 'Unknown'),
+                    'confidence': ai_analysis.get('patent_confidence', 'Unknown'),
+                    'reasons': ai_analysis.get('patent_reasons', [])
+                },
+                'combined': combined_patent_rec
             },
             'metadata': {
                 'timestamp': pd.Timestamp.now().isoformat(),
@@ -824,6 +936,160 @@ def get_rejection_reasons(features):
         reasons.append('Too brief description')
     
     return reasons
+
+def extract_patent_features(idea_text, evidence_data):
+    """Извлечение фичей для патентной рекомендации"""
+    features = {}
+    
+    # Анализ текста на патентные индикаторы
+    text_lower = idea_text.lower()
+    
+    # Патентные ключевые слова с весами
+    patent_keywords = {
+        'novel': 3, 'new': 2, 'innovative': 3, 'unique': 2, 'original': 2,
+        'breakthrough': 3, 'revolutionary': 3, 'groundbreaking': 3,
+        'algorithm': 2, 'method': 2, 'process': 2, 'technique': 2,
+        'device': 2, 'apparatus': 2, 'system': 1, 'mechanism': 2,
+        'composition': 2, 'formula': 2, 'compound': 2, 'material': 1,
+        'software': 1, 'application': 1, 'platform': 1, 'framework': 1,
+        'patent': 3, 'intellectual property': 3, 'ip': 2,
+        'invention': 3, 'discovery': 2, 'development': 1,
+        'proprietary': 2, 'exclusive': 2, 'protected': 2
+    }
+    
+    # Подсчет патентных индикаторов
+    patent_score = 0
+    for keyword, weight in patent_keywords.items():
+        count = text_lower.count(keyword)
+        patent_score += count * weight
+    
+    features['patent_keyword_score'] = patent_score
+    
+    # Технические индикаторы
+    technical_indicators = {
+        'machine learning': 2, 'artificial intelligence': 2, 'ai': 1,
+        'blockchain': 2, 'cryptocurrency': 2, 'crypto': 1,
+        'quantum': 2, 'nanotechnology': 2, 'nano': 1,
+        'biotechnology': 2, 'bio': 1, 'genetic': 2, 'dna': 2,
+        'pharmaceutical': 2, 'drug': 2, 'medicine': 1,
+        'renewable energy': 2, 'solar': 1, 'wind': 1,
+        'automotive': 1, 'autonomous': 2, 'self-driving': 2,
+        'robotics': 2, 'robot': 1, 'automation': 1,
+        'iot': 1, 'internet of things': 2, 'sensor': 1,
+        '5g': 1, 'wireless': 1, 'communication': 1
+    }
+    
+    tech_score = 0
+    for indicator, weight in technical_indicators.items():
+        count = text_lower.count(indicator)
+        tech_score += count * weight
+    
+    features['technical_innovation_score'] = tech_score
+    
+    # Анализ сложности
+    complexity_indicators = {
+        'complex': 2, 'sophisticated': 2, 'advanced': 2,
+        'cutting-edge': 3, 'state-of-the-art': 3,
+        'high-performance': 2, 'optimized': 1, 'efficient': 1,
+        'scalable': 1, 'robust': 1, 'reliable': 1
+    }
+    
+    complexity_score = 0
+    for indicator, weight in complexity_indicators.items():
+        count = text_lower.count(indicator)
+        complexity_score += count * weight
+    
+    features['complexity_score'] = complexity_score
+    
+    # Анализ доказательств
+    patent_evidence = 0
+    research_evidence = 0
+    market_evidence = 0
+    
+    for evidence in evidence_data:
+        if evidence.get('type') == 'patent':
+            patent_evidence += 1
+        elif evidence.get('type') == 'paper':
+            research_evidence += 1
+        elif evidence.get('type') == 'market':
+            market_evidence += 1
+    
+    features['patent_evidence_count'] = patent_evidence
+    features['research_evidence_count'] = research_evidence
+    features['market_evidence_count'] = market_evidence
+    
+    # Общие метрики
+    features['text_length'] = len(idea_text)
+    features['word_count'] = len(idea_text.split())
+    features['sentence_count'] = len(idea_text.split('.'))
+    features['unique_words'] = len(set(idea_text.lower().split()))
+    
+    # Нормализация фичей
+    features['patent_keyword_density'] = patent_score / max(features['word_count'], 1)
+    features['technical_density'] = tech_score / max(features['word_count'], 1)
+    features['complexity_density'] = complexity_score / max(features['word_count'], 1)
+    
+    return features
+
+def patent_decision_ml(idea_text, evidence_data):
+    """ML-модель для принятия решений о патентах"""
+    features = extract_patent_features(idea_text, evidence_data)
+    
+    # Простая эвристическая модель (можно заменить на обученную ML модель)
+    patent_score = 0
+    
+    # Базовый патентный потенциал
+    patent_score += features['patent_keyword_score'] * 0.3
+    patent_score += features['technical_innovation_score'] * 0.4
+    patent_score += features['complexity_score'] * 0.2
+    
+    # Бонусы за доказательства
+    patent_score += features['patent_evidence_count'] * 2
+    patent_score += features['research_evidence_count'] * 1.5
+    patent_score += features['market_evidence_count'] * 1
+    
+    # Нормализация
+    patent_score = min(patent_score, 10)  # Максимум 10
+    
+    # Определение рекомендации
+    if patent_score >= 7:
+        recommendation = 'Strong'
+        confidence = min(patent_score / 10, 0.9)
+    elif patent_score >= 5:
+        recommendation = 'Moderate'
+        confidence = patent_score / 10
+    elif patent_score >= 3:
+        recommendation = 'Weak'
+        confidence = patent_score / 10
+    else:
+        recommendation = 'Not Recommended'
+        confidence = 0.1
+    
+    # Генерация причин
+    reasons = []
+    if features['patent_keyword_score'] > 5:
+        reasons.append("High patent-related terminology detected")
+    if features['technical_innovation_score'] > 5:
+        reasons.append("Strong technical innovation indicators")
+    if features['complexity_score'] > 3:
+        reasons.append("High technical complexity suggests patentability")
+    if features['patent_evidence_count'] > 0:
+        reasons.append("Existing patent landscape evidence found")
+    if features['research_evidence_count'] > 2:
+        reasons.append("Strong research foundation supports patentability")
+    if features['market_evidence_count'] > 1:
+        reasons.append("Market evidence indicates commercial potential")
+    
+    if not reasons:
+        reasons.append("Limited indicators for patent recommendation")
+    
+    return {
+        'recommendation': recommendation,
+        'confidence': confidence,
+        'patent_score': patent_score,
+        'reasons': reasons,
+        'features': features
+    }
 
 def ai_analyze_idea(idea_text, evidence_data):
     """AI-анализ технологической идеи"""
