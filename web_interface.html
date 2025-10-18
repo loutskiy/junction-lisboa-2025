@@ -100,6 +100,103 @@
             border-radius: 5px;
             margin-top: 10px;
         }
+        .ai-analysis {
+            margin: 15px 0;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 8px;
+            color: white;
+        }
+        .ai-analysis h4 {
+            margin: 0 0 15px 0;
+            color: white;
+        }
+        .ai-metrics {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        .ai-metric {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            min-width: 120px;
+        }
+        .ai-metric .label {
+            font-size: 12px;
+            opacity: 0.8;
+            margin-bottom: 5px;
+        }
+        .ai-metric .value {
+            font-size: 16px;
+            font-weight: bold;
+            padding: 4px 8px;
+            border-radius: 12px;
+            text-transform: uppercase;
+        }
+        .ai-metric .value.high {
+            background-color: #ff6b6b;
+            color: white;
+        }
+        .ai-metric .value.medium {
+            background-color: #ffa726;
+            color: white;
+        }
+        .ai-metric .value.low {
+            background-color: #66bb6a;
+            color: white;
+        }
+        .ai-metric .value.revolutionary {
+            background-color: #9c27b0;
+            color: white;
+        }
+        .ai-metric .value.moderate {
+            background-color: #ff9800;
+            color: white;
+        }
+        .ai-metric .value.incremental {
+            background-color: #4caf50;
+            color: white;
+        }
+        .ai-metric .value.strong {
+            background-color: #4caf50;
+            color: white;
+        }
+        .ai-metric .value.moderate {
+            background-color: #ff9800;
+            color: white;
+        }
+        .ai-metric .value.weak {
+            background-color: #ff6b6b;
+            color: white;
+        }
+        .ai-metric .value.not-recommended {
+            background-color: #9e9e9e;
+            color: white;
+        }
+        .patent-recommendation {
+            border: 2px solid #fff;
+            background: rgba(255, 255, 255, 0.2) !important;
+        }
+        .ai-recommendations {
+            margin-top: 15px;
+        }
+        .ai-recommendations h5 {
+            margin: 0 0 10px 0;
+            color: white;
+        }
+        .ai-recommendations ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .ai-recommendations li {
+            margin: 5px 0;
+            opacity: 0.9;
+        }
         .examples {
             margin-top: 20px;
             padding: 15px;
@@ -223,51 +320,164 @@
             const confidence = result.predictions.ml_model.confidence;
             const method = result.predictions.hybrid.method;
             
-            document.getElementById('prediction').textContent = `Prediction: ${prediction}`;
-            document.getElementById('prediction').className = `prediction ${prediction}`;
+            const predictionElement = document.getElementById('prediction');
+            const confidenceElement = document.getElementById('confidence');
             
-            document.getElementById('confidence').textContent = 
-                `Confidence: ${(confidence * 100).toFixed(1)}% | Method: ${method}`;
+            if (predictionElement) {
+                predictionElement.textContent = `Prediction: ${prediction}`;
+                predictionElement.className = `prediction ${prediction}`;
+            }
+            
+            if (confidenceElement) {
+                confidenceElement.textContent = 
+                    `Confidence: ${(confidence * 100).toFixed(1)}% | Method: ${method}`;
+            }
+            
+            // Display AI Analysis if available
+            if (result.ai_analysis) {
+                displayAIAnalysis(result.ai_analysis);
+            }
             
             const recommendationsDiv = document.getElementById('recommendations');
-            recommendationsDiv.innerHTML = '<h4>Recommendations:</h4>';
-            
-            result.recommendations.forEach(rec => {
-                const recDiv = document.createElement('div');
-                recDiv.className = 'recommendation';
-                recDiv.innerHTML = `
-                    <strong>${rec.message}</strong>
-                    <ul>
-                        ${rec.actions.map(action => `<li>${action}</li>`).join('')}
-                    </ul>
-                `;
-                recommendationsDiv.appendChild(recDiv);
-            });
+            if (recommendationsDiv && result.recommendations) {
+                recommendationsDiv.innerHTML = '<h4>Recommendations:</h4>';
+                
+                result.recommendations.forEach(rec => {
+                    const recDiv = document.createElement('div');
+                    recDiv.className = 'recommendation';
+                    recDiv.innerHTML = `
+                        <strong>${rec.message}</strong>
+                        <ul>
+                            ${rec.actions.map(action => `<li>${action}</li>`).join('')}
+                        </ul>
+                    `;
+                    recommendationsDiv.appendChild(recDiv);
+                });
+            }
             
             showResult();
         }
         
+        function displayAIAnalysis(aiAnalysis) {
+            // Create AI Analysis section if it doesn't exist
+            let aiSection = document.getElementById('ai-analysis');
+            if (!aiSection) {
+                aiSection = document.createElement('div');
+                aiSection.id = 'ai-analysis';
+                aiSection.className = 'ai-analysis';
+                aiSection.innerHTML = '<h4>🤖 AI Analysis</h4>';
+                
+                // Insert after confidence and before recommendations
+                const confidence = document.getElementById('confidence');
+                confidence.parentNode.insertBefore(aiSection, confidence.nextSibling);
+            }
+            
+            // Clear previous content
+            aiSection.innerHTML = '<h4>🤖 AI Analysis</h4>';
+            
+            // Add AI insights
+            const insightsDiv = document.createElement('div');
+            insightsDiv.className = 'ai-insights';
+            insightsDiv.innerHTML = `
+                <div class="ai-metrics">
+                    <div class="ai-metric">
+                        <span class="label">Technical Complexity:</span>
+                        <span class="value ${(aiAnalysis.technical_complexity || 'Unknown').toLowerCase()}">${aiAnalysis.technical_complexity || 'Unknown'}</span>
+                    </div>
+                    <div class="ai-metric">
+                        <span class="label">Market Potential:</span>
+                        <span class="value ${(aiAnalysis.market_potential || 'Unknown').toLowerCase()}">${aiAnalysis.market_potential || 'Unknown'}</span>
+                    </div>
+                    <div class="ai-metric">
+                        <span class="label">Innovation Level:</span>
+                        <span class="value ${(aiAnalysis.innovation_level || 'Unknown').toLowerCase()}">${aiAnalysis.innovation_level || 'Unknown'}</span>
+                    </div>
+                    <div class="ai-metric patent-recommendation">
+                        <span class="label">Patent Recommendation:</span>
+                        <span class="value ${(aiAnalysis.patent_recommendation || 'Unknown').toLowerCase().replace(' ', '-')}">${aiAnalysis.patent_recommendation || 'Unknown'}</span>
+                    </div>
+                </div>
+            `;
+            aiSection.appendChild(insightsDiv);
+            
+            // Add patent reasons if available
+            if (aiAnalysis.patent_reasons && aiAnalysis.patent_reasons.length > 0) {
+                const patentReasonsDiv = document.createElement('div');
+                patentReasonsDiv.className = 'ai-recommendations';
+                patentReasonsDiv.innerHTML = `
+                    <h5>📋 Patent Reasons:</h5>
+                    <ul>
+                        ${aiAnalysis.patent_reasons.map(reason => `<li>${reason}</li>`).join('')}
+                    </ul>
+                `;
+                aiSection.appendChild(patentReasonsDiv);
+            }
+            
+            // Add IP strategy if available
+            if (aiAnalysis.ip_strategy && aiAnalysis.ip_strategy.length > 0) {
+                const ipStrategyDiv = document.createElement('div');
+                ipStrategyDiv.className = 'ai-recommendations';
+                ipStrategyDiv.innerHTML = `
+                    <h5>💡 IP Strategy:</h5>
+                    <ul>
+                        ${aiAnalysis.ip_strategy.map(strategy => `<li>${strategy}</li>`).join('')}
+                    </ul>
+                `;
+                aiSection.appendChild(ipStrategyDiv);
+            }
+            
+            // Add AI recommendations if available
+            if (aiAnalysis.ai_recommendations && aiAnalysis.ai_recommendations.length > 0) {
+                const aiRecDiv = document.createElement('div');
+                aiRecDiv.className = 'ai-recommendations';
+                aiRecDiv.innerHTML = `
+                    <h5>💡 AI Recommendations:</h5>
+                    <ul>
+                        ${aiAnalysis.ai_recommendations.map(rec => `<li>${rec}</li>`).join('')}
+                    </ul>
+                `;
+                aiSection.appendChild(aiRecDiv);
+            }
+        }
+        
         function showLoading(show) {
-            document.getElementById('loading').style.display = show ? 'block' : 'none';
+            const loadingElement = document.getElementById('loading');
+            if (loadingElement) {
+                loadingElement.style.display = show ? 'block' : 'none';
+            }
         }
         
         function showResult() {
-            document.getElementById('result').style.display = 'block';
+            const resultElement = document.getElementById('result');
+            if (resultElement) {
+                resultElement.style.display = 'block';
+            }
         }
         
         function hideResult() {
-            document.getElementById('result').style.display = 'none';
+            const resultElement = document.getElementById('result');
+            if (resultElement) {
+                resultElement.style.display = 'none';
+            }
         }
         
         function showError(message) {
             const resultDiv = document.getElementById('result');
-            resultDiv.innerHTML = `<div class="error">${message}</div>`;
-            resultDiv.style.display = 'block';
+            if (resultDiv) {
+                resultDiv.innerHTML = `<div class="error">${message}</div>`;
+                resultDiv.style.display = 'block';
+            } else {
+                console.error('Result div not found:', message);
+                alert('Error: ' + message);
+            }
         }
         
         function clearForm() {
-            document.getElementById('ideaText').value = '';
-            document.getElementById('evidenceText').value = '';
+            const ideaTextElement = document.getElementById('ideaText');
+            const evidenceTextElement = document.getElementById('evidenceText');
+            
+            if (ideaTextElement) ideaTextElement.value = '';
+            if (evidenceTextElement) evidenceTextElement.value = '';
             hideResult();
         }
         
@@ -292,8 +502,13 @@
             };
             
             const example = examples[type];
-            document.getElementById('ideaText').value = example.text;
-            document.getElementById('evidenceText').value = example.evidence;
+            const ideaTextElement = document.getElementById('ideaText');
+            const evidenceTextElement = document.getElementById('evidenceText');
+            
+            if (ideaTextElement && evidenceTextElement && example) {
+                ideaTextElement.value = example.text;
+                evidenceTextElement.value = example.evidence;
+            }
         }
     </script>
 </body>

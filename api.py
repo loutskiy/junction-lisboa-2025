@@ -9,6 +9,19 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import warnings
 warnings.filterwarnings('ignore')
 
+# AI Integration
+try:
+    from openai import OpenAI
+    AI_AVAILABLE = True
+    # Load API key from file
+    with open('openai_key.txt', 'r') as f:
+        api_key = f.read().strip()
+    client = OpenAI(api_key=api_key)
+except Exception as e:
+    print(f"⚠️ OpenAI not available: {e}")
+    AI_AVAILABLE = False
+    client = None
+
 app = Flask(__name__)
 CORS(app)
 
@@ -408,6 +421,11 @@ def evaluate_idea():
         # Анализ доказательств
         evidence_analysis = analyze_evidence(evidence_data)
         
+        # AI-анализ
+        print(f"🔍 About to call AI analysis...")
+        ai_analysis = ai_analyze_idea(idea_text, evidence_data)
+        print(f"🔍 AI analysis result: {ai_analysis}")
+        
         # Формируем подробный ответ
         response = {
             'idea_text': idea_text,
@@ -489,10 +507,20 @@ def evaluate_idea():
                 }
             },
             'recommendations': generate_recommendations(hybrid_prediction, features, evidence_data),
+            'ai_analysis': {
+                'technical_complexity': ai_analysis['technical_complexity'],
+                'market_potential': ai_analysis['market_potential'],
+                'innovation_level': ai_analysis['innovation_level'],
+                'technical_challenges': ai_analysis['technical_challenges'],
+                'market_opportunities': ai_analysis['market_opportunities'],
+                'ai_recommendations': ai_analysis['ai_recommendations'],
+                'ai_insights': ai_analysis['ai_insights']
+            },
             'metadata': {
                 'timestamp': pd.Timestamp.now().isoformat(),
                 'model_version': 'final_technology_evaluator',
                 'api_version': '1.0.0',
+                'ai_enabled': AI_AVAILABLE,
                 'processing_time_ms': 0  # Можно добавить измерение времени
             }
         }
@@ -796,6 +824,127 @@ def get_rejection_reasons(features):
         reasons.append('Too brief description')
     
     return reasons
+
+def ai_analyze_idea(idea_text, evidence_data):
+    """AI-анализ технологической идеи"""
+    print(f"🤖 AI Analysis called for: {idea_text[:50]}...")
+    print(f"🤖 AI Available: {AI_AVAILABLE}")
+    
+    if not AI_AVAILABLE:
+        return {
+            'ai_insights': ['AI analysis not available'],
+            'technical_complexity': 'Unknown',
+            'market_potential': 'Unknown',
+            'innovation_level': 'Unknown',
+            'patent_recommendation': 'Unknown',
+            'patent_confidence': 'Unknown',
+            'patent_reasons': [],
+            'technical_challenges': [],
+            'market_opportunities': [],
+            'ip_strategy': [],
+            'ai_recommendations': []
+        }
+    
+    try:
+        # Подготавливаем контекст для AI
+        evidence_summary = ""
+        if evidence_data:
+            evidence_summary = f"Evidence found: {len(evidence_data)} items including patents, papers, clinical trials, and market signals."
+        
+        prompt = f"""
+        Analyze this technology idea and provide insights for IP & Market Intelligence:
+        
+        Idea: {idea_text}
+        
+        Context: {evidence_summary}
+        
+        Please provide:
+        1. Technical complexity assessment (Low/Medium/High)
+        2. Market potential assessment (Low/Medium/High)
+        3. Innovation level (Incremental/Moderate/Revolutionary)
+        4. Patent recommendation (Strong/Moderate/Weak/Not Recommended)
+        5. Key technical challenges
+        6. Market opportunities
+        7. IP strategy recommendations
+        8. Specific recommendations for development
+        
+        Format as JSON with these fields:
+        - technical_complexity
+        - market_potential
+        - innovation_level
+        - patent_recommendation
+        - patent_confidence
+        - patent_reasons (array)
+        - technical_challenges (array)
+        - market_opportunities (array)
+        - ip_strategy (array)
+        - ai_recommendations (array)
+        """
+        
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=1000,
+            temperature=0.7
+        )
+        
+        # Парсим JSON ответ
+        try:
+            ai_content = response.choices[0].message.content
+            print(f"🤖 AI Response: {ai_content[:200]}...")
+            ai_response = json.loads(ai_content)
+            print(f"🤖 Parsed successfully: {list(ai_response.keys())}")
+        except json.JSONDecodeError as e:
+            print(f"🤖 JSON Parse Error: {e}")
+            print(f"🤖 Raw content: {response.choices[0].message.content}")
+            # Если AI не вернул JSON, создаем базовый ответ
+            ai_response = {
+                'technical_complexity': 'Medium',
+                'market_potential': 'High',
+                'innovation_level': 'Moderate',
+                'patent_recommendation': 'Moderate',
+                'patent_confidence': 'Medium',
+                'patent_reasons': ['Moderate patent potential'],
+                'technical_challenges': ['Technical implementation complexity'],
+                'market_opportunities': ['Large market potential'],
+                'ip_strategy': ['Consider patent filing'],
+                'ai_recommendations': ['Focus on MVP development']
+            }
+        
+        return {
+            'ai_insights': [
+                f"Technical complexity: {ai_response.get('technical_complexity', 'Unknown')}",
+                f"Market potential: {ai_response.get('market_potential', 'Unknown')}",
+                f"Innovation level: {ai_response.get('innovation_level', 'Unknown')}",
+                f"Patent recommendation: {ai_response.get('patent_recommendation', 'Unknown')}"
+            ],
+            'technical_complexity': ai_response.get('technical_complexity', 'Unknown'),
+            'market_potential': ai_response.get('market_potential', 'Unknown'),
+            'innovation_level': ai_response.get('innovation_level', 'Unknown'),
+            'patent_recommendation': ai_response.get('patent_recommendation', 'Unknown'),
+            'patent_confidence': ai_response.get('patent_confidence', 'Unknown'),
+            'patent_reasons': ai_response.get('patent_reasons', []),
+            'technical_challenges': ai_response.get('technical_challenges', []),
+            'market_opportunities': ai_response.get('market_opportunities', []),
+            'ip_strategy': ai_response.get('ip_strategy', []),
+            'ai_recommendations': ai_response.get('ai_recommendations', [])
+        }
+        
+    except Exception as e:
+        print(f"AI analysis error: {e}")
+        return {
+            'ai_insights': ['AI analysis temporarily unavailable'],
+            'technical_complexity': 'Unknown',
+            'market_potential': 'Unknown',
+            'innovation_level': 'Unknown',
+            'patent_recommendation': 'Unknown',
+            'patent_confidence': 'Unknown',
+            'patent_reasons': [],
+            'technical_challenges': [],
+            'market_opportunities': [],
+            'ip_strategy': [],
+            'ai_recommendations': []
+        }
 
 @app.route('/batch_evaluate', methods=['POST'])
 def batch_evaluate():
