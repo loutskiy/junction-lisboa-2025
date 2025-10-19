@@ -1,157 +1,157 @@
 # 🚀 Technology Evaluator
 
-**AI-система для автоматической оценки технологических идей** с машинным обучением и AI-анализом. Система за секунды определяет коммерческий потенциал идей и рекомендует стратегию развития.
+**AI system for automatic evaluation of technology ideas** with machine learning and AI analysis. The system determines the commercial potential of ideas in seconds and recommends development strategies.
 
-## 📋 Что это такое?
+## 📋 What is this?
 
-Technology Evaluator анализирует текстовое описание технологической идеи и классифицирует её по 4 категориям:
-- **Commercial** - коммерческий потенциал для лицензирования и монетизации
-- **Platform** - подходит для создания модульной платформы
-- **Free** - лучше всего подходит для открытого развития
-- **None** - не рекомендуется для разработки в текущем виде
+Technology Evaluator analyzes text descriptions of technology ideas and classifies them into 4 categories:
+- **Commercial** - commercial potential for licensing and monetization
+- **Platform** - suitable for creating a modular platform
+- **Free** - best suited for open development
+- **None** - not recommended for development in current form
 
-## 🎯 Основные возможности
+## 🎯 Key Features
 
-### 🔍 Анализ и классификация
-- **Гибридный ML подход**: комбинация машинного обучения и правил
-- **Патентный анализ**: оценка потенциала для патентования
-- **AI-анализ**: техническая сложность, рыночный потенциал, уровень инноваций
-- **Детальные отчеты**: структурированный анализ с рекомендациями
+### 🔍 Analysis and Classification
+- **Hybrid ML approach**: combination of machine learning and rules
+- **Patent analysis**: evaluation of patenting potential
+- **AI analysis**: technical complexity, market potential, innovation level
+- **Detailed reports**: structured analysis with recommendations
 
-### 📊 Источники данных
-- **Патенты** (6,002 записи) - технические инновации
-- **Научные публикации** (~5,000) - исследовательские данные
-- **Рыночные сигналы** (~3,000) - рыночная разведка
-- **Клинические испытания** (~2,000) - медицинская разработка
-- **Лицензионная история** (~1,000) - паттерны лицензирования
-- **Внутренние раскрытия** (~800) - внутренние инновации
+### 📊 Data Sources
+- **Patents** (6,002 records) - technical innovations
+- **Scientific publications** (~5,000) - research data
+- **Market signals** (~3,000) - market intelligence
+- **Clinical trials** (~2,000) - medical development
+- **License history** (~1,000) - licensing patterns
+- **Internal disclosures** (~800) - internal innovations
 
-### 🤖 AI-функции
-- **Оценка технической сложности**: Low/Medium/High
-- **Анализ рыночного потенциала**: Low/Medium/High
-- **Классификация уровня инноваций**: Incremental/Moderate/Revolutionary
-- **AI-рекомендации**: конкретные советы по развитию
+### 🤖 AI Functions
+- **Technical complexity assessment**: Low/Medium/High
+- **Market potential analysis**: Low/Medium/High
+- **Innovation level classification**: Incremental/Moderate/Revolutionary
+- **AI recommendations**: specific development advice
 
-## 🚀 Быстрый старт
+## 🚀 Quick Start
 
-### 1. Установка
+### 1. Installation
 
 ```bash
-# Клонирование репозитория
+# Clone repository
 git clone <repository-url>
 cd dataset-gen
 
-# Создание виртуального окружения
+# Create virtual environment
 python -m venv venv
-source venv/bin/activate  # На Windows: venv\Scripts\activate
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Установка зависимостей
+# Install dependencies
 pip install -r requirements.txt
 
-# Для AI-анализа (опционально)
+# For AI analysis (optional)
 pip install openai
 ```
 
-### 2. Настройка OpenAI API (для AI-анализа)
+### 2. OpenAI API Setup (for AI analysis)
 
 ```bash
-# Создайте файл с API ключом
+# Create file with API key
 echo "your-openai-api-key-here" > openai_key.txt
 ```
 
-### 3. Обучение моделей (опционально)
+### 3. Model Training (optional)
 
 ```bash
-# Обучение основной модели
+# Train main model
 python train_final_model.py
 
-# Обучение улучшенной модели
+# Train improved model
 python train_simple_improved_model.py
 
-# Обучение патентной модели
+# Train patent model
 python train_patent_model.py
 ```
 
-### 4. Запуск API
+### 4. Run API
 
 ```bash
-# Запуск сервера
+# Start server
 python api.py
 ```
 
-API будет доступен по адресу: `http://localhost:5001`
+API will be available at: `http://localhost:5001`
 
-### 5. Тестирование
+### 5. Testing
 
 ```bash
-# Автоматические тесты API
+# Automatic API tests
 python test_api.py
 
-# Тестирование патентной модели
+# Patent model testing
 python test_patent_ml.py
 
-# Веб-интерфейс
+# Web interface
 open web_interface.html
 ```
 
-## 📁 Структура проекта
+## 📁 Project Structure
 
 ```
 dataset-gen/
-├── api.py                              # Основной REST API
-├── main.py                             # Генерация датасета
-├── web_interface.html                  # Веб-интерфейс
-├── requirements.txt                    # Зависимости
-├── openai_key.txt                     # OpenAI API ключ
+├── api.py                              # Main REST API
+├── main.py                             # Dataset generation
+├── web_interface.html                  # Web interface
+├── requirements.txt                    # Dependencies
+├── openai_key.txt                     # OpenAI API key
 │
-├── Модели/
-│   ├── final_technology_evaluator.joblib           # Основная модель
-│   ├── final_technology_evaluator_tfidf.joblib     # TF-IDF векторizer
-│   ├── final_technology_evaluator_features.json    # Названия фичей
-│   ├── patent_potential_model.joblib               # Патентная модель
-│   ├── patent_potential_tfidf.joblib               # TF-IDF для патентов
-│   └── patent_potential_features.json              # Фичи патентной модели
+├── Models/
+│   ├── final_technology_evaluator.joblib           # Main model
+│   ├── final_technology_evaluator_tfidf.joblib     # TF-IDF vectorizer
+│   ├── final_technology_evaluator_features.json    # Feature names
+│   ├── patent_potential_model.joblib               # Patent model
+│   ├── patent_potential_tfidf.joblib               # TF-IDF for patents
+│   └── patent_potential_features.json              # Patent model features
 │
-├── Скрипты обучения/
-│   ├── train_final_model.py                       # Обучение основной модели
-│   ├── train_simple_improved_model.py             # Обучение улучшенной модели
-│   └── train_patent_model.py                      # Обучение патентной модели
+├── Training Scripts/
+│   ├── train_final_model.py                       # Train main model
+│   ├── train_simple_improved_model.py             # Train improved model
+│   └── train_patent_model.py                      # Train patent model
 │
-├── Тесты/
-│   ├── test_api.py                                # Тесты API
-│   ├── test_patent_ml.py                          # Тесты патентной модели
-│   └── test_patent_ai.py                          # Тесты AI функций
+├── Tests/
+│   ├── test_api.py                                # API tests
+│   ├── test_patent_ml.py                          # Patent model tests
+│   └── test_patent_ai.py                          # AI function tests
 │
-└── data/                                          # Обучающие данные
-    ├── train_final.jsonl                          # Основной датасет
-    ├── patents.csv                                # Патенты
-    ├── papers.csv                                 # Научные публикации
-    ├── market_signals.csv                         # Рыночные сигналы
-    ├── clinical_trials.csv                        # Клинические испытания
-    ├── entities.csv                               # Компании
-    ├── license_histories.csv                      # История лицензий
-    ├── internal_disclosures.csv                   # Внутренние раскрытия
-    ├── seed_docs.csv                              # Исходные документы
-    ├── annotations_train.jsonl                    # Экспертные аннотации
-    └── candidates_train.jsonl                     # Кандидаты для обучения
+└── data/                                          # Training data
+    ├── train_final.jsonl                          # Main dataset
+    ├── patents.csv                                # Patents
+    ├── papers.csv                                 # Scientific publications
+    ├── market_signals.csv                         # Market signals
+    ├── clinical_trials.csv                        # Clinical trials
+    ├── entities.csv                               # Companies
+    ├── license_histories.csv                      # License history
+    ├── internal_disclosures.csv                   # Internal disclosures
+    ├── seed_docs.csv                              # Source documents
+    ├── annotations_train.jsonl                    # Expert annotations
+    └── candidates_train.jsonl                     # Training candidates
 ```
 
 ## 🔧 API Endpoints
 
 ### GET /health
-Проверка здоровья API
+API health check
 ```bash
 curl http://localhost:5001/health
 ```
 
 ### GET /readiness
-Проверка готовности API
+API readiness check
 ```bash
 curl http://localhost:5001/readiness
 ```
 
 ### POST /evaluate
-Оценка одной идеи
+Evaluate single idea
 ```bash
 curl -X POST http://localhost:5001/evaluate \
   -H "Content-Type: application/json" \
@@ -159,16 +159,16 @@ curl -X POST http://localhost:5001/evaluate \
 ```
 
 ### POST /batch_evaluate
-Пакетная оценка нескольких идей
+Batch evaluation of multiple ideas
 ```bash
 curl -X POST http://localhost:5001/batch_evaluate \
   -H "Content-Type: application/json" \
   -d '{"ideas": [{"idea_text": "idea 1"}, {"idea_text": "idea 2"}]}'
 ```
 
-## 📊 Структура ответа API
+## 📊 API Response Structure
 
-### Основной ответ `/evaluate`
+### Main `/evaluate` Response
 
 ```json
 {
@@ -299,94 +299,94 @@ curl -X POST http://localhost:5001/batch_evaluate \
 }
 ```
 
-## 🏗️ Техническая архитектура
+## 🏗️ Technical Architecture
 
-### Система машинного обучения
+### Machine Learning System
 
-**Основная модель:**
-- **Алгоритмы**: RandomForest, GradientBoosting, LogisticRegression
-- **Ансамбль**: VotingClassifier с soft voting
-- **Фичи**: 500+ признаков (TF-IDF + engineered features)
-- **Точность**: ~85% на тестовой выборке
+**Main Model:**
+- **Algorithms**: RandomForest, GradientBoosting, LogisticRegression
+- **Ensemble**: VotingClassifier with soft voting
+- **Features**: 500+ features (TF-IDF + engineered features)
+- **Accuracy**: ~85% on test set
 
-**Патентная модель:**
-- **Алгоритмы**: RandomForest, GradientBoosting, LogisticRegression
-- **Ансамбль**: VotingClassifier с soft voting
-- **Фичи**: 230+ признаков (специализированные патентные фичи)
-- **Точность**: ~58% на тестовой выборке
+**Patent Model:**
+- **Algorithms**: RandomForest, GradientBoosting, LogisticRegression
+- **Ensemble**: VotingClassifier with soft voting
+- **Features**: 230+ features (specialized patent features)
+- **Accuracy**: ~58% on test set
 
-**Гибридный подход:**
-- ML модель используется при уверенности > 25%
-- Правила используются при низкой уверенности ML
-- AI-анализ дополняет ML рекомендации
+**Hybrid Approach:**
+- ML model used when confidence > 25%
+- Rules used when ML confidence is low
+- AI analysis complements ML recommendations
 
-### Обработка данных
+### Data Processing
 
-**Извлечение фичей:**
-- Текстовый анализ (длина, сложность, уникальность)
-- Ключевые слова с весами (commercial, platform, free)
-- Технические термины и паттерны
-- Анализ доказательств (патенты, публикации, рынок)
+**Feature Extraction:**
+- Text analysis (length, complexity, uniqueness)
+- Keyword scoring (commercial, platform, free)
+- Technical terms and patterns
+- Evidence analysis (patents, publications, market)
 
-**TF-IDF векторизация:**
-- Максимум 500 фичей для основной модели
-- Максимум 300 фичей для патентной модели
-- N-граммы 1-3 для основной модели, 1-2 для патентной
-- Английские стоп-слова исключены
+**TF-IDF Vectorization:**
+- Maximum 500 features for main model
+- Maximum 300 features for patent model
+- N-grams 1-3 for main model, 1-2 for patent
+- English stop words excluded
 
-## 🎯 Целевые пользователи
+## 🎯 Target Users
 
-- **🔬 Исследователи** — оценка коммерческого потенциала своих идей
-- **💰 Инвесторы** — фильтрация перспективных проектов для инвестиций
-- **🚀 Стартапы** — выбор направления развития и стратегии
-- **🏢 Корпорации** — анализ портфеля инноваций и R&D планирование
-- **⚖️ Патентные поверенные** — предварительная оценка патентного потенциала
+- **🔬 Researchers** — evaluate commercial potential of their ideas
+- **💰 Investors** — filter promising projects for investment
+- **🚀 Startups** — choose development direction and strategy
+- **🏢 Corporations** — analyze innovation portfolio and R&D planning
+- **⚖️ Patent Attorneys** — preliminary patent potential assessment
 
-## 📈 Производительность
+## 📈 Performance
 
-### Метрики системы
-- **Время отклика**: < 2 секунды на запрос
-- **Пропускная способность**: 100+ запросов/минуту
-- **Точность классификации**: 85% для основной модели
-- **Покрытие**: 4 основные категории + патентный анализ
+### System Metrics
+- **Response time**: < 2 seconds per request
+- **Throughput**: 100+ requests/minute
+- **Classification accuracy**: 85% for main model
+- **Coverage**: 4 main categories + patent analysis
 
-### Масштабируемость
-- **Пакетная обработка**: до 1000 идей одновременно
-- **Горизонтальное масштабирование**: поддержка load balancing
-- **Кэширование**: TF-IDF векторизация кэшируется
-- **Оптимизация**: ленивая загрузка моделей
+### Scalability
+- **Batch processing**: up to 1000 ideas simultaneously
+- **Horizontal scaling**: load balancing support
+- **Caching**: TF-IDF vectorization cached
+- **Optimization**: lazy model loading
 
-## 🔧 Разработка
+## 🔧 Development
 
-### Добавление новых фичей
+### Adding New Features
 
 ```python
 def extract_custom_features(text):
     features = {}
-    # Добавьте ваши фичи здесь
+    # Add your features here
     features['custom_score'] = calculate_custom_score(text)
     return features
 ```
 
-### Обучение новой модели
+### Training New Model
 
 ```python
-# 1. Подготовьте данные в формате train_final.jsonl
-# 2. Измените extract_features в train_final_model.py
-# 3. Запустите обучение
+# 1. Prepare data in train_final.jsonl format
+# 2. Modify extract_features in train_final_model.py
+# 3. Run training
 python train_final_model.py
 ```
 
-### Тестирование изменений
+### Testing Changes
 
 ```bash
-# Тестирование API
+# API testing
 python test_api.py
 
-# Тестирование патентной модели
+# Patent model testing
 python test_patent_ml.py
 
-# Проверка качества модели
+# Model quality check
 python -c "
 import joblib
 model = joblib.load('final_technology_evaluator.joblib')
@@ -394,25 +394,25 @@ print('Model loaded successfully')
 "
 ```
 
-## 📚 Дополнительные ресурсы
+## 📚 Additional Resources
 
-- **Веб-интерфейс**: `web_interface.html` - интерактивное тестирование
-- **Примеры запросов**: см. `test_api.py`
-- **Документация API**: встроенная в код с примерами
-- **Логи**: детальное логирование всех операций
+- **Web Interface**: `web_interface.html` - interactive testing
+- **Request Examples**: see `test_api.py`
+- **API Documentation**: built into code with examples
+- **Logs**: detailed logging of all operations
 
-## 🤝 Поддержка
+## 🤝 Support
 
-Для вопросов и предложений:
-1. Проверьте существующие issues
-2. Создайте новый issue с описанием проблемы
-3. Приложите примеры запросов и ответов
-4. Укажите версию системы и окружение
+For questions and suggestions:
+1. Check existing issues
+2. Create new issue with problem description
+3. Attach request and response examples
+4. Specify system version and environment
 
-## 📄 Лицензия
+## 📄 License
 
-Проект распространяется под лицензией MIT. См. файл LICENSE для деталей.
+Project is distributed under MIT license. See LICENSE file for details.
 
 ---
 
-**Technology Evaluator** - автоматизируйте оценку технологических идей с помощью AI и машинного обучения! 🚀
+**Technology Evaluator** - automate technology idea evaluation with AI and machine learning! 🚀
