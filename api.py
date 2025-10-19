@@ -529,7 +529,7 @@ def evaluate_idea():
         if ml_confidence > 0.7:  # Высокая уверенность ML модели
             hybrid_prediction = ml_prediction
             method = 'ml_high_confidence'
-        elif ml_confidence > 0.40:  # Средняя уверенность - взвешенное решение
+        elif ml_confidence > 0.30:  # Средняя уверенность - взвешенное решение
             if rule_prediction == ml_prediction:
                 hybrid_prediction = ml_prediction
                 method = 'ml_rule_agreement'

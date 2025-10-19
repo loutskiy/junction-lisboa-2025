@@ -226,7 +226,7 @@
                 <textarea id="ideaText" placeholder="Enter your technology idea description..."></textarea>
             </div>
             
-            <div class="form-group">
+            <div class="form-group" style="display: none;">
                 <label for="evidenceText">Evidence (JSON, optional):</label>
                 <textarea id="evidenceText" placeholder='[{"type": "market", "meta": {"type": "Product launch", "importance_score": 3.5}}]'></textarea>
             </div>
@@ -248,16 +248,16 @@
         <div class="examples">
             <h3>Test Examples:</h3>
             <div class="example" onclick="loadExample('commercial')">
-                <strong>Commercial Idea:</strong> A novel machine learning algorithm for drug discovery that can be licensed to pharmaceutical companies
+                <strong>Commercial Idea:</strong> novel enzymatic step enabling scalable production in lab-on-a-chip
             </div>
             <div class="example" onclick="loadExample('platform')">
                 <strong>Platform Idea:</strong> A modular platform architecture with scalable cartridges for data processing
             </div>
             <div class="example" onclick="loadExample('free')">
-                <strong>Free Idea:</strong> An open source framework for free to operate data analysis tools
+                <strong>Free Idea:</strong> novel enzymatic step enabling scalable production in photovoltaic perovskites
             </div>
             <div class="example" onclick="loadExample('none')">
-                <strong>Unclear Idea:</strong> Some random text that doesn't make sense
+                <strong>Unclear Idea:</strong> general background with no novelty claim
             </div>
         </div>
     </div>
@@ -324,13 +324,21 @@
             const confidenceElement = document.getElementById('confidence');
             
             if (predictionElement) {
-                predictionElement.textContent = `Prediction: ${prediction}`;
+                // Преобразуем предсказания в более профессиональные термины
+                let friendlyPrediction = prediction;
+                if (prediction === 'none') {
+                    friendlyPrediction = 'unclear';
+                } else if (prediction === 'commercial') {
+                    friendlyPrediction = 'Commercial (Patentable/Licensable)';
+                }
+                predictionElement.textContent = `Prediction: ${friendlyPrediction}`;
                 predictionElement.className = `prediction ${prediction}`;
             }
             
             if (confidenceElement) {
-                confidenceElement.textContent = 
-                    `Confidence: ${(confidence * 100).toFixed(1)}% | Method: ${method}`;
+                // confidenceElement.textContent = 
+                //     `Confidence: ${(confidence * 100).toFixed(1)}% | Method: ${method}`;
+                confidenceElement.textContent = '';
             }
             
             // Display AI Analysis if available
@@ -480,7 +488,7 @@
                     <span class="label">AI Recommendation:</span>
                     <span class="value ${aiRec.recommendation.toLowerCase().replace(' ', '-')}">${aiRec.recommendation}</span>
                 </div>
-                <div class="ai-metric patent-recommendation">
+                <div class="ai-metric">
                     <span class="label">Combined Decision:</span>
                     <span class="value ${combinedRec.recommendation.toLowerCase().replace(' ', '-')}">${combinedRec.recommendation}</span>
                 </div>
@@ -583,19 +591,20 @@
         function loadExample(type) {
             const examples = {
                 commercial: {
-                    text: 'A novel machine learning algorithm for drug discovery that can be licensed to pharmaceutical companies',
-                    evidence: '[{"type": "market", "meta": {"type": "Product launch", "importance_score": 3.5}}]'
+                    text: 'novel enzymatic step enabling scalable production in lab-on-a-chip',
+                    // evidence: '[{"type": "market", "meta": {"type": "Product launch", "importance_score": 3.5}}]'
+                    evidence: '[]'
                 },
                 platform: {
                     text: 'A modular platform architecture with scalable cartridges for data processing',
                     evidence: '[]'
                 },
                 free: {
-                    text: 'An open source framework for free to operate data analysis tools',
+                    text: 'novel enzymatic step enabling scalable production in photovoltaic perovskites',
                     evidence: '[]'
                 },
                 none: {
-                    text: 'Some random text that doesn\'t make sense',
+                    text: 'general background with no novelty claim',
                     evidence: '[]'
                 }
             };
