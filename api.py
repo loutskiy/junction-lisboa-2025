@@ -140,6 +140,15 @@ def extract_enhanced_features(text):
         'has_dashes': int('-' in text),
         'has_colons': int(':' in text),
         'has_semicolons': int(';' in text),
+        
+        # Дополнительные фичи для коммерческих паттернов
+        'has_enzymatic_terms': 0,
+        'has_production_terms': 0,
+        'has_scalable_terms': 0,
+        'has_novel_terms': 0,
+        'has_patentable_terms': 0,
+        'has_innovation_terms': 0,
+        'has_lab_on_chip_terms': 0,
     }
     
     # Подсчет ключевых слов с весами
@@ -153,13 +162,16 @@ def extract_enhanced_features(text):
     features['platform_score'] = sum(weight for word, weight in platform_keywords.items() if word in text_lower)
     
     commercial_keywords = {
-        'licensable': 4, 'license': 3, 'licensing': 3, 'commercial': 2, 'market': 1,
-        'revenue': 2, 'profit': 2, 'business': 1, 'enterprise': 1, 'industry': 1,
-        'commercialization': 4, 'monetization': 3, 'patentable': 4, 'patent': 3,
-        'invention': 2, 'novel': 2, 'unique': 1, 'proprietary': 3, 'exclusive': 3,
-        'original': 1, 'innovative': 2, 'breakthrough': 3, 'discovery': 2,
-        'method': 1, 'process': 1, 'technique': 1, 'approach': 1, 'solution': 1,
-        'valuable': 2, 'profitable': 2, 'marketable': 2, 'economic': 1
+        'licensable': 8, 'license': 6, 'licensing': 6, 'commercial': 5, 'market': 3,
+        'revenue': 5, 'profit': 5, 'business': 3, 'enterprise': 3, 'industry': 3,
+        'commercialization': 8, 'monetization': 6, 'patentable': 8, 'patent': 6,
+        'invention': 5, 'novel': 6, 'unique': 3, 'proprietary': 6, 'exclusive': 6,
+        'original': 3, 'innovative': 5, 'breakthrough': 6, 'discovery': 5,
+        'method': 3, 'process': 3, 'technique': 3, 'approach': 3, 'solution': 3,
+        'valuable': 5, 'profitable': 5, 'marketable': 5, 'economic': 3,
+        'production': 4, 'manufacturing': 4, 'synthesis': 4, 'fabrication': 4,
+        'enabling': 4, 'enzymatic': 4, 'step': 3, 'scalable': 4,
+        'lab-on-a-chip': 5, 'lab on a chip': 5
     }
     features['commercial_score'] = sum(weight for word, weight in commercial_keywords.items() if word in text_lower)
     
@@ -226,6 +238,15 @@ def extract_enhanced_features(text):
     # Сложность текста
     features['complexity_score'] = len([w for w in text.split() if len(w) > 8])
     features['technical_density'] = features['technical_terms'] / max(features['word_count'], 1)
+    
+    # Дополнительные фичи для коммерческих паттернов
+    features['has_enzymatic_terms'] = int(any(term in text_lower for term in ['enzymatic', 'enzyme', 'catalysis', 'biocatalyst']))
+    features['has_production_terms'] = int(any(term in text_lower for term in ['production', 'manufacturing', 'synthesis', 'fabrication']))
+    features['has_scalable_terms'] = int(any(term in text_lower for term in ['scalable', 'scaling', 'scale', 'scalability']))
+    features['has_novel_terms'] = int(any(term in text_lower for term in ['novel', 'new', 'original', 'innovative']))
+    features['has_patentable_terms'] = int(any(term in text_lower for term in ['patentable', 'patent', 'invention', 'proprietary']))
+    features['has_innovation_terms'] = int(any(term in text_lower for term in ['innovation', 'breakthrough', 'discovery', 'advance']))
+    features['has_lab_on_chip_terms'] = int(any(term in text_lower for term in ['lab-on-a-chip', 'lab on a chip', 'microfluidics', 'chip-based']))
     
     return features
 
@@ -503,7 +524,7 @@ def evaluate_idea():
         if ml_confidence > 0.7:  # Высокая уверенность ML модели
             hybrid_prediction = ml_prediction
             method = 'ml_high_confidence'
-        elif ml_confidence > 0.4:  # Средняя уверенность - взвешенное решение
+        elif ml_confidence > 0.25:  # Средняя уверенность - взвешенное решение
             if rule_prediction == ml_prediction:
                 hybrid_prediction = ml_prediction
                 method = 'ml_rule_agreement'
