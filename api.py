@@ -30,6 +30,11 @@ model = None
 feature_names = None
 tfidf = None
 
+# Глобальные переменные для патентной модели
+patent_model = None
+patent_tfidf = None
+patent_feature_names = None
+
 def rule_based_classifier(text):
     """Правила на основе ключевых слов"""
     
@@ -1052,54 +1057,194 @@ def extract_patent_features(idea_text, evidence_data):
     
     return features
 
+def extract_patent_features_for_ml(text):
+    """Извлечение фичей для патентной ML модели"""
+    
+    text_lower = text.lower()
+    
+    features = {
+        # Базовые характеристики
+        'text_length': len(text),
+        'word_count': len(text.split()),
+        'avg_word_length': np.mean([len(w) for w in text.split()]) if text.split() else 0,
+        'unique_word_ratio': len(set(text.split())) / len(text.split()) if text.split() else 0,
+        'sentence_count': len([s for s in text.split('.') if s.strip()]),
+        
+        # Патентные ключевые слова с высокими весами
+        'patent_keyword_score': 0,
+        'novelty_score': 0,
+        'innovation_score': 0,
+        'technical_complexity_score': 0,
+        'commercial_potential_score': 0,
+        
+        # Специфичные патентные термины
+        'has_patent_terms': 0,
+        'has_invention_terms': 0,
+        'has_novelty_terms': 0,
+        'has_technical_terms': 0,
+        'has_commercial_terms': 0,
+        
+        # Сложность и детализация
+        'complexity_score': 0,
+        'technical_density': 0,
+        'has_measurements': 0,
+        'has_numbers': 0,
+        'has_specifics': 0,
+        
+        # Структурные особенности
+        'has_method_description': 0,
+        'has_process_description': 0,
+        'has_device_description': 0,
+        'has_composition_description': 0,
+    }
+    
+    # Патентные ключевые слова с весами
+    patent_keywords = {
+        'patent': 8, 'patentable': 8, 'intellectual property': 8, 'ip': 6,
+        'invention': 7, 'novel': 7, 'new': 5, 'original': 5,
+        'innovative': 6, 'breakthrough': 7, 'revolutionary': 7,
+        'unique': 5, 'proprietary': 6, 'exclusive': 6,
+        'method': 4, 'process': 4, 'technique': 4, 'approach': 3,
+        'device': 4, 'apparatus': 4, 'system': 3, 'mechanism': 4,
+        'composition': 5, 'formula': 5, 'compound': 5, 'material': 3,
+        'algorithm': 5, 'software': 3, 'application': 3,
+        'discovery': 6, 'development': 3, 'research': 2,
+        'manufacturing': 4, 'production': 4, 'synthesis': 4,
+        'enabling': 4, 'scalable': 4, 'efficient': 3,
+        'optimized': 3, 'improved': 4, 'enhanced': 4,
+        'advanced': 4, 'cutting-edge': 6, 'state-of-the-art': 6
+    }
+    
+    features['patent_keyword_score'] = sum(weight for word, weight in patent_keywords.items() if word in text_lower)
+    
+    # Термины новизны
+    novelty_terms = {
+        'novel': 6, 'new': 4, 'original': 4, 'first': 5,
+        'unprecedented': 6, 'never before': 6, 'groundbreaking': 6,
+        'pioneering': 5, 'innovative': 5, 'revolutionary': 6
+    }
+    features['novelty_score'] = sum(weight for word, weight in novelty_terms.items() if word in text_lower)
+    
+    # Термины инновации
+    innovation_terms = {
+        'innovation': 5, 'breakthrough': 6, 'advance': 4,
+        'improvement': 4, 'enhancement': 4, 'optimization': 4,
+        'discovery': 5, 'invention': 6, 'creation': 4,
+        'development': 3, 'research': 2, 'study': 2
+    }
+    features['innovation_score'] = sum(weight for word, weight in innovation_terms.items() if word in text_lower)
+    
+    # Техническая сложность
+    technical_terms = {
+        'complex': 4, 'sophisticated': 4, 'advanced': 4,
+        'cutting-edge': 6, 'state-of-the-art': 6, 'high-performance': 4,
+        'optimized': 3, 'efficient': 3, 'robust': 3, 'reliable': 3,
+        'algorithm': 5, 'method': 4, 'process': 4, 'technique': 4,
+        'engineering': 4, 'design': 3, 'implementation': 3,
+        'manufacturing': 4, 'production': 4, 'fabrication': 4,
+        'synthesis': 4, 'analysis': 3, 'processing': 3
+    }
+    features['technical_complexity_score'] = sum(weight for word, weight in technical_terms.items() if word in text_lower)
+    
+    # Коммерческий потенциал
+    commercial_terms = {
+        'commercial': 5, 'market': 4, 'business': 3, 'revenue': 5,
+        'profit': 5, 'valuable': 4, 'profitable': 5, 'marketable': 5,
+        'licensable': 6, 'license': 5, 'licensing': 5,
+        'enterprise': 4, 'industry': 3, 'economic': 3,
+        'commercialization': 6, 'monetization': 5
+    }
+    features['commercial_potential_score'] = sum(weight for word, weight in commercial_terms.items() if word in text_lower)
+    
+    # Бинарные фичи для специфичных терминов
+    features['has_patent_terms'] = int(any(term in text_lower for term in ['patent', 'patentable', 'intellectual property', 'ip']))
+    features['has_invention_terms'] = int(any(term in text_lower for term in ['invention', 'invent', 'inventor']))
+    features['has_novelty_terms'] = int(any(term in text_lower for term in ['novel', 'new', 'original', 'first', 'unprecedented']))
+    features['has_technical_terms'] = int(any(term in text_lower for term in ['technical', 'technology', 'engineering', 'algorithm', 'method']))
+    features['has_commercial_terms'] = int(any(term in text_lower for term in ['commercial', 'market', 'business', 'revenue', 'profit']))
+    
+    # Сложность и детализация
+    features['complexity_score'] = len([w for w in text.split() if len(w) > 8])
+    features['technical_density'] = features['technical_complexity_score'] / max(features['word_count'], 1)
+    features['has_measurements'] = int(bool(re.search(r'\d+\s*(mg|ml|kg|g|m|cm|mm|nm|μm|%|hz|mhz|ghz)', text_lower)))
+    features['has_numbers'] = int(bool(re.search(r'\d+', text)))
+    features['has_specifics'] = int(any(word in text_lower for word in ['specific', 'precise', 'exact', 'detailed', 'comprehensive']))
+    
+    # Структурные особенности
+    features['has_method_description'] = int(any(phrase in text_lower for phrase in ['method for', 'method of', 'method to', 'process for', 'process of']))
+    features['has_process_description'] = int(any(phrase in text_lower for phrase in ['process for', 'process of', 'process to', 'procedure for', 'procedure of']))
+    features['has_device_description'] = int(any(phrase in text_lower for phrase in ['device for', 'device of', 'apparatus for', 'system for', 'machine for']))
+    features['has_composition_description'] = int(any(phrase in text_lower for phrase in ['composition of', 'formula for', 'compound of', 'mixture of', 'blend of']))
+    
+    return features
+
 def patent_decision_ml(idea_text, evidence_data):
     """ML-модель для принятия решений о патентах"""
-    features = extract_patent_features(idea_text, evidence_data)
     
-    # Простая эвристическая модель (можно заменить на обученную ML модель)
-    patent_score = 0
+    # Загружаем патентную модель если не загружена
+    global patent_model, patent_tfidf, patent_feature_names
+    if patent_model is None:
+        try:
+            print("📦 Загрузка патентной модели...")
+            patent_model = joblib.load('patent_potential_model.joblib')
+            patent_tfidf = joblib.load('patent_potential_tfidf.joblib')
+            with open('patent_potential_features.json', 'r') as f:
+                patent_feature_names = json.load(f)
+            print("✅ Патентная модель загружена")
+        except Exception as e:
+            print(f"⚠️ Ошибка загрузки патентной модели: {e}")
+            return {
+                'recommendation': 'Not Recommended',
+                'confidence': 0.1,
+                'patent_score': 0,
+                'reasons': ['Patent model not available'],
+                'features': {}
+            }
     
-    # Базовый патентный потенциал
-    patent_score += features['patent_keyword_score'] * 0.3
-    patent_score += features['technical_innovation_score'] * 0.4
-    patent_score += features['complexity_score'] * 0.2
+    # Извлекаем фичи для патентной модели
+    features = extract_patent_features_for_ml(idea_text)
     
-    # Бонусы за доказательства
-    patent_score += features['patent_evidence_count'] * 2
-    patent_score += features['research_evidence_count'] * 1.5
-    patent_score += features['market_evidence_count'] * 1
+    # Создаем DataFrame
+    X_df = pd.DataFrame([features])
     
-    # Нормализация
-    patent_score = min(patent_score, 10)  # Максимум 10
+    # Добавляем TF-IDF фичи
+    tfidf_features = patent_tfidf.transform([idea_text])
+    tfidf_df = pd.DataFrame(
+        tfidf_features.toarray(),
+        columns=[f'patent_tfidf_{i}' for i in range(tfidf_features.shape[1])]
+    )
     
-    # Определение рекомендации
-    if patent_score >= 7:
-        recommendation = 'Strong'
-        confidence = min(patent_score / 10, 0.9)
-    elif patent_score >= 5:
-        recommendation = 'Moderate'
-        confidence = patent_score / 10
-    elif patent_score >= 3:
-        recommendation = 'Weak'
-        confidence = patent_score / 10
-    else:
+    # Объединяем фичи
+    X_combined = pd.concat([X_df, tfidf_df], axis=1)
+    
+    # Предсказание ML модели
+    prediction = patent_model.predict(X_combined)[0]
+    probabilities = patent_model.predict_proba(X_combined)[0]
+    confidence = probabilities[1]  # Вероятность высокого патентного потенциала
+    
+    # Определяем рекомендацию на основе предсказания
+    if prediction == 1:  # Высокий патентный потенциал
+        if confidence > 0.7:
+            recommendation = 'Strong'
+        elif confidence > 0.5:
+            recommendation = 'Moderate'
+        else:
+            recommendation = 'Weak'
+    else:  # Низкий патентный потенциал
         recommendation = 'Not Recommended'
-        confidence = 0.1
     
-    # Генерация причин
+    # Генерируем причины
     reasons = []
     if features['patent_keyword_score'] > 5:
         reasons.append("High patent-related terminology detected")
-    if features['technical_innovation_score'] > 5:
-        reasons.append("Strong technical innovation indicators")
-    if features['complexity_score'] > 3:
-        reasons.append("High technical complexity suggests patentability")
-    if features['patent_evidence_count'] > 0:
-        reasons.append("Existing patent landscape evidence found")
-    if features['research_evidence_count'] > 2:
-        reasons.append("Strong research foundation supports patentability")
-    if features['market_evidence_count'] > 1:
-        reasons.append("Market evidence indicates commercial potential")
+    if features['novelty_score'] > 3:
+        reasons.append("Strong novelty indicators")
+    if features['innovation_score'] > 3:
+        reasons.append("Innovation indicators present")
+    if features['technical_complexity_score'] > 5:
+        reasons.append("High technical complexity")
+    if features['commercial_potential_score'] > 5:
+        reasons.append("Strong commercial potential")
     
     if not reasons:
         reasons.append("Limited indicators for patent recommendation")
@@ -1107,7 +1252,7 @@ def patent_decision_ml(idea_text, evidence_data):
     return {
         'recommendation': recommendation,
         'confidence': confidence,
-        'patent_score': patent_score,
+        'patent_score': confidence * 10,  # Нормализуем в диапазон 0-10
         'reasons': reasons,
         'features': features
     }
