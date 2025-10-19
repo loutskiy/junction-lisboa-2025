@@ -1457,6 +1457,18 @@ def batch_evaluate():
             'error': f'Internal server error: {str(e)}'
         }), 500
 
+@app.route('/web', methods=['GET'])
+@app.route('/', methods=['GET'])
+def web_interface():
+    """Веб-интерфейс для тестирования API"""
+    
+    try:
+        with open('web_interface.html', 'r', encoding='utf-8') as f:
+            html_content = f.read()
+        return html_content
+    except Exception as e:
+        return jsonify({'error': f'Web interface not available: {str(e)}'}), 500
+
 if __name__ == '__main__':
     print("🚀 Запуск Technology Evaluator API...")
     print("=" * 50)
