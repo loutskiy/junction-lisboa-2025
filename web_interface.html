@@ -263,7 +263,7 @@
     </div>
 
     <script>
-        const API_BASE_URL = 'http://localhost:5001';
+        // const API_BASE_URL = 'http://localhost:5001';
         
         document.getElementById('evaluateForm').addEventListener('submit', async function(e) {
             e.preventDefault();
@@ -290,7 +290,7 @@
             hideResult();
             
             try {
-                const response = await fetch(`${API_BASE_URL}/evaluate`, {
+                const response = await fetch(`/evaluate`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -396,10 +396,6 @@
                     <div class="ai-metric">
                         <span class="label">Innovation Level:</span>
                         <span class="value ${(aiAnalysis.innovation_level || 'Unknown').toLowerCase()}">${aiAnalysis.innovation_level || 'Unknown'}</span>
-                    </div>
-                    <div class="ai-metric patent-recommendation">
-                        <span class="label">Patent Recommendation:</span>
-                        <span class="value ${(aiAnalysis.patent_recommendation || 'Unknown').toLowerCase().replace(' ', '-')}">${aiAnalysis.patent_recommendation || 'Unknown'}</span>
                     </div>
                 </div>
             `;
@@ -531,12 +527,12 @@
                 featuresDiv.innerHTML = `
                     <h5>🔍 ML Feature Analysis:</h5>
                     <ul>
-                        <li>Patent Keyword Score: ${mlRec.features.patent_keyword_score}</li>
-                        <li>Technical Innovation Score: ${mlRec.features.technical_innovation_score}</li>
-                        <li>Complexity Score: ${mlRec.features.complexity_score}</li>
-                        <li>Patent Evidence Count: ${mlRec.features.patent_evidence_count}</li>
-                        <li>Research Evidence Count: ${mlRec.features.research_evidence_count}</li>
-                        <li>Market Evidence Count: ${mlRec.features.market_evidence_count}</li>
+                        <li>Patent Keyword Score: ${mlRec.features.patent_keyword_score || 'N/A'}</li>
+                        <li>Novelty Score: ${mlRec.features.novelty_score || 'N/A'}</li>
+                        <li>Innovation Score: ${mlRec.features.innovation_score || 'N/A'}</li>
+                        <li>Technical Complexity Score: ${mlRec.features.technical_complexity_score || 'N/A'}</li>
+                        <li>Commercial Potential Score: ${mlRec.features.commercial_potential_score || 'N/A'}</li>
+                        <li>Complexity Score: ${mlRec.features.complexity_score || 'N/A'}</li>
                     </ul>
                 `;
                 patentSection.appendChild(featuresDiv);
